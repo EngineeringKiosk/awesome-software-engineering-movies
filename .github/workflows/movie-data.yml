@@ -1,0 +1,64 @@
+name: Movie data
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+  schedule:
+    - cron: "5 4 15 * *" # Run at 04:05 on day-of-month 15.
+
+jobs:
+  data_workflow:
+    name: Data workflow
+    runs-on: ubuntu-24.04
+    defaults:
+      run:
+        working-directory: app
+
+    steps:
+      - uses: actions/checkout@v6.0.2
+      - uses: actions/setup-go@v6.4.0
+        with:
+          go-version: "1.26"
+          cache-dependency-path: app/go.sum
+
+      # Caching go modules to speed up the run
+      - uses: actions/cache@v5.0.5
+        with:
+          path: ~/go/pkg/mod
+          key: ${{ runner.os }}-go-${{ hashFiles('**/go.sum') }}
+          restore-keys: |
+            ${{ runner.os }}-go-
+
+      - name: Build
+        run: make build
+
+      - name: awesome-software-engineering-movies Convert YAML to JSON
+        run: ./awesome-software-engineering-movies convertYamlToJson --yaml-directory ../movies --json-directory ../generated
+
+      - name: awesome-software-engineering-movies Gather additional movie data
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: ./awesome-software-engineering-movies collectMovieData --json-directory ../generated
+
+      - name: awesome-software-engineering-movies Convert JSON to README
+        run: ./awesome-software-engineering-movies convertJsonToReadme --json-directory ../generated --readme-template ../assets/README.template --readme-output ../README.md
+
+      # Commit results back to repository
+      - uses: stefanzweifel/git-auto-commit-action@v7.1.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          branch: main
+          commit_message: "chore: Update generated movie content"
+          commit_user_name: "GitHub Actions Bot"
+          commit_user_email: "actions@github.com"
+          commit_author: "GitHub Actions Bot <actions@github.com>"
+
+      - name: Trigger webpage to sync
+        uses: peter-evans/repository-dispatch@v4.0.1
+        with:
+          token: ${{ secrets.REPOSITORY_DISPATCH_TOKEN }}
+          repository: EngineeringKiosk/webpage
+          event-type: movie-list-update
