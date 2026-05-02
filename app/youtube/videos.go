@@ -45,10 +45,7 @@ func (c *Client) GetVideoDetails(ctx context.Context, ids []string) ([]Video, er
 	parts := []string{"snippet", "contentDetails", "statistics"}
 
 	for start := 0; start < len(ids); start += videosListMaxIDs {
-		end := start + videosListMaxIDs
-		if end > len(ids) {
-			end = len(ids)
-		}
+		end := min(start+videosListMaxIDs, len(ids))
 
 		call := c.svc.Videos.List(parts).Id(ids[start:end]...).Context(ctx)
 		resp, err := call.Do()

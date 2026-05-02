@@ -1,0 +1,112 @@
+package cmd
+
+import (
+	"fmt"
+	"strings"
+	"time"
+
+	"github.com/EngineeringKiosk/awesome-software-engineering-movies/youtube"
+)
+
+// MovieInformation is the unified record we persist to JSON for each
+// curated entry. The yaml-tagged fields are the maintainer-authored
+// inputs; the rest are filled in by collectMovieData from the
+// YouTube Data API.
+type MovieInformation struct {
+	Name string `yaml:"name" json:"name"`
+	// Slug is derived from Name by convertYamlToJson and used for
+	// filenames, README anchors and image paths.
+	Slug string `yaml:"-" json:"slug"`
+
+	Link string `yaml:"link" json:"link"`
+	// VideoID is parsed from Link by convertYamlToJson.
+	VideoID string `yaml:"-" json:"videoID"`
+
+	// Language is a list of ISO 639-1 codes (e.g. ["en"], ["en", "de"]).
+	// Curated by hand because the YouTube API does not reliably expose
+	// the audio language of a video.
+	Language []string `yaml:"language" json:"language"`
+	Tags     []string `yaml:"tags"     json:"tags"`
+
+	// API-enriched fields below this line.
+	Title       string          `yaml:"-" json:"title"`
+	Description string          `yaml:"-" json:"description"`
+	Duration    string          `yaml:"-" json:"duration"` // ISO-8601, e.g. PT43M22S
+	PublishedAt string          `yaml:"-" json:"publishedAt"`
+	Channel     youtube.Channel `yaml:"-" json:"channel"`
+	ViewCount   int64           `yaml:"-" json:"viewCount"`
+	Image       string          `yaml:"-" json:"image"`
+}
+
+// TagsAsList returns the tags joined with ", " for README rendering.
+func (m *MovieInformation) TagsAsList() string {
+	return strings.Join(m.Tags, ", ")
+}
+
+// LanguagesAsList returns the language codes joined with ", ".
+func (m *MovieInformation) LanguagesAsList() string {
+	return strings.Join(m.Language, ", ")
+}
+
+// DurationHumanReadable converts the ISO-8601 duration into a compact
+// "H:MM:SS" or "M:SS" string suitable for the README. Returns the
+// raw value back if parsing fails so the README still renders.
+func (m *MovieInformation) DurationHumanReadable() string {
+	d, err := parseISO8601Duration(m.Duration)
+	if err != nil {
+		return m.Duration
+	}
+	totalSeconds := int(d.Seconds())
+	h := totalSeconds / 3600
+	mm := (totalSeconds % 3600) / 60
+	s := totalSeconds % 60
+	if h > 0 {
+		return fmt.Sprintf("%d:%02d:%02d", h, mm, s)
+	}
+	return fmt.Sprintf("%d:%02d", mm, s)
+}
+
+// parseISO8601Duration parses the YouTube duration format. It only
+// supports the subset YouTube actually emits: PT[xH][yM][zS]. Days
+// and longer units never appear for video durations.
+func parseISO8601Duration(s string) (time.Duration, error) {
+	if !strings.HasPrefix(s, "PT") {
+		return 0, fmt.Errorf("not an ISO-8601 duration: %q", s)
+	}
+	rest := s[2:]
+	if rest == "" {
+		return 0, fmt.Errorf("empty duration body: %q", s)
+	}
+
+	var total time.Duration
+	num := ""
+	for _, r := range rest {
+		switch {
+		case r >= '0' && r <= '9':
+			num += string(r)
+		case r == 'H' || r == 'M' || r == 'S':
+			if num == "" {
+				return 0, fmt.Errorf("missing number before %c in %q", r, s)
+			}
+			n := 0
+			if _, err := fmt.Sscanf(num, "%d", &n); err != nil {
+				return 0, err
+			}
+			switch r {
+			case 'H':
+				total += time.Duration(n) * time.Hour
+			case 'M':
+				total += time.Duration(n) * time.Minute
+			case 'S':
+				total += time.Duration(n) * time.Second
+			}
+			num = ""
+		default:
+			return 0, fmt.Errorf("unexpected character %c in duration %q", r, s)
+		}
+	}
+	if num != "" {
+		return 0, fmt.Errorf("trailing number with no unit in %q", s)
+	}
+	return total, nil
+}

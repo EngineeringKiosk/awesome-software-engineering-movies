@@ -3,8 +3,10 @@ module github.com/EngineeringKiosk/awesome-software-engineering-movies
 go 1.25.0
 
 require (
+	github.com/gosimple/slug v1.15.0
 	github.com/spf13/cobra v1.10.2
 	google.golang.org/api v0.277.0
+	gopkg.in/yaml.v3 v3.0.1
 )
 
 require (
@@ -19,6 +21,7 @@ require (
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/googleapis/enterprise-certificate-proxy v0.3.15 // indirect
 	github.com/googleapis/gax-go/v2 v2.22.0 // indirect
+	github.com/gosimple/unidecode v1.0.1 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/spf13/pflag v1.0.9 // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
