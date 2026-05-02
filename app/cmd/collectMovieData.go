@@ -10,6 +10,7 @@ import (
 	"net/http"
 	"os"
 	"path/filepath"
+	"strings"
 	"time"
 
 	"github.com/spf13/cobra"
@@ -137,6 +138,16 @@ func cmdCollectMovieData(cmd *cobra.Command, args []string) error {
 			info.PublishedAt = v.PublishedAt
 			info.Channel = v.Channel
 			info.ViewCount = v.ViewCount
+
+			// Language is YAML-overridable: only fall back to the
+			// API-declared audio language when the YAML left it empty.
+			if len(info.Language) == 0 {
+				if code := normalizeLanguageCode(v.DefaultAudioLanguage); code != "" {
+					info.Language = []string{code}
+				} else {
+					log.Printf("WARNING: %s has no language in YAML and YouTube did not return defaultAudioLanguage; leaving empty", info.Name)
+				}
+			}
 		}
 
 		if info.VideoID != "" {
@@ -158,6 +169,20 @@ func cmdCollectMovieData(cmd *cobra.Command, args []string) error {
 	}
 
 	return nil
+}
+
+// normalizeLanguageCode reduces a BCP-47 tag to its base ISO 639-1
+// code (e.g. "en-US" → "en", "de" → "de"). Returns "" if the input
+// is empty or has no leading subtag.
+func normalizeLanguageCode(tag string) string {
+	tag = strings.TrimSpace(strings.ToLower(tag))
+	if tag == "" {
+		return ""
+	}
+	if i := strings.IndexByte(tag, '-'); i > 0 {
+		return tag[:i]
+	}
+	return tag
 }
 
 // downloadThumbnail tries maxresdefault.jpg first, then falls back to

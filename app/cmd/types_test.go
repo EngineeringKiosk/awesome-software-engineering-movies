@@ -34,3 +34,21 @@ func TestTagsAsList(t *testing.T) {
 		t.Fatalf("TagsAsList() = %q; want %q", got, want)
 	}
 }
+
+func TestNormalizeLanguageCode(t *testing.T) {
+	cases := map[string]string{
+		"en":      "en",
+		"EN":      "en",
+		"en-US":   "en",
+		"en-us":   "en",
+		"de-DE":   "de",
+		"  fr  ":  "fr",
+		"":        "",
+		"zh-Hans": "zh",
+	}
+	for in, want := range cases {
+		if got := normalizeLanguageCode(in); got != want {
+			t.Errorf("normalizeLanguageCode(%q) = %q; want %q", in, got, want)
+		}
+	}
+}
