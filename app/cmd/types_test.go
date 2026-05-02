@@ -12,8 +12,8 @@ func TestDurationHumanReadable(t *testing.T) {
 		{"PT2H", "2:00:00"},
 		{"PT45S", "0:45"},
 		{"PT0S", "0:00"},
-		{"", ""},                    // returns raw on parse error
-		{"garbage", "garbage"},      // returns raw on parse error
+		{"", ""},               // returns raw on parse error
+		{"garbage", "garbage"}, // returns raw on parse error
 		{"PT10H30M", "10:30:00"},
 	}
 

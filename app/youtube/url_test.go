@@ -4,10 +4,10 @@ import "testing"
 
 func TestParseVideoID(t *testing.T) {
 	cases := []struct {
-		name    string
-		input   string
-		want    string
-		wantOk  bool
+		name   string
+		input  string
+		want   string
+		wantOk bool
 	}{
 		{"watch", "https://www.youtube.com/watch?v=uaksVVHDhYU", "uaksVVHDhYU", true},
 		{"watch_no_www", "https://youtube.com/watch?v=HDKUEXBF3B4", "HDKUEXBF3B4", true},
