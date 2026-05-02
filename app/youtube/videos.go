@@ -25,6 +25,11 @@ type Video struct {
 	Channel     Channel
 	ViewCount   int64
 	Thumbnail   string // highest-resolution thumbnail URL the API offers
+	// DefaultAudioLanguage is the uploader-declared audio language as
+	// a BCP-47 tag (e.g. "en", "en-US"). Often empty: it is an
+	// optional field on the YouTube upload form, especially missing
+	// on older videos.
+	DefaultAudioLanguage string
 }
 
 // videosListMaxIDs is the YouTube API hard limit for videos.list IDs
@@ -68,7 +73,8 @@ func (c *Client) GetVideoDetails(ctx context.Context, ids []string) ([]Video, er
 					ID:    item.Snippet.ChannelId,
 					Title: item.Snippet.ChannelTitle,
 				},
-				Thumbnail: bestThumbnail(item.Snippet.Thumbnails),
+				Thumbnail:            bestThumbnail(item.Snippet.Thumbnails),
+				DefaultAudioLanguage: item.Snippet.DefaultAudioLanguage,
 			}
 			if item.Statistics != nil {
 				v.ViewCount = int64(item.Statistics.ViewCount)
