@@ -36,18 +36,18 @@ Out of scope for now:
 
 1. Create a new file under `movies/` named after a kebab-case slug of
    the title. Both `.yml` and `.yaml` extensions are accepted.
-2. Fill in the four required fields:
+2. Fill in the required fields:
 
    ```yaml
    name: "Inside Envoy: The Proxy for the Future"
    link: https://www.youtube.com/watch?v=uaksVVHDhYU
-   language:
-     - en
    tags:
      - Networking
      - Service Mesh
      - Open Source
    ```
+
+   `language` is optional — see the field reference below.
 
 3. Open a pull request. CI will:
    - Lint your YAML (`yaml-lint` workflow).
@@ -65,7 +65,7 @@ channel, view count and thumbnail from the YouTube Data API.
 |------------|----------------|----------|-----------------|-------|
 | `name`     | string         | yes      | YAML            | Drives the slug, filename and README anchor. Keep it close to the YouTube title but cleaned up if needed. |
 | `link`     | string (URL)   | yes      | YAML            | YouTube URL — `youtube.com/watch?v=…`, `youtu.be/…`, `/embed/…`, `/shorts/…` are all accepted. |
-| `language` | list[string]   | yes      | YAML            | ISO 639-1 codes (`en`, `de`, `fr`, …). Multiple entries when audio mixes languages. |
+| `language` | list[string]   | no       | YAML > API      | ISO 639-1 codes (`en`, `de`, `fr`, …). If omitted, the tooling falls back to the YouTube `defaultAudioLanguage` and stores it as a single-element list. Set it manually when the API returns nothing or when the video has multiple audio languages. |
 | `tags`     | list[string]   | yes      | YAML            | Subject-matter tags. Be coarse — better to have 3–5 broad tags than 15 narrow ones. |
 
 The remaining JSON fields (`title`, `description`, `duration`,
