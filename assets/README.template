@@ -1,0 +1,43 @@
+# Awesome Software Engineering Movies
+
+A curated list of movies, documentaries and other related material to watch related to Software Engineering, Open Source, Programming languages and culture 🎬
+
+## Table of Contents
+
+* [Movies](#movies) ({{ len . }} entries)
+  {{- range $movie := . }}
+  * [{{ $movie.Name }}](#{{ $movie.Slug }})
+  {{- end }}
+* [How to contribute](#how-to-contribute)
+
+## Movies
+
+{{ range $movie := . }}
+<h3 id="{{ $movie.Slug }}">{{ $movie.Name }}</h3>
+{{ if $movie.Image }}
+<img align="right" width="320" src="./generated/{{ $movie.Image }}" alt="{{ $movie.Name }}" />
+{{ end }}
+{{ $movie.Description }}
+
+{{ if $movie.Channel.Title }}* Channel: {{ $movie.Channel.Title }}
+{{ end -}}
+{{ if $movie.Duration }}* Duration: {{ $movie.DurationHumanReadable }}
+{{ end -}}
+{{ if $movie.Language }}* Language: {{ $movie.LanguagesAsList }}
+{{ end -}}
+{{ if $movie.Tags }}* Tags: {{ $movie.TagsAsList }}
+{{ end -}}
+* [Watch on YouTube]({{ $movie.Link }})
+
+----
+{{ end }}
+
+## How to contribute
+
+If you want to
+* add a new entry to the list, check out our [Contribution Guide](/CONTRIBUTING.md)
+* modify the tooling and structure, check out our [Development Guide](/DEVELOPMENT.md)
+
+## Dependencies
+
+Dependencies are managed by [Renovate Bot/Mend: Dashboard](https://developer.mend.io/github/EngineeringKiosk).
