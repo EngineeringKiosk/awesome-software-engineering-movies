@@ -1,0 +1,25 @@
+{
+ "name": "VITE: The Documentary",
+ "slug": "vite-the-documentary",
+ "link": "https://www.youtube.com/watch?v=bmWQqAKLgT4",
+ "videoID": "bmWQqAKLgT4",
+ "language": [
+  "en"
+ ],
+ "tags": [
+  "Frontend",
+  "Build Tools",
+  "JavaScript",
+  "Open Source"
+ ],
+ "title": "",
+ "description": "",
+ "duration": "",
+ "publishedAt": "",
+ "channel": {
+  "id": "",
+  "title": ""
+ },
+ "viewCount": 0,
+ "image": ""
+}
