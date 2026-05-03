@@ -19,7 +19,7 @@ An entry is a good fit if it meets **at least one** of the following:
 
 In addition, the entry should be:
 
-- Freely viewable on YouTube (no paywall).
+- Freely viewable.
 - At least 15 minutes long.
 - Published more than 2 weeks ago (gives the community time to react
   to clickbait/low-quality posts).
