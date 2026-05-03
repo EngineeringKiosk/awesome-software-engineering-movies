@@ -12,14 +12,14 @@
   "JavaScript",
   "Open Source"
  ],
- "title": "",
- "description": "",
- "duration": "",
- "publishedAt": "",
+ "title": "VITE: The Documentary",
+ "description": "\"If you're using a JavaScript framework, you're probably using Vite.\"\n\nCreated by Evan You (the mind behind Vue.js), Vite began as a frustrated response to slow build times with Webpack. What started as a personal side project for Vue users quickly grew into a framework-agnostic ecosystem embraced by React, Svelte, Astro, Remix, and more. Along the way, it sparked rivalries, rewrites, and community-driven breakthroughs that changed the frontend landscape forever.\n\nFeaturing many prominent developers in the JavaCript ecosystem, this documentary dives into the innovation, competition, and collaboration that turned Vite from an underdog prototype into the new standard for modern web tooling. \n\n0:00 Intro\n1:00 Early Javascript tooling\n1:53 Webpack explained\n3:40 Evan You discusses frustrations with Webpack\n5:06 Evan You prototypes an alternative\n6:35 First version of Vite is published\n6:57 The Javascript community's first impressions of Vite\n7:40 Vite vs Snowpack\n8:20 Origin story of SVite\n9:25 Evan begins work on Vite 2.0\n13:50 Vite 2.0 first reactions and early adopters \n15:42 Stackblitz gets behind Vite\n16:39 Sveltekit backs Snowpack\n18:47 Sveltekit makes controversial switch from Snowpack to Vite\n20:21 Astro adopts Vite\n20:50 Evan You assembles the Vite team\n22:02 Vitest \n24:25 The Vite team grows\n26:08 Vite adoption explodes\n26:52 Theo Browne vs Create React App\n27:46 The first ViteConf\n29:40 Vite ecosystem CI\n32:26 Remix adopts Vite\n34:25 Major Vite adoptions in 2023\n34:59 David Cramer on Vite growth\n35:31 Vite on Bolt . new\n36:16 Evan You founds Void Zero\n36:58 The future of Vite and the Javascript ecosystem \n38:51 Credits\n\nDirector: Josiah McGarvie\nProducer: Guillermo López\n\nProduced by: Tech Documentaries (www.techdocumentaries.com)\n\nThanks to our sponsors for making this documentary possible:\nVoidZero (https://voidzero.dev)\nSentry (www.sentry.io)\nShopify (www.shopify.com)\nBolt.new (www.bolt.new)\nSupabase (www.supabase.com)\n\nAnd to all the amazing people who are featured:\nEvan You: x.com/youyuxi\nMatias Capeletto: bsky.app/profile/patak.dev\nAnthony Fu: x.com/antfu7\nRich Harris: bsky.app/profile/rich-harris.dev\nRyan Carniato: x.com/RyanCarniato\nFred K. Schott: x.com/FredKSchott\nPedro Cattori: x.com/pcattori\nMark Dalgleish: x.com/markdalgleish\nMishko Havery: /x.com/mhevery\nEric Simons: x.com/EricSimons\nDavid Cramer: x.com/zeeg\nTheo Brown: x.com/theo\nBjorn Lu: bsky.app/profile/bluwy.me\nDominik Göpel\nVladimir Sheremet\n\nSome podcasts featuring Evan You chatting about Vite and the documentary:\nFreeCodeCamp: https://youtu.be/xH9ZKsTY73Y?si=p6CvmW7lvUwm2LGT\nStack Overflow: https://stackoverflow.blog/2025/10/10/vite-is-like-the-united-nations-of-javascript/\nChangelog: https://youtu.be/-vi0_b7Aj64?si=chNguLXBkhITw5uv\nSyntax: https://youtu.be/quEc5ZI3_Ys?si=QleHFZ-HcB0LUf6H\n\n\nFollow us:\nX: x.com/CultRepo\nBluesky: cultrepo.bsky.social\nInstagram: www.instagram.com/cult.repo",
+ "duration": "PT39M15S",
+ "publishedAt": "2025-10-09T17:00:06Z",
  "channel": {
-  "id": "",
-  "title": ""
+  "id": "UCsUalyRg43M8D60mtHe6YcA",
+  "title": "CultRepo "
  },
- "viewCount": 0,
- "image": ""
+ "viewCount": 151794,
+ "image": "images/vite-the-documentary.jpg"
 }

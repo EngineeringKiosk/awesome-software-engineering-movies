@@ -12,14 +12,14 @@
   "Open Source",
   "Cloud Native"
  ],
- "title": "",
- "description": "",
- "duration": "",
- "publishedAt": "",
+ "title": "Inside Envoy: The Proxy for the Future [OFFICIAL FILM]",
+ "description": "Inside Envoy is a new documentary for anyone interested in how open source technology works behind the scenes to shape our future.\n\nInside Envoy: the Proxy for the Future gives viewers an inside look at the journey from creation to mass adoption of the insanely popular open source Envoy project, one of the most useful open source projects in the world today.\n\nEnvoy was open sourced in the fall of 2016 and quickly gained adoption. In 2017, Envoy joined the Cloud Native Computing Foundation (CNCF). Today, Envoy serves trillions of daily requests and has been adopted by thousands of organizations around the world.\n\nInside Envoy is the second major film release from Speakeasy Productions, which is leading the way in using the power of film and storytelling to demystify core open source software projects that change how we live, work, and play. \n\n“Inside Envoy, the Proxy for the Future,” debuted at KubeKon + CloudNativeCon Europe 2023 in Amsterdam.\n\nThis film was made possible by technology providers and community leaders including Ambassador Labs, Cloud Native Computing Foundation, Lyft, Solo.io and Tetrate.  \n\nTo learn more and view the documentary, please visit the film website https://envoyprojectdocumentary.com \n\nFollow ENVOYPROXY:\nTwitter: https://twitter.com/EnvoyProxy\n\n\nFollow Speakeasy Productions:\nTwitter: https://twitter.com/Speakeasy_Films",
+ "duration": "PT31M50S",
+ "publishedAt": "2023-04-20T16:10:01Z",
  "channel": {
-  "id": "",
-  "title": ""
+  "id": "UCro9rA8-YX-26UVNY8ewAKQ",
+  "title": " Speakeasy Productions"
  },
- "viewCount": 0,
- "image": ""
+ "viewCount": 116971,
+ "image": "images/inside-envoy-the-proxy-for-the-future.jpg"
 }
