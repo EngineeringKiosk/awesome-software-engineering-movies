@@ -17,7 +17,7 @@ A curated list of movies, documentaries and other related material to watch rela
 {{ if $movie.Image }}
 <img align="right" width="320" src="./generated/{{ $movie.Image }}" alt="{{ $movie.Name }}" />
 {{ end }}
-{{ $movie.Description }}
+{{ truncateDescription $movie.Description }}
 
 {{ if $movie.Channel.Title }}* Channel: {{ $movie.Channel.Title }}
 {{ end -}}

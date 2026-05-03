@@ -12,7 +12,10 @@ import (
 	"github.com/spf13/cobra"
 
 	"github.com/EngineeringKiosk/awesome-software-engineering-movies/io"
+	"github.com/EngineeringKiosk/awesome-software-engineering-movies/utils"
 )
+
+const defaultDescriptionMaxLength = 600
 
 // convertJsonToReadmeCmd represents the convertJsonToReadme command
 var convertJsonToReadmeCmd = &cobra.Command{
@@ -33,6 +36,7 @@ func init() {
 	convertJsonToReadmeCmd.Flags().String("json-directory", "", "Directory on where to store the json files")
 	convertJsonToReadmeCmd.Flags().String("readme-template", "", "Path to the README template")
 	convertJsonToReadmeCmd.Flags().String("readme-output", "", "Path to the README file that will be written")
+	convertJsonToReadmeCmd.Flags().Int("description-max-length", defaultDescriptionMaxLength, "Maximum length of the rendered description in runes; longer descriptions are cut at the next word or sentence boundary")
 
 	for _, name := range []string{"json-directory", "readme-template", "readme-output"} {
 		if err := convertJsonToReadmeCmd.MarkFlagRequired(name); err != nil {
@@ -52,6 +56,10 @@ func cmdConvertJsonToReadme(cmd *cobra.Command, args []string) error {
 		return err
 	}
 	jsonDir, err := cmd.Flags().GetString("json-directory")
+	if err != nil {
+		return err
+	}
+	descriptionMaxLength, err := cmd.Flags().GetInt("description-max-length")
 	if err != nil {
 		return err
 	}
@@ -95,8 +103,13 @@ func cmdConvertJsonToReadme(cmd *cobra.Command, args []string) error {
 	}
 	defer func() { _ = readmeTarget.Close() }()
 
-	log.Printf("Render template and write it into %s ...", readmeOutput)
-	t := template.Must(template.New("readme-template").Parse(string(readmeTemplateContent)))
+	log.Printf("Render template and write it into %s (description max length %d runes) ...", readmeOutput, descriptionMaxLength)
+	funcs := template.FuncMap{
+		"truncateDescription": func(s string) string {
+			return utils.TruncateTextRespectWords(s, descriptionMaxLength)
+		},
+	}
+	t := template.Must(template.New("readme-template").Funcs(funcs).Parse(string(readmeTemplateContent)))
 	if err := t.Execute(readmeTarget, movies); err != nil {
 		return err
 	}
