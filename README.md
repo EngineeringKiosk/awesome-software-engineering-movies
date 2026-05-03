@@ -49,7 +49,3 @@ A curated list of movies, documentaries and other related material to watch rela
 If you want to
 * add a new entry to the list, check out our [Contribution Guide](/CONTRIBUTING.md)
 * modify the tooling and structure, check out our [Development Guide](/DEVELOPMENT.md)
-
-## Dependencies
-
-Dependencies are managed by [Renovate Bot/Mend: Dashboard](https://developer.mend.io/github/EngineeringKiosk).
