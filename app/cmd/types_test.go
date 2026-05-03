@@ -7,14 +7,28 @@ func TestDurationHumanReadable(t *testing.T) {
 		in   string
 		want string
 	}{
-		{"PT43M22S", "43:22"},
-		{"PT1H23M45S", "1:23:45"},
-		{"PT2H", "2:00:00"},
-		{"PT45S", "0:45"},
-		{"PT0S", "0:00"},
-		{"", ""},               // returns raw on parse error
-		{"garbage", "garbage"}, // returns raw on parse error
-		{"PT10H30M", "10:30:00"},
+		// Seconds round up at 30+
+		{"PT31M50S", "ca. 32 min."},
+		{"PT43M22S", "ca. 43 min."},
+		// Seconds round down below 30
+		{"PT43M29S", "ca. 43 min."},
+		{"PT43M30S", "ca. 44 min."},
+
+		// Hour-spanning videos render as "h ... min."
+		{"PT1H23M45S", "ca. 1 h 24 min."},
+		{"PT2H", "ca. 2 h 0 min."},
+		{"PT10H30M", "ca. 10 h 30 min."},
+
+		// Sub-1-minute always renders as "ca. 1 min." rather than 0
+		{"PT45S", "ca. 1 min."},
+		{"PT1S", "ca. 1 min."},
+
+		// Genuinely zero stays zero
+		{"PT0S", "ca. 0 min."},
+
+		// Parse errors return the raw value so the README still renders
+		{"", ""},
+		{"garbage", "garbage"},
 	}
 
 	for _, tc := range cases {
