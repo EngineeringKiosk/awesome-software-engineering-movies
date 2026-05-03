@@ -48,22 +48,37 @@ func (m *MovieInformation) LanguagesAsList() string {
 	return strings.Join(m.Language, ", ")
 }
 
-// DurationHumanReadable converts the ISO-8601 duration into a compact
-// "H:MM:SS" or "M:SS" string suitable for the README. Returns the
-// raw value back if parsing fails so the README still renders.
+// DurationHumanReadable converts the ISO-8601 duration into an
+// approximate, scannable form for the README. Seconds are dropped
+// (used only for rounding); the result is prefixed with "ca." and
+// suffixed with "min." (with a "h" hour segment when applicable):
+//
+//	PT31M50S    → "ca. 32 min."
+//	PT45S       → "ca. 1 min."
+//	PT2H        → "ca. 2 h 0 min."
+//	PT1H23M45S  → "ca. 1 h 24 min."
+//
+// Returns the raw value back if parsing fails so the README still
+// renders.
 func (m *MovieInformation) DurationHumanReadable() string {
 	d, err := parseISO8601Duration(m.Duration)
 	if err != nil {
 		return m.Duration
 	}
-	totalSeconds := int(d.Seconds())
-	h := totalSeconds / 3600
-	mm := (totalSeconds % 3600) / 60
-	s := totalSeconds % 60
-	if h > 0 {
-		return fmt.Sprintf("%d:%02d:%02d", h, mm, s)
+
+	// Round to nearest minute. Anything > 0 but < 30 s rounds up to
+	// 1 min so we never render the meaningless "ca. 0 min."
+	totalMinutes := int((d + 30*time.Second) / time.Minute)
+	if totalMinutes == 0 && d > 0 {
+		totalMinutes = 1
 	}
-	return fmt.Sprintf("%d:%02d", mm, s)
+
+	hours := totalMinutes / 60
+	minutes := totalMinutes % 60
+	if hours > 0 {
+		return fmt.Sprintf("ca. %d h %d min.", hours, minutes)
+	}
+	return fmt.Sprintf("ca. %d min.", minutes)
 }
 
 // parseISO8601Duration parses the YouTube duration format. It only

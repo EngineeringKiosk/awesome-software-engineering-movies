@@ -24,7 +24,7 @@ Inside Envoy: the Proxy for the Future gives viewers an inside look at the journ
 Envoy was open sourced in the fall of 2016 and quickly gained adoption. In 2017, Envoy joined the Cloud Native Computing Foundation (CNCF). Today, Envoy serves trillions of daily requests and has been adopted by thousands of organizations ...
 
 * Channel:  Speakeasy Productions
-* Duration: 31:50
+* Duration: ca. 32 min.
 * Language: en
 * Tags: Networking, Service Mesh, Open Source, Cloud Native
 * [Watch on YouTube](https://www.youtube.com/watch?v=uaksVVHDhYU)
@@ -40,7 +40,7 @@ Ruby on Rails has one of the most faithful communities online, it also has one o
 Get the whole spill by the people who had a front-row seat to the creation and development of Ruby on Rails. Jeremy Daer, Jason Fried, Tobias Lütke, Jamis Buck, and… DHH tell the tale of Rails. A tale seeped with passion, pushback, and (after Rails 3.0) maturity. ...
 
 * Channel: CultRepo 
-* Duration: 44:16
+* Duration: ca. 44 min.
 * Language: en
 * Tags: Web Frameworks, Ruby, Open Source, History
 * [Watch on YouTube](https://www.youtube.com/watch?v=HDKUEXBF3B4)
@@ -58,7 +58,7 @@ Created by Evan You (the mind behind Vue.js), Vite began as a frustrated respons
 Featuring many prominent developers in the JavaCript ecosystem, this documentary dives into the innovation, competition, and collaboration ...
 
 * Channel: CultRepo 
-* Duration: 39:15
+* Duration: ca. 39 min.
 * Language: en
 * Tags: Frontend, Build Tools, JavaScript, Open Source
 * [Watch on YouTube](https://www.youtube.com/watch?v=bmWQqAKLgT4)
