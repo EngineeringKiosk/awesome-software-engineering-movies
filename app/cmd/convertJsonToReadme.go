@@ -106,7 +106,7 @@ func cmdConvertJsonToReadme(cmd *cobra.Command, args []string) error {
 	log.Printf("Render template and write it into %s (description max length %d runes) ...", readmeOutput, descriptionMaxLength)
 	funcs := template.FuncMap{
 		"truncateDescription": func(s string) string {
-			return utils.TruncateDescription(s, descriptionMaxLength)
+			return utils.TruncateTextRespectWords(s, descriptionMaxLength)
 		},
 	}
 	t := template.Must(template.New("readme-template").Funcs(funcs).Parse(string(readmeTemplateContent)))

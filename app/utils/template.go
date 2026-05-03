@@ -9,7 +9,7 @@ import (
 	"unicode"
 )
 
-// TruncateDescription returns s shortened to roughly max runes,
+// TruncateTextRespectWords returns s shortened to roughly max runes,
 // respecting word and sentence boundaries.
 //
 // Behaviour:
@@ -25,7 +25,7 @@ import (
 //
 // The function works on runes, not bytes, so multibyte content
 // (emojis, accented characters) counts intuitively.
-func TruncateDescription(s string, max int) string {
+func TruncateTextRespectWords(s string, max int) string {
 	if max <= 0 {
 		return s
 	}

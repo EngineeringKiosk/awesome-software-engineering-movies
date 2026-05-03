@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func TestTruncateDescription(t *testing.T) {
+func TestTruncateTextRespectWords(t *testing.T) {
 	cases := []struct {
 		name string
 		in   string
@@ -101,9 +101,9 @@ func TestTruncateDescription(t *testing.T) {
 
 	for _, tc := range cases {
 		t.Run(tc.name, func(t *testing.T) {
-			got := TruncateDescription(tc.in, tc.max)
+			got := TruncateTextRespectWords(tc.in, tc.max)
 			if got != tc.want {
-				t.Fatalf("TruncateDescription(%q, %d)\n  got:  %q\n  want: %q", tc.in, tc.max, got, tc.want)
+				t.Fatalf("TruncateTextRespectWords(%q, %d)\n  got:  %q\n  want: %q", tc.in, tc.max, got, tc.want)
 			}
 		})
 	}
