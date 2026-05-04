@@ -72,9 +72,10 @@ non-commercial dataset.
 | `description` | string         | no       | YAML > API      | Free text. If omitted, the tooling uses the video's YouTube description. Set it manually when the YouTube description is empty, full of unrelated boilerplate, or otherwise unhelpful for skim-reading the README. |
 | `tags`        | list[string]   | yes      | YAML            | Subject-matter tags. Be coarse — better to have 3–5 broad tags than 15 narrow ones. |
 | `imdbID`      | string         | no       | YAML            | IMDb tconst (e.g. `tt3268458`). Set this only when the entry is also catalogued on IMDb so the tooling can pull the IMDb rating from the public dataset. Most YouTube documentaries are not on IMDb — leave this unset for those. |
+| `platform`    | string         | no       | YAML > tooling  | Slug of the source the link lives on (`youtube` today). Auto-detected from `link` when omitted; set explicitly only if you need to override the detector or your link is from a source the tooling does not yet recognise. The tooling logs a warning when an explicit platform disagrees with what the link looks like. |
 
 The remaining JSON fields (`title`, `duration`, `publishedAt`,
-`channel`, `ratings`, `views`, `image`, `slug`, `videoID`) are
-produced by the tooling. **Do not edit `README.md` directly** —
+`channel`, `ratings`, `views`, `image`, `slug`, `videoID`,
+`platform` when not set in YAML) are produced by the tooling. **Do not edit `README.md` directly** —
 it is overwritten on every CI run. To change rendering, update
 `assets/README.template`.
