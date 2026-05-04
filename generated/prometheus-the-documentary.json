@@ -1,0 +1,24 @@
+{
+ "name": "Prometheus: The Documentary",
+ "slug": "prometheus-the-documentary",
+ "link": "https://www.youtube.com/watch?v=rT4fJNbfe14",
+ "videoID": "rT4fJNbfe14",
+ "language": null,
+ "tags": [
+  "Observability",
+  "Monitoring",
+  "Open Source",
+  "Cloud Native",
+  "History"
+ ],
+ "title": "",
+ "description": "",
+ "duration": "",
+ "publishedAt": "",
+ "channel": {
+  "id": "",
+  "title": ""
+ },
+ "viewCount": 0,
+ "image": ""
+}
