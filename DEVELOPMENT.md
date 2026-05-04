@@ -37,6 +37,23 @@ YOUTUBE_API_KEY=… ./awesome-software-engineering-movies collectMovieData \
 The first step needs no API access. Step two does — get a key from a
 Google Cloud project with the YouTube Data API enabled.
 
+`collectMovieData` also pulls IMDb ratings for any entry whose
+`imdbID` is set in YAML, but the IMDb dataset is only fetched when
+something actually needs refreshing: an entry without IMDb data yet,
+or one whose `ratings.imdb.refreshedAt` is older than 30 days. Quiet
+runs skip the download entirely. Pass `--force-imdb-refresh` to
+override the cache window and refetch every IMDb-tagged entry.
+
+## IMDb dataset
+
+IMDb publishes a daily-refreshed gzipped TSV of all title ratings at
+`https://datasets.imdbws.com/title.ratings.tsv.gz`. Documentation:
+[IMDb Non-Commercial Datasets](https://developer.imdb.com/non-commercial-datasets/).
+The tooling streams that file directly — no API key, no IMDb
+Developer API on AWS, no third-party service. The dataset is
+licensed for personal and non-commercial use; this curated
+open-source list fits that boundary.
+
 ## Editing the README
 
 The committed `README.md` is generated. Do not edit it. To change
