@@ -62,10 +62,18 @@ type MovieInformation struct {
 	// and only set for entries that are also catalogued on IMDb.
 	// Drives the IMDb rating lookup in collectMovieData; entries
 	// without it never trigger an IMDb dataset download.
-	IMDbID      string          `yaml:"imdbID,omitempty"      json:"imdbID,omitempty"`
-	Duration    string          `yaml:"-"                     json:"duration"` // ISO-8601, e.g. PT43M22S
-	PublishedAt string          `yaml:"-" json:"publishedAt"`
-	Channel     youtube.Channel `yaml:"-" json:"channel"`
+	IMDbID string `yaml:"imdbID,omitempty"      json:"imdbID,omitempty"`
+	// YouTubeTrailerForThumbnail is an optional YouTube URL used as
+	// a fallback source for the entry's poster. When the primary
+	// link is not a YouTube video (or the YouTube thumbnail download
+	// fails), the tooling extracts the video ID from this URL and
+	// pulls hqdefault.jpg / maxresdefault.jpg via the i.ytimg.com
+	// URL pattern. If neither path yields an image, the README
+	// renders a bundled placeholder.
+	YouTubeTrailerForThumbnail string          `yaml:"youtubeTrailerForThumbnail,omitempty" json:"youtubeTrailerForThumbnail,omitempty"`
+	Duration                   string          `yaml:"-"                                    json:"duration"` // ISO-8601, e.g. PT43M22S
+	PublishedAt                string          `yaml:"-" json:"publishedAt"`
+	Channel                    youtube.Channel `yaml:"-" json:"channel"`
 	// Ratings groups rating signals by source. Today only YouTube is
 	// populated (likeCount); a future second source — e.g. an external
 	// review aggregator — would slot in as another key.

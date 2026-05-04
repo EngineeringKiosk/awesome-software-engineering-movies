@@ -158,6 +158,9 @@ func mergeMovieInformation(source, target *MovieInformation) *MovieInformation {
 	if len(source.Platform) > 0 {
 		target.Platform = source.Platform
 	}
+	if len(source.YouTubeTrailerForThumbnail) > 0 {
+		target.YouTubeTrailerForThumbnail = source.YouTubeTrailerForThumbnail
+	}
 	if len(source.Localized) > 0 {
 		target.Localized = source.Localized
 	}

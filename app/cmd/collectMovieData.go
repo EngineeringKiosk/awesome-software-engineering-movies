@@ -204,17 +204,14 @@ func cmdCollectMovieData(cmd *cobra.Command, args []string) error {
 			info.Subtitles = mergeLanguageCodes(info.Subtitles, normalizeLanguageCodes(v.Subtitles))
 		}
 
-		if info.VideoID != "" {
-			imgPath, err := downloadThumbnail(info.VideoID, info.Slug, imageDir)
-			switch {
-			case err == nil:
-				info.Image = filepath.Join(imageFolder, filepath.Base(imgPath))
-			case info.Image != "":
-				log.Printf("WARNING: thumbnail download for %s failed: %v. Keeping cached image %s.", info.VideoID, err, info.Image)
-			default:
-				log.Printf("WARNING: thumbnail download for %s failed and no cached image exists: %v", info.VideoID, err)
-			}
-		}
+	}
+
+	// Thumbnail population runs as its own pass against every entry,
+	// not just YouTube ones — non-YouTube entries can still get a
+	// poster via youtubeTrailerForThumbnail, and the placeholder
+	// fallback covers the rest.
+	for _, e := range entries {
+		populateThumbnail(e.info, imageDir)
 	}
 
 	// IMDb enrichment is selective: the dataset is only fetched when
@@ -365,6 +362,53 @@ func normalizeLanguageCode(tag string) string {
 		return tag[:i]
 	}
 	return tag
+}
+
+// placeholderImage is the repo-relative path of the bundled SVG that
+// gets rendered when no YouTube thumbnail is available for an entry.
+// The file is a static asset committed under generated/images/, not
+// produced by this command.
+const placeholderImage = "images/placeholder.svg"
+
+// populateThumbnail fills info.Image using a layered fallback:
+//
+//  1. Primary YouTube link (info.VideoID).
+//  2. Curated YouTube trailer URL (info.YouTubeTrailerForThumbnail).
+//  3. Bundled placeholder SVG when the entry has no other image.
+//
+// The cache-keep semantic from the previous implementation is
+// preserved: if every YouTube candidate fails but info.Image is
+// already set to a previously-downloaded thumbnail, we leave it
+// alone. The placeholder is only chosen when there is nothing else.
+func populateThumbnail(info *MovieInformation, imageDir string) {
+	var candidates []string
+	if info.VideoID != "" {
+		candidates = append(candidates, info.VideoID)
+	}
+	if info.YouTubeTrailerForThumbnail != "" {
+		if id, ok := youtube.ParseVideoID(info.YouTubeTrailerForThumbnail); ok {
+			candidates = append(candidates, id)
+		} else {
+			log.Printf("WARNING: %s: youtubeTrailerForThumbnail %q is not a YouTube URL; ignoring",
+				info.Name, info.YouTubeTrailerForThumbnail)
+		}
+	}
+
+	for _, id := range candidates {
+		imgPath, err := downloadThumbnail(id, info.Slug, imageDir)
+		if err == nil {
+			info.Image = filepath.Join(imageFolder, filepath.Base(imgPath))
+			return
+		}
+		log.Printf("WARNING: thumbnail download for %s via %s failed: %v",
+			info.Name, id, err)
+	}
+
+	// All YouTube candidates failed (or none were available). Keep
+	// any cached image; otherwise fall back to the static placeholder.
+	if info.Image == "" {
+		info.Image = placeholderImage
+	}
 }
 
 // downloadThumbnail tries maxresdefault.jpg first, then falls back to

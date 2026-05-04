@@ -202,6 +202,8 @@ Check out the Half-Life 25th Anniversary Update, restored content, new multiplay
 
 <h3 id="indie-game-the-movie">Indie Game: The Movie</h3>
 
+<img align="right" width="320" src="./generated/images/indie-game-the-movie.jpg" alt="Indie Game: The Movie" />
+
 Go behind the scenes of the independent video game industry as this documentary follows the journey of passionate developers striving to create their own unique games. Through intimate interviews and gripping storytelling, &#34;Indie Game: The Movie&#34; reveals the struggles, triumphs, and sacrifices these developers make in pursuit of their dreams, offering an inspiring glimpse into the world of indie game development.
 
 * Tags: Game Development, Indie Games, Software Engineering
@@ -459,6 +461,8 @@ Get the whole spill by the people who had a front-row seat to the creation and d
 
 <h3 id="silicon-cowboys">Silicon Cowboys</h3>
 
+<img align="right" width="320" src="./generated/images/silicon-cowboys.jpg" alt="Silicon Cowboys" />
+
 &#34;Silicon Cowboys&#34; chronicles the rise and fall of Compaq Computer Corporation, a pioneer in the early days of the personal computer industry. This engaging documentary takes viewers back to the 1980s, when a group of visionary engineers challenged the dominance of IBM and transformed the landscape of technology forever. Witness the birth, triumph, and eventual decline of one of the most influential companies in tech history.
 
 * Tags: Hardware, History, Personal Computing
@@ -504,6 +508,8 @@ A documentary that exposes what corporations and governments learn about people 
 
 <h3 id="the-cleaners">The Cleaners</h3>
 
+<img align="right" width="320" src="./generated/images/the-cleaners.jpg" alt="The Cleaners" />
+
 This documentary reveals the hidden world of content moderation on social media platforms. It examines the challenges faced by those responsible for keeping the internet free from harmful content and the ethical dilemmas that arise in the process.
 
 * Tags: Content Moderation, Social Media, Ethics, Society
@@ -513,6 +519,8 @@ This documentary reveals the hidden world of content moderation on social media 
 ----
 
 <h3 id="the-great-hack">The Great Hack</h3>
+
+<img align="right" width="320" src="./generated/images/the-great-hack.jpg" alt="The Great Hack" />
 
 Explore how a data company named Cambridge Analytica came to symbolize the dark side of social media in the wake of the 2016 US presidential election.
 
