@@ -27,11 +27,12 @@
  },
  "ratings": {
   "youtube": {
-   "likeCount": 9836
+   "likeCount": 9836,
+   "refreshedAt": "2026-05-04T19:09:52Z"
   }
  },
  "views": {
-  "youtube": 319680
+  "youtube": 319686
  },
  "image": "images/ruby-on-rails-the-documentary.jpg"
 }

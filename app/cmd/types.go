@@ -2,6 +2,7 @@ package cmd
 
 import (
 	"fmt"
+	"strconv"
 	"strings"
 	"time"
 
@@ -38,7 +39,12 @@ type MovieInformation struct {
 	// overrides whatever the YouTube API returns; if omitted, the
 	// API's snippet.description is used. Same precedence rule as
 	// Language.
-	Description string          `yaml:"description,omitempty" json:"description"`
+	Description string `yaml:"description,omitempty" json:"description"`
+	// IMDbID is the IMDb tconst (e.g. "tt3268458"). Optional in YAML
+	// and only set for entries that are also catalogued on IMDb.
+	// Drives the IMDb rating lookup in collectMovieData; entries
+	// without it never trigger an IMDb dataset download.
+	IMDbID      string          `yaml:"imdbID,omitempty"      json:"imdbID,omitempty"`
 	Duration    string          `yaml:"-"                     json:"duration"` // ISO-8601, e.g. PT43M22S
 	PublishedAt string          `yaml:"-" json:"publishedAt"`
 	Channel     youtube.Channel `yaml:"-" json:"channel"`
@@ -59,6 +65,23 @@ type MovieInformation struct {
 // signal worth recording.
 type YouTubeRating struct {
 	LikeCount int64 `json:"likeCount"`
+	// RefreshedAt is the RFC3339 UTC timestamp the value was last
+	// written from the YouTube Data API. Informational; YouTube data
+	// is refreshed on every collectMovieData run, so it always trails
+	// the most recent run by at most a few seconds.
+	RefreshedAt string `json:"refreshedAt"`
+}
+
+// IMDbRating holds the rating signals IMDb exposes through its
+// public non-commercial ratings dataset (title.ratings.tsv.gz). Only
+// the two columns that aren't the tconst are persisted.
+type IMDbRating struct {
+	AverageRating float64 `json:"averageRating"`
+	NumVotes      int64   `json:"numVotes"`
+	// RefreshedAt is the RFC3339 UTC timestamp the dataset row was
+	// last copied into this file. Drives the staleness check in
+	// collectMovieData: entries older than 30 days trigger a refetch.
+	RefreshedAt string `json:"refreshedAt"`
 }
 
 // Ratings is the per-source rating container. Keys are omitted when
@@ -66,6 +89,7 @@ type YouTubeRating struct {
 // doubles as a source-attribution marker.
 type Ratings struct {
 	YouTube *YouTubeRating `json:"youtube,omitempty"`
+	IMDb    *IMDbRating    `json:"imdb,omitempty"`
 }
 
 // Views is the per-source view-count container. Same omitempty
@@ -87,6 +111,66 @@ func (m *MovieInformation) LanguagesAsList() string {
 // SubtitlesAsList returns the subtitle codes joined with ", ".
 func (m *MovieInformation) SubtitlesAsList() string {
 	return strings.Join(m.Subtitles, ", ")
+}
+
+// HasYouTubeLikes reports whether the YouTube rating block is
+// populated. Templates use this to avoid emitting a "YouTube likes"
+// line for entries that haven't been enriched yet.
+func (m *MovieInformation) HasYouTubeLikes() bool {
+	return m.Ratings.YouTube != nil
+}
+
+// YouTubeLikeCountFormatted renders the YouTube like count with
+// thousands separators, e.g. "33,455". Returns "" when the rating
+// block is absent so a careless template still produces clean output.
+func (m *MovieInformation) YouTubeLikeCountFormatted() string {
+	if m.Ratings.YouTube == nil {
+		return ""
+	}
+	return formatGroupedInt(m.Ratings.YouTube.LikeCount)
+}
+
+// HasIMDbRating reports whether the IMDb rating block is populated.
+func (m *MovieInformation) HasIMDbRating() bool {
+	return m.Ratings.IMDb != nil
+}
+
+// IMDbRatingFormatted renders the IMDb score and vote count for the
+// README, e.g. "8.0 / 10 (27,000 votes)". The rating uses one decimal
+// place to match IMDb's own display style.
+func (m *MovieInformation) IMDbRatingFormatted() string {
+	if m.Ratings.IMDb == nil {
+		return ""
+	}
+	r := m.Ratings.IMDb
+	return fmt.Sprintf("%.1f / 10 (%s votes)", r.AverageRating, formatGroupedInt(r.NumVotes))
+}
+
+// formatGroupedInt returns a comma-separated decimal representation
+// of n (e.g. 1234567 → "1,234,567"). Inlined rather than pulling
+// golang.org/x/text/message for one display helper.
+func formatGroupedInt(n int64) string {
+	s := strconv.FormatInt(n, 10)
+	neg := false
+	if len(s) > 0 && s[0] == '-' {
+		neg = true
+		s = s[1:]
+	}
+	// Insert commas from the right.
+	var b strings.Builder
+	first := len(s) % 3
+	if first == 0 {
+		first = 3
+	}
+	b.WriteString(s[:first])
+	for i := first; i < len(s); i += 3 {
+		b.WriteByte(',')
+		b.WriteString(s[i : i+3])
+	}
+	if neg {
+		return "-" + b.String()
+	}
+	return b.String()
 }
 
 // DurationHumanReadable converts the ISO-8601 duration into an

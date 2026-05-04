@@ -15,9 +15,17 @@ import (
 
 	"github.com/spf13/cobra"
 
+	"github.com/EngineeringKiosk/awesome-software-engineering-movies/imdb"
 	libIO "github.com/EngineeringKiosk/awesome-software-engineering-movies/io"
 	"github.com/EngineeringKiosk/awesome-software-engineering-movies/youtube"
 )
+
+// imdbRefreshInterval is how long an IMDb rating row is considered
+// fresh enough to keep without refetching. Anything older triggers a
+// refetch; anything younger is left alone unless --force-imdb-refresh
+// is set. 30 days lines up with the monthly enrichment workflow this
+// command is invoked from.
+const imdbRefreshInterval = 30 * 24 * time.Hour
 
 const (
 	imageFolder      = "images"
@@ -44,6 +52,7 @@ func init() {
 
 	collectMovieDataCmd.Flags().String("json-directory", "", "Directory on where to store the json files")
 	collectMovieDataCmd.Flags().String("youtube-api-key", "", "YouTube Data API v3 key (falls back to YOUTUBE_API_KEY env var)")
+	collectMovieDataCmd.Flags().Bool("force-imdb-refresh", false, "Refresh IMDb ratings for every entry with an imdbID, ignoring the 30-day cache window")
 
 	err := collectMovieDataCmd.MarkFlagRequired("json-directory")
 	if err != nil {
@@ -66,6 +75,11 @@ func cmdCollectMovieData(cmd *cobra.Command, args []string) error {
 	}
 	if apiKey == "" {
 		return fmt.Errorf("YouTube API key not provided: pass --youtube-api-key or set %s", youtubeAPIKeyEnv)
+	}
+
+	forceIMDb, err := cmd.Flags().GetBool("force-imdb-refresh")
+	if err != nil {
+		return err
 	}
 
 	ctx := context.Background()
@@ -125,6 +139,9 @@ func cmdCollectMovieData(cmd *cobra.Command, args []string) error {
 		return err
 	}
 
+	now := time.Now().UTC()
+	nowRFC3339 := now.Format(time.RFC3339)
+
 	for _, e := range entries {
 		info := e.info
 
@@ -139,7 +156,10 @@ func cmdCollectMovieData(cmd *cobra.Command, args []string) error {
 
 			views := v.ViewCount
 			info.Views.YouTube = &views
-			info.Ratings.YouTube = &YouTubeRating{LikeCount: v.LikeCount}
+			info.Ratings.YouTube = &YouTubeRating{
+				LikeCount:   v.LikeCount,
+				RefreshedAt: nowRFC3339,
+			}
 
 			// Description is YAML-overridable: only use the API value
 			// when the YAML left it empty. Same precedence as Language.
@@ -175,14 +195,103 @@ func cmdCollectMovieData(cmd *cobra.Command, args []string) error {
 				log.Printf("WARNING: thumbnail download for %s failed and no cached image exists: %v", info.VideoID, err)
 			}
 		}
+	}
 
+	// IMDb enrichment is selective: the dataset is only fetched when
+	// at least one entry needs it, so quiet runs (no IMDb data missing
+	// or stale) skip the multi-megabyte download entirely.
+	infos := make([]*MovieInformation, 0, len(entries))
+	for _, e := range entries {
+		infos = append(infos, e.info)
+	}
+	enrichWithIMDbRatings(ctx, infos, forceIMDb, now)
+
+	// One write per entry, after both enrichment passes have run.
+	// Doing this in a single loop avoids writing each file twice when
+	// IMDb data changes alongside YouTube data.
+	for _, e := range entries {
 		log.Printf("Write %s to disk ...", e.path)
-		if err := libIO.WriteJSONFile(e.path, info); err != nil {
+		if err := libIO.WriteJSONFile(e.path, e.info); err != nil {
 			return err
 		}
 	}
 
 	return nil
+}
+
+// needsIMDbRefresh reports whether the entry's IMDb rating block
+// should be (re)fetched. Pure function so the decision is unit-
+// testable in isolation from the network.
+//
+// Returns false for entries with no imdbID — those are the YouTube-
+// only majority of the catalogue and should never trigger a dataset
+// download.
+func needsIMDbRefresh(info *MovieInformation, force bool, now time.Time) bool {
+	if info.IMDbID == "" {
+		return false
+	}
+	if force {
+		return true
+	}
+	if info.Ratings.IMDb == nil {
+		return true
+	}
+	last, err := time.Parse(time.RFC3339, info.Ratings.IMDb.RefreshedAt)
+	if err != nil {
+		// Unparseable timestamp = treat as missing. Better to
+		// overshoot once than carry stale data behind a corrupt
+		// field.
+		return true
+	}
+	return now.Sub(last) > imdbRefreshInterval
+}
+
+// enrichWithIMDbRatings fills in info.Ratings.IMDb for entries whose
+// IMDb data is missing or stale. The function is best-effort:
+// download or parse failures are logged and the caller continues with
+// whatever data is already on disk, mirroring how the rest of this
+// command handles per-entry failures.
+func enrichWithIMDbRatings(ctx context.Context, infos []*MovieInformation, force bool, now time.Time) {
+	type pending struct {
+		info *MovieInformation
+		id   string
+	}
+	var todo []pending
+	for _, info := range infos {
+		if needsIMDbRefresh(info, force, now) {
+			todo = append(todo, pending{info: info, id: info.IMDbID})
+		}
+	}
+	if len(todo) == 0 {
+		log.Printf("IMDb ratings: nothing to refresh, skipping dataset download")
+		return
+	}
+
+	ids := make([]string, 0, len(todo))
+	for _, p := range todo {
+		ids = append(ids, p.id)
+	}
+	log.Printf("IMDb ratings: fetching dataset to refresh %d entr(ies)", len(todo))
+
+	ratings, err := imdb.FetchRatings(ctx, ids)
+	if err != nil {
+		log.Printf("WARNING: imdb dataset fetch failed: %v; keeping any cached IMDb ratings", err)
+		return
+	}
+
+	nowRFC3339 := now.Format(time.RFC3339)
+	for _, p := range todo {
+		r, ok := ratings[p.id]
+		if !ok {
+			log.Printf("WARNING: imdb dataset has no row for %s (%s); skipping", p.info.Name, p.id)
+			continue
+		}
+		p.info.Ratings.IMDb = &IMDbRating{
+			AverageRating: r.AverageRating,
+			NumVotes:      r.NumVotes,
+			RefreshedAt:   nowRFC3339,
+		}
+	}
 }
 
 // normalizeLanguageCodes maps normalizeLanguageCode over a slice and

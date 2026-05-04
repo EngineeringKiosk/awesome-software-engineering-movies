@@ -25,11 +25,12 @@
  },
  "ratings": {
   "youtube": {
-   "likeCount": 15202
+   "likeCount": 15203,
+   "refreshedAt": "2026-05-04T19:09:52Z"
   }
  },
  "views": {
-  "youtube": 256346
+  "youtube": 256362
  },
  "image": "images/internet-relay-chat-irc.jpg"
 }

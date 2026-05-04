@@ -25,11 +25,12 @@
  },
  "ratings": {
   "youtube": {
-   "likeCount": 23868
+   "likeCount": 23868,
+   "refreshedAt": "2026-05-04T19:09:52Z"
   }
  },
  "views": {
-  "youtube": 835057
+  "youtube": 835072
  },
  "image": "images/node-js-the-documentary.jpg"
 }

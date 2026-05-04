@@ -57,7 +57,10 @@ Out of scope for now:
 
 After merge, the next monthly run (or a manual dispatch) of
 `movie-data` enriches the JSON with title, description, duration,
-channel, view count and thumbnail from the YouTube Data API.
+channel, views, like count and thumbnail from the YouTube Data API.
+For entries that also set an `imdbID`, the same run pulls the IMDb
+rating (when missing or older than 30 days) from the public IMDb
+non-commercial dataset.
 
 ## Field reference
 
@@ -68,9 +71,10 @@ channel, view count and thumbnail from the YouTube Data API.
 | `language`    | list[string]   | no       | YAML > API      | ISO 639-1 codes (`en`, `de`, `fr`, …). If omitted, the tooling falls back to the YouTube `defaultAudioLanguage` and stores it as a single-element list. Set it manually when the API returns nothing or when the video has multiple audio languages. |
 | `description` | string         | no       | YAML > API      | Free text. If omitted, the tooling uses the video's YouTube description. Set it manually when the YouTube description is empty, full of unrelated boilerplate, or otherwise unhelpful for skim-reading the README. |
 | `tags`        | list[string]   | yes      | YAML            | Subject-matter tags. Be coarse — better to have 3–5 broad tags than 15 narrow ones. |
+| `imdbID`      | string         | no       | YAML            | IMDb tconst (e.g. `tt3268458`). Set this only when the entry is also catalogued on IMDb so the tooling can pull the IMDb rating from the public dataset. Most YouTube documentaries are not on IMDb — leave this unset for those. |
 
 The remaining JSON fields (`title`, `duration`, `publishedAt`,
-`channel`, `viewCount`, `image`, `slug`, `videoID`) are produced by
-the tooling. **Do not edit `README.md` directly** —
+`channel`, `ratings`, `views`, `image`, `slug`, `videoID`) are
+produced by the tooling. **Do not edit `README.md` directly** —
 it is overwritten on every CI run. To change rendering, update
 `assets/README.template`.

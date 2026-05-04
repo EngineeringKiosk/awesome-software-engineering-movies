@@ -25,11 +25,12 @@
  },
  "ratings": {
   "youtube": {
-   "likeCount": 3589
+   "likeCount": 3589,
+   "refreshedAt": "2026-05-04T19:09:52Z"
   }
  },
  "views": {
-  "youtube": 185655
+  "youtube": 185670
  },
  "image": "images/clojure-the-documentary.jpg"
 }
