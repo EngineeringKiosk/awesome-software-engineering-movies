@@ -4,13 +4,14 @@ A curated list of movies, documentaries and other related material to watch rela
 
 ## Table of Contents
 
-* [Movies](#movies) (21 entries)
+* [Movies](#movies) (22 entries)
   * [Angular: The Documentary](#angular-the-documentary)
   * [Clojure: The Documentary](#clojure-the-documentary)
   * [eBPF: Unlocking the Kernel](#ebpf-unlocking-the-kernel)
   * [Elixir: The Documentary](#elixir-the-documentary)
   * [Ember.js: The Documentary](#ember-js-the-documentary)
   * [GraphQL: The Documentary](#graphql-the-documentary)
+  * [Half-Life: 25th Anniversary Documentary](#half-life-25th-anniversary-documentary)
   * [Inside Envoy: The Proxy for the Future](#inside-envoy-the-proxy-for-the-future)
   * [IntelliJ IDEA: The Documentary](#intellij-idea-the-documentary)
   * [Internet Relay Chat (IRC)](#internet-relay-chat-irc)
@@ -135,6 +136,15 @@ Check out the home for untold developer stories around open source, careers and 
 * Language: en
 * Tags: API, Open Source, History
 * [Watch on YouTube](https://www.youtube.com/watch?v=783ccP__No8)
+
+----
+
+<h3 id="half-life-25th-anniversary-documentary">Half-Life: 25th Anniversary Documentary</h3>
+
+
+
+* Tags: Game Development, Valve, History
+* [Watch on YouTube](https://www.youtube.com/watch?v=TbZ3HzvFEto)
 
 ----
 
