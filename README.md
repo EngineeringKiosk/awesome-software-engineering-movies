@@ -70,7 +70,7 @@ Railway is the all-in-one intelligent cloud ...
 * Duration: ca. 1 h 6 min.
 * Language: en
 * Tags: Programming Languages, Functional Programming, Open Source, History
-* YouTube likes: 3,589
+* YouTube likes: 3,587
 * [Watch on YouTube](https://www.youtube.com/watch?v=Y24vK_QDLFg)
 
 ----
@@ -261,7 +261,7 @@ References and sources: https://docs.google.com/document/d/e/2PACX-1vQjGmdjmESDJ
 * Duration: ca. 26 min.
 * Language: en
 * Tags: Networking, Chat, Open Source, History
-* YouTube likes: 15,203
+* YouTube likes: 15,204
 * [Watch on YouTube](https://www.youtube.com/watch?v=6UbKenFipjo)
 
 ----
