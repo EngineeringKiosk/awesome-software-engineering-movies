@@ -142,6 +142,107 @@ func TestResolvePlatform(t *testing.T) {
 	}
 }
 
+func TestMergeMovieInformation_LocalizedPrecedence(t *testing.T) {
+	t.Run("YAML localized map overrides target", func(t *testing.T) {
+		yaml := &MovieInformation{
+			Name: "n", Link: "l",
+			Localized: map[string]LocalizedVersion{
+				"de": {Title: "from-yaml", Link: "yaml-link"},
+			},
+		}
+		json := &MovieInformation{
+			Name: "stale", Link: "stale",
+			Localized: map[string]LocalizedVersion{
+				"de": {Title: "stale-title", Link: "stale-link"},
+				"es": {Title: "should-be-dropped"},
+			},
+		}
+
+		got := mergeMovieInformation(yaml, json)
+		if len(got.Localized) != 1 {
+			t.Fatalf("Localized = %v; want exactly the YAML map", got.Localized)
+		}
+		if got.Localized["de"].Title != "from-yaml" || got.Localized["de"].Link != "yaml-link" {
+			t.Fatalf("Localized[de] = %+v; want from-yaml/yaml-link", got.Localized["de"])
+		}
+		if _, ok := got.Localized["es"]; ok {
+			t.Errorf("YAML omitting 'es' must drop it; map currently has it")
+		}
+	})
+
+	t.Run("empty YAML localized preserves target", func(t *testing.T) {
+		yaml := &MovieInformation{Name: "n", Link: "l"} // Localized empty
+		json := &MovieInformation{
+			Name: "stale", Link: "stale",
+			Localized: map[string]LocalizedVersion{
+				"de": {Title: "from-target"},
+			},
+		}
+
+		got := mergeMovieInformation(yaml, json)
+		if len(got.Localized) != 1 || got.Localized["de"].Title != "from-target" {
+			t.Fatalf("Localized = %v; want target preserved", got.Localized)
+		}
+	})
+}
+
+func TestValidateLocalized(t *testing.T) {
+	cases := []struct {
+		name        string
+		localized   map[string]LocalizedVersion
+		wantWarnSub string // empty = expect no warning
+	}{
+		{
+			name: "well-formed entries do not warn",
+			localized: map[string]LocalizedVersion{
+				"de": {Title: "Pythons Geschichte", Link: "https://example.com/de"},
+				"es": {Title: "La historia de Python"},
+				"fr": {Link: "https://example.com/fr"},
+			},
+		},
+		{
+			name:        "uppercase key warns",
+			localized:   map[string]LocalizedVersion{"DE": {Title: "x"}},
+			wantWarnSub: "is not a 2-letter lowercase code",
+		},
+		{
+			name:        "three-letter key warns",
+			localized:   map[string]LocalizedVersion{"deu": {Title: "x"}},
+			wantWarnSub: "is not a 2-letter lowercase code",
+		},
+		{
+			name:        "single-letter key warns",
+			localized:   map[string]LocalizedVersion{"d": {Title: "x"}},
+			wantWarnSub: "is not a 2-letter lowercase code",
+		},
+		{
+			name:        "empty entry warns",
+			localized:   map[string]LocalizedVersion{"de": {}},
+			wantWarnSub: "neither title nor link set",
+		},
+	}
+	for _, tc := range cases {
+		t.Run(tc.name, func(t *testing.T) {
+			info := &MovieInformation{Localized: tc.localized}
+
+			var buf bytes.Buffer
+			prev := log.Writer()
+			log.SetOutput(&buf)
+			defer log.SetOutput(prev)
+
+			validateLocalized(info, "test.yml")
+
+			out := buf.String()
+			switch {
+			case tc.wantWarnSub == "" && strings.Contains(out, "WARNING"):
+				t.Errorf("expected no warning, got: %s", out)
+			case tc.wantWarnSub != "" && !strings.Contains(out, tc.wantWarnSub):
+				t.Errorf("expected warning containing %q, got: %s", tc.wantWarnSub, out)
+			}
+		})
+	}
+}
+
 func TestMergeMovieInformation_PlatformPrecedence(t *testing.T) {
 	t.Run("YAML platform overrides target", func(t *testing.T) {
 		yaml := &MovieInformation{Name: "n", Link: "l", Platform: "netflix"}

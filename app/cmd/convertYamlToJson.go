@@ -119,6 +119,7 @@ func cmdConvertYamlToJson(cmd *cobra.Command, args []string) error {
 			log.Printf("WARNING: could not parse YouTube video ID from %q in %s", movieInfo.Link, absYamlFilePath)
 		}
 		resolvePlatform(movieInfo, absYamlFilePath)
+		validateLocalized(movieInfo, absYamlFilePath)
 
 		log.Printf("Write %s to disk ...", absJsonFilePath)
 		err = io.WriteJSONFile(absJsonFilePath, movieInfo)
@@ -161,8 +162,42 @@ func mergeMovieInformation(source, target *MovieInformation) *MovieInformation {
 	if len(source.Platform) > 0 {
 		target.Platform = source.Platform
 	}
+	if len(source.Localized) > 0 {
+		target.Localized = source.Localized
+	}
 	target.Tags = source.Tags
 	return target
+}
+
+// validateLocalized inspects info.Localized for the obvious
+// mistakes: a key that does not look like an ISO 639-1 code, or an
+// entry whose title and link are both empty (in which case the key
+// adds nothing to the file). Each problem is logged as a warning so
+// the maintainer notices, but the conversion proceeds — the data
+// shape is still valid YAML.
+//
+// fileLabel is the human-friendly file path for the warning text.
+func validateLocalized(info *MovieInformation, fileLabel string) {
+	for code, v := range info.Localized {
+		if !isISO639_1Like(code) {
+			log.Printf("WARNING: %s: localized language key %q is not a 2-letter lowercase code; expected ISO 639-1",
+				fileLabel, code)
+		}
+		if v.Title == "" && v.Link == "" {
+			log.Printf("WARNING: %s: localized.%s has neither title nor link set; remove the key or fill in at least one field",
+				fileLabel, code)
+		}
+	}
+}
+
+// isISO639_1Like is a cheap shape check, not a registry lookup —
+// catching typos like "DE" or "deu" matters; being authoritative
+// about which two-letter codes are real does not.
+func isISO639_1Like(s string) bool {
+	if len(s) != 2 {
+		return false
+	}
+	return s[0] >= 'a' && s[0] <= 'z' && s[1] >= 'a' && s[1] <= 'z'
 }
 
 // resolvePlatform fills in info.Platform from the link when YAML did
