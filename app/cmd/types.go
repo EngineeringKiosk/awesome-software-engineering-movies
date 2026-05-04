@@ -39,6 +39,13 @@ type MovieInformation struct {
 	// with the languages reported by the YouTube captions.list API.
 	Subtitles []string `yaml:"subtitles" json:"subtitles"`
 	Tags      []string `yaml:"tags"      json:"tags"`
+	// Localized maps ISO 639-1 codes (e.g. "de", "es") to per-language
+	// overrides. The top-level Name and Link are always the English
+	// version; entries here describe alternate-language versions of
+	// the same content (a different upload, a translated title, or
+	// both). Optional in YAML; absent for entries that only exist in
+	// one language. Map omits itself from JSON when empty.
+	Localized map[string]LocalizedVersion `yaml:"localized,omitempty" json:"localized,omitempty"`
 
 	// API-enriched fields below this line.
 	Title string `yaml:"-" json:"title"`
@@ -64,6 +71,15 @@ type MovieInformation struct {
 	// in the JSON itself.
 	Views Views  `yaml:"-" json:"views,omitzero"`
 	Image string `yaml:"-" json:"image"`
+}
+
+// LocalizedVersion holds the per-language overrides for one
+// alternate version of an entry. Both fields are individually
+// optional: maintainers fill in whichever differs from the top-level
+// English version (a translated title, a different upload, or both).
+type LocalizedVersion struct {
+	Title string `yaml:"title,omitempty" json:"title,omitempty"`
+	Link  string `yaml:"link,omitempty"  json:"link,omitempty"`
 }
 
 // YouTubeRating holds rating-like signals YouTube exposes via
