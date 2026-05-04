@@ -1,0 +1,11 @@
+name: "Indie Game: The Movie"
+link: https://www.netflix.com/title/70229918
+imdbID: tt1942884
+tags:
+  - Game Development
+  - Indie Games
+  - Software Engineering
+description: 'Go behind the scenes of the independent video game industry as this documentary follows the journey of passionate developers striving to create their own unique games. Through intimate interviews and gripping storytelling, "Indie Game: The Movie" reveals the struggles, triumphs, and sacrifices these developers make in pursuit of their dreams, offering an inspiring glimpse into the world of indie game development.'
+localized:
+  de:
+    description: Die mitreißende Dokumentation begleitet einige Entwickler von Indiegames auf ihrem mühsamen Weg von der Spielidee bis zum erhofften Durchbruch.

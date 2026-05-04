@@ -4,7 +4,7 @@ A curated list of movies, documentaries and other related material to watch rela
 
 ## Table of Contents
 
-* [Movies](#movies) (26 entries)
+* [Movies](#movies) (32 entries)
   * [Angular: The Documentary](#angular-the-documentary)
   * [Clojure: The Documentary](#clojure-the-documentary)
   * [CODE: Debugging the Gender Gap](#code-debugging-the-gender-gap)
@@ -13,19 +13,25 @@ A curated list of movies, documentaries and other related material to watch rela
   * [Ember.js: The Documentary](#ember-js-the-documentary)
   * [GraphQL: The Documentary](#graphql-the-documentary)
   * [Half-Life: 25th Anniversary Documentary](#half-life-25th-anniversary-documentary)
+  * [Indie Game: The Movie](#indie-game-the-movie)
   * [Inside Envoy: The Proxy for the Future](#inside-envoy-the-proxy-for-the-future)
   * [IntelliJ IDEA: The Documentary](#intellij-idea-the-documentary)
   * [Internet Relay Chat (IRC)](#internet-relay-chat-irc)
   * [Kubernetes: The Documentary [PART 1]](#kubernetes-the-documentary-part-1)
   * [Kubernetes: The Documentary [PART 2]](#kubernetes-the-documentary-part-2)
   * [Laravel Origins: A PHP Documentary](#laravel-origins-a-php-documentary)
+  * [Lo and Behold: Reveries of the Connected World](#lo-and-behold-reveries-of-the-connected-world)
   * [Node.js: The Documentary](#node-js-the-documentary)
   * [Prometheus: The Documentary](#prometheus-the-documentary)
   * [Python: The Documentary](#python-the-documentary)
   * [React.js: The Documentary](#react-js-the-documentary)
   * [Revolution OS](#revolution-os)
   * [Ruby on Rails: The Documentary](#ruby-on-rails-the-documentary)
+  * [Silicon Cowboys](#silicon-cowboys)
   * [Svelte Origins: A JavaScript Documentary](#svelte-origins-a-javascript-documentary)
+  * [Terms and Conditions May Apply](#terms-and-conditions-may-apply)
+  * [The Cleaners](#the-cleaners)
+  * [The Great Hack](#the-great-hack)
   * [The Internet&#39;s Own Boy: The Story of Aaron Swartz](#the-internets-own-boy-the-story-of-aaron-swartz)
   * [TypeScript Origins: The Documentary](#typescript-origins-the-documentary)
   * [VITE: The Documentary](#vite-the-documentary)
@@ -70,7 +76,7 @@ Railway is the all-in-one intelligent cloud ...
 * Duration: ca. 1 h 6 min.
 * Language: en
 * Tags: Programming Languages, Functional Programming, Open Source, History
-* YouTube likes: 3,588
+* YouTube likes: 3,589
 * [Watch on YouTube](https://www.youtube.com/watch?v=Y24vK_QDLFg)
 
 ----
@@ -189,8 +195,18 @@ Check out the Half-Life 25th Anniversary Update, restored content, new multiplay
 * Duration: ca. 1 h 5 min.
 * Language: en
 * Tags: Game Development, Valve, History
-* YouTube likes: 280,104
+* YouTube likes: 280,106
 * [Watch on YouTube](https://www.youtube.com/watch?v=TbZ3HzvFEto)
+
+----
+
+<h3 id="indie-game-the-movie">Indie Game: The Movie</h3>
+
+Go behind the scenes of the independent video game industry as this documentary follows the journey of passionate developers striving to create their own unique games. Through intimate interviews and gripping storytelling, &#34;Indie Game: The Movie&#34; reveals the struggles, triumphs, and sacrifices these developers make in pursuit of their dreams, offering an inspiring glimpse into the world of indie game development.
+
+* Tags: Game Development, Indie Games, Software Engineering
+* IMDb rating: 7.6 / 10 (21,724 votes)
+* [Watch on Netflix](https://www.netflix.com/title/70229918)
 
 ----
 
@@ -325,6 +341,21 @@ Laravel Origins was filmed in late 2021, produced by OfferZen and directed by De
 
 ----
 
+<h3 id="lo-and-behold-reveries-of-the-connected-world">Lo and Behold: Reveries of the Connected World</h3>
+
+<img align="right" width="320" src="./generated/images/lo-and-behold-reveries-of-the-connected-world.jpg" alt="Lo and Behold: Reveries of the Connected World" />
+
+Directed by Werner Herzog, this documentary explores the history, impact, and potential future of the internet. The film features interviews with pioneers of the tech industry and provides thought-provoking insights into the digital revolution.
+
+* Duration: ca. 1 h 38 min.
+* Language: en
+* Tags: Internet, History, Society
+* IMDb rating: 7.0 / 10 (13,862 votes)
+* YouTube likes: 5,700
+* [Watch on YouTube](https://www.youtube.com/watch?v=q3g3hqNJqpQ)
+
+----
+
 <h3 id="node-js-the-documentary">Node.js: The Documentary</h3>
 
 <img align="right" width="320" src="./generated/images/node-js-the-documentary.jpg" alt="Node.js: The Documentary" />
@@ -371,7 +402,7 @@ Thanks to our sponsors ...
 * Duration: ca. 1 h 24 min.
 * Language: en
 * Tags: Programming Languages, Open Source, History
-* YouTube likes: 33,460
+* YouTube likes: 33,461
 * [Watch on YouTube](https://www.youtube.com/watch?v=GfH4QL4VqJ0)
 
 ----
@@ -426,6 +457,16 @@ Get the whole spill by the people who had a front-row seat to the creation and d
 
 ----
 
+<h3 id="silicon-cowboys">Silicon Cowboys</h3>
+
+&#34;Silicon Cowboys&#34; chronicles the rise and fall of Compaq Computer Corporation, a pioneer in the early days of the personal computer industry. This engaging documentary takes viewers back to the 1980s, when a group of visionary engineers challenged the dominance of IBM and transformed the landscape of technology forever. Witness the birth, triumph, and eventual decline of one of the most influential companies in tech history.
+
+* Tags: Hardware, History, Personal Computing
+* IMDb rating: 6.9 / 10 (2,233 votes)
+* [Watch on Netflix](https://www.netflix.com/title/80104318)
+
+----
+
 <h3 id="svelte-origins-a-javascript-documentary">Svelte Origins: A JavaScript Documentary</h3>
 
 <img align="right" width="320" src="./generated/images/svelte-origins-a-javascript-documentary.jpg" alt="Svelte Origins: A JavaScript Documentary" />
@@ -443,6 +484,42 @@ Svelte Origins ...
 * Tags: Frontend, JavaScript, Open Source, History
 * YouTube likes: 6,992
 * [Watch on YouTube](https://www.youtube.com/watch?v=kMlkCYL9qo0)
+
+----
+
+<h3 id="terms-and-conditions-may-apply">Terms and Conditions May Apply</h3>
+
+<img align="right" width="320" src="./generated/images/terms-and-conditions-may-apply.jpg" alt="Terms and Conditions May Apply" />
+
+A documentary that exposes what corporations and governments learn about people through Internet and cell phone usage.
+
+* Duration: ca. 1 h 20 min.
+* Language: en
+* Tags: Privacy, Surveillance, Internet
+* IMDb rating: 7.3 / 10 (6,643 votes)
+* YouTube likes: 592
+* [Watch on YouTube](https://www.youtube.com/watch?v=hRJEYmodC08)
+
+----
+
+<h3 id="the-cleaners">The Cleaners</h3>
+
+This documentary reveals the hidden world of content moderation on social media platforms. It examines the challenges faced by those responsible for keeping the internet free from harmful content and the ethical dilemmas that arise in the process.
+
+* Tags: Content Moderation, Social Media, Ethics, Society
+* IMDb rating: 7.1 / 10 (1,929 votes)
+* [Watch on Bundeszentrale für politische Bildung](https://www.bpb.de/mediathek/video/273199/the-cleaners/)
+
+----
+
+<h3 id="the-great-hack">The Great Hack</h3>
+
+Explore how a data company named Cambridge Analytica came to symbolize the dark side of social media in the wake of the 2016 US presidential election.
+
+* Language: en, de
+* Tags: Privacy, Social Media, Politics, Data Analytics
+* IMDb rating: 7.0 / 10 (25,799 votes)
+* [Watch on Netflix](https://www.netflix.com/title/80117542)
 
 ----
 

@@ -72,8 +72,8 @@ non-commercial dataset.
 | `description` | string         | no       | YAML > API      | Free text. If omitted, the tooling uses the video's YouTube description. Set it manually when the YouTube description is empty, full of unrelated boilerplate, or otherwise unhelpful for skim-reading the README. |
 | `tags`        | list[string]   | yes      | YAML            | Subject-matter tags. Be coarse — better to have 3–5 broad tags than 15 narrow ones. |
 | `imdbID`      | string         | no       | YAML            | IMDb tconst (e.g. `tt3268458`). Set this only when the entry is also catalogued on IMDb so the tooling can pull the IMDb rating from the public dataset. Most YouTube documentaries are not on IMDb — leave this unset for those. |
-| `platform`    | string         | no       | YAML > tooling  | Slug of the source the link lives on (`youtube` today). Auto-detected from `link` when omitted; set explicitly only if you need to override the detector or your link is from a source the tooling does not yet recognise. The tooling logs a warning when an explicit platform disagrees with what the link looks like. |
-| `localized`   | map[code → object] | no   | YAML            | Per-language alternate-version overrides. Keys are ISO 639-1 codes (`de`, `es`, …). Each value supports optional `title` and `link` — provide whichever differs from the English `name`/`link` above; the English version is always the rendered default. Alternate links are not enriched (no extra YouTube/IMDb API calls); they round-trip from YAML to JSON unchanged. |
+| `platform`    | string         | no       | YAML > tooling  | Slug of the source the link lives on (`youtube`, `netflix`, `amazon_prime_video`, `bpb`). Auto-detected from `link` when omitted; set explicitly only if you need to override the detector or your link is from a source the tooling does not yet recognise. The tooling logs a warning when an explicit platform disagrees with what the link looks like. |
+| `localized`   | map[code → object] | no   | YAML            | Per-language alternate-version overrides. Keys are ISO 639-1 codes (`de`, `es`, …). Each value supports optional `title`, `link`, and `description` — provide whichever differs from the English top-level. A per-localized `platform` is autodetected from the localized `link` (same precedence rules as the top-level `platform`), so a German Amazon Prime link on a YouTube top-level entry is recorded correctly. Alternate links are not enriched (no extra YouTube/IMDb API calls); they round-trip from YAML to JSON unchanged. |
 
 The remaining JSON fields (`title`, `duration`, `publishedAt`,
 `channel`, `ratings`, `views`, `image`, `slug`, `videoID`,
@@ -83,16 +83,19 @@ If your entry has an alternate-language version, add a `localized`
 block — for example:
 
 ```yaml
-name: "Python: The Documentary"
-link: https://www.youtube.com/watch?v=GfH4QL4VqJ0
-tags: [Programming Languages, Open Source, History]
+name: "Lo and Behold: Reveries of the Connected World"
+link: https://www.youtube.com/watch?v=q3g3hqNJqpQ
+tags: [Internet, History, Society]
 localized:
   de:
-    title: Pythons Geschichte
-    link: https://www.youtube.com/watch?v=...
-  es:
-    title: La historia de Python
+    title: Wovon träumt das Internet?
+    link: https://www.amazon.de/gp/video/detail/B0FVCKCM81/
+    description: Die Dokumentation beleuchtet die Evolution des Internets ...
 ```
+
+Note that the German version above lives on a different platform
+(`amazon_prime_video`) than the English top-level (`youtube`) — the
+tooling autodetects each.
 
 **Do not edit `README.md` directly** —
 it is overwritten on every CI run. To change rendering, update

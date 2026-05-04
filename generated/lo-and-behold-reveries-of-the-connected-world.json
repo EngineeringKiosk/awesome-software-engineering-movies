@@ -1,0 +1,48 @@
+{
+ "name": "Lo and Behold: Reveries of the Connected World",
+ "slug": "lo-and-behold-reveries-of-the-connected-world",
+ "link": "https://www.youtube.com/watch?v=q3g3hqNJqpQ",
+ "videoID": "q3g3hqNJqpQ",
+ "platform": "youtube",
+ "language": [
+  "en"
+ ],
+ "subtitles": null,
+ "tags": [
+  "Internet",
+  "History",
+  "Society"
+ ],
+ "localized": {
+  "de": {
+   "title": "Wovon träumt das Internet?",
+   "link": "https://www.amazon.de/gp/video/detail/B0FVCKCM81/",
+   "description": "Die Dokumentation beleuchtet die Evolution des Internets und den Einfluss der weltweiten Vernetzung auf den Alltag. Werner Herzog spricht mit Hackern und Computerexperten - aber auch mit Menschen, die dem Internet den Rücken gekehrt haben.",
+   "platform": "amazon_prime_video"
+  }
+ },
+ "title": "Lo and Behold, Reveries of the Connected World",
+ "description": "Directed by Werner Herzog, this documentary explores the history, impact, and potential future of the internet. The film features interviews with pioneers of the tech industry and provides thought-provoking insights into the digital revolution.",
+ "imdbID": "tt5275828",
+ "duration": "PT1H38M4S",
+ "publishedAt": "2020-06-19T07:00:06Z",
+ "channel": {
+  "id": "UCuVPpxrm2VAgpH3Ktln4HXg",
+  "title": "YouTube Movies"
+ },
+ "ratings": {
+  "youtube": {
+   "likeCount": 5700,
+   "refreshedAt": "2026-05-04T20:54:53Z"
+  },
+  "imdb": {
+   "averageRating": 7,
+   "numVotes": 13862,
+   "refreshedAt": "2026-05-04T20:54:53Z"
+  }
+ },
+ "views": {
+  "youtube": 0
+ },
+ "image": "images/lo-and-behold-reveries-of-the-connected-world.jpg"
+}

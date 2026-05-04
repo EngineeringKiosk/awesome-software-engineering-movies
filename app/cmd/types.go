@@ -74,12 +74,20 @@ type MovieInformation struct {
 }
 
 // LocalizedVersion holds the per-language overrides for one
-// alternate version of an entry. Both fields are individually
+// alternate version of an entry. All fields are individually
 // optional: maintainers fill in whichever differs from the top-level
-// English version (a translated title, a different upload, or both).
+// English version (a translated title, a translated description, a
+// different upload, or any combination).
 type LocalizedVersion struct {
-	Title string `yaml:"title,omitempty" json:"title,omitempty"`
-	Link  string `yaml:"link,omitempty"  json:"link,omitempty"`
+	Title       string `yaml:"title,omitempty"       json:"title,omitempty"`
+	Link        string `yaml:"link,omitempty"        json:"link,omitempty"`
+	Description string `yaml:"description,omitempty" json:"description,omitempty"`
+	// Platform is autodetected from Link by convertYamlToJson when
+	// empty, with the same precedence rules as MovieInformation.Platform:
+	// YAML wins when set; the resolver warns on disagreement. Stays
+	// empty for description-only or title-only overrides because
+	// there is no link to detect against.
+	Platform string `yaml:"platform,omitempty" json:"platform,omitempty"`
 }
 
 // YouTubeRating holds rating-like signals YouTube exposes via

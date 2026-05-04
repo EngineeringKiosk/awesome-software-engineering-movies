@@ -1,0 +1,37 @@
+{
+ "name": "The Cleaners",
+ "slug": "the-cleaners",
+ "link": "https://www.bpb.de/mediathek/video/273199/the-cleaners/",
+ "videoID": "",
+ "platform": "bpb",
+ "language": null,
+ "subtitles": null,
+ "tags": [
+  "Content Moderation",
+  "Social Media",
+  "Ethics",
+  "Society"
+ ],
+ "localized": {
+  "de": {
+   "description": "Tausende externe Mitarbeiter sichten für Facebook, Youtube, Twitter und weitere Social Media Angebote Fotos und Videos. Der Film erzählt von ihrer belastenden Arbeit, bei der sie im Sekundentakt über das Löschen oder Veröffentlichen entscheiden. Die Kriterien und Vorgaben dieser Arbeit sind eines der am besten geschützten Geheimnisse der Internet Giganten. Wer kontrolliert, was wir sehen und was wir denken?"
+  }
+ },
+ "title": "",
+ "description": "This documentary reveals the hidden world of content moderation on social media platforms. It examines the challenges faced by those responsible for keeping the internet free from harmful content and the ethical dilemmas that arise in the process.",
+ "imdbID": "tt7689936",
+ "duration": "",
+ "publishedAt": "",
+ "channel": {
+  "id": "",
+  "title": ""
+ },
+ "ratings": {
+  "imdb": {
+   "averageRating": 7.1,
+   "numVotes": 1929,
+   "refreshedAt": "2026-05-04T20:54:53Z"
+  }
+ },
+ "image": ""
+}

@@ -17,6 +17,7 @@ import (
 
 	"github.com/EngineeringKiosk/awesome-software-engineering-movies/imdb"
 	libIO "github.com/EngineeringKiosk/awesome-software-engineering-movies/io"
+	"github.com/EngineeringKiosk/awesome-software-engineering-movies/platform"
 	"github.com/EngineeringKiosk/awesome-software-engineering-movies/youtube"
 )
 
@@ -110,6 +111,14 @@ func cmdCollectMovieData(cmd *cobra.Command, args []string) error {
 			return fmt.Errorf("unmarshal %s: %w", absJsonFilePath, err)
 		}
 		entries = append(entries, entry{path: absJsonFilePath, info: info})
+		// YouTube enrichment runs only on YouTube entries. Other
+		// platforms (Netflix, Amazon Prime Video, bpb, …) do not have
+		// a YouTube video ID by construction; the missing-videoID
+		// warning is a maintainer signal for YouTube entries that
+		// genuinely failed extraction.
+		if info.Platform != platform.YouTube {
+			continue
+		}
 		if info.VideoID != "" {
 			ids = append(ids, info.VideoID)
 		} else {
@@ -144,6 +153,14 @@ func cmdCollectMovieData(cmd *cobra.Command, args []string) error {
 
 	for _, e := range entries {
 		info := e.info
+
+		// Mirror the gate from the ID-collection loop above: only
+		// YouTube entries go through the YouTube enrichment branch
+		// at all. Other platforms keep their existing cached values
+		// (which the IMDb pass below may still update independently).
+		if info.Platform != platform.YouTube {
+			continue
+		}
 
 		v, ok := byID[info.VideoID]
 		if !ok {
