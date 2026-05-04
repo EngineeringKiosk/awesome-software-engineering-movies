@@ -114,14 +114,21 @@ func cmdConvertYamlToJson(cmd *cobra.Command, args []string) error {
 
 		// Generated fields
 		movieInfo.Slug = slug.Make(movieInfo.Name)
-		if id, ok := youtube.ParseVideoID(movieInfo.Link); ok {
-			movieInfo.VideoID = id
-		} else {
-			log.Printf("WARNING: could not parse YouTube video ID from %q in %s", movieInfo.Link, absYamlFilePath)
-		}
 		resolvePlatform(movieInfo, absYamlFilePath)
 		resolveLocalizedPlatforms(movieInfo, absYamlFilePath)
 		validateLocalized(movieInfo, absYamlFilePath)
+
+		// VideoID is YouTube-specific. Skip the parse (and its
+		// failure warning) entirely for entries on other platforms;
+		// the warning would otherwise fire on every Netflix / Amazon /
+		// bpb entry on every run.
+		if movieInfo.Platform == platform.YouTube {
+			if id, ok := youtube.ParseVideoID(movieInfo.Link); ok {
+				movieInfo.VideoID = id
+			} else {
+				log.Printf("WARNING: could not parse YouTube video ID from %q in %s", movieInfo.Link, absYamlFilePath)
+			}
+		}
 
 		log.Printf("Write %s to disk ...", absJsonFilePath)
 		err = io.WriteJSONFile(absJsonFilePath, movieInfo)
