@@ -25,6 +25,10 @@ A curated list of movies, documentaries and other related material to watch rela
 {{ end -}}
 {{ if $movie.Tags }}* Tags: {{ $movie.TagsAsList }}
 {{ end -}}
+{{ if $movie.HasIMDbRating }}* IMDb rating: {{ $movie.IMDbRatingFormatted }}
+{{ end -}}
+{{ if $movie.HasYouTubeLikes }}* YouTube likes: {{ $movie.YouTubeLikeCountFormatted }}
+{{ end -}}
 * [Watch on YouTube]({{ $movie.Link }})
 
 ----

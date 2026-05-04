@@ -2,6 +2,7 @@ package cmd
 
 import (
 	"fmt"
+	"strconv"
 	"strings"
 	"time"
 
@@ -110,6 +111,66 @@ func (m *MovieInformation) LanguagesAsList() string {
 // SubtitlesAsList returns the subtitle codes joined with ", ".
 func (m *MovieInformation) SubtitlesAsList() string {
 	return strings.Join(m.Subtitles, ", ")
+}
+
+// HasYouTubeLikes reports whether the YouTube rating block is
+// populated. Templates use this to avoid emitting a "YouTube likes"
+// line for entries that haven't been enriched yet.
+func (m *MovieInformation) HasYouTubeLikes() bool {
+	return m.Ratings.YouTube != nil
+}
+
+// YouTubeLikeCountFormatted renders the YouTube like count with
+// thousands separators, e.g. "33,455". Returns "" when the rating
+// block is absent so a careless template still produces clean output.
+func (m *MovieInformation) YouTubeLikeCountFormatted() string {
+	if m.Ratings.YouTube == nil {
+		return ""
+	}
+	return formatGroupedInt(m.Ratings.YouTube.LikeCount)
+}
+
+// HasIMDbRating reports whether the IMDb rating block is populated.
+func (m *MovieInformation) HasIMDbRating() bool {
+	return m.Ratings.IMDb != nil
+}
+
+// IMDbRatingFormatted renders the IMDb score and vote count for the
+// README, e.g. "8.0 / 10 (27,000 votes)". The rating uses one decimal
+// place to match IMDb's own display style.
+func (m *MovieInformation) IMDbRatingFormatted() string {
+	if m.Ratings.IMDb == nil {
+		return ""
+	}
+	r := m.Ratings.IMDb
+	return fmt.Sprintf("%.1f / 10 (%s votes)", r.AverageRating, formatGroupedInt(r.NumVotes))
+}
+
+// formatGroupedInt returns a comma-separated decimal representation
+// of n (e.g. 1234567 → "1,234,567"). Inlined rather than pulling
+// golang.org/x/text/message for one display helper.
+func formatGroupedInt(n int64) string {
+	s := strconv.FormatInt(n, 10)
+	neg := false
+	if len(s) > 0 && s[0] == '-' {
+		neg = true
+		s = s[1:]
+	}
+	// Insert commas from the right.
+	var b strings.Builder
+	first := len(s) % 3
+	if first == 0 {
+		first = 3
+	}
+	b.WriteString(s[:first])
+	for i := first; i < len(s); i += 3 {
+		b.WriteByte(',')
+		b.WriteString(s[i : i+3])
+	}
+	if neg {
+		return "-" + b.String()
+	}
+	return b.String()
 }
 
 // DurationHumanReadable converts the ISO-8601 duration into an

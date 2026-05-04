@@ -49,6 +49,56 @@ func TestTagsAsList(t *testing.T) {
 	}
 }
 
+func TestFormatGroupedInt(t *testing.T) {
+	cases := map[int64]string{
+		0:        "0",
+		7:        "7",
+		42:       "42",
+		999:      "999",
+		1000:     "1,000",
+		33455:    "33,455",
+		1078731:  "1,078,731",
+		-1234567: "-1,234,567",
+	}
+	for in, want := range cases {
+		if got := formatGroupedInt(in); got != want {
+			t.Errorf("formatGroupedInt(%d) = %q; want %q", in, got, want)
+		}
+	}
+}
+
+func TestRatingHelpers(t *testing.T) {
+	t.Run("no ratings", func(t *testing.T) {
+		m := &MovieInformation{}
+		if m.HasYouTubeLikes() || m.HasIMDbRating() {
+			t.Fatal("empty ratings should report Has...=false")
+		}
+		if m.YouTubeLikeCountFormatted() != "" || m.IMDbRatingFormatted() != "" {
+			t.Fatal("empty ratings should format to \"\"")
+		}
+	})
+
+	t.Run("youtube only", func(t *testing.T) {
+		m := &MovieInformation{Ratings: Ratings{YouTube: &YouTubeRating{LikeCount: 33455}}}
+		if !m.HasYouTubeLikes() || m.HasIMDbRating() {
+			t.Fatal("youtube-only ratings predicate wrong")
+		}
+		if got, want := m.YouTubeLikeCountFormatted(), "33,455"; got != want {
+			t.Errorf("YouTubeLikeCountFormatted = %q; want %q", got, want)
+		}
+	})
+
+	t.Run("imdb only", func(t *testing.T) {
+		m := &MovieInformation{Ratings: Ratings{IMDb: &IMDbRating{AverageRating: 8.0, NumVotes: 27000}}}
+		if !m.HasIMDbRating() {
+			t.Fatal("HasIMDbRating should be true")
+		}
+		if got, want := m.IMDbRatingFormatted(), "8.0 / 10 (27,000 votes)"; got != want {
+			t.Errorf("IMDbRatingFormatted = %q; want %q", got, want)
+		}
+	})
+}
+
 func TestNormalizeLanguageCode(t *testing.T) {
 	cases := map[string]string{
 		"en":      "en",
