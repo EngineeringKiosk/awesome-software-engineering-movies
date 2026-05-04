@@ -6,6 +6,34 @@
  "language": [
   "en"
  ],
+ "subtitles": [
+  "en",
+  "sv",
+  "hu",
+  "de",
+  "es",
+  "pl",
+  "ru",
+  "da",
+  "tr",
+  "ja",
+  "pt",
+  "nl",
+  "id",
+  "uk",
+  "bg",
+  "ko",
+  "fr",
+  "fi",
+  "vi",
+  "zh",
+  "ro",
+  "it",
+  "cs",
+  "th",
+  "el",
+  "no"
+ ],
  "tags": [
   "Game Development",
   "Valve",
@@ -19,6 +47,6 @@
   "id": "UCg0FSqPeiGD_lIiPaaAehQg",
   "title": "Valve"
  },
- "viewCount": 7853830,
+ "viewCount": 7853843,
  "image": "images/half-life-25th-anniversary-documentary.jpg"
 }

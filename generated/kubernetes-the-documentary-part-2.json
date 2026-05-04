@@ -6,6 +6,13 @@
  "language": [
   "en"
  ],
+ "subtitles": [
+  "zh",
+  "en",
+  "de",
+  "es",
+  "ru"
+ ],
  "tags": [
   "Cloud Native",
   "Orchestration",
@@ -20,6 +27,6 @@
   "id": "UCsUalyRg43M8D60mtHe6YcA",
   "title": "CultRepo "
  },
- "viewCount": 225256,
+ "viewCount": 225252,
  "image": "images/kubernetes-the-documentary-part-2.jpg"
 }

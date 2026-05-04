@@ -6,6 +6,9 @@
  "language": [
   "en"
  ],
+ "subtitles": [
+  "en"
+ ],
  "tags": [
   "Developer Tools",
   "IDE",
@@ -20,6 +23,6 @@
   "id": "UCsUalyRg43M8D60mtHe6YcA",
   "title": "CultRepo "
  },
- "viewCount": 42369,
+ "viewCount": 42368,
  "image": "images/intellij-idea-the-documentary.jpg"
 }

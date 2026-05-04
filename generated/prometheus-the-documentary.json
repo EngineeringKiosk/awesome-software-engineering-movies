@@ -6,6 +6,11 @@
  "language": [
   "en"
  ],
+ "subtitles": [
+  "ru",
+  "en",
+  "zh"
+ ],
  "tags": [
   "Observability",
   "Monitoring",

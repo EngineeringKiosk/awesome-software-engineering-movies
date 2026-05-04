@@ -6,6 +6,9 @@
  "language": [
   "en"
  ],
+ "subtitles": [
+  "en"
+ ],
  "tags": [
   "Frontend",
   "JavaScript",
@@ -20,6 +23,6 @@
   "id": "UCDstQZHA9T8-ZP046R0KEXA",
   "title": "OfferZen Origins"
  },
- "viewCount": 211147,
+ "viewCount": 211148,
  "image": "images/svelte-origins-a-javascript-documentary.jpg"
 }

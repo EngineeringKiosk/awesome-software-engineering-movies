@@ -6,6 +6,11 @@
  "language": [
   "en"
  ],
+ "subtitles": [
+  "pt",
+  "vi",
+  "en"
+ ],
  "tags": [
   "Frontend",
   "JavaScript",

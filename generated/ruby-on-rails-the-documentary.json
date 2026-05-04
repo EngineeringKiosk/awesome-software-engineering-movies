@@ -6,6 +6,11 @@
  "language": [
   "en"
  ],
+ "subtitles": [
+  "es",
+  "de",
+  "en"
+ ],
  "tags": [
   "Web Frameworks",
   "Ruby",
@@ -20,6 +25,6 @@
   "id": "UCsUalyRg43M8D60mtHe6YcA",
   "title": "CultRepo "
  },
- "viewCount": 319671,
+ "viewCount": 319672,
  "image": "images/ruby-on-rails-the-documentary.jpg"
 }

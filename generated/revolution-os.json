@@ -6,6 +6,28 @@
  "language": [
   "en"
  ],
+ "subtitles": [
+  "sl",
+  "bg",
+  "es",
+  "ru",
+  "cs",
+  "el",
+  "bn",
+  "zh",
+  "ar",
+  "de",
+  "mk",
+  "pt",
+  "fr",
+  "tr",
+  "sr",
+  "ro",
+  "hr",
+  "en",
+  "pl",
+  "hu"
+ ],
  "tags": [
   "GNU/Linux",
   "Open Source",

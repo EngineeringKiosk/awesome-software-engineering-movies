@@ -6,6 +6,14 @@
  "language": [
   "en"
  ],
+ "subtitles": [
+  "es",
+  "zh",
+  "pt",
+  "vi",
+  "en",
+  "ja"
+ ],
  "tags": [
   "API",
   "Open Source",

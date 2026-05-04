@@ -6,6 +6,10 @@
  "language": [
   "en"
  ],
+ "subtitles": [
+  "en",
+  "pt"
+ ],
  "tags": [
   "Programming Languages",
   "Functional Programming",
@@ -20,6 +24,6 @@
   "id": "UCsUalyRg43M8D60mtHe6YcA",
   "title": "CultRepo "
  },
- "viewCount": 261669,
+ "viewCount": 261672,
  "image": "images/elixir-the-documentary.jpg"
 }

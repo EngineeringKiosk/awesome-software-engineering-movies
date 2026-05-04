@@ -6,6 +6,9 @@
  "language": [
   "en"
  ],
+ "subtitles": [
+  "en"
+ ],
  "tags": [
   "Programming Languages",
   "JavaScript",
@@ -20,6 +23,6 @@
   "id": "UCDstQZHA9T8-ZP046R0KEXA",
   "title": "OfferZen Origins"
  },
- "viewCount": 348014,
+ "viewCount": 348013,
  "image": "images/typescript-origins-the-documentary.jpg"
 }
