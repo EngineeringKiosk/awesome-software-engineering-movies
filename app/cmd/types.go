@@ -39,6 +39,11 @@ type MovieInformation struct {
 	// API's snippet.description is used. Same precedence rule as
 	// Language.
 	Description string          `yaml:"description,omitempty" json:"description"`
+	// IMDbID is the IMDb tconst (e.g. "tt3268458"). Optional in YAML
+	// and only set for entries that are also catalogued on IMDb.
+	// Drives the IMDb rating lookup in collectMovieData; entries
+	// without it never trigger an IMDb dataset download.
+	IMDbID      string          `yaml:"imdbID,omitempty"      json:"imdbID,omitempty"`
 	Duration    string          `yaml:"-"                     json:"duration"` // ISO-8601, e.g. PT43M22S
 	PublishedAt string          `yaml:"-" json:"publishedAt"`
 	Channel     youtube.Channel `yaml:"-" json:"channel"`
@@ -59,6 +64,23 @@ type MovieInformation struct {
 // signal worth recording.
 type YouTubeRating struct {
 	LikeCount int64 `json:"likeCount"`
+	// RefreshedAt is the RFC3339 UTC timestamp the value was last
+	// written from the YouTube Data API. Informational; YouTube data
+	// is refreshed on every collectMovieData run, so it always trails
+	// the most recent run by at most a few seconds.
+	RefreshedAt string `json:"refreshedAt"`
+}
+
+// IMDbRating holds the rating signals IMDb exposes through its
+// public non-commercial ratings dataset (title.ratings.tsv.gz). Only
+// the two columns that aren't the tconst are persisted.
+type IMDbRating struct {
+	AverageRating float64 `json:"averageRating"`
+	NumVotes      int64   `json:"numVotes"`
+	// RefreshedAt is the RFC3339 UTC timestamp the dataset row was
+	// last copied into this file. Drives the staleness check in
+	// collectMovieData: entries older than 30 days trigger a refetch.
+	RefreshedAt string `json:"refreshedAt"`
 }
 
 // Ratings is the per-source rating container. Keys are omitted when
@@ -66,6 +88,7 @@ type YouTubeRating struct {
 // doubles as a source-attribution marker.
 type Ratings struct {
 	YouTube *YouTubeRating `json:"youtube,omitempty"`
+	IMDb    *IMDbRating    `json:"imdb,omitempty"`
 }
 
 // Views is the per-source view-count container. Same omitempty
