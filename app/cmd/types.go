@@ -21,8 +21,12 @@ type MovieInformation struct {
 	Slug string `yaml:"-" json:"slug"`
 
 	Link string `yaml:"link" json:"link"`
-	// VideoID is parsed from Link by convertYamlToJson.
-	VideoID string `yaml:"-" json:"videoID"`
+	// VideoID is YouTube-specific and lives only as a runtime field:
+	// not persisted to JSON, not curated in YAML. collectMovieData
+	// derives it from Link on load via youtube.ParseVideoID and uses
+	// it for the videos.list API call, the response→entry join, and
+	// the thumbnail URL. Other platforms leave it empty.
+	VideoID string `yaml:"-" json:"-"`
 	// Platform identifies which source the link lives on (e.g.
 	// "youtube"). Optional in YAML — convertYamlToJson auto-fills it
 	// from the link via the platform package when omitted. The YAML
