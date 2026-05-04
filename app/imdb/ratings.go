@@ -164,4 +164,3 @@ func splitRatingRow(line string) (tconst string, rating float64, votes int64, ok
 	}
 	return tconst, r, v, true
 }
-

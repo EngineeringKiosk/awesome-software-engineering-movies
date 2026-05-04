@@ -39,7 +39,7 @@ type MovieInformation struct {
 	// overrides whatever the YouTube API returns; if omitted, the
 	// API's snippet.description is used. Same precedence rule as
 	// Language.
-	Description string          `yaml:"description,omitempty" json:"description"`
+	Description string `yaml:"description,omitempty" json:"description"`
 	// IMDbID is the IMDb tconst (e.g. "tt3268458"). Optional in YAML
 	// and only set for entries that are also catalogued on IMDb.
 	// Drives the IMDb rating lookup in collectMovieData; entries
