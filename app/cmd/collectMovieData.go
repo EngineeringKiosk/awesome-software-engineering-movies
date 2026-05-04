@@ -113,16 +113,19 @@ func cmdCollectMovieData(cmd *cobra.Command, args []string) error {
 		entries = append(entries, entry{path: absJsonFilePath, info: info})
 		// YouTube enrichment runs only on YouTube entries. Other
 		// platforms (Netflix, Amazon Prime Video, bpb, …) do not have
-		// a YouTube video ID by construction; the missing-videoID
-		// warning is a maintainer signal for YouTube entries that
-		// genuinely failed extraction.
+		// a YouTube video ID by construction.
 		if info.Platform != platform.YouTube {
 			continue
 		}
-		if info.VideoID != "" {
-			ids = append(ids, info.VideoID)
+		// VideoID is not persisted in JSON; derive it from Link on
+		// load. The parse-failure warning fires here, where the
+		// failure actually matters (we are about to ask the API for
+		// it).
+		if id, ok := youtube.ParseVideoID(info.Link); ok {
+			info.VideoID = id
+			ids = append(ids, id)
 		} else {
-			log.Printf("WARNING: %s has no videoID; skipping API enrichment", absJsonFilePath)
+			log.Printf("WARNING: could not parse YouTube video ID from %q in %s", info.Link, absJsonFilePath)
 		}
 	}
 
