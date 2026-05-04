@@ -26,7 +26,11 @@ type MovieInformation struct {
 	// Curated by hand because the YouTube API does not reliably expose
 	// the audio language of a video.
 	Language []string `yaml:"language" json:"language"`
-	Tags     []string `yaml:"tags"     json:"tags"`
+	// Subtitles is a list of ISO 639-1 codes for the subtitle/caption
+	// tracks the video is available with. Curated in YAML and unioned
+	// with the languages reported by the YouTube captions.list API.
+	Subtitles []string `yaml:"subtitles" json:"subtitles"`
+	Tags      []string `yaml:"tags"      json:"tags"`
 
 	// API-enriched fields below this line.
 	Title string `yaml:"-" json:"title"`
@@ -50,6 +54,11 @@ func (m *MovieInformation) TagsAsList() string {
 // LanguagesAsList returns the language codes joined with ", ".
 func (m *MovieInformation) LanguagesAsList() string {
 	return strings.Join(m.Language, ", ")
+}
+
+// SubtitlesAsList returns the subtitle codes joined with ", ".
+func (m *MovieInformation) SubtitlesAsList() string {
+	return strings.Join(m.Subtitles, ", ")
 }
 
 // DurationHumanReadable converts the ISO-8601 duration into an

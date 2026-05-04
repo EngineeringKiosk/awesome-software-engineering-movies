@@ -135,16 +135,20 @@ func cmdConvertYamlToJson(cmd *cobra.Command, args []string) error {
 // fields already present in target. If the YAML schema gains new
 // curated fields, they must be added here as well.
 //
-// Language and Description are special: both are optional in YAML.
-// If the YAML omits them we keep whatever target already has (which
-// may be a value previously derived from the YouTube API in
+// Language, Subtitles and Description are special: all are optional
+// in YAML. If the YAML omits them we keep whatever target already has
+// (which may be a value previously derived from the YouTube API in
 // collectMovieData), so the YAML acts as an override rather than a
-// forced reset.
+// forced reset. The union with API-supplied codes is performed later
+// in collectMovieData; here we only handle the YAML-vs-cached merge.
 func mergeMovieInformation(source, target *MovieInformation) *MovieInformation {
 	target.Name = source.Name
 	target.Link = source.Link
 	if len(source.Language) > 0 {
 		target.Language = source.Language
+	}
+	if len(source.Subtitles) > 0 {
+		target.Subtitles = source.Subtitles
 	}
 	if len(source.Description) > 0 {
 		target.Description = source.Description

@@ -3,6 +3,7 @@ package youtube
 import (
 	"context"
 	"fmt"
+	"log"
 
 	youtubeapi "google.golang.org/api/youtube/v3"
 )
@@ -30,6 +31,10 @@ type Video struct {
 	// optional field on the YouTube upload form, especially missing
 	// on older videos.
 	DefaultAudioLanguage string
+	// Subtitles is the deduplicated list of caption-track languages
+	// reported by captions.list, as raw BCP-47 tags. Normalization to
+	// ISO 639-1 happens in the caller.
+	Subtitles []string
 }
 
 // videosListMaxIDs is the YouTube API hard limit for videos.list IDs
@@ -79,10 +84,52 @@ func (c *Client) GetVideoDetails(ctx context.Context, ids []string) ([]Video, er
 			if item.Statistics != nil {
 				v.ViewCount = int64(item.Statistics.ViewCount)
 			}
+
+			// captions.list has no batch form — one call per video. At
+			// 50 quota units each it is the heaviest part of this
+			// command, but the curated movie list is small enough that
+			// the total quota stays well within the daily budget.
+			subs, err := c.GetCaptionLanguages(ctx, v.ID)
+			if err != nil {
+				log.Printf("WARNING: youtube: captions.list for %s failed: %v; leaving subtitles empty", v.ID, err)
+			} else {
+				v.Subtitles = subs
+			}
+
 			out = append(out, v)
 		}
 	}
 
+	return out, nil
+}
+
+// GetCaptionLanguages returns the deduplicated set of language codes
+// (raw BCP-47 tags) for the caption tracks attached to a video. Empty
+// slice when the video has no captions. Auto-generated tracks are
+// included — they appear in the API response just like uploaded
+// tracks.
+func (c *Client) GetCaptionLanguages(ctx context.Context, videoID string) ([]string, error) {
+	resp, err := c.svc.Captions.List([]string{"snippet"}, videoID).Context(ctx).Do()
+	if err != nil {
+		return nil, fmt.Errorf("youtube: captions.list: %w", err)
+	}
+
+	seen := make(map[string]struct{}, len(resp.Items))
+	var out []string
+	for _, item := range resp.Items {
+		if item == nil || item.Snippet == nil {
+			continue
+		}
+		lang := item.Snippet.Language
+		if lang == "" {
+			continue
+		}
+		if _, dup := seen[lang]; dup {
+			continue
+		}
+		seen[lang] = struct{}{}
+		out = append(out, lang)
+	}
 	return out, nil
 }
 

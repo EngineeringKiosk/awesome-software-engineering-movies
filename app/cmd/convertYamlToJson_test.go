@@ -2,9 +2,9 @@ package cmd
 
 import "testing"
 
-// mergeMovieInformation has two override-only fields (Language,
-// Description) whose YAML > API precedence is easy to break by
-// accident on schema changes. These tests pin the contract.
+// mergeMovieInformation has three override-only fields (Language,
+// Subtitles, Description) whose YAML > API precedence is easy to
+// break by accident on schema changes. These tests pin the contract.
 
 func TestMergeMovieInformation_DescriptionPrecedence(t *testing.T) {
 	t.Run("YAML description overrides target", func(t *testing.T) {
@@ -46,6 +46,28 @@ func TestMergeMovieInformation_LanguagePrecedence(t *testing.T) {
 		got := mergeMovieInformation(yaml, json)
 		if len(got.Language) != 1 || got.Language[0] != "en" {
 			t.Fatalf("Language = %v; want [en] (target preserved)", got.Language)
+		}
+	})
+}
+
+func TestMergeMovieInformation_SubtitlesPrecedence(t *testing.T) {
+	t.Run("YAML subtitles override target", func(t *testing.T) {
+		yaml := &MovieInformation{Name: "n", Link: "l", Subtitles: []string{"de"}}
+		json := &MovieInformation{Name: "stale", Link: "stale", Subtitles: []string{"en", "fr"}}
+
+		got := mergeMovieInformation(yaml, json)
+		if len(got.Subtitles) != 1 || got.Subtitles[0] != "de" {
+			t.Fatalf("Subtitles = %v; want [de]", got.Subtitles)
+		}
+	})
+
+	t.Run("empty YAML subtitles preserves target", func(t *testing.T) {
+		yaml := &MovieInformation{Name: "n", Link: "l"} // Subtitles empty
+		json := &MovieInformation{Name: "stale", Link: "stale", Subtitles: []string{"en", "de"}}
+
+		got := mergeMovieInformation(yaml, json)
+		if len(got.Subtitles) != 2 || got.Subtitles[0] != "en" || got.Subtitles[1] != "de" {
+			t.Fatalf("Subtitles = %v; want [en de] (target preserved)", got.Subtitles)
 		}
 	})
 }

@@ -144,15 +144,21 @@ func cmdCollectMovieData(cmd *cobra.Command, args []string) error {
 				info.Description = v.Description
 			}
 
-			// Language is YAML-overridable: only fall back to the
-			// API-declared audio language when the YAML left it empty.
-			if len(info.Language) == 0 {
-				if code := normalizeLanguageCode(v.DefaultAudioLanguage); code != "" {
-					info.Language = []string{code}
-				} else {
-					log.Printf("WARNING: %s has no language in YAML and YouTube did not return defaultAudioLanguage; leaving empty", info.Name)
-				}
+			// Language is YAML-curated and unioned with the API's
+			// defaultAudioLanguage: YAML order is preserved, the API
+			// code is appended only if not already present.
+			var apiLang []string
+			if code := normalizeLanguageCode(v.DefaultAudioLanguage); code != "" {
+				apiLang = []string{code}
 			}
+			info.Language = mergeLanguageCodes(info.Language, apiLang)
+			if len(info.Language) == 0 {
+				log.Printf("WARNING: %s has no language in YAML and YouTube did not return defaultAudioLanguage; leaving empty", info.Name)
+			}
+
+			// Subtitles follow the same union rule against the
+			// captions.list result.
+			info.Subtitles = mergeLanguageCodes(info.Subtitles, normalizeLanguageCodes(v.Subtitles))
 		}
 
 		if info.VideoID != "" {
@@ -174,6 +180,45 @@ func cmdCollectMovieData(cmd *cobra.Command, args []string) error {
 	}
 
 	return nil
+}
+
+// normalizeLanguageCodes maps normalizeLanguageCode over a slice and
+// drops empties. It does not deduplicate — that is mergeLanguageCodes'
+// job, which keeps the dedupe logic in one place.
+func normalizeLanguageCodes(tags []string) []string {
+	if len(tags) == 0 {
+		return nil
+	}
+	out := make([]string, 0, len(tags))
+	for _, t := range tags {
+		if c := normalizeLanguageCode(t); c != "" {
+			out = append(out, c)
+		}
+	}
+	return out
+}
+
+// mergeLanguageCodes returns the union of yamlCodes and apiCodes,
+// preserving yamlCodes order first, then appending any apiCodes
+// not already present. Both inputs are normalized via
+// normalizeLanguageCode; empty results are dropped.
+func mergeLanguageCodes(yamlCodes, apiCodes []string) []string {
+	seen := make(map[string]struct{}, len(yamlCodes)+len(apiCodes))
+	var out []string
+	for _, list := range [][]string{yamlCodes, apiCodes} {
+		for _, raw := range list {
+			c := normalizeLanguageCode(raw)
+			if c == "" {
+				continue
+			}
+			if _, dup := seen[c]; dup {
+				continue
+			}
+			seen[c] = struct{}{}
+			out = append(out, c)
+		}
+	}
+	return out
 }
 
 // normalizeLanguageCode reduces a BCP-47 tag to its base ISO 639-1
