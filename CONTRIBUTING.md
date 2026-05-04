@@ -65,11 +65,12 @@ channel, view count and thumbnail from the YouTube Data API.
 |------------|----------------|----------|-----------------|-------|
 | `name`     | string         | yes      | YAML            | Drives the slug, filename and README anchor. Keep it close to the YouTube title but cleaned up if needed. |
 | `link`     | string (URL)   | yes      | YAML            | YouTube URL — `youtube.com/watch?v=…`, `youtu.be/…`, `/embed/…`, `/shorts/…` are all accepted. |
-| `language` | list[string]   | no       | YAML > API      | ISO 639-1 codes (`en`, `de`, `fr`, …). If omitted, the tooling falls back to the YouTube `defaultAudioLanguage` and stores it as a single-element list. Set it manually when the API returns nothing or when the video has multiple audio languages. |
-| `tags`     | list[string]   | yes      | YAML            | Subject-matter tags. Be coarse — better to have 3–5 broad tags than 15 narrow ones. |
+| `language`    | list[string]   | no       | YAML > API      | ISO 639-1 codes (`en`, `de`, `fr`, …). If omitted, the tooling falls back to the YouTube `defaultAudioLanguage` and stores it as a single-element list. Set it manually when the API returns nothing or when the video has multiple audio languages. |
+| `description` | string         | no       | YAML > API      | Free text. If omitted, the tooling uses the video's YouTube description. Set it manually when the YouTube description is empty, full of unrelated boilerplate, or otherwise unhelpful for skim-reading the README. |
+| `tags`        | list[string]   | yes      | YAML            | Subject-matter tags. Be coarse — better to have 3–5 broad tags than 15 narrow ones. |
 
-The remaining JSON fields (`title`, `description`, `duration`,
-`publishedAt`, `channel`, `viewCount`, `image`, `slug`, `videoID`)
-are produced by the tooling. **Do not edit `README.md` directly** —
+The remaining JSON fields (`title`, `duration`, `publishedAt`,
+`channel`, `viewCount`, `image`, `slug`, `videoID`) are produced by
+the tooling. **Do not edit `README.md` directly** —
 it is overwritten on every CI run. To change rendering, update
 `assets/README.template`.
