@@ -12,6 +12,7 @@ import (
 	"gopkg.in/yaml.v3"
 
 	"github.com/EngineeringKiosk/awesome-software-engineering-movies/io"
+	"github.com/EngineeringKiosk/awesome-software-engineering-movies/platform"
 	"github.com/EngineeringKiosk/awesome-software-engineering-movies/youtube"
 )
 
@@ -117,6 +118,7 @@ func cmdConvertYamlToJson(cmd *cobra.Command, args []string) error {
 		} else {
 			log.Printf("WARNING: could not parse YouTube video ID from %q in %s", movieInfo.Link, absYamlFilePath)
 		}
+		resolvePlatform(movieInfo, absYamlFilePath)
 
 		log.Printf("Write %s to disk ...", absJsonFilePath)
 		err = io.WriteJSONFile(absJsonFilePath, movieInfo)
@@ -156,6 +158,38 @@ func mergeMovieInformation(source, target *MovieInformation) *MovieInformation {
 	if len(source.IMDbID) > 0 {
 		target.IMDbID = source.IMDbID
 	}
+	if len(source.Platform) > 0 {
+		target.Platform = source.Platform
+	}
 	target.Tags = source.Tags
 	return target
+}
+
+// resolvePlatform fills in info.Platform from the link when YAML did
+// not set it, and warns on the cases the maintainer should know
+// about: YAML disagrees with the link, YAML names a platform whose
+// link the tooling cannot recognise, or neither YAML nor the link
+// yields a platform.
+//
+// The YAML value always wins — this function never overwrites a
+// non-empty Platform.
+//
+// fileLabel is the human-friendly file path used only in the warning
+// text; passing it in keeps the function pure-ish (no globals) and
+// trivially testable.
+func resolvePlatform(info *MovieInformation, fileLabel string) {
+	detected, detectedOK := platform.Detect(info.Link)
+	switch {
+	case info.Platform == "" && detectedOK:
+		info.Platform = detected
+	case info.Platform == "" && !detectedOK:
+		log.Printf("WARNING: %s has no platform in YAML and link %q matches no known platform; leaving empty",
+			fileLabel, info.Link)
+	case info.Platform != "" && detectedOK && info.Platform != detected:
+		log.Printf("WARNING: %s YAML platform %q disagrees with link-detected platform %q; keeping YAML value",
+			fileLabel, info.Platform, detected)
+	case info.Platform != "" && !detectedOK:
+		log.Printf("WARNING: %s YAML platform %q set but link %q matches no known platform; keeping YAML value",
+			fileLabel, info.Platform, info.Link)
+	}
 }

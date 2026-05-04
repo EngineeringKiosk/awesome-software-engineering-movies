@@ -42,6 +42,20 @@ func TestDurationHumanReadable(t *testing.T) {
 	}
 }
 
+func TestPlatformDisplay(t *testing.T) {
+	cases := map[string]string{
+		"youtube": "YouTube",
+		"":        "",
+		"unknown": "unknown", // delegated to platform.Display, returned verbatim
+	}
+	for slug, want := range cases {
+		m := &MovieInformation{Platform: slug}
+		if got := m.PlatformDisplay(); got != want {
+			t.Errorf("PlatformDisplay(%q) = %q; want %q", slug, got, want)
+		}
+	}
+}
+
 func TestTagsAsList(t *testing.T) {
 	m := &MovieInformation{Tags: []string{"Networking", "Service Mesh"}}
 	if got, want := m.TagsAsList(), "Networking, Service Mesh"; got != want {

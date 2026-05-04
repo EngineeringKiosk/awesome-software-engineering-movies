@@ -3,6 +3,7 @@
  "slug": "vite-the-documentary",
  "link": "https://www.youtube.com/watch?v=bmWQqAKLgT4",
  "videoID": "bmWQqAKLgT4",
+ "platform": "youtube",
  "language": [
   "en"
  ],
