@@ -75,10 +75,13 @@ non-commercial dataset.
 | `platform`    | string         | no       | YAML > tooling  | Slug of the source the link lives on (`youtube`, `netflix`, `amazon_prime_video`, `bpb`). Auto-detected from `link` when omitted; set explicitly only if you need to override the detector or your link is from a source the tooling does not yet recognise. The tooling logs a warning when an explicit platform disagrees with what the link looks like. |
 | `localized`   | map[code → object] | no   | YAML            | Per-language alternate-version overrides. Keys are ISO 639-1 codes (`de`, `es`, …). Each value supports optional `title`, `link`, and `description` — provide whichever differs from the English top-level. A per-localized `platform` is autodetected from the localized `link` (same precedence rules as the top-level `platform`), so a German Amazon Prime link on a YouTube top-level entry is recorded correctly. Alternate links are not enriched (no extra YouTube/IMDb API calls); they round-trip from YAML to JSON unchanged. |
 | `youtubeTrailerForThumbnail` | string (YouTube URL) | no | YAML | Fallback YouTube URL the tooling uses for the poster image when the primary `link` is not a YouTube video, or when the primary YouTube thumbnail download fails. Set this for Netflix / Amazon Prime / bpb entries that have a YouTube trailer so the README still gets a poster. If neither the primary link nor this trailer yields an image, the tooling falls back to a bundled placeholder. |
+| `title`       | string         | no       | YAML > API      | Optional override of the entry's title. If omitted, the tooling uses the YouTube API's `snippet.title`. Set explicitly for non-YouTube entries (Netflix, bpb, …) where there is no API title, or to override an unhelpful upload title. Note that the README's heading is driven by `name`; `title` is for the JSON and downstream consumers. |
+| `duration`    | string (ISO-8601) | no    | YAML > API      | Optional override of the entry's runtime, format `PT[xH][yM][zS]` (e.g. `PT1H54M`). API-supplied for YouTube entries; set manually for non-YouTube entries so the README can render `Duration: ca. X min.` |
+| `publishedAt` | string (RFC3339)  | no    | YAML > API      | Optional override of the entry's release / upload date (e.g. `2019-07-24T00:00:00Z`). API-supplied for YouTube entries; set manually for non-YouTube entries to record the release date. |
 
-The remaining JSON fields (`title`, `duration`, `publishedAt`,
-`channel`, `ratings`, `views`, `image`, `slug`, `platform` when
-not set in YAML) are produced by the tooling.
+The remaining JSON fields (`channel`, `ratings`, `views`, `image`,
+`slug`, `platform` when not set in YAML) are produced by the
+tooling.
 
 If your entry has an alternate-language version, add a `localized`
 block — for example:

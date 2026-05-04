@@ -169,9 +169,19 @@ func cmdCollectMovieData(cmd *cobra.Command, args []string) error {
 		if !ok {
 			log.Printf("WARNING: YouTube returned no record for %s (%s); keeping cached values", info.Name, info.VideoID)
 		} else {
-			info.Title = v.Title
-			info.Duration = v.Duration
-			info.PublishedAt = v.PublishedAt
+			// Title / Duration / PublishedAt are YAML-overridable
+			// (same precedence as Description below): only fall back
+			// to the API value when the YAML and the cached value are
+			// both empty.
+			if len(info.Title) == 0 {
+				info.Title = v.Title
+			}
+			if len(info.Duration) == 0 {
+				info.Duration = v.Duration
+			}
+			if len(info.PublishedAt) == 0 {
+				info.PublishedAt = v.PublishedAt
+			}
 			info.Channel = v.Channel
 
 			views := v.ViewCount
