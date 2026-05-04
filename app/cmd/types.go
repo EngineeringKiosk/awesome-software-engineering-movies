@@ -29,9 +29,13 @@ type MovieInformation struct {
 	Tags     []string `yaml:"tags"     json:"tags"`
 
 	// API-enriched fields below this line.
-	Title       string          `yaml:"-" json:"title"`
-	Description string          `yaml:"-" json:"description"`
-	Duration    string          `yaml:"-" json:"duration"` // ISO-8601, e.g. PT43M22S
+	Title string `yaml:"-" json:"title"`
+	// Description is optional in YAML. If supplied, the YAML value
+	// overrides whatever the YouTube API returns; if omitted, the
+	// API's snippet.description is used. Same precedence rule as
+	// Language.
+	Description string          `yaml:"description,omitempty" json:"description"`
+	Duration    string          `yaml:"-"                     json:"duration"` // ISO-8601, e.g. PT43M22S
 	PublishedAt string          `yaml:"-" json:"publishedAt"`
 	Channel     youtube.Channel `yaml:"-" json:"channel"`
 	ViewCount   int64           `yaml:"-" json:"viewCount"`

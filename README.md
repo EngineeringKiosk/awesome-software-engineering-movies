@@ -502,7 +502,7 @@ Honeypot is a developer-focused job platform, on a mission to get every develope
 
 <img align="right" width="320" src="./generated/images/we-are-legion-the-story-of-the-hacktivists.jpg" alt="We Are Legion: The Story of the Hacktivists" />
 
-
+This documentary takes a deep dive into the world of Anonymous, a loosely organized international group of hacktivists. It offers a fascinating look at the power and influence of hacker culture in the digital age.
 
 * Duration: ca. 1 h 37 min.
 * Language: en
