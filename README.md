@@ -76,7 +76,7 @@ Railway is the all-in-one intelligent cloud ...
 * Duration: ca. 1 h 6 min.
 * Language: en
 * Tags: Programming Languages, Functional Programming, Open Source, History
-* YouTube likes: 3,589
+* YouTube likes: 3,590
 * [Watch on YouTube](https://www.youtube.com/watch?v=Y24vK_QDLFg)
 
 ----
@@ -195,7 +195,7 @@ Check out the Half-Life 25th Anniversary Update, restored content, new multiplay
 * Duration: ca. 1 h 5 min.
 * Language: en
 * Tags: Game Development, Valve, History
-* YouTube likes: 280,106
+* YouTube likes: 280,107
 * [Watch on YouTube](https://www.youtube.com/watch?v=TbZ3HzvFEto)
 
 ----
