@@ -3,20 +3,22 @@
  "slug": "half-life-25th-anniversary-documentary",
  "link": "https://www.youtube.com/watch?v=TbZ3HzvFEto",
  "videoID": "TbZ3HzvFEto",
- "language": null,
+ "language": [
+  "en"
+ ],
  "tags": [
   "Game Development",
   "Valve",
   "History"
  ],
- "title": "",
- "description": "",
- "duration": "",
- "publishedAt": "",
+ "title": "Half-Life: 25th Anniversary Documentary",
+ "description": "To celebrate the 25th Anniversary of the release of Half-Life we reunited the original development team to share their memories of creating Valve's first game.\n\nCheck out the Half-Life 25th Anniversary Update, restored content, new multiplayer maps, and a bunch of quality of life updates for the original game at http://half-life.com/halflife25\n\n0:00 - Intro\n1:33 - Early Days of Valve\n8:29 - Technology \u0026 Scripted Sequences\n17:06 - Character Design\n30:14 - Creating the Opening Levels\n37:09 - Weapon Design\n39:46 - Sound Design\n44:08 - Level Design\n51:05 - Narrative \u0026 Voice Acting\n57:48 - Xen \n01:01:12 - Post Release\n\n\nProduced for Valve by Secret Tape (https://secrettape.video/)\n- Directed \u0026 Edited by: Danny O’Dwyer\n- Filmed by: Joey Fameli, Danny O’Dwyer, Michael Lewington, Jeremy Jayne\n- Colored by: Jeremy Jayne\n- Gameplay Director: Frank Howley\n- Motion Graphics - Dan Silverstone / Pica (https://pica.me.uk)\n- Production Support: Jesse Guarascia\n- Captions by Megan Carnes",
+ "duration": "PT1H5M6S",
+ "publishedAt": "2023-11-17T18:29:06Z",
  "channel": {
-  "id": "",
-  "title": ""
+  "id": "UCg0FSqPeiGD_lIiPaaAehQg",
+  "title": "Valve"
  },
- "viewCount": 0,
- "image": ""
+ "viewCount": 7853817,
+ "image": "images/half-life-25th-anniversary-documentary.jpg"
 }

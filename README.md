@@ -75,8 +75,14 @@ Railway is the all-in-one intelligent cloud ...
 
 <h3 id="code-debugging-the-gender-gap">CODE: Debugging the Gender Gap</h3>
 
+<img align="right" width="320" src="./generated/images/code-debugging-the-gender-gap.jpg" alt="CODE: Debugging the Gender Gap" />
 
+CODE exposes the dearth of female and minority software engineers, explores the reasons for this gap and highlights breakthrough efforts that are producing more diverse programmers while showing how this critical gap can be closed.
 
+Tech jobs are growing three times faster than our colleges are producing computer science graduates. By 2020, there will be over one million unfilled software engineering jobs in the USA. Through compelling interviews, artistic animation and clever flashpoints in popular culture, CODE examines the reasons why more girls and people of color are not seeking opportunities ...
+
+* Duration: ca. 1 h 19 min.
+* Language: en
 * Tags: Girls, STEM, Women in Tech
 * [Watch on YouTube](https://www.youtube.com/watch?v=rQKRw6tWsb8)
 
@@ -154,8 +160,26 @@ Check out the home for untold developer stories around open source, careers and 
 
 <h3 id="half-life-25th-anniversary-documentary">Half-Life: 25th Anniversary Documentary</h3>
 
+<img align="right" width="320" src="./generated/images/half-life-25th-anniversary-documentary.jpg" alt="Half-Life: 25th Anniversary Documentary" />
 
+To celebrate the 25th Anniversary of the release of Half-Life we reunited the original development team to share their memories of creating Valve&#39;s first game.
 
+Check out the Half-Life 25th Anniversary Update, restored content, new multiplayer maps, and a bunch of quality of life updates for the original game at http://half-life.com/halflife25
+
+0:00 - Intro
+1:33 - Early Days of Valve
+8:29 - Technology &amp; Scripted Sequences
+17:06 - Character Design
+30:14 - Creating the Opening Levels
+37:09 - Weapon Design
+39:46 - Sound Design
+44:08 - Level Design
+51:05 - Narrative &amp; Voice Acting
+57:48 - Xen 
+01:01:12 ...
+
+* Duration: ca. 1 h 5 min.
+* Language: en
 * Tags: Game Development, Valve, History
 * [Watch on YouTube](https://www.youtube.com/watch?v=TbZ3HzvFEto)
 
@@ -350,8 +374,16 @@ But what if we told you that React’s first brush with the public sphere was an
 
 <h3 id="revolution-os">Revolution OS</h3>
 
+<img align="right" width="320" src="./generated/images/revolution-os.jpg" alt="Revolution OS" />
 
+Revolution OS (2001)
 
+https://www.imdb.com/title/tt0308808/
+
+While Microsoft may be the biggest software company in the world, not every computer user is a fan of their products, or their way of doing business. While Microsoft&#39;s Windows became the most widely used operating system for personal computers in the world, many experts took issue with Microsoft&#39;s strict policies regarding licensing, ownership, distribution, and alteration of their software. The objections of many high-profile technology experts, most notably Richard Stallman, led to what has become known as &#34;the Open Source Movement,&#34; ...
+
+* Duration: ca. 1 h 25 min.
+* Language: en
 * Tags: GNU/Linux, Open Source, History
 * [Watch on YouTube](https://www.youtube.com/watch?v=k0RYQVkQmWU)
 
@@ -393,8 +425,15 @@ Svelte Origins ...
 
 <h3 id="the-internets-own-boy-the-story-of-aaron-swartz">The Internet&#39;s Own Boy: The Story of Aaron Swartz</h3>
 
+<img align="right" width="320" src="./generated/images/the-internets-own-boy-the-story-of-aaron-swartz.jpg" alt="The Internet&#39;s Own Boy: The Story of Aaron Swartz" />
 
+This is the FULL MOVIE! - The Internet&#39;s Own Boy depicts the life of American computer programmer, writer, political organizer and Internet activist Aaron Swartz. It features interviews with his family and friends as well as the internet luminaries who worked with him. The film tells his story up to his eventual suicide after a legal battle, and explores the questions of access to information and civil liberties that drove his work.
+Director / Producer: Brian Knappenberger
+Contact Information: http://www.takepart.com/internets-own-boy
+This movie is made available under the Creative Commons license: ...
 
+* Duration: ca. 1 h 45 min.
+* Language: en
 * Tags: Hacktivism, Open Internet, Activism, History
 * [Watch on YouTube](https://www.youtube.com/watch?v=9vz06QO3UkQ)
 
@@ -461,8 +500,12 @@ Honeypot is a developer-focused job platform, on a mission to get every develope
 
 <h3 id="we-are-legion-the-story-of-the-hacktivists">We Are Legion: The Story of the Hacktivists</h3>
 
+<img align="right" width="320" src="./generated/images/we-are-legion-the-story-of-the-hacktivists.jpg" alt="We Are Legion: The Story of the Hacktivists" />
 
 
+
+* Duration: ca. 1 h 37 min.
+* Language: en
 * Tags: Anonymous, Hacktivism, Security, History
 * [Watch on YouTube](https://www.youtube.com/watch?v=4D1WJsdu6W8)
 
