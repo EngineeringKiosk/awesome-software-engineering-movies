@@ -25,11 +25,12 @@
  },
  "ratings": {
   "youtube": {
-   "likeCount": 5905
+   "likeCount": 5905,
+   "refreshedAt": "2026-05-04T19:09:52Z"
   }
  },
  "views": {
-  "youtube": 151856
+  "youtube": 151868
  },
  "image": "images/vite-the-documentary.jpg"
 }

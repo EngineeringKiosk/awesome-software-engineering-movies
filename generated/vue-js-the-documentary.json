@@ -32,11 +32,12 @@
  },
  "ratings": {
   "youtube": {
-   "likeCount": 52870
+   "likeCount": 52870,
+   "refreshedAt": "2026-05-04T19:09:52Z"
   }
  },
  "views": {
-  "youtube": 1638045
+  "youtube": 1638049
  },
  "image": "images/vue-js-the-documentary.jpg"
 }

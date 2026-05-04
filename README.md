@@ -49,6 +49,7 @@ From Angular 2 to Ivy, incorporating Signals to converging with Wiz and ...
 * Duration: ca. 1 h 1 min.
 * Language: en
 * Tags: Frontend, JavaScript, Google, Open Source, History
+* YouTube likes: 3,546
 * [Watch on YouTube](https://www.youtube.com/watch?v=cRC9DlH45lA)
 
 ----
@@ -69,6 +70,7 @@ Railway is the all-in-one intelligent cloud ...
 * Duration: ca. 1 h 6 min.
 * Language: en
 * Tags: Programming Languages, Functional Programming, Open Source, History
+* YouTube likes: 3,589
 * [Watch on YouTube](https://www.youtube.com/watch?v=Y24vK_QDLFg)
 
 ----
@@ -84,6 +86,8 @@ Tech jobs are growing three times faster than our colleges are producing compute
 * Duration: ca. 1 h 19 min.
 * Language: en
 * Tags: Girls, STEM, Women in Tech
+* IMDb rating: 6.2 / 10 (337 votes)
+* YouTube likes: 50
 * [Watch on YouTube](https://www.youtube.com/watch?v=rQKRw6tWsb8)
 
 ----
@@ -99,6 +103,7 @@ In 2014, a group of engineers at Plumgrid needed to find an innovative and cost-
 * Duration: ca. 30 min.
 * Language: en
 * Tags: Linux, Kernel, Open Source, Networking
+* YouTube likes: 4,777
 * [Watch on YouTube](https://www.youtube.com/watch?v=Wb_vD3XZYOA)
 
 ----
@@ -116,6 +121,7 @@ Check out the ...
 * Duration: ca. 13 min.
 * Language: en
 * Tags: Programming Languages, Functional Programming, Open Source, History
+* YouTube likes: 8,058
 * [Watch on YouTube](https://www.youtube.com/watch?v=lxYFOM3UJzo)
 
 ----
@@ -137,6 +143,7 @@ Facebook: https://www.facebook. ...
 * Duration: ca. 25 min.
 * Language: en
 * Tags: Frontend, JavaScript, Open Source, History
+* YouTube likes: 2,453
 * [Watch on YouTube](https://www.youtube.com/watch?v=Cvz-9ccflKQ)
 
 ----
@@ -154,6 +161,7 @@ Check out the home for untold developer stories around open source, careers and 
 * Duration: ca. 28 min.
 * Language: en
 * Tags: API, Open Source, History
+* YouTube likes: 15,214
 * [Watch on YouTube](https://www.youtube.com/watch?v=783ccP__No8)
 
 ----
@@ -181,6 +189,7 @@ Check out the Half-Life 25th Anniversary Update, restored content, new multiplay
 * Duration: ca. 1 h 5 min.
 * Language: en
 * Tags: Game Development, Valve, History
+* YouTube likes: 280,104
 * [Watch on YouTube](https://www.youtube.com/watch?v=TbZ3HzvFEto)
 
 ----
@@ -198,6 +207,7 @@ Envoy was open sourced in the fall of 2016 and quickly gained adoption. In 2017,
 * Duration: ca. 32 min.
 * Language: en
 * Tags: Networking, Service Mesh, Open Source, Cloud Native
+* YouTube likes: 572
 * [Watch on YouTube](https://www.youtube.com/watch?v=uaksVVHDhYU)
 
 ----
@@ -218,6 +228,7 @@ Director: Jaś ...
 * Duration: ca. 39 min.
 * Language: en
 * Tags: Developer Tools, IDE, JetBrains, History
+* YouTube likes: 1,512
 * [Watch on YouTube](https://www.youtube.com/watch?v=Kourq_Lz03U)
 
 ----
@@ -250,6 +261,7 @@ References and sources: https://docs.google.com/document/d/e/2PACX-1vQjGmdjmESDJ
 * Duration: ca. 26 min.
 * Language: en
 * Tags: Networking, Chat, Open Source, History
+* YouTube likes: 15,203
 * [Watch on YouTube](https://www.youtube.com/watch?v=6UbKenFipjo)
 
 ----
@@ -269,6 +281,7 @@ Most engineers know about “The Container Orchestrator Wars’’ ...
 * Duration: ca. 25 min.
 * Language: en
 * Tags: Cloud Native, Orchestration, Open Source, History
+* YouTube likes: 12,674
 * [Watch on YouTube](https://www.youtube.com/watch?v=BE77h7dmoQU)
 
 ----
@@ -288,6 +301,7 @@ Most engineers know about “The Container Orchestrator Wars’’ ...
 * Duration: ca. 31 min.
 * Language: en
 * Tags: Cloud Native, Orchestration, Open Source, History
+* YouTube likes: 5,948
 * [Watch on YouTube](https://www.youtube.com/watch?v=318elIq37PE)
 
 ----
@@ -306,6 +320,7 @@ Laravel Origins was filmed in late 2021, produced by OfferZen and directed by De
 * Duration: ca. 33 min.
 * Language: en
 * Tags: Web Frameworks, PHP, Open Source, History
+* YouTube likes: 6,778
 * [Watch on YouTube](https://www.youtube.com/watch?v=127ng7botO4)
 
 ----
@@ -323,6 +338,7 @@ Join us as we delve into the origins of Node.js, meet some of its earliest contr
 * Duration: ca. 1 h 3 min.
 * Language: en
 * Tags: JavaScript, Backend, Open Source, History
+* YouTube likes: 23,868
 * [Watch on YouTube](https://www.youtube.com/watch?v=LB8KwiiUGy0)
 
 ----
@@ -337,6 +353,7 @@ Join us as we explore the story of Prometheus, from inception to adoption as tol
 * Duration: ca. 27 min.
 * Language: en
 * Tags: Observability, Monitoring, Open Source, Cloud Native, History
+* YouTube likes: 3,547
 * [Watch on YouTube](https://www.youtube.com/watch?v=rT4fJNbfe14)
 
 ----
@@ -354,6 +371,7 @@ Thanks to our sponsors ...
 * Duration: ca. 1 h 24 min.
 * Language: en
 * Tags: Programming Languages, Open Source, History
+* YouTube likes: 33,458
 * [Watch on YouTube](https://www.youtube.com/watch?v=GfH4QL4VqJ0)
 
 ----
@@ -368,6 +386,7 @@ But what if we told you that React’s first brush with the public sphere was an
 * Duration: ca. 1 h 18 min.
 * Language: en
 * Tags: Frontend, JavaScript, Meta, Open Source, History
+* YouTube likes: 40,560
 * [Watch on YouTube](https://www.youtube.com/watch?v=8pDqJVdNa44)
 
 ----
@@ -385,6 +404,8 @@ While Microsoft may be the biggest software company in the world, not every comp
 * Duration: ca. 1 h 25 min.
 * Language: en
 * Tags: GNU/Linux, Open Source, History
+* IMDb rating: 7.2 / 10 (2,708 votes)
+* YouTube likes: 2,191
 * [Watch on YouTube](https://www.youtube.com/watch?v=k0RYQVkQmWU)
 
 ----
@@ -400,6 +421,7 @@ Get the whole spill by the people who had a front-row seat to the creation and d
 * Duration: ca. 44 min.
 * Language: en
 * Tags: Web Frameworks, Ruby, Open Source, History
+* YouTube likes: 9,836
 * [Watch on YouTube](https://www.youtube.com/watch?v=HDKUEXBF3B4)
 
 ----
@@ -419,6 +441,7 @@ Svelte Origins ...
 * Duration: ca. 32 min.
 * Language: en
 * Tags: Frontend, JavaScript, Open Source, History
+* YouTube likes: 6,992
 * [Watch on YouTube](https://www.youtube.com/watch?v=kMlkCYL9qo0)
 
 ----
@@ -435,6 +458,8 @@ This movie is made available under the Creative Commons license: ...
 * Duration: ca. 1 h 45 min.
 * Language: en
 * Tags: Hacktivism, Open Internet, Activism, History
+* IMDb rating: 8.0 / 10 (18,551 votes)
+* YouTube likes: 36,687
 * [Watch on YouTube](https://www.youtube.com/watch?v=9vz06QO3UkQ)
 
 ----
@@ -458,6 +483,7 @@ Sponsored by
 * Duration: ca. 1 h 22 min.
 * Language: en
 * Tags: Programming Languages, JavaScript, Microsoft, History
+* YouTube likes: 9,556
 * [Watch on YouTube](https://www.youtube.com/watch?v=U6s2pdxebSo)
 
 ----
@@ -475,6 +501,7 @@ Featuring many prominent developers in the JavaCript ecosystem, this documentary
 * Duration: ca. 39 min.
 * Language: en
 * Tags: Frontend, Build Tools, JavaScript, Open Source
+* YouTube likes: 5,905
 * [Watch on YouTube](https://www.youtube.com/watch?v=bmWQqAKLgT4)
 
 ----
@@ -494,6 +521,7 @@ Honeypot is a developer-focused job platform, on a mission to get every develope
 * Duration: ca. 35 min.
 * Language: en
 * Tags: Frontend, JavaScript, Open Source, History
+* YouTube likes: 52,870
 * [Watch on YouTube](https://www.youtube.com/watch?v=OrxmtDw4pVI)
 
 ----
@@ -507,6 +535,8 @@ This documentary takes a deep dive into the world of Anonymous, a loosely organi
 * Duration: ca. 1 h 37 min.
 * Language: en
 * Tags: Anonymous, Hacktivism, Security, History
+* IMDb rating: 7.2 / 10 (10,528 votes)
+* YouTube likes: 1,048
 * [Watch on YouTube](https://www.youtube.com/watch?v=4D1WJsdu6W8)
 
 ----

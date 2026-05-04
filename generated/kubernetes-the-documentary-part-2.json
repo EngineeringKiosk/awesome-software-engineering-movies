@@ -29,11 +29,12 @@
  },
  "ratings": {
   "youtube": {
-   "likeCount": 5948
+   "likeCount": 5948,
+   "refreshedAt": "2026-05-04T19:09:52Z"
   }
  },
  "views": {
-  "youtube": 225257
+  "youtube": 225260
  },
  "image": "images/kubernetes-the-documentary-part-2.jpg"
 }

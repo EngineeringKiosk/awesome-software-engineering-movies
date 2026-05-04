@@ -27,11 +27,12 @@
  },
  "ratings": {
   "youtube": {
-   "likeCount": 2453
+   "likeCount": 2453,
+   "refreshedAt": "2026-05-04T19:09:52Z"
   }
  },
  "views": {
-  "youtube": 132566
+  "youtube": 132567
  },
  "image": "images/ember-js-the-documentary.jpg"
 }

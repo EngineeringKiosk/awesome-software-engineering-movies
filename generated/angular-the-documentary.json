@@ -26,11 +26,12 @@
  },
  "ratings": {
   "youtube": {
-   "likeCount": 3546
+   "likeCount": 3546,
+   "refreshedAt": "2026-05-04T19:09:52Z"
   }
  },
  "views": {
-  "youtube": 120757
+  "youtube": 120759
  },
  "image": "images/angular-the-documentary.jpg"
 }
