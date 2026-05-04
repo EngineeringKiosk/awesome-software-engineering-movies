@@ -18,6 +18,7 @@
  "title": "",
  "description": "\"Silicon Cowboys\" chronicles the rise and fall of Compaq Computer Corporation, a pioneer in the early days of the personal computer industry. This engaging documentary takes viewers back to the 1980s, when a group of visionary engineers challenged the dominance of IBM and transformed the landscape of technology forever. Witness the birth, triumph, and eventual decline of one of the most influential companies in tech history.",
  "imdbID": "tt4938484",
+ "youtubeTrailerForThumbnail": "https://www.youtube.com/watch?v=7wjJYqUkHd8",
  "duration": "",
  "publishedAt": "",
  "channel": {
@@ -31,5 +32,5 @@
    "refreshedAt": "2026-05-04T20:54:53Z"
   }
  },
- "image": ""
+ "image": "images/silicon-cowboys.jpg"
 }
