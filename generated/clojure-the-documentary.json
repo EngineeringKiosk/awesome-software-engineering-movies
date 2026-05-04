@@ -3,21 +3,23 @@
  "slug": "clojure-the-documentary",
  "link": "https://www.youtube.com/watch?v=Y24vK_QDLFg",
  "videoID": "Y24vK_QDLFg",
- "language": null,
+ "language": [
+  "en"
+ ],
  "tags": [
   "Programming Languages",
   "Functional Programming",
   "Open Source",
   "History"
  ],
- "title": "",
- "description": "",
- "duration": "",
- "publishedAt": "",
+ "title": "How one programmer's pet project changed how we think about software",
+ "description": "This is the story of how one programmer's obsession with simplicity quietly reshaped how the software world thinks about time, immutability, and what it means to write code that lasts. From a sabbatical pet-project to the backbone of one of the world's largest fintechs and a global community that treats their language like a philosophy. This is the story of Clojure. \n\n---\n\nThis documentary wouldn't exist without the kind support of Nubank: https://building.nubank.com/engineering/\n\nThanks to Railway, our channel sponsor, for supporting all of our films:\nRailway is the all-in-one intelligent cloud provider ➡️ https://railway.com/?referralCode=cultrepo\n\n---\n\nThe Clojure Documentary features:\n\nAlessandra Sierra, Alex Miller, Chris Houser, David Nolen, Ed Wible, Eric Normand, Eric Thorsen, Lucas Cavalcanti, Michael Fogus, Nathan Marz, Rich Hickey, Steph Hickey, and Stuart Halloway.\n\nFilm Credits: \nDirected by: Cormac Dunne\nProduced by: Emma Tracey\nAdditional direction: Joey Bania \nMusic supervision and sound design: Tomás Malara\n\n---\n\nFor a full overview of all the papers, talks, essays, etc. that appear in the film, check this link: https://clojure.org/about/documentary\n\n\n---\n\nFollow us:\nX: x.com/CultRepo\nBluesky: cultrepo.bsky.social\nInstagram: www.instagram.com/cult.repo\nLinkedIn: https://www.linkedin.com/company/cult-repo",
+ "duration": "PT1H6M20S",
+ "publishedAt": "2026-04-16T18:00:22Z",
  "channel": {
-  "id": "",
-  "title": ""
+  "id": "UCsUalyRg43M8D60mtHe6YcA",
+  "title": "CultRepo "
  },
- "viewCount": 0,
- "image": ""
+ "viewCount": 185369,
+ "image": "images/clojure-the-documentary.jpg"
 }

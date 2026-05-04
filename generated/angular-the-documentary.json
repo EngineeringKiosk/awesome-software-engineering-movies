@@ -3,7 +3,9 @@
  "slug": "angular-the-documentary",
  "link": "https://www.youtube.com/watch?v=cRC9DlH45lA",
  "videoID": "cRC9DlH45lA",
- "language": null,
+ "language": [
+  "en"
+ ],
  "tags": [
   "Frontend",
   "JavaScript",
@@ -11,14 +13,14 @@
   "Open Source",
   "History"
  ],
- "title": "",
- "description": "",
- "duration": "",
- "publishedAt": "",
+ "title": "Angular: The Documentary | An origin story",
+ "description": "Born as an internal Google experiment - and initially brushed off by Gmail and Google Maps - AngularJS soon became a JavaScript sensation. But when internal pressures pushed the team towards a radical overhaul of the framework, the community felt left behind. What followed was years of attempts to bring Angular back to its former glory without breaking the world again.\n\nOnce considered dead and buried, Angular is back on everyone’s lips, pushing the boundaries of JavaScript and reaching new levels of importance at Google.\n\nFrom Angular 2 to Ivy, incorporating Signals to converging with Wiz and everything in between, get ready to explore the journey of Angular with a star-studded cast including Miško Hevery, Igor Minor, Brad Green, Minko Gechev, Sarah Drasner, Alex Rickabaugh, Addy Osmani, Ryan Carniato and Simona Cotin, among others.\n\n\nFilmmaker: Guillermo López\nExternal Contributor/Lead Producer: Stefan Kingham\n\nSponsors:\n* JetBrains (www.jetbrains.com)\n* HeroDevs (www.herodevs.com)\n* ClickUp (www.clickup.com)\n* AG Grid (www.ag-grid.com)\n* This Dot Labs (www.thisdot.co)\n\nFollow the amazing cast:\nMiško Hevery: https://x.com/mhevery\nBrad Green: https://x.com/bradlygreen\nIgor Minar: https://x.com/IgorMinar\nVojta Jina: https://x.com/vojtajina\nAaron Frost: https://x.com/aaronfrost\nAddy Osmani: https://x.com/addyosmani\nBen Lesh: https://x.com/BenLesh\nAdy Ngom: https://x.com/adyngom\nJan-Niklas Wortmann: https://x.com/niklas_wortmann\nZeb Evans: https://x.com/DJ_CURFEW\nTara Z. Manicsic: https://x.com/Tzmanics\nAlex Rickabaugh: https://x.com/synalx\nJeremy Elbourn: https://github.com/jelbourn\nKara Erickson: https://github.com/kara\nDoug Parker: https://github.com/dgp1130\nJessica Janiuk: https://github.com/jessicajaniuk\nMark Thompson: https://x.com/marktechson\nSarah Drasner: https://x.com/sarah_edo\nPawel Kozlowski: https://x.com/pkozlowski_os\nRyan Carniato: https://x.com/RyanCarniato\nWahbeh Qardaji: https://x.com/WabetQ\nMinko Gechev: https://x.com/mgechev\nSimona Cotin: https://x.com/simona_cotin\nBrandon Roberts: https://x.com/brandontroberts\nPiotr Tomiak: https://x.com/PiotrekTomiak\nJoe Eames: https://x.com/josepheames\n\nConnect with us:\nTwitter/X: https://x.com/CultRepo\nBlueSky: https://bsky.app/profile/cultrepo.bsky.social\nInstagram: https://www.instagram.com/cult.repo/\nWebsite: https://www.cultrepo.com/",
+ "duration": "PT1H54S",
+ "publishedAt": "2025-02-04T16:59:19Z",
  "channel": {
-  "id": "",
-  "title": ""
+  "id": "UCsUalyRg43M8D60mtHe6YcA",
+  "title": "CultRepo "
  },
- "viewCount": 0,
- "image": ""
+ "viewCount": 120743,
+ "image": "images/angular-the-documentary.jpg"
 }

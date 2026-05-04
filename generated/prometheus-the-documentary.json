@@ -3,7 +3,9 @@
  "slug": "prometheus-the-documentary",
  "link": "https://www.youtube.com/watch?v=rT4fJNbfe14",
  "videoID": "rT4fJNbfe14",
- "language": null,
+ "language": [
+  "en"
+ ],
  "tags": [
   "Observability",
   "Monitoring",
@@ -11,14 +13,14 @@
   "Cloud Native",
   "History"
  ],
- "title": "",
- "description": "",
- "duration": "",
- "publishedAt": "",
+ "title": "Prometheus: The Documentary",
+ "description": "Watch and witness the journey of open-source monitoring system, Prometheus. Before Kubernetes existed—even before Docker—the team at Soundcloud already knew their monitoring system deserved a complete, fundamental revamp. Of course, as with anything in development, this was no easy task.\nJoin us as we explore the story of Prometheus, from inception to adoption as told by the story’s key players including Julian Volz, Matthias Rampke, Björn Rabenstein, and more. In the end, you’ll see how a “problem to be solved” eventually led the industry to a completely new understanding of monitoring. We hope you’re ready to be inspired. 🔥\n\nCheck out the home for untold developer stories around open source, careers and all the other cool stuff developers are doing at cult.honeypot.io.\n\nHoneypot is a developer-focused job platform, on a mission to get developers great jobs. Wanna see what we're all about? Visit honeypot.io to find a job you love.\n\nTo learn more about Honeypot: http://www.honeypot.io/?utm_source=youtube\n\nFollow us:\nTwitter: https://twitter.com/honeypotio\nFacebook: https://www.facebook.com/Honeypotio/\nLinkedIn: https://www.linkedin.com/company/honeypotio/\nInstagram: https://www.instagram.com/honeypot.cult/",
+ "duration": "PT27M1S",
+ "publishedAt": "2022-10-25T13:45:07Z",
  "channel": {
-  "id": "",
-  "title": ""
+  "id": "UCsUalyRg43M8D60mtHe6YcA",
+  "title": "CultRepo "
  },
- "viewCount": 0,
- "image": ""
+ "viewCount": 143720,
+ "image": "images/prometheus-the-documentary.jpg"
 }

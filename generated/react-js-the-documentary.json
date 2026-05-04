@@ -3,7 +3,9 @@
  "slug": "react-js-the-documentary",
  "link": "https://www.youtube.com/watch?v=8pDqJVdNa44",
  "videoID": "8pDqJVdNa44",
- "language": null,
+ "language": [
+  "en"
+ ],
  "tags": [
   "Frontend",
   "JavaScript",
@@ -11,14 +13,14 @@
   "Open Source",
   "History"
  ],
- "title": "",
- "description": "",
- "duration": "",
- "publishedAt": "",
+ "title": "How A Small Team of Developers Created React at Facebook | React.js: The Documentary",
+ "description": "React is easily one of the single most popular libraries in use today. Given that it was made within a juggernaut like Facebook, you might have assumed it was always destined for success.\nBut what if we told you that React’s first brush with the public sphere was anything but glamorous? React.js: The Documentary brings you the full story behind the early days of React, focusing on the dedicated group of developers who helped bring it to the world stage. This story is told by an all-star cast of developers like Tom Occhino, Christopher Chedeau, Pete Hunt, Sebastian Markbåge, Dan Abramov, and many more.\n\nFollow the cast:\nAdam Wolff: https://twitter.com/dmwlff\nAndrew Clark: https://twitter.com/acdlite\nChristopher Chedeau: https://twitter.com/Vjeux\nDan Abramov: https://twitter.com/dan_abramov\nDavid Nolen: https://twitter.com/swannodette\nLee Byron: https://twitter.com/leeb\nMichael Chan: https://twitter.com/chantastic\nPete Hunt: https://twitter.com/floydophone\nSebastian Markbåge: https://twitter.com/sebmarkbage\nShane O'Sullivan: https://twitter.com/Chofter and https://chofter.com/\nSophie Alpert: https://twitter.com/sophiebits and https://sophiebits.com/\nTom Occhino: https://twitter.com/tomocchino\nTony Casparro: https://twitter.com/IamTonyC\n\nMany people contributed to React throughout the years and this documentary is just a little slice of that history. You can find full acknowledgements here: https://reactjs.org/acknowledgements.html\n\nThanks to these amazing people for translating subtitles:\nCharlie: https://twitter.com/charliesbot\nJose: https://twitter.com/jbetosalinas\nGustavo Gonçalves\nAnd to @itdocru for the Russian dub!",
+ "duration": "PT1H18M15S",
+ "publishedAt": "2023-02-10T18:00:07Z",
  "channel": {
-  "id": "",
-  "title": ""
+  "id": "UCsUalyRg43M8D60mtHe6YcA",
+  "title": "CultRepo "
  },
- "viewCount": 0,
- "image": ""
+ "viewCount": 1641129,
+ "image": "images/react-js-the-documentary.jpg"
 }

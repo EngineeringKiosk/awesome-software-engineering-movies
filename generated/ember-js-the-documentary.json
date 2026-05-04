@@ -3,21 +3,23 @@
  "slug": "ember-js-the-documentary",
  "link": "https://www.youtube.com/watch?v=Cvz-9ccflKQ",
  "videoID": "Cvz-9ccflKQ",
- "language": null,
+ "language": [
+  "en"
+ ],
  "tags": [
   "Frontend",
   "JavaScript",
   "Open Source",
   "History"
  ],
- "title": "",
- "description": "",
- "duration": "",
- "publishedAt": "",
+ "title": "Ember.js: The Documentary",
+ "description": "Starring Yehuda Katz and Tom Dale  (co-creators of Ember.js), as well as many other big names from the #Ember community, \"Ember.js: The Documentary\" explores why and how #Emberjs came to be, the pioneers behind its creation and the life-altering decisions that go into making #opensource software.\n\nCheck out the home for untold developer stories around open source, careers and all the other cool stuff developers are doing at https://bit.ly/3xiIzQA\n\nLearn more about Honeypot: https://www.honeypot.io/?utm_source=youtube\n\nFollow us!\nTwitter: https://twitter.com/honeypotio\nFacebook: https://www.facebook.com/Honeypotio/\nLinkedin: https://www.linkedin.com/company/10210811/\nInstagram: https://www.instagram.com/honeypot.cult/",
+ "duration": "PT25M21S",
+ "publishedAt": "2019-02-11T14:59:49Z",
  "channel": {
-  "id": "",
-  "title": ""
+  "id": "UCsUalyRg43M8D60mtHe6YcA",
+  "title": "CultRepo "
  },
- "viewCount": 0,
- "image": ""
+ "viewCount": 132565,
+ "image": "images/ember-js-the-documentary.jpg"
 }

@@ -3,21 +3,23 @@
  "slug": "vue-js-the-documentary",
  "link": "https://www.youtube.com/watch?v=OrxmtDw4pVI",
  "videoID": "OrxmtDw4pVI",
- "language": null,
+ "language": [
+  "en"
+ ],
  "tags": [
   "Frontend",
   "JavaScript",
   "Open Source",
   "History"
  ],
- "title": "",
- "description": "",
- "duration": "",
- "publishedAt": "",
+ "title": "Vue.js: The Documentary",
+ "description": "by honeypot.io | What began as a side project of a Google developer\nnow shares the JS leaderboard with #React and #Angular...\nWith the help of Sarah Drasner, Taylor Otwell, Thorsten Lünborg and many others from the Vue.js community, Evan You tells the story of how he fought against the odds to bring #Vuejs to life.\n\nCheck out the home for untold developer stories around open source, careers and all the other cool stuff developers are doing at https://bit.ly/3FGSlim\n\nHoneypot is a developer-focused job platform, on a mission to get every developer a great job. Wanna see what we're all about? Check out https://www.honeypot.io/?utm_source=youtube\n\nFollow us:\nTwitter: https://twitter.com/honeypotio\nFacebook: https://www.facebook.com/Honeypotio/\nLinkedin: https://www.linkedin.com/company/10210811/\nInstagram: https://www.instagram.com/honeypot.cult/",
+ "duration": "PT34M45S",
+ "publishedAt": "2020-02-24T18:20:37Z",
  "channel": {
-  "id": "",
-  "title": ""
+  "id": "UCsUalyRg43M8D60mtHe6YcA",
+  "title": "CultRepo "
  },
- "viewCount": 0,
- "image": ""
+ "viewCount": 1638034,
+ "image": "images/vue-js-the-documentary.jpg"
 }

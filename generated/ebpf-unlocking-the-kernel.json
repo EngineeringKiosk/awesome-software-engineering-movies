@@ -3,21 +3,23 @@
  "slug": "ebpf-unlocking-the-kernel",
  "link": "https://www.youtube.com/watch?v=Wb_vD3XZYOA",
  "videoID": "Wb_vD3XZYOA",
- "language": null,
+ "language": [
+  "en"
+ ],
  "tags": [
   "Linux",
   "Kernel",
   "Open Source",
   "Networking"
  ],
- "title": "",
- "description": "",
- "duration": "",
- "publishedAt": "",
+ "title": "eBPF: Unlocking the Kernel [OFFICIAL DOCUMENTARY]",
+ "description": "The official eBPF documentary.\n\nIn 2014, a group of engineers at Plumgrid needed to find an innovative and cost-effective solution to handle network traffic in SDN environments. What they created was a landmark in the industry known as the extended Berkeley Packet Filter (or eBPF). This vital technology allows user-level code execution inside the Linux Kernel, transforming network traffic handling for SDN environments. Whether these engineers knew it or not, they had just revolutionized the Linux Kernel. We go in-depth to explore the origins of eBPF and showcase the stories, challenges, and rewards of this game-changing technology. In the documentary film, we interviewed key stakeholders from Meta, Intel, Isovalent, Google, Red Hat, and Netflix who helped shape and build the tools that drove the success and adoption of eBPF. Join us for this premiere screening of why eBPF is seen as one of the most promising, emerging applications and cutting-edge technologies in the Linux ecosystem.\n\n00:38 - Growth of Linux and SDN\n02:51 - PLUMgrid\n06:27 - Initial Patch Submission\n12:14 - eBPF Merged into the Linux Kernel\n16:26 - Hyperscalers Adopt eBPF\n18:38 - Cilium Bring eBPF to End Users\n20:33 - DockerCon 2017 eBPF Takes Off\n23:19 - eBPF Expands to Security\n24:43 - eBPF on Windows\n28:26 - eBPF Everywhere\n\nFind more information on the official website: https://ebpfdocumentary.com/",
+ "duration": "PT30M",
+ "publishedAt": "2023-11-09T02:55:45Z",
  "channel": {
-  "id": "",
-  "title": ""
+  "id": "UCro9rA8-YX-26UVNY8ewAKQ",
+  "title": " Speakeasy Productions"
  },
- "viewCount": 0,
- "image": ""
+ "viewCount": 165109,
+ "image": "images/ebpf-unlocking-the-kernel.jpg"
 }

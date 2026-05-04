@@ -3,20 +3,22 @@
  "slug": "graphql-the-documentary",
  "link": "https://www.youtube.com/watch?v=783ccP__No8",
  "videoID": "783ccP__No8",
- "language": null,
+ "language": [
+  "en"
+ ],
  "tags": [
   "API",
   "Open Source",
   "History"
  ],
- "title": "",
- "description": "",
- "duration": "",
- "publishedAt": "",
+ "title": "GraphQL: The Documentary",
+ "description": "The GraphQL Documentary 🚀🚀🚀 Starring Lee Byron, Dan Schafer and Nick Schrock  (co-creators of GraphQL) and other big names from the #GraphQL community, \"GraphQL: The Documentary\" explores the story of why and how GraphQL came to be and the impact it's having on big #tech companies worldwide, including Facebook, Twitter, Airbnb and Github.\n\nCheck out the home for untold developer stories around open source, careers and all the other cool stuff developers are doing at https://bit.ly/3nQNpBo\n\n\"We have been really involved with the GraphQL community since founding Honeypot. We run the GraphQL Conf here in Berlin with Prisma, so having the chance to work with Lee, Nick and Dan to make this documentary was really rewarding.\" Emma Tracey, Co-Founder @Honeypot 🍯\n\nMusic:\n\"Harper\" by Neon Ridge\n\"Revelations - Alternative Version\" by Tristan Barton\n\"The End\" by Max Herve\n\"Two States of Minds\" by Max Herve\n\"6\" by Lex Villena, https://soundcloud.com/lexvillena/six\n\"Til the End\" by FVMELESS \n\"Where We're Going\" by Kevin Graham\n\"Discovery\" by Kevin Graham\n\"Curiosity\" by Kevin Graham\n\"Flowing Air\" by Vlad Morleo \n\n🎥 Subscribe to our channel for future documentaries! https://bit.ly/31Q7wm6\n\nLearn more about Honeypot: https://www.honeypot.io/?utm_source=youtube\n\nFollow us!\nTwitter: https://twitter.com/honeypotio\nFacebook: https://www.facebook.com/Honeypotio/\nLinkedin: https://www.linkedin.com/company/10210811/\nInstagram: https://www.instagram.com/honeypot.cult/",
+ "duration": "PT27M58S",
+ "publishedAt": "2019-06-24T16:01:00Z",
  "channel": {
-  "id": "",
-  "title": ""
+  "id": "UCsUalyRg43M8D60mtHe6YcA",
+  "title": "CultRepo "
  },
- "viewCount": 0,
- "image": ""
+ "viewCount": 599157,
+ "image": "images/graphql-the-documentary.jpg"
 }

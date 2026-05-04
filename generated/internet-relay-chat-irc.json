@@ -3,21 +3,23 @@
  "slug": "internet-relay-chat-irc",
  "link": "https://www.youtube.com/watch?v=6UbKenFipjo",
  "videoID": "6UbKenFipjo",
- "language": null,
+ "language": [
+  "en"
+ ],
  "tags": [
   "Networking",
   "Chat",
   "Open Source",
   "History"
  ],
- "title": "",
- "description": "",
- "duration": "",
- "publishedAt": "",
+ "title": "Internet Relay Chat.",
+ "description": "Our love letter to Internet Relay Chat.\n\nWant more content like this? Support our mission! Send us a Super Thanks and check out our Patreon + Discord community:  https://www.patreon.com/serialport\n\nGot some retro gear you want to donate? Get in touch with us at serialport.org.\n\nOur second channel: @TheParallelPort \n\n#internet #chat\n\n00:00 — Source code\n00:59 — Why IRC?\n04:27 — Because It's Time Network\n08:32 — Alku\n11:40 — Trillian\n16:00 — The splits\n22:14 — The legacy of IRC\n25:07 — Something special\n\nReferences and sources: https://docs.google.com/document/d/e/2PACX-1vQjGmdjmESDJP7dy6S5f2iXossxO1tfI-oHszpZrzfbnJvB3lPNscTtUVj43hf4HEzJVU6EbVlKwy8P/pub",
+ "duration": "PT26M8S",
+ "publishedAt": "2025-08-30T23:09:00Z",
  "channel": {
-  "id": "",
-  "title": ""
+  "id": "UCgbw0F-frjDxvQjzruGRJwg",
+  "title": "The Serial Port"
  },
- "viewCount": 0,
- "image": ""
+ "viewCount": 256332,
+ "image": "images/internet-relay-chat-irc.jpg"
 }

@@ -3,21 +3,23 @@
  "slug": "kubernetes-the-documentary-part-2",
  "link": "https://www.youtube.com/watch?v=318elIq37PE",
  "videoID": "318elIq37PE",
- "language": null,
+ "language": [
+  "en"
+ ],
  "tags": [
   "Cloud Native",
   "Orchestration",
   "Open Source",
   "History"
  ],
- "title": "",
- "description": "",
- "duration": "",
- "publishedAt": "",
+ "title": "Kubernetes: The Documentary [PART 2]",
+ "description": "The official Kubernetes Documentary Part 2. \n\nInspired by the open source success of Docker in 2013 and seeing the need for innovation in the area of large-scale cloud computing, a handful of forward-thinking Google engineers set to work on the container orchestrator that would come to be known as Kubernetes– this new tool would forever change the way the internet is built.\n\nThese engineers overcome technical challenges, resistance to open source from within, naysayers, and intense competition from other big players in the industry.\n\nMost engineers know about “The Container Orchestrator Wars’’ but most people would not be able to explain exactly what happened, and why it was Kubernetes that ultimately came out on top.\n\nThere is no topic more relevant to the current open source landscape. This film captures the story directly from the people who lived it, featuring interviews with prominent engineers from Google, Red Hat, Twitter and others.\n\nKubernetes exists as a testament to the power of open source software.\n\n\nCheck out the home for untold developer stories around open source, careers and all the other cool stuff developers are doing at cult.honeypot.io.\n\nHoneypot is a developer-focused job platform, on a mission to get developers great jobs. Wanna see what we're all about? Visit honeypot.io to find a job you love.\n\nTo learn more about Honeypot: http://www.honeypot.io/?utm_source=youtube\n\nFollow us:\nTwitter: https://twitter.com/honeypotio\nFacebook: https://www.facebook.com/Honeypotio/\nLinkedIn: https://www.linkedin.com/company/10210811/\nInstagram: https://www.instagram.com/honeypot.cult/",
+ "duration": "PT31M18S",
+ "publishedAt": "2022-01-28T17:00:12Z",
  "channel": {
-  "id": "",
-  "title": ""
+  "id": "UCsUalyRg43M8D60mtHe6YcA",
+  "title": "CultRepo "
  },
- "viewCount": 0,
- "image": ""
+ "viewCount": 225252,
+ "image": "images/kubernetes-the-documentary-part-2.jpg"
 }

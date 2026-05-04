@@ -3,21 +3,23 @@
  "slug": "svelte-origins-a-javascript-documentary",
  "link": "https://www.youtube.com/watch?v=kMlkCYL9qo0",
  "videoID": "kMlkCYL9qo0",
- "language": null,
+ "language": [
+  "en"
+ ],
  "tags": [
   "Frontend",
   "JavaScript",
   "Open Source",
   "History"
  ],
- "title": "",
- "description": "",
- "duration": "",
- "publishedAt": "",
+ "title": "Svelte Origins: A JavaScript Documentary",
+ "description": "🎥 More tech documentaries coming out soon, subscribe to be notified 👉\n\n(PS: The 2022 Stack Overflow Developer Survey results just came out and Phoenix overtook Svelte as the world's most loved web framework so hey, we had to adjust our thumbnail a bit 🤷)\n\nSvelte Origins: The Documentary tells the story of how Svelte came to be, what makes Svelte different, and how it changes the game as a JavaScript framework. Filmed in locations throughout Europe and the US, it features Svelte’s creator Rich Harris and members from the core community who contributed to making Svelte what it is today.\n\nSvelte Origins was filmed in late 2021, produced by OfferZen and directed by Dewald Brand, with shoots in the USA, the UK, Ireland, Sweden and Germany.\n\n0:27 Who is Rich Harris?\n0:52 Why is Svelte called Svelte?\n1:39 What is Svelte?\n1:52 How does Svelte differ from other JS frameworks like React or Vue?\n2:50 How did Rich Harris get into tech?\n4:38 Visual journalism and the creation of Ractive.js\n5:43 Why did Rich Harris create Svelte?\n6:57 Core Svelte contributors\n7:44 Ben McCann talks about reactive code\n8:50 How Svelte went from V1 to V3\n10:09 Scott Tolinski explains what makes Svelte so appealing to many JS developers\n12:41 Amelia Wattenberger talks about Svelte being the JS framework with the highest satisfaction rates\n14:50 Aliza Aufrichtig talks about using Svelte at the New York Times\n17:22 Moritz Stefaner talks about building the German vaccination dashboard using Svelte\n19:05 Rich Harris explains that Svelte is as generic and flexible a JS framework as React or Vue\n19:43 TypeScript support was one of the most popular requested features in Svelte\n20:47 Orta Therox explains why \u0026 how TypeScript support was brought into Svelte\n22:40 Introducing Svelte Summit and the Svelte community\n23:58 Swyx, Antony Jones and Kevin A.K. talk about the origin story behind Svelte Society and its purpose in the Svelte ecosystem\n27:46 Rich Harris and Guillermo Rauch (CEO of Vercel \u0026 creator of Next.js) talk about Rich Harris joining Vercel and what this means for Svelte\n30:26 Rich Harris reflects on the success of Svelte and what the future might look like\n\n#svelte #sveltejs #javascript #typescript #react #vue #nextjs #vercel\n\nOfferZen is a developer job platform helping devs find jobs they love in positions they deserve. Want to know more about OfferZen? Check out the link below. 👇 \n\nhttps://bit.ly/dev-jobs-sdo\n\nConnect with OfferZen:\nTwitter: https://twitter.com/offerZen/\nInstagram: https://www.instagram.com/offerzen/\nFacebook: https://www.facebook.com/offerzen/\nLinkedIn: https://www.linkedin.com/company/offerzen/",
+ "duration": "PT32M27S",
+ "publishedAt": "2022-06-21T16:40:26Z",
  "channel": {
-  "id": "",
-  "title": ""
+  "id": "UCDstQZHA9T8-ZP046R0KEXA",
+  "title": "OfferZen Origins"
  },
- "viewCount": 0,
- "image": ""
+ "viewCount": 211143,
+ "image": "images/svelte-origins-a-javascript-documentary.jpg"
 }

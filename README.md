@@ -33,8 +33,16 @@ A curated list of movies, documentaries and other related material to watch rela
 
 <h3 id="angular-the-documentary">Angular: The Documentary</h3>
 
+<img align="right" width="320" src="./generated/images/angular-the-documentary.jpg" alt="Angular: The Documentary" />
 
+Born as an internal Google experiment - and initially brushed off by Gmail and Google Maps - AngularJS soon became a JavaScript sensation. But when internal pressures pushed the team towards a radical overhaul of the framework, the community felt left behind. What followed was years of attempts to bring Angular back to its former glory without breaking the world again.
 
+Once considered dead and buried, Angular is back on everyone’s lips, pushing the boundaries of JavaScript and reaching new levels of importance at Google.
+
+From Angular 2 to Ivy, incorporating Signals to converging with Wiz and ...
+
+* Duration: ca. 1 h 1 min.
+* Language: en
 * Tags: Frontend, JavaScript, Google, Open Source, History
 * [Watch on YouTube](https://www.youtube.com/watch?v=cRC9DlH45lA)
 
@@ -42,8 +50,19 @@ A curated list of movies, documentaries and other related material to watch rela
 
 <h3 id="clojure-the-documentary">Clojure: The Documentary</h3>
 
+<img align="right" width="320" src="./generated/images/clojure-the-documentary.jpg" alt="Clojure: The Documentary" />
 
+This is the story of how one programmer&#39;s obsession with simplicity quietly reshaped how the software world thinks about time, immutability, and what it means to write code that lasts. From a sabbatical pet-project to the backbone of one of the world&#39;s largest fintechs and a global community that treats their language like a philosophy. This is the story of Clojure. 
 
+---
+
+This documentary wouldn&#39;t exist without the kind support of Nubank: https://building.nubank.com/engineering/
+
+Thanks to Railway, our channel sponsor, for supporting all of our films:
+Railway is the all-in-one intelligent cloud ...
+
+* Duration: ca. 1 h 6 min.
+* Language: en
 * Tags: Programming Languages, Functional Programming, Open Source, History
 * [Watch on YouTube](https://www.youtube.com/watch?v=Y24vK_QDLFg)
 
@@ -51,8 +70,14 @@ A curated list of movies, documentaries and other related material to watch rela
 
 <h3 id="ebpf-unlocking-the-kernel">eBPF: Unlocking the Kernel</h3>
 
+<img align="right" width="320" src="./generated/images/ebpf-unlocking-the-kernel.jpg" alt="eBPF: Unlocking the Kernel" />
 
+The official eBPF documentary.
 
+In 2014, a group of engineers at Plumgrid needed to find an innovative and cost-effective solution to handle network traffic in SDN environments. What they created was a landmark in the industry known as the extended Berkeley Packet Filter (or eBPF). This vital technology allows user-level code execution inside the Linux Kernel, transforming network traffic handling for SDN environments. Whether these engineers knew it or not, they had just revolutionized the Linux Kernel. We go in-depth to explore the origins of eBPF and showcase the stories, challenges, and rewards ...
+
+* Duration: ca. 30 min.
+* Language: en
 * Tags: Linux, Kernel, Open Source, Networking
 * [Watch on YouTube](https://www.youtube.com/watch?v=Wb_vD3XZYOA)
 
@@ -60,8 +85,16 @@ A curated list of movies, documentaries and other related material to watch rela
 
 <h3 id="elixir-the-documentary">Elixir: The Documentary</h3>
 
+<img align="right" width="320" src="./generated/images/elixir-the-documentary.jpg" alt="Elixir: The Documentary" />
 
+Get ready to explore the origins of the #Elixir programming language, the manner in which it handles concurrency and the speed with which it has grown since its creation back in 2011.
 
+Featuring José Valim, creator of Elixir, and several other big names from the Elixir community, including Justin Schneck, co-author of the Nerves Project, and Chris McCord, the creator of the Phoenix Framework, this documentary highlights the power of open-source development and the role of Elixir in enabling developers to achieve things that were impossible, or prohibitively expensive, to do before.
+
+Check out the ...
+
+* Duration: ca. 13 min.
+* Language: en
 * Tags: Programming Languages, Functional Programming, Open Source, History
 * [Watch on YouTube](https://www.youtube.com/watch?v=lxYFOM3UJzo)
 
@@ -69,8 +102,20 @@ A curated list of movies, documentaries and other related material to watch rela
 
 <h3 id="ember-js-the-documentary">Ember.js: The Documentary</h3>
 
+<img align="right" width="320" src="./generated/images/ember-js-the-documentary.jpg" alt="Ember.js: The Documentary" />
 
+Starring Yehuda Katz and Tom Dale  (co-creators of Ember.js), as well as many other big names from the #Ember community, &#34;Ember.js: The Documentary&#34; explores why and how #Emberjs came to be, the pioneers behind its creation and the life-altering decisions that go into making #opensource software.
 
+Check out the home for untold developer stories around open source, careers and all the other cool stuff developers are doing at https://bit.ly/3xiIzQA
+
+Learn more about Honeypot: https://www.honeypot.io/?utm_source=youtube
+
+Follow us!
+Twitter: https://twitter.com/honeypotio
+Facebook: https://www.facebook. ...
+
+* Duration: ca. 25 min.
+* Language: en
 * Tags: Frontend, JavaScript, Open Source, History
 * [Watch on YouTube](https://www.youtube.com/watch?v=Cvz-9ccflKQ)
 
@@ -78,8 +123,16 @@ A curated list of movies, documentaries and other related material to watch rela
 
 <h3 id="graphql-the-documentary">GraphQL: The Documentary</h3>
 
+<img align="right" width="320" src="./generated/images/graphql-the-documentary.jpg" alt="GraphQL: The Documentary" />
 
+The GraphQL Documentary 🚀🚀🚀 Starring Lee Byron, Dan Schafer and Nick Schrock  (co-creators of GraphQL) and other big names from the #GraphQL community, &#34;GraphQL: The Documentary&#34; explores the story of why and how GraphQL came to be and the impact it&#39;s having on big #tech companies worldwide, including Facebook, Twitter, Airbnb and Github.
 
+Check out the home for untold developer stories around open source, careers and all the other cool stuff developers are doing at https://bit.ly/3nQNpBo
+
+&#34;We have been really involved with the GraphQL community since founding Honeypot. We run the GraphQL Conf ...
+
+* Duration: ca. 28 min.
+* Language: en
 * Tags: API, Open Source, History
 * [Watch on YouTube](https://www.youtube.com/watch?v=783ccP__No8)
 
@@ -104,8 +157,19 @@ Envoy was open sourced in the fall of 2016 and quickly gained adoption. In 2017,
 
 <h3 id="intellij-idea-the-documentary">IntelliJ IDEA: The Documentary</h3>
 
+<img align="right" width="320" src="./generated/images/intellij-idea-the-documentary.jpg" alt="IntelliJ IDEA: The Documentary" />
 
+This is the IDE that changed everything.
 
+This documentary traces the 25-year journey of one of the most beloved tools in software development. Through rare archival footage, intimate interviews, and behind-the-scenes moments, it explores how IntelliJ IDEA challenged the status quo, shaped the Java world, and set the standard for intelligent tooling, all while staying true to its founding vision: helping developers do their best work.
+
+Featuring stories from JetBrains creators, current engineers, and voices from Google, Oracle, and the Spring community.
+
+Producer: Guillermo López
+Director: Jaś ...
+
+* Duration: ca. 39 min.
+* Language: en
 * Tags: Developer Tools, IDE, JetBrains, History
 * [Watch on YouTube](https://www.youtube.com/watch?v=Kourq_Lz03U)
 
@@ -113,8 +177,31 @@ Envoy was open sourced in the fall of 2016 and quickly gained adoption. In 2017,
 
 <h3 id="internet-relay-chat-irc">Internet Relay Chat (IRC)</h3>
 
+<img align="right" width="320" src="./generated/images/internet-relay-chat-irc.jpg" alt="Internet Relay Chat (IRC)" />
 
+Our love letter to Internet Relay Chat.
 
+Want more content like this? Support our mission! Send us a Super Thanks and check out our Patreon &#43; Discord community:  https://www.patreon.com/serialport
+
+Got some retro gear you want to donate? Get in touch with us at serialport.org.
+
+Our second channel: @TheParallelPort 
+
+#internet #chat
+
+00:00 — Source code
+00:59 — Why IRC?
+04:27 — Because It&#39;s Time Network
+08:32 — Alku
+11:40 — Trillian
+16:00 — The splits
+22:14 — The legacy of IRC
+25:07 — Something special
+
+References and sources: https://docs.google.com/document/d/e/2PACX-1vQjGmdjmESDJP7dy6S5f2iXossxO1tfI-oHszpZrzfbnJvB3lPNscTtUVj43hf4HEzJVU6EbVlKwy8P/pub
+
+* Duration: ca. 26 min.
+* Language: en
 * Tags: Networking, Chat, Open Source, History
 * [Watch on YouTube](https://www.youtube.com/watch?v=6UbKenFipjo)
 
@@ -122,8 +209,18 @@ Envoy was open sourced in the fall of 2016 and quickly gained adoption. In 2017,
 
 <h3 id="kubernetes-the-documentary-part-1">Kubernetes: The Documentary [PART 1]</h3>
 
+<img align="right" width="320" src="./generated/images/kubernetes-the-documentary-part-1.jpg" alt="Kubernetes: The Documentary [PART 1]" />
 
+The official Kubernetes Documentary Part 1. 
 
+Inspired by the open source success of Docker in 2013 and seeing the need for innovation in the area of large-scale cloud computing, a handful of forward-thinking Google engineers set to work on the container orchestrator that would come to be known as Kubernetes– this new tool would forever change the way the internet is built.
+
+These engineers overcome technical challenges, resistance to open source from within, naysayers, and intense competition from other big players in the industry.
+
+Most engineers know about “The Container Orchestrator Wars’’ ...
+
+* Duration: ca. 25 min.
+* Language: en
 * Tags: Cloud Native, Orchestration, Open Source, History
 * [Watch on YouTube](https://www.youtube.com/watch?v=BE77h7dmoQU)
 
@@ -131,8 +228,18 @@ Envoy was open sourced in the fall of 2016 and quickly gained adoption. In 2017,
 
 <h3 id="kubernetes-the-documentary-part-2">Kubernetes: The Documentary [PART 2]</h3>
 
+<img align="right" width="320" src="./generated/images/kubernetes-the-documentary-part-2.jpg" alt="Kubernetes: The Documentary [PART 2]" />
 
+The official Kubernetes Documentary Part 2. 
 
+Inspired by the open source success of Docker in 2013 and seeing the need for innovation in the area of large-scale cloud computing, a handful of forward-thinking Google engineers set to work on the container orchestrator that would come to be known as Kubernetes– this new tool would forever change the way the internet is built.
+
+These engineers overcome technical challenges, resistance to open source from within, naysayers, and intense competition from other big players in the industry.
+
+Most engineers know about “The Container Orchestrator Wars’’ ...
+
+* Duration: ca. 31 min.
+* Language: en
 * Tags: Cloud Native, Orchestration, Open Source, History
 * [Watch on YouTube](https://www.youtube.com/watch?v=318elIq37PE)
 
@@ -140,8 +247,17 @@ Envoy was open sourced in the fall of 2016 and quickly gained adoption. In 2017,
 
 <h3 id="laravel-origins-a-php-documentary">Laravel Origins: A PHP Documentary</h3>
 
+<img align="right" width="320" src="./generated/images/laravel-origins-a-php-documentary.jpg" alt="Laravel Origins: A PHP Documentary" />
 
+🎥 More tech documentaries coming out soon, subscribe to be notified 👉
+👕 Get your Laravel Origins swag: https://bit.ly/laravel-swag
 
+Featuring Laravel creator Taylor Otwell and many others who’ve contributed to making Laravel the technology and community that it is today, Laravel Origins tells the story of why Laravel came to be, how it&#39;s grown over the last 10 years and what the future may hold for Taylor and the wider Laravel community.
+
+Laravel Origins was filmed in late 2021, produced by OfferZen and directed by Dewald Brand, with shoots in the USA, Canada, the UK, Australia, Portugal, Belgium, ...
+
+* Duration: ca. 33 min.
+* Language: en
 * Tags: Web Frameworks, PHP, Open Source, History
 * [Watch on YouTube](https://www.youtube.com/watch?v=127ng7botO4)
 
@@ -149,8 +265,16 @@ Envoy was open sourced in the fall of 2016 and quickly gained adoption. In 2017,
 
 <h3 id="node-js-the-documentary">Node.js: The Documentary</h3>
 
+<img align="right" width="320" src="./generated/images/node-js-the-documentary.jpg" alt="Node.js: The Documentary" />
 
+Back in 2008, most people thought of JavaScript as just a client-side language. But when Google&#39;s V8 appeared, young developer Ryan Dahl made the connection between non-blocking servers, V8, and JavaScript. It was by combining these key elements that he was able to create the now hugely popular Node.js.
 
+What young Ryan Dahl probably didn&#39;t expect was how much forking drama would follow.
+
+Join us as we delve into the origins of Node.js, meet some of its earliest contributors and explore the complicated dynamics between corporations using open source technologies and the dedicated community members ...
+
+* Duration: ca. 1 h 3 min.
+* Language: en
 * Tags: JavaScript, Backend, Open Source, History
 * [Watch on YouTube](https://www.youtube.com/watch?v=LB8KwiiUGy0)
 
@@ -158,8 +282,13 @@ Envoy was open sourced in the fall of 2016 and quickly gained adoption. In 2017,
 
 <h3 id="prometheus-the-documentary">Prometheus: The Documentary</h3>
 
+<img align="right" width="320" src="./generated/images/prometheus-the-documentary.jpg" alt="Prometheus: The Documentary" />
 
+Watch and witness the journey of open-source monitoring system, Prometheus. Before Kubernetes existed—even before Docker—the team at Soundcloud already knew their monitoring system deserved a complete, fundamental revamp. Of course, as with anything in development, this was no easy task.
+Join us as we explore the story of Prometheus, from inception to adoption as told by the story’s key players including Julian Volz, Matthias Rampke, Björn Rabenstein, and more. In the end, you’ll see how a “problem to be solved” eventually led the industry to a completely new understanding of monitoring. We hope ...
 
+* Duration: ca. 27 min.
+* Language: en
 * Tags: Observability, Monitoring, Open Source, Cloud Native, History
 * [Watch on YouTube](https://www.youtube.com/watch?v=rT4fJNbfe14)
 
@@ -167,8 +296,16 @@ Envoy was open sourced in the fall of 2016 and quickly gained adoption. In 2017,
 
 <h3 id="python-the-documentary">Python: The Documentary</h3>
 
+<img align="right" width="320" src="./generated/images/python-the-documentary.jpg" alt="Python: The Documentary" />
 
+This is the story of the world&#39;s most beloved programming language: Python. What began as a side project in Amsterdam during the 1990s became the software powering artificial intelligence, data science and some of the world’s biggest companies. But Python&#39;s future wasn&#39;t certain; at one point it almost disappeared.
 
+This 90-minute documentary features Guido van Rossum, Travis Oliphant, Barry Warsaw, and many more, and they tell the story of Python’s rise, its community-driven evolution, the conflicts that almost tore it apart, and the language’s impact on... well… everything. 
+
+Thanks to our sponsors ...
+
+* Duration: ca. 1 h 24 min.
+* Language: en
 * Tags: Programming Languages, Open Source, History
 * [Watch on YouTube](https://www.youtube.com/watch?v=GfH4QL4VqJ0)
 
@@ -176,8 +313,13 @@ Envoy was open sourced in the fall of 2016 and quickly gained adoption. In 2017,
 
 <h3 id="react-js-the-documentary">React.js: The Documentary</h3>
 
+<img align="right" width="320" src="./generated/images/react-js-the-documentary.jpg" alt="React.js: The Documentary" />
 
+React is easily one of the single most popular libraries in use today. Given that it was made within a juggernaut like Facebook, you might have assumed it was always destined for success.
+But what if we told you that React’s first brush with the public sphere was anything but glamorous? React.js: The Documentary brings you the full story behind the early days of React, focusing on the dedicated group of developers who helped bring it to the world stage. This story is told by an all-star cast of developers like Tom Occhino, Christopher Chedeau, Pete Hunt, Sebastian Markbåge, Dan Abramov, and many ...
 
+* Duration: ca. 1 h 18 min.
+* Language: en
 * Tags: Frontend, JavaScript, Meta, Open Source, History
 * [Watch on YouTube](https://www.youtube.com/watch?v=8pDqJVdNa44)
 
@@ -200,8 +342,18 @@ Get the whole spill by the people who had a front-row seat to the creation and d
 
 <h3 id="svelte-origins-a-javascript-documentary">Svelte Origins: A JavaScript Documentary</h3>
 
+<img align="right" width="320" src="./generated/images/svelte-origins-a-javascript-documentary.jpg" alt="Svelte Origins: A JavaScript Documentary" />
 
+🎥 More tech documentaries coming out soon, subscribe to be notified 👉
 
+(PS: The 2022 Stack Overflow Developer Survey results just came out and Phoenix overtook Svelte as the world&#39;s most loved web framework so hey, we had to adjust our thumbnail a bit 🤷)
+
+Svelte Origins: The Documentary tells the story of how Svelte came to be, what makes Svelte different, and how it changes the game as a JavaScript framework. Filmed in locations throughout Europe and the US, it features Svelte’s creator Rich Harris and members from the core community who contributed to making Svelte what it is today.
+
+Svelte Origins ...
+
+* Duration: ca. 32 min.
+* Language: en
 * Tags: Frontend, JavaScript, Open Source, History
 * [Watch on YouTube](https://www.youtube.com/watch?v=kMlkCYL9qo0)
 
@@ -209,8 +361,22 @@ Get the whole spill by the people who had a front-row seat to the creation and d
 
 <h3 id="typescript-origins-the-documentary">TypeScript Origins: The Documentary</h3>
 
+<img align="right" width="320" src="./generated/images/typescript-origins-the-documentary.jpg" alt="TypeScript Origins: The Documentary" />
 
+TypeScript Origins: The Documentary is brought to you by OfferZen - the community-first developer jobs platform. The documentary features core contributors and community members like Anders Hejlsberg, Steve Lucco, Luke Hoban, Daniel Rosenwasser, Ryan Cavanaugh, Amanda Silver, Matt Pocock, Josh Goldberg &amp; many more!
 
+It also covers adoption stories and insights from JetBrains, Xata, AG_Grid, Deno, Visual Studio Code and Tech at Bloomberg.
+
+#typescript #javascript #programming #softwaredevelopment 
+
+Sponsored by 
+- JetBrains (www.jetbrains.com)
+- BBD (www.bbd.co.za)
+- AG Grid (www.ag-grid.com)
+- ...
+
+* Duration: ca. 1 h 22 min.
+* Language: en
 * Tags: Programming Languages, JavaScript, Microsoft, History
 * [Watch on YouTube](https://www.youtube.com/watch?v=U6s2pdxebSo)
 
@@ -235,8 +401,18 @@ Featuring many prominent developers in the JavaCript ecosystem, this documentary
 
 <h3 id="vue-js-the-documentary">Vue.js: The Documentary</h3>
 
+<img align="right" width="320" src="./generated/images/vue-js-the-documentary.jpg" alt="Vue.js: The Documentary" />
 
+by honeypot.io | What began as a side project of a Google developer
+now shares the JS leaderboard with #React and #Angular...
+With the help of Sarah Drasner, Taylor Otwell, Thorsten Lünborg and many others from the Vue.js community, Evan You tells the story of how he fought against the odds to bring #Vuejs to life.
 
+Check out the home for untold developer stories around open source, careers and all the other cool stuff developers are doing at https://bit.ly/3FGSlim
+
+Honeypot is a developer-focused job platform, on a mission to get every developer a great job. Wanna see what we&#39;re all about? Check ...
+
+* Duration: ca. 35 min.
+* Language: en
 * Tags: Frontend, JavaScript, Open Source, History
 * [Watch on YouTube](https://www.youtube.com/watch?v=OrxmtDw4pVI)
 

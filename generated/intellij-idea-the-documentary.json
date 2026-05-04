@@ -3,21 +3,23 @@
  "slug": "intellij-idea-the-documentary",
  "link": "https://www.youtube.com/watch?v=Kourq_Lz03U",
  "videoID": "Kourq_Lz03U",
- "language": null,
+ "language": [
+  "en"
+ ],
  "tags": [
   "Developer Tools",
   "IDE",
   "JetBrains",
   "History"
  ],
- "title": "",
- "description": "",
- "duration": "",
- "publishedAt": "",
+ "title": "IntelliJ IDEA: The Documentary | An origin story",
+ "description": "This is the IDE that changed everything.\n\nThis documentary traces the 25-year journey of one of the most beloved tools in software development. Through rare archival footage, intimate interviews, and behind-the-scenes moments, it explores how IntelliJ IDEA challenged the status quo, shaped the Java world, and set the standard for intelligent tooling, all while staying true to its founding vision: helping developers do their best work.\n\nFeaturing stories from JetBrains creators, current engineers, and voices from Google, Oracle, and the Spring community.\n\nProducer: Guillermo López\nDirector: Jaś Miszewski\n\nProduced by: Tech Documentaries (www.techdocumentaries.com)\n\nThanks to JetBrains for making this documentary possible:\nIntelliJ IDEA https://www.jetbrains.com/idea/\n\nAnd to all the amazing people who are featured:\nEugene Belyaev: https://x.com/eugenebelyaev\nMaxim Shafirov: https://x.com/mshafirov\nKonstantin Bulenkov: https://x.com/bulenkov\nDmitry Jemerov: https://x.com/intelliyole\nAnna Kozlova: https://github.com/akozlova\nTrisha Gee: https://x.com/trisha_gee\nJosh Long: https://x.com/starbuxman\nSergey Chernov: https://www.linkedin.com/in/schernov/\nBrian Goetz: https://x.com/BrianGoetz\nKevin Wittek: https://x.com/Kiview\nGeorge Andrianakis: https://www.linkedin.com/in/georgios-andrianakis/\nTor Norbye: https://www.linkedin.com/in/tor-norbye/\n\nFollow us:\nX: x.com/CultRepo\nBluesky: cultrepo.bsky.social\nInstagram: www.instagram.com/cult.repo",
+ "duration": "PT39M5S",
+ "publishedAt": "2026-03-05T18:00:07Z",
  "channel": {
-  "id": "",
-  "title": ""
+  "id": "UCsUalyRg43M8D60mtHe6YcA",
+  "title": "CultRepo "
  },
- "viewCount": 0,
- "image": ""
+ "viewCount": 42360,
+ "image": "images/intellij-idea-the-documentary.jpg"
 }
