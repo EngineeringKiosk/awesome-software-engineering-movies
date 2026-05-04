@@ -76,8 +76,8 @@ non-commercial dataset.
 | `localized`   | map[code → object] | no   | YAML            | Per-language alternate-version overrides. Keys are ISO 639-1 codes (`de`, `es`, …). Each value supports optional `title`, `link`, and `description` — provide whichever differs from the English top-level. A per-localized `platform` is autodetected from the localized `link` (same precedence rules as the top-level `platform`), so a German Amazon Prime link on a YouTube top-level entry is recorded correctly. Alternate links are not enriched (no extra YouTube/IMDb API calls); they round-trip from YAML to JSON unchanged. |
 
 The remaining JSON fields (`title`, `duration`, `publishedAt`,
-`channel`, `ratings`, `views`, `image`, `slug`, `videoID`,
-`platform` when not set in YAML) are produced by the tooling.
+`channel`, `ratings`, `views`, `image`, `slug`, `platform` when
+not set in YAML) are produced by the tooling.
 
 If your entry has an alternate-language version, add a `localized`
 block — for example:
