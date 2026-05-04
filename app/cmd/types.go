@@ -6,6 +6,7 @@ import (
 	"strings"
 	"time"
 
+	"github.com/EngineeringKiosk/awesome-software-engineering-movies/platform"
 	"github.com/EngineeringKiosk/awesome-software-engineering-movies/youtube"
 )
 
@@ -22,6 +23,12 @@ type MovieInformation struct {
 	Link string `yaml:"link" json:"link"`
 	// VideoID is parsed from Link by convertYamlToJson.
 	VideoID string `yaml:"-" json:"videoID"`
+	// Platform identifies which source the link lives on (e.g.
+	// "youtube"). Optional in YAML — convertYamlToJson auto-fills it
+	// from the link via the platform package when omitted. The YAML
+	// value, when set, always wins; convertYamlToJson logs a warning
+	// when YAML and link disagree.
+	Platform string `yaml:"platform,omitempty" json:"platform"`
 
 	// Language is a list of ISO 639-1 codes (e.g. ["en"], ["en", "de"]).
 	// Curated by hand because the YouTube API does not reliably expose
@@ -111,6 +118,13 @@ func (m *MovieInformation) LanguagesAsList() string {
 // SubtitlesAsList returns the subtitle codes joined with ", ".
 func (m *MovieInformation) SubtitlesAsList() string {
 	return strings.Join(m.Subtitles, ", ")
+}
+
+// PlatformDisplay returns the human-readable platform name for the
+// README, e.g. "YouTube" for the slug "youtube". Empty / unknown
+// slugs degrade gracefully via platform.Display.
+func (m *MovieInformation) PlatformDisplay() string {
+	return platform.Display(m.Platform)
 }
 
 // HasYouTubeLikes reports whether the YouTube rating block is

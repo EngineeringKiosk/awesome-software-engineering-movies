@@ -1,6 +1,11 @@
 package cmd
 
-import "testing"
+import (
+	"bytes"
+	"log"
+	"strings"
+	"testing"
+)
 
 // mergeMovieInformation has three override-only fields (Language,
 // Subtitles, Description) whose YAML > API precedence is easy to
@@ -68,6 +73,93 @@ func TestMergeMovieInformation_SubtitlesPrecedence(t *testing.T) {
 		got := mergeMovieInformation(yaml, json)
 		if len(got.Subtitles) != 2 || got.Subtitles[0] != "en" || got.Subtitles[1] != "de" {
 			t.Fatalf("Subtitles = %v; want [en de] (target preserved)", got.Subtitles)
+		}
+	})
+}
+
+func TestResolvePlatform(t *testing.T) {
+	cases := []struct {
+		name        string
+		yamlValue   string
+		link        string
+		wantValue   string
+		wantWarnSub string // empty = expect no warning
+	}{
+		{
+			name:      "autodetect from YouTube link when YAML omits platform",
+			link:      "https://www.youtube.com/watch?v=abc123",
+			wantValue: "youtube",
+		},
+		{
+			name:      "explicit YAML matches detector → no warning",
+			yamlValue: "youtube",
+			link:      "https://youtu.be/abc123",
+			wantValue: "youtube",
+		},
+		{
+			name:        "YAML disagrees with link → warn, keep YAML",
+			yamlValue:   "netflix",
+			link:        "https://www.youtube.com/watch?v=abc123",
+			wantValue:   "netflix",
+			wantWarnSub: "disagrees with link-detected platform",
+		},
+		{
+			name:        "YAML set, link unrecognised → warn, keep YAML",
+			yamlValue:   "netflix",
+			link:        "https://example.com/foo",
+			wantValue:   "netflix",
+			wantWarnSub: "matches no known platform; keeping YAML value",
+		},
+		{
+			name:        "neither YAML nor detector → warn, leave empty",
+			link:        "https://example.com/foo",
+			wantValue:   "",
+			wantWarnSub: "leaving empty",
+		},
+	}
+	for _, tc := range cases {
+		t.Run(tc.name, func(t *testing.T) {
+			info := &MovieInformation{Link: tc.link, Platform: tc.yamlValue}
+
+			var buf bytes.Buffer
+			prev := log.Writer()
+			log.SetOutput(&buf)
+			defer log.SetOutput(prev)
+
+			resolvePlatform(info, "test.yml")
+
+			if info.Platform != tc.wantValue {
+				t.Errorf("Platform = %q; want %q", info.Platform, tc.wantValue)
+			}
+			out := buf.String()
+			switch {
+			case tc.wantWarnSub == "" && strings.Contains(out, "WARNING"):
+				t.Errorf("expected no warning, got: %s", out)
+			case tc.wantWarnSub != "" && !strings.Contains(out, tc.wantWarnSub):
+				t.Errorf("expected warning containing %q, got: %s", tc.wantWarnSub, out)
+			}
+		})
+	}
+}
+
+func TestMergeMovieInformation_PlatformPrecedence(t *testing.T) {
+	t.Run("YAML platform overrides target", func(t *testing.T) {
+		yaml := &MovieInformation{Name: "n", Link: "l", Platform: "netflix"}
+		json := &MovieInformation{Name: "stale", Link: "stale", Platform: "youtube"}
+
+		got := mergeMovieInformation(yaml, json)
+		if got.Platform != "netflix" {
+			t.Fatalf("Platform = %q; want %q", got.Platform, "netflix")
+		}
+	})
+
+	t.Run("empty YAML platform preserves target", func(t *testing.T) {
+		yaml := &MovieInformation{Name: "n", Link: "l"}
+		json := &MovieInformation{Name: "stale", Link: "stale", Platform: "youtube"}
+
+		got := mergeMovieInformation(yaml, json)
+		if got.Platform != "youtube" {
+			t.Fatalf("Platform = %q; want %q (target preserved)", got.Platform, "youtube")
 		}
 	})
 }
