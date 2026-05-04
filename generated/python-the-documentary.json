@@ -6,6 +6,10 @@
  "language": [
   "en"
  ],
+ "subtitles": [
+  "en",
+  "ko"
+ ],
  "tags": [
   "Programming Languages",
   "Open Source",
@@ -19,6 +23,13 @@
   "id": "UCsUalyRg43M8D60mtHe6YcA",
   "title": "CultRepo "
  },
- "viewCount": 1078703,
+ "ratings": {
+  "youtube": {
+   "likeCount": 33455
+  }
+ },
+ "views": {
+  "youtube": 1078731
+ },
  "image": "images/python-the-documentary.jpg"
 }

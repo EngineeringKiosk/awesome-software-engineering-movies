@@ -6,6 +6,9 @@
  "language": [
   "en"
  ],
+ "subtitles": [
+  "en"
+ ],
  "tags": [
   "Frontend",
   "Build Tools",
@@ -20,6 +23,13 @@
   "id": "UCsUalyRg43M8D60mtHe6YcA",
   "title": "CultRepo "
  },
- "viewCount": 151845,
+ "ratings": {
+  "youtube": {
+   "likeCount": 5905
+  }
+ },
+ "views": {
+  "youtube": 151851
+ },
  "image": "images/vite-the-documentary.jpg"
 }

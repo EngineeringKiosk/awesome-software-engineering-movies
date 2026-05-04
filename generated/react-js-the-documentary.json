@@ -6,6 +6,11 @@
  "language": [
   "en"
  ],
+ "subtitles": [
+  "en",
+  "es",
+  "pt"
+ ],
  "tags": [
   "Frontend",
   "JavaScript",
@@ -21,6 +26,13 @@
   "id": "UCsUalyRg43M8D60mtHe6YcA",
   "title": "CultRepo "
  },
- "viewCount": 1641133,
+ "ratings": {
+  "youtube": {
+   "likeCount": 40560
+  }
+ },
+ "views": {
+  "youtube": 1641145
+ },
  "image": "images/react-js-the-documentary.jpg"
 }

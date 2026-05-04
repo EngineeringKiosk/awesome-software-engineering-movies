@@ -6,6 +6,9 @@
  "language": [
   "en"
  ],
+ "subtitles": [
+  "en"
+ ],
  "tags": [
   "Linux",
   "Kernel",
@@ -20,6 +23,13 @@
   "id": "UCro9rA8-YX-26UVNY8ewAKQ",
   "title": " Speakeasy Productions"
  },
- "viewCount": 165129,
+ "ratings": {
+  "youtube": {
+   "likeCount": 4777
+  }
+ },
+ "views": {
+  "youtube": 165131
+ },
  "image": "images/ebpf-unlocking-the-kernel.jpg"
 }

@@ -6,6 +6,9 @@
  "language": [
   "en"
  ],
+ "subtitles": [
+  "en"
+ ],
  "tags": [
   "Programming Languages",
   "Functional Programming",
@@ -20,6 +23,13 @@
   "id": "UCsUalyRg43M8D60mtHe6YcA",
   "title": "CultRepo "
  },
- "viewCount": 185460,
+ "ratings": {
+  "youtube": {
+   "likeCount": 3584
+  }
+ },
+ "views": {
+  "youtube": 185484
+ },
  "image": "images/clojure-the-documentary.jpg"
 }

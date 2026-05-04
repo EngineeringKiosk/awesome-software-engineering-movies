@@ -6,6 +6,28 @@
  "language": [
   "en"
  ],
+ "subtitles": [
+  "sl",
+  "bg",
+  "es",
+  "ru",
+  "cs",
+  "el",
+  "bn",
+  "zh",
+  "ar",
+  "de",
+  "mk",
+  "pt",
+  "fr",
+  "tr",
+  "sr",
+  "ro",
+  "hr",
+  "en",
+  "pl",
+  "hu"
+ ],
  "tags": [
   "GNU/Linux",
   "Open Source",
@@ -19,6 +41,13 @@
   "id": "UCqHGotzs8NZABgorJjWNppg",
   "title": "Adam N."
  },
- "viewCount": 86729,
+ "ratings": {
+  "youtube": {
+   "likeCount": 2191
+  }
+ },
+ "views": {
+  "youtube": 86731
+ },
  "image": "images/revolution-os.jpg"
 }

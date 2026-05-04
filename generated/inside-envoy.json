@@ -6,6 +6,9 @@
  "language": [
   "en"
  ],
+ "subtitles": [
+  "en"
+ ],
  "tags": [
   "Networking",
   "Service Mesh",
@@ -20,6 +23,13 @@
   "id": "UCro9rA8-YX-26UVNY8ewAKQ",
   "title": " Speakeasy Productions"
  },
- "viewCount": 116975,
+ "ratings": {
+  "youtube": {
+   "likeCount": 572
+  }
+ },
+ "views": {
+  "youtube": 116975
+ },
  "image": "images/inside-envoy-the-proxy-for-the-future.jpg"
 }
