@@ -152,6 +152,15 @@ func mergeMovieInformation(source, target *MovieInformation) *MovieInformation {
 	if len(source.Description) > 0 {
 		target.Description = source.Description
 	}
+	if len(source.Title) > 0 {
+		target.Title = source.Title
+	}
+	if len(source.Duration) > 0 {
+		target.Duration = source.Duration
+	}
+	if len(source.PublishedAt) > 0 {
+		target.PublishedAt = source.PublishedAt
+	}
 	if len(source.IMDbID) > 0 {
 		target.IMDbID = source.IMDbID
 	}

@@ -33,6 +33,72 @@ func TestMergeMovieInformation_DescriptionPrecedence(t *testing.T) {
 	})
 }
 
+func TestMergeMovieInformation_TitlePrecedence(t *testing.T) {
+	t.Run("YAML title overrides target", func(t *testing.T) {
+		yaml := &MovieInformation{Name: "n", Link: "l", Title: "from-yaml"}
+		json := &MovieInformation{Name: "stale", Link: "stale", Title: "from-api"}
+
+		got := mergeMovieInformation(yaml, json)
+		if got.Title != "from-yaml" {
+			t.Fatalf("Title = %q; want %q", got.Title, "from-yaml")
+		}
+	})
+
+	t.Run("empty YAML title preserves target", func(t *testing.T) {
+		yaml := &MovieInformation{Name: "n", Link: "l"}
+		json := &MovieInformation{Name: "stale", Link: "stale", Title: "from-api"}
+
+		got := mergeMovieInformation(yaml, json)
+		if got.Title != "from-api" {
+			t.Fatalf("Title = %q; want %q (target preserved)", got.Title, "from-api")
+		}
+	})
+}
+
+func TestMergeMovieInformation_DurationPrecedence(t *testing.T) {
+	t.Run("YAML duration overrides target", func(t *testing.T) {
+		yaml := &MovieInformation{Name: "n", Link: "l", Duration: "PT1H54M"}
+		json := &MovieInformation{Name: "stale", Link: "stale", Duration: "PT2H"}
+
+		got := mergeMovieInformation(yaml, json)
+		if got.Duration != "PT1H54M" {
+			t.Fatalf("Duration = %q; want %q", got.Duration, "PT1H54M")
+		}
+	})
+
+	t.Run("empty YAML duration preserves target", func(t *testing.T) {
+		yaml := &MovieInformation{Name: "n", Link: "l"}
+		json := &MovieInformation{Name: "stale", Link: "stale", Duration: "PT2H"}
+
+		got := mergeMovieInformation(yaml, json)
+		if got.Duration != "PT2H" {
+			t.Fatalf("Duration = %q; want %q (target preserved)", got.Duration, "PT2H")
+		}
+	})
+}
+
+func TestMergeMovieInformation_PublishedAtPrecedence(t *testing.T) {
+	t.Run("YAML publishedAt overrides target", func(t *testing.T) {
+		yaml := &MovieInformation{Name: "n", Link: "l", PublishedAt: "2019-07-24T00:00:00Z"}
+		json := &MovieInformation{Name: "stale", Link: "stale", PublishedAt: "2019-01-01T00:00:00Z"}
+
+		got := mergeMovieInformation(yaml, json)
+		if got.PublishedAt != "2019-07-24T00:00:00Z" {
+			t.Fatalf("PublishedAt = %q; want %q", got.PublishedAt, "2019-07-24T00:00:00Z")
+		}
+	})
+
+	t.Run("empty YAML publishedAt preserves target", func(t *testing.T) {
+		yaml := &MovieInformation{Name: "n", Link: "l"}
+		json := &MovieInformation{Name: "stale", Link: "stale", PublishedAt: "2019-01-01T00:00:00Z"}
+
+		got := mergeMovieInformation(yaml, json)
+		if got.PublishedAt != "2019-01-01T00:00:00Z" {
+			t.Fatalf("PublishedAt = %q; want %q (target preserved)", got.PublishedAt, "2019-01-01T00:00:00Z")
+		}
+	})
+}
+
 func TestMergeMovieInformation_LanguagePrecedence(t *testing.T) {
 	t.Run("YAML language overrides target", func(t *testing.T) {
 		yaml := &MovieInformation{Name: "n", Link: "l", Language: []string{"de"}}

@@ -51,8 +51,15 @@ type MovieInformation struct {
 	// one language. Map omits itself from JSON when empty.
 	Localized map[string]LocalizedVersion `yaml:"localized,omitempty" json:"localized,omitempty"`
 
-	// API-enriched fields below this line.
-	Title string `yaml:"-" json:"title"`
+	// API-enriched fields below this line. Some are also YAML-
+	// overridable (title, description, duration, publishedAt) for
+	// entries that have no YouTube API to fall back on.
+	// Title is optional in YAML. If supplied, the YAML value
+	// overrides whatever the YouTube API returns; if omitted, the
+	// API's snippet.title is used. Same precedence rule as
+	// Description. Set explicitly for non-YouTube entries (Netflix,
+	// bpb, …) where there is no API title.
+	Title string `yaml:"title,omitempty" json:"title"`
 	// Description is optional in YAML. If supplied, the YAML value
 	// overrides whatever the YouTube API returns; if omitted, the
 	// API's snippet.description is used. Same precedence rule as
@@ -70,10 +77,17 @@ type MovieInformation struct {
 	// pulls hqdefault.jpg / maxresdefault.jpg via the i.ytimg.com
 	// URL pattern. If neither path yields an image, the README
 	// renders a bundled placeholder.
-	YouTubeTrailerForThumbnail string          `yaml:"youtubeTrailerForThumbnail,omitempty" json:"youtubeTrailerForThumbnail,omitempty"`
-	Duration                   string          `yaml:"-"                                    json:"duration"` // ISO-8601, e.g. PT43M22S
-	PublishedAt                string          `yaml:"-" json:"publishedAt"`
-	Channel                    youtube.Channel `yaml:"-" json:"channel"`
+	YouTubeTrailerForThumbnail string `yaml:"youtubeTrailerForThumbnail,omitempty" json:"youtubeTrailerForThumbnail,omitempty"`
+	// Duration is optional in YAML; format is ISO-8601 like the YouTube
+	// API emits (PT[xH][yM][zS], e.g. PT1H54M). YAML > API precedence,
+	// matching Description. Set manually for non-YouTube entries so the
+	// README can render "Duration: ca. X min."
+	Duration string `yaml:"duration,omitempty" json:"duration"`
+	// PublishedAt is optional in YAML; RFC3339 timestamp matching the
+	// YouTube API's snippet.publishedAt. YAML > API precedence. Set
+	// manually for non-YouTube entries to record the release date.
+	PublishedAt string          `yaml:"publishedAt,omitempty" json:"publishedAt"`
+	Channel     youtube.Channel `yaml:"-"                     json:"channel"`
 	// Ratings groups rating signals by source. Today only YouTube is
 	// populated (likeCount); a future second source — e.g. an external
 	// review aggregator — would slot in as another key.
