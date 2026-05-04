@@ -4,13 +4,15 @@ A curated list of movies, documentaries and other related material to watch rela
 
 ## Table of Contents
 
-* [Movies](#movies) (21 entries)
+* [Movies](#movies) (26 entries)
   * [Angular: The Documentary](#angular-the-documentary)
   * [Clojure: The Documentary](#clojure-the-documentary)
+  * [CODE: Debugging the Gender Gap](#code-debugging-the-gender-gap)
   * [eBPF: Unlocking the Kernel](#ebpf-unlocking-the-kernel)
   * [Elixir: The Documentary](#elixir-the-documentary)
   * [Ember.js: The Documentary](#ember-js-the-documentary)
   * [GraphQL: The Documentary](#graphql-the-documentary)
+  * [Half-Life: 25th Anniversary Documentary](#half-life-25th-anniversary-documentary)
   * [Inside Envoy: The Proxy for the Future](#inside-envoy-the-proxy-for-the-future)
   * [IntelliJ IDEA: The Documentary](#intellij-idea-the-documentary)
   * [Internet Relay Chat (IRC)](#internet-relay-chat-irc)
@@ -21,11 +23,14 @@ A curated list of movies, documentaries and other related material to watch rela
   * [Prometheus: The Documentary](#prometheus-the-documentary)
   * [Python: The Documentary](#python-the-documentary)
   * [React.js: The Documentary](#react-js-the-documentary)
+  * [Revolution OS](#revolution-os)
   * [Ruby on Rails: The Documentary](#ruby-on-rails-the-documentary)
   * [Svelte Origins: A JavaScript Documentary](#svelte-origins-a-javascript-documentary)
+  * [The Internet&#39;s Own Boy: The Story of Aaron Swartz](#the-internets-own-boy-the-story-of-aaron-swartz)
   * [TypeScript Origins: The Documentary](#typescript-origins-the-documentary)
   * [VITE: The Documentary](#vite-the-documentary)
   * [Vue.js: The Documentary](#vue-js-the-documentary)
+  * [We Are Legion: The Story of the Hacktivists](#we-are-legion-the-story-of-the-hacktivists)
 * [How to contribute](#how-to-contribute)
 
 ## Movies
@@ -65,6 +70,15 @@ Railway is the all-in-one intelligent cloud ...
 * Language: en
 * Tags: Programming Languages, Functional Programming, Open Source, History
 * [Watch on YouTube](https://www.youtube.com/watch?v=Y24vK_QDLFg)
+
+----
+
+<h3 id="code-debugging-the-gender-gap">CODE: Debugging the Gender Gap</h3>
+
+
+
+* Tags: Girls, STEM, Women in Tech
+* [Watch on YouTube](https://www.youtube.com/watch?v=rQKRw6tWsb8)
 
 ----
 
@@ -135,6 +149,15 @@ Check out the home for untold developer stories around open source, careers and 
 * Language: en
 * Tags: API, Open Source, History
 * [Watch on YouTube](https://www.youtube.com/watch?v=783ccP__No8)
+
+----
+
+<h3 id="half-life-25th-anniversary-documentary">Half-Life: 25th Anniversary Documentary</h3>
+
+
+
+* Tags: Game Development, Valve, History
+* [Watch on YouTube](https://www.youtube.com/watch?v=TbZ3HzvFEto)
 
 ----
 
@@ -325,6 +348,15 @@ But what if we told you that React’s first brush with the public sphere was an
 
 ----
 
+<h3 id="revolution-os">Revolution OS</h3>
+
+
+
+* Tags: GNU/Linux, Open Source, History
+* [Watch on YouTube](https://www.youtube.com/watch?v=k0RYQVkQmWU)
+
+----
+
 <h3 id="ruby-on-rails-the-documentary">Ruby on Rails: The Documentary</h3>
 
 <img align="right" width="320" src="./generated/images/ruby-on-rails-the-documentary.jpg" alt="Ruby on Rails: The Documentary" />
@@ -356,6 +388,15 @@ Svelte Origins ...
 * Language: en
 * Tags: Frontend, JavaScript, Open Source, History
 * [Watch on YouTube](https://www.youtube.com/watch?v=kMlkCYL9qo0)
+
+----
+
+<h3 id="the-internets-own-boy-the-story-of-aaron-swartz">The Internet&#39;s Own Boy: The Story of Aaron Swartz</h3>
+
+
+
+* Tags: Hacktivism, Open Internet, Activism, History
+* [Watch on YouTube](https://www.youtube.com/watch?v=9vz06QO3UkQ)
 
 ----
 
@@ -415,6 +456,15 @@ Honeypot is a developer-focused job platform, on a mission to get every develope
 * Language: en
 * Tags: Frontend, JavaScript, Open Source, History
 * [Watch on YouTube](https://www.youtube.com/watch?v=OrxmtDw4pVI)
+
+----
+
+<h3 id="we-are-legion-the-story-of-the-hacktivists">We Are Legion: The Story of the Hacktivists</h3>
+
+
+
+* Tags: Anonymous, Hacktivism, Security, History
+* [Watch on YouTube](https://www.youtube.com/watch?v=4D1WJsdu6W8)
 
 ----
 
