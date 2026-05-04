@@ -44,9 +44,9 @@ func TestDurationHumanReadable(t *testing.T) {
 
 func TestPlatformDisplay(t *testing.T) {
 	cases := map[string]string{
-		"youtube":  "YouTube",
-		"":         "",
-		"unknown":  "unknown", // delegated to platform.Display, returned verbatim
+		"youtube": "YouTube",
+		"":        "",
+		"unknown": "unknown", // delegated to platform.Display, returned verbatim
 	}
 	for slug, want := range cases {
 		m := &MovieInformation{Platform: slug}
