@@ -25,6 +25,13 @@
   "id": "UCsUalyRg43M8D60mtHe6YcA",
   "title": "CultRepo "
  },
- "viewCount": 319672,
+ "ratings": {
+  "youtube": {
+   "likeCount": 9836
+  }
+ },
+ "views": {
+  "youtube": 319671
+ },
  "image": "images/ruby-on-rails-the-documentary.jpg"
 }

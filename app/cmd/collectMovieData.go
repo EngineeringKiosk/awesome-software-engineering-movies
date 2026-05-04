@@ -136,7 +136,10 @@ func cmdCollectMovieData(cmd *cobra.Command, args []string) error {
 			info.Duration = v.Duration
 			info.PublishedAt = v.PublishedAt
 			info.Channel = v.Channel
-			info.ViewCount = v.ViewCount
+
+			views := v.ViewCount
+			info.Views.YouTube = &views
+			info.Ratings.YouTube = &YouTubeRating{LikeCount: v.LikeCount}
 
 			// Description is YAML-overridable: only use the API value
 			// when the YAML left it empty. Same precedence as Language.

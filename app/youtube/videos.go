@@ -25,6 +25,7 @@ type Video struct {
 	PublishedAt string // RFC3339
 	Channel     Channel
 	ViewCount   int64
+	LikeCount   int64
 	Thumbnail   string // highest-resolution thumbnail URL the API offers
 	// DefaultAudioLanguage is the uploader-declared audio language as
 	// a BCP-47 tag (e.g. "en", "en-US"). Often empty: it is an
@@ -83,6 +84,7 @@ func (c *Client) GetVideoDetails(ctx context.Context, ids []string) ([]Video, er
 			}
 			if item.Statistics != nil {
 				v.ViewCount = int64(item.Statistics.ViewCount)
+				v.LikeCount = int64(item.Statistics.LikeCount)
 			}
 
 			// captions.list has no batch form — one call per video. At

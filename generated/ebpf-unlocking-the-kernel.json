@@ -23,6 +23,13 @@
   "id": "UCro9rA8-YX-26UVNY8ewAKQ",
   "title": " Speakeasy Productions"
  },
- "viewCount": 165131,
+ "ratings": {
+  "youtube": {
+   "likeCount": 4777
+  }
+ },
+ "views": {
+  "youtube": 165131
+ },
  "image": "images/ebpf-unlocking-the-kernel.jpg"
 }

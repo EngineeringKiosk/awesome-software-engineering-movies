@@ -23,6 +23,13 @@
   "id": "UCDstQZHA9T8-ZP046R0KEXA",
   "title": "OfferZen Origins"
  },
- "viewCount": 211148,
+ "ratings": {
+  "youtube": {
+   "likeCount": 6992
+  }
+ },
+ "views": {
+  "youtube": 211149
+ },
  "image": "images/svelte-origins-a-javascript-documentary.jpg"
 }

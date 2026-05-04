@@ -27,6 +27,13 @@
   "id": "UCsUalyRg43M8D60mtHe6YcA",
   "title": "CultRepo "
  },
- "viewCount": 225252,
+ "ratings": {
+  "youtube": {
+   "likeCount": 5947
+  }
+ },
+ "views": {
+  "youtube": 225256
+ },
  "image": "images/kubernetes-the-documentary-part-2.jpg"
 }

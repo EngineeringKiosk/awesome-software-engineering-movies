@@ -23,6 +23,13 @@
   "id": "UCYCEK7i8Uq-XtFtWolofxFg",
   "title": "moviemaniacsDE"
  },
- "viewCount": 2445124,
+ "ratings": {
+  "youtube": {
+   "likeCount": 36686
+  }
+ },
+ "views": {
+  "youtube": 2445135
+ },
  "image": "images/the-internets-own-boy-the-story-of-aaron-swartz.jpg"
 }

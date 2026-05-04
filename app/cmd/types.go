@@ -42,8 +42,36 @@ type MovieInformation struct {
 	Duration    string          `yaml:"-"                     json:"duration"` // ISO-8601, e.g. PT43M22S
 	PublishedAt string          `yaml:"-" json:"publishedAt"`
 	Channel     youtube.Channel `yaml:"-" json:"channel"`
-	ViewCount   int64           `yaml:"-" json:"viewCount"`
-	Image       string          `yaml:"-" json:"image"`
+	// Ratings groups rating signals by source. Today only YouTube is
+	// populated (likeCount); a future second source — e.g. an external
+	// review aggregator — would slot in as another key.
+	Ratings Ratings `yaml:"-" json:"ratings,omitzero"`
+	// Views groups view counts by source. Today only YouTube is
+	// populated. Per-source attribution makes the provenance explicit
+	// in the JSON itself.
+	Views Views  `yaml:"-" json:"views,omitzero"`
+	Image string `yaml:"-" json:"image"`
+}
+
+// YouTubeRating holds rating-like signals YouTube exposes via
+// videos.list.statistics. Aggregate rating numbers are no longer
+// public (dislikes were removed in 2021), so likeCount is the only
+// signal worth recording.
+type YouTubeRating struct {
+	LikeCount int64 `json:"likeCount"`
+}
+
+// Ratings is the per-source rating container. Keys are omitted when
+// the corresponding source has not been queried, so presence of a key
+// doubles as a source-attribution marker.
+type Ratings struct {
+	YouTube *YouTubeRating `json:"youtube,omitempty"`
+}
+
+// Views is the per-source view-count container. Same omitempty
+// convention as Ratings.
+type Views struct {
+	YouTube *int64 `json:"youtube,omitempty"`
 }
 
 // TagsAsList returns the tags joined with ", " for README rendering.
