@@ -1,0 +1,36 @@
+{
+ "name": "Indie Game: The Movie",
+ "slug": "indie-game-the-movie",
+ "link": "https://www.netflix.com/title/70229918",
+ "videoID": "",
+ "platform": "netflix",
+ "language": null,
+ "subtitles": null,
+ "tags": [
+  "Game Development",
+  "Indie Games",
+  "Software Engineering"
+ ],
+ "localized": {
+  "de": {
+   "description": "Die mitreißende Dokumentation begleitet einige Entwickler von Indiegames auf ihrem mühsamen Weg von der Spielidee bis zum erhofften Durchbruch."
+  }
+ },
+ "title": "",
+ "description": "Go behind the scenes of the independent video game industry as this documentary follows the journey of passionate developers striving to create their own unique games. Through intimate interviews and gripping storytelling, \"Indie Game: The Movie\" reveals the struggles, triumphs, and sacrifices these developers make in pursuit of their dreams, offering an inspiring glimpse into the world of indie game development.",
+ "imdbID": "tt1942884",
+ "duration": "",
+ "publishedAt": "",
+ "channel": {
+  "id": "",
+  "title": ""
+ },
+ "ratings": {
+  "imdb": {
+   "averageRating": 7.6,
+   "numVotes": 21724,
+   "refreshedAt": "2026-05-04T20:54:53Z"
+  }
+ },
+ "image": ""
+}
