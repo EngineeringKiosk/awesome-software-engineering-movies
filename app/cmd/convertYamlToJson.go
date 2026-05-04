@@ -2,6 +2,7 @@ package cmd
 
 import (
 	"encoding/json"
+	"fmt"
 	"log"
 	"os"
 	"path"
@@ -119,6 +120,7 @@ func cmdConvertYamlToJson(cmd *cobra.Command, args []string) error {
 			log.Printf("WARNING: could not parse YouTube video ID from %q in %s", movieInfo.Link, absYamlFilePath)
 		}
 		resolvePlatform(movieInfo, absYamlFilePath)
+		resolveLocalizedPlatforms(movieInfo, absYamlFilePath)
 		validateLocalized(movieInfo, absYamlFilePath)
 
 		log.Printf("Write %s to disk ...", absJsonFilePath)
@@ -171,7 +173,7 @@ func mergeMovieInformation(source, target *MovieInformation) *MovieInformation {
 
 // validateLocalized inspects info.Localized for the obvious
 // mistakes: a key that does not look like an ISO 639-1 code, or an
-// entry whose title and link are both empty (in which case the key
+// entry with no override fields set at all (in which case the key
 // adds nothing to the file). Each problem is logged as a warning so
 // the maintainer notices, but the conversion proceeds — the data
 // shape is still valid YAML.
@@ -183,8 +185,8 @@ func validateLocalized(info *MovieInformation, fileLabel string) {
 			log.Printf("WARNING: %s: localized language key %q is not a 2-letter lowercase code; expected ISO 639-1",
 				fileLabel, code)
 		}
-		if v.Title == "" && v.Link == "" {
-			log.Printf("WARNING: %s: localized.%s has neither title nor link set; remove the key or fill in at least one field",
+		if v.Title == "" && v.Link == "" && v.Description == "" {
+			log.Printf("WARNING: %s: localized.%s has no overrides set; remove the key or fill in at least one of title/link/description",
 				fileLabel, code)
 		}
 	}
@@ -200,31 +202,52 @@ func isISO639_1Like(s string) bool {
 	return s[0] >= 'a' && s[0] <= 'z' && s[1] >= 'a' && s[1] <= 'z'
 }
 
-// resolvePlatform fills in info.Platform from the link when YAML did
-// not set it, and warns on the cases the maintainer should know
-// about: YAML disagrees with the link, YAML names a platform whose
-// link the tooling cannot recognise, or neither YAML nor the link
-// yields a platform.
+// resolvePlatformValue centralises the four-warning-branch decision
+// so both the top-level entry and per-localized entries reuse it
+// without duplication. Returns the resolved platform value (which
+// may be empty) and emits warnings as a side effect.
 //
-// The YAML value always wins — this function never overwrites a
-// non-empty Platform.
-//
-// fileLabel is the human-friendly file path used only in the warning
-// text; passing it in keeps the function pure-ish (no globals) and
-// trivially testable.
-func resolvePlatform(info *MovieInformation, fileLabel string) {
-	detected, detectedOK := platform.Detect(info.Link)
+// The YAML value always wins — when currentPlatform is non-empty it
+// flows through unchanged.
+func resolvePlatformValue(currentPlatform, link, label string) string {
+	detected, detectedOK := platform.Detect(link)
 	switch {
-	case info.Platform == "" && detectedOK:
-		info.Platform = detected
-	case info.Platform == "" && !detectedOK:
+	case currentPlatform == "" && detectedOK:
+		return detected
+	case currentPlatform == "" && !detectedOK:
 		log.Printf("WARNING: %s has no platform in YAML and link %q matches no known platform; leaving empty",
-			fileLabel, info.Link)
-	case info.Platform != "" && detectedOK && info.Platform != detected:
+			label, link)
+		return ""
+	case currentPlatform != "" && detectedOK && currentPlatform != detected:
 		log.Printf("WARNING: %s YAML platform %q disagrees with link-detected platform %q; keeping YAML value",
-			fileLabel, info.Platform, detected)
-	case info.Platform != "" && !detectedOK:
+			label, currentPlatform, detected)
+		return currentPlatform
+	case currentPlatform != "" && !detectedOK:
 		log.Printf("WARNING: %s YAML platform %q set but link %q matches no known platform; keeping YAML value",
-			fileLabel, info.Platform, info.Link)
+			label, currentPlatform, link)
+		return currentPlatform
+	}
+	// YAML value matches the detected value, or both are empty —
+	// nothing to report.
+	return currentPlatform
+}
+
+// resolvePlatform fills in info.Platform from the top-level link
+// when YAML did not set it, surfacing the four warning paths from
+// resolvePlatformValue with a fileLabel-only label.
+func resolvePlatform(info *MovieInformation, fileLabel string) {
+	info.Platform = resolvePlatformValue(info.Platform, info.Link, fileLabel)
+}
+
+// resolveLocalizedPlatforms fills in Platform on each localized
+// entry whose link is set. Description-only or title-only overrides
+// have no link to detect against and are left untouched.
+func resolveLocalizedPlatforms(info *MovieInformation, fileLabel string) {
+	for code, v := range info.Localized {
+		if v.Link == "" {
+			continue
+		}
+		v.Platform = resolvePlatformValue(v.Platform, v.Link, fmt.Sprintf("%s localized.%s", fileLabel, code))
+		info.Localized[code] = v
 	}
 }

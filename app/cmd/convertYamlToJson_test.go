@@ -198,6 +198,7 @@ func TestValidateLocalized(t *testing.T) {
 				"de": {Title: "Pythons Geschichte", Link: "https://example.com/de"},
 				"es": {Title: "La historia de Python"},
 				"fr": {Link: "https://example.com/fr"},
+				"it": {Description: "Una descrizione localizzata"},
 			},
 		},
 		{
@@ -218,7 +219,7 @@ func TestValidateLocalized(t *testing.T) {
 		{
 			name:        "empty entry warns",
 			localized:   map[string]LocalizedVersion{"de": {}},
-			wantWarnSub: "neither title nor link set",
+			wantWarnSub: "no overrides set",
 		},
 	}
 	for _, tc := range cases {
@@ -241,6 +242,62 @@ func TestValidateLocalized(t *testing.T) {
 			}
 		})
 	}
+}
+
+func TestResolveLocalizedPlatforms(t *testing.T) {
+	t.Run("autodetects from localized link", func(t *testing.T) {
+		info := &MovieInformation{
+			Localized: map[string]LocalizedVersion{
+				"de": {Link: "https://www.amazon.de/gp/video/detail/B0FVCKCM81/"},
+			},
+		}
+		var buf bytes.Buffer
+		prev := log.Writer()
+		log.SetOutput(&buf)
+		defer log.SetOutput(prev)
+
+		resolveLocalizedPlatforms(info, "test.yml")
+
+		if got := info.Localized["de"].Platform; got != "amazon_prime_video" {
+			t.Fatalf("Localized[de].Platform = %q; want amazon_prime_video", got)
+		}
+		if strings.Contains(buf.String(), "WARNING") {
+			t.Errorf("expected no warning, got: %s", buf.String())
+		}
+	})
+
+	t.Run("description-only entry is left alone", func(t *testing.T) {
+		info := &MovieInformation{
+			Localized: map[string]LocalizedVersion{
+				"de": {Description: "Eine deutsche Beschreibung"},
+			},
+		}
+		resolveLocalizedPlatforms(info, "test.yml")
+		if got := info.Localized["de"].Platform; got != "" {
+			t.Errorf("Localized[de].Platform = %q; want empty (no link to detect from)", got)
+		}
+	})
+
+	t.Run("YAML override on localized link survives", func(t *testing.T) {
+		info := &MovieInformation{
+			Localized: map[string]LocalizedVersion{
+				"de": {Link: "https://www.amazon.de/gp/video/detail/B0/", Platform: "netflix"},
+			},
+		}
+		var buf bytes.Buffer
+		prev := log.Writer()
+		log.SetOutput(&buf)
+		defer log.SetOutput(prev)
+
+		resolveLocalizedPlatforms(info, "test.yml")
+
+		if got := info.Localized["de"].Platform; got != "netflix" {
+			t.Errorf("Localized[de].Platform = %q; want %q (YAML wins)", got, "netflix")
+		}
+		if !strings.Contains(buf.String(), "disagrees") {
+			t.Errorf("expected disagreement warning, got: %s", buf.String())
+		}
+	})
 }
 
 func TestMergeMovieInformation_PlatformPrecedence(t *testing.T) {
