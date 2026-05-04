@@ -70,7 +70,7 @@ Railway is the all-in-one intelligent cloud ...
 * Duration: ca. 1 h 6 min.
 * Language: en
 * Tags: Programming Languages, Functional Programming, Open Source, History
-* YouTube likes: 3,587
+* YouTube likes: 3,588
 * [Watch on YouTube](https://www.youtube.com/watch?v=Y24vK_QDLFg)
 
 ----
@@ -301,7 +301,7 @@ Most engineers know about “The Container Orchestrator Wars’’ ...
 * Duration: ca. 31 min.
 * Language: en
 * Tags: Cloud Native, Orchestration, Open Source, History
-* YouTube likes: 5,948
+* YouTube likes: 5,949
 * [Watch on YouTube](https://www.youtube.com/watch?v=318elIq37PE)
 
 ----
@@ -371,7 +371,7 @@ Thanks to our sponsors ...
 * Duration: ca. 1 h 24 min.
 * Language: en
 * Tags: Programming Languages, Open Source, History
-* YouTube likes: 33,458
+* YouTube likes: 33,460
 * [Watch on YouTube](https://www.youtube.com/watch?v=GfH4QL4VqJ0)
 
 ----
@@ -501,7 +501,7 @@ Featuring many prominent developers in the JavaCript ecosystem, this documentary
 * Duration: ca. 39 min.
 * Language: en
 * Tags: Frontend, Build Tools, JavaScript, Open Source
-* YouTube likes: 5,905
+* YouTube likes: 5,906
 * [Watch on YouTube](https://www.youtube.com/watch?v=bmWQqAKLgT4)
 
 ----
