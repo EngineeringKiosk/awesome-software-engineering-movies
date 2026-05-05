@@ -1,4 +1,6 @@
 name: "Python: The Documentary"
+type: Documentary
+category: Programming Languages
 links:
   youtube: https://www.youtube.com/watch?v=GfH4QL4VqJ0
 tags:
