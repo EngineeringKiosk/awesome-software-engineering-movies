@@ -7,7 +7,9 @@
  "language": [
   "en"
  ],
- "subtitles": null,
+ "subtitles": [
+  "en"
+ ],
  "tags": [
   "Privacy",
   "Surveillance",
@@ -25,7 +27,7 @@
  "ratings": {
   "youtube": {
    "likeCount": 592,
-   "refreshedAt": "2026-05-04T21:03:59Z"
+   "refreshedAt": "2026-05-05T08:38:32Z"
   },
   "imdb": {
    "averageRating": 7.3,
@@ -34,7 +36,7 @@
   }
  },
  "views": {
-  "youtube": 32150
+  "youtube": 32161
  },
  "image": "images/terms-and-conditions-may-apply.jpg"
 }

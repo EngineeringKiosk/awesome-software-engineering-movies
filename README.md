@@ -75,7 +75,7 @@ Railway is the all-in-one intelligent cloud ...
 * Duration: ca. 1 h 6 min.
 * Language: en
 * Tags: Programming Languages, Functional Programming, Open Source, History
-* YouTube likes: 3,590
+* YouTube likes: 3,603
 * Watch on: [YouTube](https://www.youtube.com/watch?v=Y24vK_QDLFg)
 ----
 
@@ -161,7 +161,7 @@ Check out the home for untold developer stories around open source, careers and 
 * Duration: ca. 28 min.
 * Language: en
 * Tags: API, Open Source, History
-* YouTube likes: 15,214
+* YouTube likes: 15,215
 * Watch on: [YouTube](https://www.youtube.com/watch?v=783ccP__No8)
 ----
 
@@ -188,7 +188,7 @@ Check out the Half-Life 25th Anniversary Update, restored content, new multiplay
 * Duration: ca. 1 h 5 min.
 * Language: en
 * Tags: Game Development, Valve, History
-* YouTube likes: 280,107
+* YouTube likes: 280,111
 * Watch on: [YouTube](https://www.youtube.com/watch?v=TbZ3HzvFEto)
 ----
 
@@ -236,7 +236,7 @@ Director: Jaś ...
 * Duration: ca. 39 min.
 * Language: en
 * Tags: Developer Tools, IDE, JetBrains, History
-* YouTube likes: 1,512
+* YouTube likes: 1,514
 * Watch on: [YouTube](https://www.youtube.com/watch?v=Kourq_Lz03U)
 ----
 
@@ -268,7 +268,7 @@ References and sources: https://docs.google.com/document/d/e/2PACX-1vQjGmdjmESDJ
 * Duration: ca. 26 min.
 * Language: en
 * Tags: Networking, Chat, Open Source, History
-* YouTube likes: 15,204
+* YouTube likes: 15,203
 * Watch on: [YouTube](https://www.youtube.com/watch?v=6UbKenFipjo)
 ----
 
@@ -338,7 +338,7 @@ Directed by Werner Herzog, this documentary explores the history, impact, and po
 * Language: en
 * Tags: Internet, History, Society
 * IMDb rating: 7.0 / 10 (13,862 votes)
-* YouTube likes: 5,700
+* YouTube likes: 5,701
 * Watch on: [YouTube](https://www.youtube.com/watch?v=q3g3hqNJqpQ)
 ----
 
@@ -386,7 +386,7 @@ Thanks to our sponsors ...
 * Duration: ca. 1 h 24 min.
 * Language: en
 * Tags: Programming Languages, Open Source, History
-* YouTube likes: 33,461
+* YouTube likes: 33,469
 * Watch on: [YouTube](https://www.youtube.com/watch?v=GfH4QL4VqJ0)
 ----
 
@@ -400,7 +400,7 @@ But what if we told you that React’s first brush with the public sphere was an
 * Duration: ca. 1 h 18 min.
 * Language: en
 * Tags: Frontend, JavaScript, Meta, Open Source, History
-* YouTube likes: 40,560
+* YouTube likes: 40,561
 * Watch on: [YouTube](https://www.youtube.com/watch?v=8pDqJVdNa44)
 ----
 
@@ -418,7 +418,7 @@ While Microsoft may be the biggest software company in the world, not every comp
 * Language: en
 * Tags: GNU/Linux, Open Source, History
 * IMDb rating: 7.2 / 10 (2,708 votes)
-* YouTube likes: 2,191
+* YouTube likes: 2,190
 * Watch on: [YouTube](https://www.youtube.com/watch?v=k0RYQVkQmWU)
 ----
 
@@ -433,7 +433,7 @@ Get the whole spill by the people who had a front-row seat to the creation and d
 * Duration: ca. 44 min.
 * Language: en
 * Tags: Web Frameworks, Ruby, Open Source, History
-* YouTube likes: 9,836
+* YouTube likes: 9,835
 * Watch on: [YouTube](https://www.youtube.com/watch?v=HDKUEXBF3B4)
 ----
 
@@ -517,7 +517,7 @@ This movie is made available under the Creative Commons license: ...
 * Language: en
 * Tags: Hacktivism, Open Internet, Activism, History
 * IMDb rating: 8.0 / 10 (18,551 votes)
-* YouTube likes: 36,687
+* YouTube likes: 36,689
 * Watch on: [YouTube](https://www.youtube.com/watch?v=9vz06QO3UkQ)
 ----
 
@@ -540,7 +540,7 @@ Sponsored by
 * Duration: ca. 1 h 22 min.
 * Language: en
 * Tags: Programming Languages, JavaScript, Microsoft, History
-* YouTube likes: 9,556
+* YouTube likes: 9,557
 * Watch on: [YouTube](https://www.youtube.com/watch?v=U6s2pdxebSo)
 ----
 
@@ -576,7 +576,7 @@ Honeypot is a developer-focused job platform, on a mission to get every develope
 * Duration: ca. 35 min.
 * Language: en
 * Tags: Frontend, JavaScript, Open Source, History
-* YouTube likes: 52,870
+* YouTube likes: 52,873
 * Watch on: [YouTube](https://www.youtube.com/watch?v=OrxmtDw4pVI)
 ----
 
