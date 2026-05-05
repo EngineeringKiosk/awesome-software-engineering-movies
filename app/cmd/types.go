@@ -221,13 +221,19 @@ func (m *MovieInformation) HasIMDbRating() bool {
 
 // IMDbRatingFormatted renders the IMDb score and vote count for the
 // README, e.g. "8.0 / 10 (27,000 votes)". The rating uses one decimal
-// place to match IMDb's own display style.
+// place to match IMDb's own display style. When the entry carries
+// an imdbID the formatted text is wrapped in a Markdown link to the
+// IMDb title page so readers can jump straight there from the README.
 func (m *MovieInformation) IMDbRatingFormatted() string {
 	if m.Ratings.IMDb == nil {
 		return ""
 	}
 	r := m.Ratings.IMDb
-	return fmt.Sprintf("%.1f / 10 (%s votes)", r.AverageRating, formatGroupedInt(r.NumVotes))
+	s := fmt.Sprintf("%.1f / 10 (%s votes)", r.AverageRating, formatGroupedInt(r.NumVotes))
+	if m.IMDbID == "" {
+		return s
+	}
+	return fmt.Sprintf("[%s](https://www.imdb.com/title/%s/)", s, m.IMDbID)
 }
 
 // formatGroupedInt returns a comma-separated decimal representation

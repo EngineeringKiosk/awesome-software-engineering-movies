@@ -121,12 +121,23 @@ func TestRatingHelpers(t *testing.T) {
 		}
 	})
 
-	t.Run("imdb only", func(t *testing.T) {
+	t.Run("imdb without id renders plain text", func(t *testing.T) {
 		m := &MovieInformation{Ratings: Ratings{IMDb: &IMDbRating{AverageRating: 8.0, NumVotes: 27000}}}
 		if !m.HasIMDbRating() {
 			t.Fatal("HasIMDbRating should be true")
 		}
 		if got, want := m.IMDbRatingFormatted(), "8.0 / 10 (27,000 votes)"; got != want {
+			t.Errorf("IMDbRatingFormatted = %q; want %q", got, want)
+		}
+	})
+
+	t.Run("imdb with id renders as markdown link", func(t *testing.T) {
+		m := &MovieInformation{
+			IMDbID:  "tt0308808",
+			Ratings: Ratings{IMDb: &IMDbRating{AverageRating: 7.2, NumVotes: 2708}},
+		}
+		want := "[7.2 / 10 (2,708 votes)](https://www.imdb.com/title/tt0308808/)"
+		if got := m.IMDbRatingFormatted(); got != want {
 			t.Errorf("IMDbRatingFormatted = %q; want %q", got, want)
 		}
 	})
