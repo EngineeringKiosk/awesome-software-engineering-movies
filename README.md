@@ -59,7 +59,7 @@ From Angular 2 to Ivy, incorporating Signals to converging with Wiz and ...
 * Type: Documentary
 * Category: Applications / Frameworks / Systems
 * Tags: Frontend, JavaScript, Google, Open Source, History
-* YouTube likes: 3,546
+* YouTube likes: 3,545
 * Watch on: [YouTube](https://www.youtube.com/watch?v=cRC9DlH45lA)
 ----
 <h3 id="clojure-the-documentary">Clojure: The Documentary</h3>
@@ -80,7 +80,7 @@ Railway is the all-in-one intelligent cloud ...
 * Type: Documentary
 * Category: Programming Languages
 * Tags: Programming Languages, Functional Programming, Open Source, History
-* YouTube likes: 3,606
+* YouTube likes: 3,618
 * Watch on: [YouTube](https://www.youtube.com/watch?v=Y24vK_QDLFg)
 ----
 <h3 id="code-debugging-the-gender-gap">CODE: Debugging the Gender Gap</h3>
@@ -199,7 +199,7 @@ Check out the Half-Life 25th Anniversary Update, restored content, new multiplay
 * Type: Documentary
 * Category: Culture / Society
 * Tags: Game Development, Valve, History
-* YouTube likes: 280,118
+* YouTube likes: 280,129
 * Watch on: [YouTube](https://www.youtube.com/watch?v=TbZ3HzvFEto)
 ----
 <h3 id="indie-game-the-movie">Indie Game: The Movie</h3>
@@ -250,7 +250,7 @@ Director: Jaś ...
 * Type: Documentary
 * Category: Applications / Frameworks / Systems
 * Tags: Developer Tools, IDE, JetBrains, History
-* YouTube likes: 1,514
+* YouTube likes: 1,516
 * Watch on: [YouTube](https://www.youtube.com/watch?v=Kourq_Lz03U)
 ----
 <h3 id="internet-relay-chat-irc">Internet Relay Chat (IRC)</h3>
@@ -283,7 +283,7 @@ References and sources: https://docs.google.com/document/d/e/2PACX-1vQjGmdjmESDJ
 * Type: Documentary
 * Category: Applications / Frameworks / Systems
 * Tags: Networking, Chat, Open Source, History
-* YouTube likes: 15,203
+* YouTube likes: 15,204
 * Watch on: [YouTube](https://www.youtube.com/watch?v=6UbKenFipjo)
 ----
 <h3 id="kubernetes-the-documentary-part-1">Kubernetes: The Documentary [PART 1]</h3>
@@ -357,7 +357,7 @@ Directed by Werner Herzog, this documentary explores the history, impact, and po
 * Category: Culture / Society
 * Tags: Internet, History, Society
 * IMDb rating: [7.0 / 10 (13,862 votes)](https://www.imdb.com/title/tt5275828/)
-* YouTube likes: 5,701
+* YouTube likes: 5,702
 * Watch on: [YouTube](https://www.youtube.com/watch?v=q3g3hqNJqpQ)
 ----
 <h3 id="node-js-the-documentary">Node.js: The Documentary</h3>
@@ -375,7 +375,7 @@ Join us as we delve into the origins of Node.js, meet some of its earliest contr
 * Type: Documentary
 * Category: Applications / Frameworks / Systems
 * Tags: JavaScript, Backend, Open Source, History
-* YouTube likes: 23,868
+* YouTube likes: 23,870
 * Watch on: [YouTube](https://www.youtube.com/watch?v=LB8KwiiUGy0)
 ----
 <h3 id="prometheus-the-documentary">Prometheus: The Documentary</h3>
@@ -390,7 +390,7 @@ Join us as we explore the story of Prometheus, from inception to adoption as tol
 * Type: Documentary
 * Category: Applications / Frameworks / Systems
 * Tags: Observability, Monitoring, Open Source, Cloud Native, History
-* YouTube likes: 3,547
+* YouTube likes: 3,548
 * Watch on: [YouTube](https://www.youtube.com/watch?v=rT4fJNbfe14)
 ----
 <h3 id="python-the-documentary">Python: The Documentary</h3>
@@ -408,7 +408,7 @@ Thanks to our sponsors ...
 * Type: Documentary
 * Category: Programming Languages
 * Tags: Programming Languages, Open Source, History
-* YouTube likes: 33,471
+* YouTube likes: 33,486
 * Watch on: [YouTube](https://www.youtube.com/watch?v=GfH4QL4VqJ0)
 ----
 <h3 id="react-js-the-documentary">React.js: The Documentary</h3>
@@ -423,7 +423,7 @@ But what if we told you that React’s first brush with the public sphere was an
 * Type: Documentary
 * Category: Applications / Frameworks / Systems
 * Tags: Frontend, JavaScript, Meta, Open Source, History
-* YouTube likes: 40,561
+* YouTube likes: 40,562
 * Watch on: [YouTube](https://www.youtube.com/watch?v=8pDqJVdNa44)
 ----
 <h3 id="revolution-os">Revolution OS</h3>
@@ -548,7 +548,7 @@ This movie is made available under the Creative Commons license: ...
 * Category: Culture / People
 * Tags: Hacktivism, Open Internet, Activism, History
 * IMDb rating: [8.0 / 10 (18,551 votes)](https://www.imdb.com/title/tt3268458/)
-* YouTube likes: 36,690
+* YouTube likes: 36,691
 * Watch on: [YouTube](https://www.youtube.com/watch?v=9vz06QO3UkQ)
 ----
 <h3 id="typescript-origins-the-documentary">TypeScript Origins: The Documentary</h3>
@@ -590,7 +590,7 @@ Featuring many prominent developers in the JavaCript ecosystem, this documentary
 * Type: Documentary
 * Category: Applications / Frameworks / Systems
 * Tags: Frontend, Build Tools, JavaScript, Open Source
-* YouTube likes: 5,907
+* YouTube likes: 5,908
 * Watch on: [YouTube](https://www.youtube.com/watch?v=bmWQqAKLgT4)
 ----
 <h3 id="vue-js-the-documentary">Vue.js: The Documentary</h3>
@@ -610,7 +610,7 @@ Honeypot is a developer-focused job platform, on a mission to get every develope
 * Type: Documentary
 * Category: Applications / Frameworks / Systems
 * Tags: Frontend, JavaScript, Open Source, History
-* YouTube likes: 52,873
+* YouTube likes: 52,875
 * Watch on: [YouTube](https://www.youtube.com/watch?v=OrxmtDw4pVI)
 ----
 <h3 id="we-are-legion-the-story-of-the-hacktivists">We Are Legion: The Story of the Hacktivists</h3>
