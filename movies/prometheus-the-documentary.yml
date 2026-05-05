@@ -1,4 +1,6 @@
 name: "Prometheus: The Documentary"
+type: Documentary
+category: Applications / Frameworks / Systems
 links:
   youtube: https://www.youtube.com/watch?v=rT4fJNbfe14
 tags:

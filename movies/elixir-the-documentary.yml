@@ -1,4 +1,6 @@
 name: "Elixir: The Documentary"
+type: Documentary
+category: Programming Languages
 links:
   youtube: https://www.youtube.com/watch?v=lxYFOM3UJzo
 tags:

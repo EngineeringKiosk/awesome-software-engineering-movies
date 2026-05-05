@@ -43,6 +43,14 @@ type MovieInformation struct {
 	// with the languages reported by the YouTube captions.list API.
 	Subtitles []string `yaml:"subtitles" json:"subtitles"`
 	Tags      []string `yaml:"tags"      json:"tags"`
+	// Category is the coarse subject classification — one of the
+	// values listed in validCategories (convertYamlToJson.go).
+	// Required. The maintainer picks one; the tooling warns when a
+	// value lands outside the set but keeps the YAML as written.
+	Category string `yaml:"category" json:"category"`
+	// Type is the format classification — Documentary, Movie, or
+	// TV Series. Required. Same warn-but-keep semantics as Category.
+	Type string `yaml:"type" json:"type"`
 	// Localized maps ISO 639-1 codes (e.g. "de", "es") to per-language
 	// overrides. The top-level Name and Links are always the English
 	// version; entries here describe alternate-language versions of

@@ -1,4 +1,6 @@
 name: "Node.js: The Documentary"
+type: Documentary
+category: Applications / Frameworks / Systems
 links:
   youtube: https://www.youtube.com/watch?v=LB8KwiiUGy0
 tags:
