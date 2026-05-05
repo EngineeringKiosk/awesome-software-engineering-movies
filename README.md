@@ -38,6 +38,7 @@ A curated list of movies, documentaries and other related material to watch rela
   * [Vue.js: The Documentary](#vue-js-the-documentary)
   * [We Are Legion: The Story of the Hacktivists](#we-are-legion-the-story-of-the-hacktivists)
 * [How to contribute](#how-to-contribute)
+* [Projects like us](#projects-like-us)
 
 ## Movies
 
@@ -664,3 +665,10 @@ This documentary takes a deep dive into the world of Anonymous, a loosely organi
 If you want to
 * add a new entry to the list, check out our [Contribution Guide](/CONTRIBUTING.md)
 * modify the tooling and structure, check out our [Development Guide](/DEVELOPMENT.md)
+
+## Projects like us
+
+We are not alone — these sibling lists sometimes uncover true gems:
+
+* [k4m4/movies-for-hackers](https://github.com/k4m4/movies-for-hackers) — 🎬 A curated list of movies every hacker & cyberpunk must watch.
+* [greybax/awesome-IT-films](https://github.com/greybax/awesome-IT-films) — 📺 A curated list of awesome films about IT & geek people.
