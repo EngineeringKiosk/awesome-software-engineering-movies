@@ -7,6 +7,7 @@ import (
 	"os"
 	"path"
 	"path/filepath"
+	"slices"
 
 	"github.com/gosimple/slug"
 	"github.com/spf13/cobra"
@@ -115,6 +116,7 @@ func cmdConvertYamlToJson(cmd *cobra.Command, args []string) error {
 		movieInfo.Slug = slug.Make(movieInfo.Name)
 		validateLinks(movieInfo.Links, absYamlFilePath)
 		validateLocalized(movieInfo, absYamlFilePath)
+		validateCategoryAndType(movieInfo, absYamlFilePath)
 
 		log.Printf("Write %s to disk ...", absJsonFilePath)
 		err = io.WriteJSONFile(absJsonFilePath, movieInfo)
@@ -166,11 +168,53 @@ func mergeMovieInformation(source, target *MovieInformation) *MovieInformation {
 	if len(source.YouTubeTrailerForThumbnail) > 0 {
 		target.YouTubeTrailerForThumbnail = source.YouTubeTrailerForThumbnail
 	}
+	if len(source.Category) > 0 {
+		target.Category = source.Category
+	}
+	if len(source.Type) > 0 {
+		target.Type = source.Type
+	}
 	if len(source.Localized) > 0 {
 		target.Localized = source.Localized
 	}
 	target.Tags = source.Tags
 	return target
+}
+
+// validCategories enumerates the coarse subject classifications a
+// curated entry can declare. validateCategoryAndType warns on
+// values outside this set; the YAML is kept either way.
+var validCategories = []string{
+	"Programming Languages",
+	"Culture / Society",
+	"Culture / People",
+	"Applications / Frameworks / Systems",
+}
+
+// validTypes enumerates the format classifications a curated entry
+// can declare.
+var validTypes = []string{"Documentary", "Movie", "TV Series"}
+
+// validateCategoryAndType checks that info.Category and info.Type
+// are populated with one of the recommended values. Empty values
+// emit a "required" warning; out-of-set values emit a "not in the
+// recommended set" warning. Both warnings are advisory — the YAML
+// flows through unchanged so a maintainer working on a typo still
+// gets a runnable build.
+func validateCategoryAndType(info *MovieInformation, fileLabel string) {
+	checkOneOf("category", info.Category, validCategories, fileLabel)
+	checkOneOf("type", info.Type, validTypes, fileLabel)
+}
+
+func checkOneOf(fieldName, value string, valid []string, fileLabel string) {
+	if value == "" {
+		log.Printf("WARNING: %s: %s is required", fileLabel, fieldName)
+		return
+	}
+	if !slices.Contains(valid, value) {
+		log.Printf("WARNING: %s: %s %q is not in the recommended set; expected one of %v",
+			fileLabel, fieldName, value, valid)
+	}
 }
 
 // validateLocalized inspects info.Localized for the obvious

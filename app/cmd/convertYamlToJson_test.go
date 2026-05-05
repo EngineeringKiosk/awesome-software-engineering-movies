@@ -254,6 +254,107 @@ func TestMergeMovieInformation_LocalizedPrecedence(t *testing.T) {
 	})
 }
 
+func TestMergeMovieInformation_CategoryPrecedence(t *testing.T) {
+	t.Run("YAML category overrides target", func(t *testing.T) {
+		yaml := &MovieInformation{Name: "n", Links: stubLinks(), Category: "Programming Languages"}
+		json := &MovieInformation{Name: "stale", Links: stubLinks(), Category: "Culture / Society"}
+
+		got := mergeMovieInformation(yaml, json)
+		if got.Category != "Programming Languages" {
+			t.Fatalf("Category = %q; want %q", got.Category, "Programming Languages")
+		}
+	})
+
+	t.Run("empty YAML category preserves target", func(t *testing.T) {
+		yaml := &MovieInformation{Name: "n", Links: stubLinks()}
+		json := &MovieInformation{Name: "stale", Links: stubLinks(), Category: "Culture / Society"}
+
+		got := mergeMovieInformation(yaml, json)
+		if got.Category != "Culture / Society" {
+			t.Fatalf("Category = %q; want %q (target preserved)", got.Category, "Culture / Society")
+		}
+	})
+}
+
+func TestMergeMovieInformation_TypePrecedence(t *testing.T) {
+	t.Run("YAML type overrides target", func(t *testing.T) {
+		yaml := &MovieInformation{Name: "n", Links: stubLinks(), Type: "Movie"}
+		json := &MovieInformation{Name: "stale", Links: stubLinks(), Type: "Documentary"}
+
+		got := mergeMovieInformation(yaml, json)
+		if got.Type != "Movie" {
+			t.Fatalf("Type = %q; want %q", got.Type, "Movie")
+		}
+	})
+
+	t.Run("empty YAML type preserves target", func(t *testing.T) {
+		yaml := &MovieInformation{Name: "n", Links: stubLinks()}
+		json := &MovieInformation{Name: "stale", Links: stubLinks(), Type: "Documentary"}
+
+		got := mergeMovieInformation(yaml, json)
+		if got.Type != "Documentary" {
+			t.Fatalf("Type = %q; want %q (target preserved)", got.Type, "Documentary")
+		}
+	})
+}
+
+func TestValidateCategoryAndType(t *testing.T) {
+	cases := []struct {
+		name        string
+		category    string
+		movieType   string
+		wantWarnSub string // empty = expect no warning
+	}{
+		{
+			name:      "valid category and type emit no warning",
+			category:  "Programming Languages",
+			movieType: "Documentary",
+		},
+		{
+			name:        "empty category warns",
+			movieType:   "Documentary",
+			wantWarnSub: "category is required",
+		},
+		{
+			name:        "empty type warns",
+			category:    "Programming Languages",
+			wantWarnSub: "type is required",
+		},
+		{
+			name:        "unknown category warns",
+			category:    "Bogus",
+			movieType:   "Documentary",
+			wantWarnSub: `category "Bogus" is not in the recommended set`,
+		},
+		{
+			name:        "unknown type warns",
+			category:    "Programming Languages",
+			movieType:   "Reality Show",
+			wantWarnSub: `type "Reality Show" is not in the recommended set`,
+		},
+	}
+	for _, tc := range cases {
+		t.Run(tc.name, func(t *testing.T) {
+			info := &MovieInformation{Category: tc.category, Type: tc.movieType}
+
+			var buf bytes.Buffer
+			prev := log.Writer()
+			log.SetOutput(&buf)
+			defer log.SetOutput(prev)
+
+			validateCategoryAndType(info, "test.yml")
+
+			out := buf.String()
+			switch {
+			case tc.wantWarnSub == "" && strings.Contains(out, "WARNING"):
+				t.Errorf("expected no warning, got: %s", out)
+			case tc.wantWarnSub != "" && !strings.Contains(out, tc.wantWarnSub):
+				t.Errorf("expected warning containing %q, got: %s", tc.wantWarnSub, out)
+			}
+		})
+	}
+}
+
 func TestValidateLocalized(t *testing.T) {
 	cases := []struct {
 		name        string
