@@ -1,8 +1,9 @@
 {
  "name": "Laravel Origins: A PHP Documentary",
  "slug": "laravel-origins-a-php-documentary",
- "link": "https://www.youtube.com/watch?v=127ng7botO4",
- "platform": "youtube",
+ "links": {
+  "youtube": "https://www.youtube.com/watch?v=127ng7botO4"
+ },
  "language": [
   "en"
  ],

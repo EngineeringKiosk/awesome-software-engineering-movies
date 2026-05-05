@@ -56,8 +56,7 @@ From Angular 2 to Ivy, incorporating Signals to converging with Wiz and ...
 * Language: en
 * Tags: Frontend, JavaScript, Google, Open Source, History
 * YouTube likes: 3,546
-* [Watch on YouTube](https://www.youtube.com/watch?v=cRC9DlH45lA)
-
+* Watch on: [YouTube](https://www.youtube.com/watch?v=cRC9DlH45lA)
 ----
 
 <h3 id="clojure-the-documentary">Clojure: The Documentary</h3>
@@ -77,8 +76,7 @@ Railway is the all-in-one intelligent cloud ...
 * Language: en
 * Tags: Programming Languages, Functional Programming, Open Source, History
 * YouTube likes: 3,590
-* [Watch on YouTube](https://www.youtube.com/watch?v=Y24vK_QDLFg)
-
+* Watch on: [YouTube](https://www.youtube.com/watch?v=Y24vK_QDLFg)
 ----
 
 <h3 id="code-debugging-the-gender-gap">CODE: Debugging the Gender Gap</h3>
@@ -94,8 +92,7 @@ Tech jobs are growing three times faster than our colleges are producing compute
 * Tags: Girls, STEM, Women in Tech
 * IMDb rating: 6.2 / 10 (337 votes)
 * YouTube likes: 50
-* [Watch on YouTube](https://www.youtube.com/watch?v=rQKRw6tWsb8)
-
+* Watch on: [YouTube](https://www.youtube.com/watch?v=rQKRw6tWsb8)
 ----
 
 <h3 id="ebpf-unlocking-the-kernel">eBPF: Unlocking the Kernel</h3>
@@ -110,8 +107,7 @@ In 2014, a group of engineers at Plumgrid needed to find an innovative and cost-
 * Language: en
 * Tags: Linux, Kernel, Open Source, Networking
 * YouTube likes: 4,777
-* [Watch on YouTube](https://www.youtube.com/watch?v=Wb_vD3XZYOA)
-
+* Watch on: [YouTube](https://www.youtube.com/watch?v=Wb_vD3XZYOA)
 ----
 
 <h3 id="elixir-the-documentary">Elixir: The Documentary</h3>
@@ -128,8 +124,7 @@ Check out the ...
 * Language: en
 * Tags: Programming Languages, Functional Programming, Open Source, History
 * YouTube likes: 8,058
-* [Watch on YouTube](https://www.youtube.com/watch?v=lxYFOM3UJzo)
-
+* Watch on: [YouTube](https://www.youtube.com/watch?v=lxYFOM3UJzo)
 ----
 
 <h3 id="ember-js-the-documentary">Ember.js: The Documentary</h3>
@@ -150,8 +145,7 @@ Facebook: https://www.facebook. ...
 * Language: en
 * Tags: Frontend, JavaScript, Open Source, History
 * YouTube likes: 2,453
-* [Watch on YouTube](https://www.youtube.com/watch?v=Cvz-9ccflKQ)
-
+* Watch on: [YouTube](https://www.youtube.com/watch?v=Cvz-9ccflKQ)
 ----
 
 <h3 id="graphql-the-documentary">GraphQL: The Documentary</h3>
@@ -168,8 +162,7 @@ Check out the home for untold developer stories around open source, careers and 
 * Language: en
 * Tags: API, Open Source, History
 * YouTube likes: 15,214
-* [Watch on YouTube](https://www.youtube.com/watch?v=783ccP__No8)
-
+* Watch on: [YouTube](https://www.youtube.com/watch?v=783ccP__No8)
 ----
 
 <h3 id="half-life-25th-anniversary-documentary">Half-Life: 25th Anniversary Documentary</h3>
@@ -196,8 +189,7 @@ Check out the Half-Life 25th Anniversary Update, restored content, new multiplay
 * Language: en
 * Tags: Game Development, Valve, History
 * YouTube likes: 280,107
-* [Watch on YouTube](https://www.youtube.com/watch?v=TbZ3HzvFEto)
-
+* Watch on: [YouTube](https://www.youtube.com/watch?v=TbZ3HzvFEto)
 ----
 
 <h3 id="indie-game-the-movie">Indie Game: The Movie</h3>
@@ -208,8 +200,7 @@ Go behind the scenes of the independent video game industry as this documentary 
 
 * Tags: Game Development, Indie Games, Software Engineering
 * IMDb rating: 7.6 / 10 (21,724 votes)
-* [Watch on Netflix](https://www.netflix.com/title/70229918)
-
+* Watch on: [Netflix](https://www.netflix.com/title/70229918)
 ----
 
 <h3 id="inside-envoy-the-proxy-for-the-future">Inside Envoy: The Proxy for the Future</h3>
@@ -226,8 +217,7 @@ Envoy was open sourced in the fall of 2016 and quickly gained adoption. In 2017,
 * Language: en
 * Tags: Networking, Service Mesh, Open Source, Cloud Native
 * YouTube likes: 572
-* [Watch on YouTube](https://www.youtube.com/watch?v=uaksVVHDhYU)
-
+* Watch on: [YouTube](https://www.youtube.com/watch?v=uaksVVHDhYU)
 ----
 
 <h3 id="intellij-idea-the-documentary">IntelliJ IDEA: The Documentary</h3>
@@ -247,8 +237,7 @@ Director: Jaś ...
 * Language: en
 * Tags: Developer Tools, IDE, JetBrains, History
 * YouTube likes: 1,512
-* [Watch on YouTube](https://www.youtube.com/watch?v=Kourq_Lz03U)
-
+* Watch on: [YouTube](https://www.youtube.com/watch?v=Kourq_Lz03U)
 ----
 
 <h3 id="internet-relay-chat-irc">Internet Relay Chat (IRC)</h3>
@@ -280,8 +269,7 @@ References and sources: https://docs.google.com/document/d/e/2PACX-1vQjGmdjmESDJ
 * Language: en
 * Tags: Networking, Chat, Open Source, History
 * YouTube likes: 15,204
-* [Watch on YouTube](https://www.youtube.com/watch?v=6UbKenFipjo)
-
+* Watch on: [YouTube](https://www.youtube.com/watch?v=6UbKenFipjo)
 ----
 
 <h3 id="kubernetes-the-documentary-part-1">Kubernetes: The Documentary [PART 1]</h3>
@@ -300,8 +288,7 @@ Most engineers know about “The Container Orchestrator Wars’’ ...
 * Language: en
 * Tags: Cloud Native, Orchestration, Open Source, History
 * YouTube likes: 12,674
-* [Watch on YouTube](https://www.youtube.com/watch?v=BE77h7dmoQU)
-
+* Watch on: [YouTube](https://www.youtube.com/watch?v=BE77h7dmoQU)
 ----
 
 <h3 id="kubernetes-the-documentary-part-2">Kubernetes: The Documentary [PART 2]</h3>
@@ -320,8 +307,7 @@ Most engineers know about “The Container Orchestrator Wars’’ ...
 * Language: en
 * Tags: Cloud Native, Orchestration, Open Source, History
 * YouTube likes: 5,949
-* [Watch on YouTube](https://www.youtube.com/watch?v=318elIq37PE)
-
+* Watch on: [YouTube](https://www.youtube.com/watch?v=318elIq37PE)
 ----
 
 <h3 id="laravel-origins-a-php-documentary">Laravel Origins: A PHP Documentary</h3>
@@ -339,8 +325,7 @@ Laravel Origins was filmed in late 2021, produced by OfferZen and directed by De
 * Language: en
 * Tags: Web Frameworks, PHP, Open Source, History
 * YouTube likes: 6,778
-* [Watch on YouTube](https://www.youtube.com/watch?v=127ng7botO4)
-
+* Watch on: [YouTube](https://www.youtube.com/watch?v=127ng7botO4)
 ----
 
 <h3 id="lo-and-behold-reveries-of-the-connected-world">Lo and Behold: Reveries of the Connected World</h3>
@@ -354,8 +339,7 @@ Directed by Werner Herzog, this documentary explores the history, impact, and po
 * Tags: Internet, History, Society
 * IMDb rating: 7.0 / 10 (13,862 votes)
 * YouTube likes: 5,700
-* [Watch on YouTube](https://www.youtube.com/watch?v=q3g3hqNJqpQ)
-
+* Watch on: [YouTube](https://www.youtube.com/watch?v=q3g3hqNJqpQ)
 ----
 
 <h3 id="node-js-the-documentary">Node.js: The Documentary</h3>
@@ -372,8 +356,7 @@ Join us as we delve into the origins of Node.js, meet some of its earliest contr
 * Language: en
 * Tags: JavaScript, Backend, Open Source, History
 * YouTube likes: 23,868
-* [Watch on YouTube](https://www.youtube.com/watch?v=LB8KwiiUGy0)
-
+* Watch on: [YouTube](https://www.youtube.com/watch?v=LB8KwiiUGy0)
 ----
 
 <h3 id="prometheus-the-documentary">Prometheus: The Documentary</h3>
@@ -387,8 +370,7 @@ Join us as we explore the story of Prometheus, from inception to adoption as tol
 * Language: en
 * Tags: Observability, Monitoring, Open Source, Cloud Native, History
 * YouTube likes: 3,547
-* [Watch on YouTube](https://www.youtube.com/watch?v=rT4fJNbfe14)
-
+* Watch on: [YouTube](https://www.youtube.com/watch?v=rT4fJNbfe14)
 ----
 
 <h3 id="python-the-documentary">Python: The Documentary</h3>
@@ -405,8 +387,7 @@ Thanks to our sponsors ...
 * Language: en
 * Tags: Programming Languages, Open Source, History
 * YouTube likes: 33,461
-* [Watch on YouTube](https://www.youtube.com/watch?v=GfH4QL4VqJ0)
-
+* Watch on: [YouTube](https://www.youtube.com/watch?v=GfH4QL4VqJ0)
 ----
 
 <h3 id="react-js-the-documentary">React.js: The Documentary</h3>
@@ -420,8 +401,7 @@ But what if we told you that React’s first brush with the public sphere was an
 * Language: en
 * Tags: Frontend, JavaScript, Meta, Open Source, History
 * YouTube likes: 40,560
-* [Watch on YouTube](https://www.youtube.com/watch?v=8pDqJVdNa44)
-
+* Watch on: [YouTube](https://www.youtube.com/watch?v=8pDqJVdNa44)
 ----
 
 <h3 id="revolution-os">Revolution OS</h3>
@@ -439,8 +419,7 @@ While Microsoft may be the biggest software company in the world, not every comp
 * Tags: GNU/Linux, Open Source, History
 * IMDb rating: 7.2 / 10 (2,708 votes)
 * YouTube likes: 2,191
-* [Watch on YouTube](https://www.youtube.com/watch?v=k0RYQVkQmWU)
-
+* Watch on: [YouTube](https://www.youtube.com/watch?v=k0RYQVkQmWU)
 ----
 
 <h3 id="ruby-on-rails-the-documentary">Ruby on Rails: The Documentary</h3>
@@ -455,8 +434,7 @@ Get the whole spill by the people who had a front-row seat to the creation and d
 * Language: en
 * Tags: Web Frameworks, Ruby, Open Source, History
 * YouTube likes: 9,836
-* [Watch on YouTube](https://www.youtube.com/watch?v=HDKUEXBF3B4)
-
+* Watch on: [YouTube](https://www.youtube.com/watch?v=HDKUEXBF3B4)
 ----
 
 <h3 id="silicon-cowboys">Silicon Cowboys</h3>
@@ -467,8 +445,7 @@ Get the whole spill by the people who had a front-row seat to the creation and d
 
 * Tags: Hardware, History, Personal Computing
 * IMDb rating: 6.9 / 10 (2,233 votes)
-* [Watch on Netflix](https://www.netflix.com/title/80104318)
-
+* Watch on: [Netflix](https://www.netflix.com/title/80104318)
 ----
 
 <h3 id="svelte-origins-a-javascript-documentary">Svelte Origins: A JavaScript Documentary</h3>
@@ -487,8 +464,7 @@ Svelte Origins ...
 * Language: en
 * Tags: Frontend, JavaScript, Open Source, History
 * YouTube likes: 6,992
-* [Watch on YouTube](https://www.youtube.com/watch?v=kMlkCYL9qo0)
-
+* Watch on: [YouTube](https://www.youtube.com/watch?v=kMlkCYL9qo0)
 ----
 
 <h3 id="terms-and-conditions-may-apply">Terms and Conditions May Apply</h3>
@@ -502,8 +478,7 @@ A documentary that exposes what corporations and governments learn about people 
 * Tags: Privacy, Surveillance, Internet
 * IMDb rating: 7.3 / 10 (6,643 votes)
 * YouTube likes: 592
-* [Watch on YouTube](https://www.youtube.com/watch?v=hRJEYmodC08)
-
+* Watch on: [YouTube](https://www.youtube.com/watch?v=hRJEYmodC08)
 ----
 
 <h3 id="the-cleaners">The Cleaners</h3>
@@ -514,8 +489,7 @@ This documentary reveals the hidden world of content moderation on social media 
 
 * Tags: Content Moderation, Social Media, Ethics, Society
 * IMDb rating: 7.1 / 10 (1,929 votes)
-* [Watch on Bundeszentrale für politische Bildung](https://www.bpb.de/mediathek/video/273199/the-cleaners/)
-
+* Watch on: [Bundeszentrale für politische Bildung](https://www.bpb.de/mediathek/video/273199/the-cleaners/)
 ----
 
 <h3 id="the-great-hack">The Great Hack</h3>
@@ -527,8 +501,7 @@ Explore how a data company named Cambridge Analytica came to symbolize the dark 
 * Language: en, de
 * Tags: Privacy, Social Media, Politics, Data Analytics
 * IMDb rating: 7.0 / 10 (25,799 votes)
-* [Watch on Netflix](https://www.netflix.com/title/80117542)
-
+* Watch on: [Netflix](https://www.netflix.com/title/80117542)
 ----
 
 <h3 id="the-internets-own-boy-the-story-of-aaron-swartz">The Internet&#39;s Own Boy: The Story of Aaron Swartz</h3>
@@ -545,8 +518,7 @@ This movie is made available under the Creative Commons license: ...
 * Tags: Hacktivism, Open Internet, Activism, History
 * IMDb rating: 8.0 / 10 (18,551 votes)
 * YouTube likes: 36,687
-* [Watch on YouTube](https://www.youtube.com/watch?v=9vz06QO3UkQ)
-
+* Watch on: [YouTube](https://www.youtube.com/watch?v=9vz06QO3UkQ)
 ----
 
 <h3 id="typescript-origins-the-documentary">TypeScript Origins: The Documentary</h3>
@@ -569,8 +541,7 @@ Sponsored by
 * Language: en
 * Tags: Programming Languages, JavaScript, Microsoft, History
 * YouTube likes: 9,556
-* [Watch on YouTube](https://www.youtube.com/watch?v=U6s2pdxebSo)
-
+* Watch on: [YouTube](https://www.youtube.com/watch?v=U6s2pdxebSo)
 ----
 
 <h3 id="vite-the-documentary">VITE: The Documentary</h3>
@@ -587,8 +558,7 @@ Featuring many prominent developers in the JavaCript ecosystem, this documentary
 * Language: en
 * Tags: Frontend, Build Tools, JavaScript, Open Source
 * YouTube likes: 5,906
-* [Watch on YouTube](https://www.youtube.com/watch?v=bmWQqAKLgT4)
-
+* Watch on: [YouTube](https://www.youtube.com/watch?v=bmWQqAKLgT4)
 ----
 
 <h3 id="vue-js-the-documentary">Vue.js: The Documentary</h3>
@@ -607,8 +577,7 @@ Honeypot is a developer-focused job platform, on a mission to get every develope
 * Language: en
 * Tags: Frontend, JavaScript, Open Source, History
 * YouTube likes: 52,870
-* [Watch on YouTube](https://www.youtube.com/watch?v=OrxmtDw4pVI)
-
+* Watch on: [YouTube](https://www.youtube.com/watch?v=OrxmtDw4pVI)
 ----
 
 <h3 id="we-are-legion-the-story-of-the-hacktivists">We Are Legion: The Story of the Hacktivists</h3>
@@ -622,8 +591,7 @@ This documentary takes a deep dive into the world of Anonymous, a loosely organi
 * Tags: Anonymous, Hacktivism, Security, History
 * IMDb rating: 7.2 / 10 (10,528 votes)
 * YouTube likes: 1,048
-* [Watch on YouTube](https://www.youtube.com/watch?v=4D1WJsdu6W8)
-
+* Watch on: [YouTube](https://www.youtube.com/watch?v=4D1WJsdu6W8)
 ----
 
 

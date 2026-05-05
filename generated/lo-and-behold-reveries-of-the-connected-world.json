@@ -1,8 +1,9 @@
 {
  "name": "Lo and Behold: Reveries of the Connected World",
  "slug": "lo-and-behold-reveries-of-the-connected-world",
- "link": "https://www.youtube.com/watch?v=q3g3hqNJqpQ",
- "platform": "youtube",
+ "links": {
+  "youtube": "https://www.youtube.com/watch?v=q3g3hqNJqpQ"
+ },
  "language": [
   "en"
  ],
@@ -15,9 +16,10 @@
  "localized": {
   "de": {
    "title": "Wovon träumt das Internet?",
-   "link": "https://www.amazon.de/gp/video/detail/B0FVCKCM81/",
    "description": "Die Dokumentation beleuchtet die Evolution des Internets und den Einfluss der weltweiten Vernetzung auf den Alltag. Werner Herzog spricht mit Hackern und Computerexperten - aber auch mit Menschen, die dem Internet den Rücken gekehrt haben.",
-   "platform": "amazon_prime_video"
+   "links": {
+    "amazon_prime_video": "https://www.amazon.de/gp/video/detail/B0FVCKCM81/"
+   }
   }
  },
  "title": "Lo and Behold, Reveries of the Connected World",

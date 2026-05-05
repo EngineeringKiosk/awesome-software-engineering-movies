@@ -1,8 +1,9 @@
 {
  "name": "Angular: The Documentary",
  "slug": "angular-the-documentary",
- "link": "https://www.youtube.com/watch?v=cRC9DlH45lA",
- "platform": "youtube",
+ "links": {
+  "youtube": "https://www.youtube.com/watch?v=cRC9DlH45lA"
+ },
  "language": [
   "en"
  ],

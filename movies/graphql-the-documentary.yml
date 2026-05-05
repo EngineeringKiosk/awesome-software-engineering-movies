@@ -1,5 +1,6 @@
 name: "GraphQL: The Documentary"
-link: https://www.youtube.com/watch?v=783ccP__No8
+links:
+  youtube: https://www.youtube.com/watch?v=783ccP__No8
 tags:
   - API
   - Open Source

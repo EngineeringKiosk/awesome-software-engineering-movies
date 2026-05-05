@@ -1,8 +1,9 @@
 {
  "name": "Ember.js: The Documentary",
  "slug": "ember-js-the-documentary",
- "link": "https://www.youtube.com/watch?v=Cvz-9ccflKQ",
- "platform": "youtube",
+ "links": {
+  "youtube": "https://www.youtube.com/watch?v=Cvz-9ccflKQ"
+ },
  "language": [
   "en"
  ],

@@ -1,5 +1,6 @@
 name: "Ruby on Rails: The Documentary"
-link: https://www.youtube.com/watch?v=HDKUEXBF3B4
+links:
+  youtube: https://www.youtube.com/watch?v=HDKUEXBF3B4
 tags:
   - Web Frameworks
   - Ruby

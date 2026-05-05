@@ -1,5 +1,6 @@
 name: "Lo and Behold: Reveries of the Connected World"
-link: https://www.youtube.com/watch?v=q3g3hqNJqpQ
+links:
+  youtube: https://www.youtube.com/watch?v=q3g3hqNJqpQ
 imdbID: tt5275828
 tags:
   - Internet
@@ -9,5 +10,6 @@ description: Directed by Werner Herzog, this documentary explores the history, i
 localized:
   de:
     title: Wovon träumt das Internet?
-    link: https://www.amazon.de/gp/video/detail/B0FVCKCM81/
     description: Die Dokumentation beleuchtet die Evolution des Internets und den Einfluss der weltweiten Vernetzung auf den Alltag. Werner Herzog spricht mit Hackern und Computerexperten - aber auch mit Menschen, die dem Internet den Rücken gekehrt haben.
+    links:
+      amazon_prime_video: https://www.amazon.de/gp/video/detail/B0FVCKCM81/

@@ -1,5 +1,6 @@
 name: "VITE: The Documentary"
-link: https://www.youtube.com/watch?v=bmWQqAKLgT4
+links:
+  youtube: https://www.youtube.com/watch?v=bmWQqAKLgT4
 tags:
   - Frontend
   - Build Tools

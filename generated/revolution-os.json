@@ -1,8 +1,9 @@
 {
  "name": "Revolution OS",
  "slug": "revolution-os",
- "link": "https://www.youtube.com/watch?v=k0RYQVkQmWU",
- "platform": "youtube",
+ "links": {
+  "youtube": "https://www.youtube.com/watch?v=k0RYQVkQmWU"
+ },
  "language": [
   "en"
  ],

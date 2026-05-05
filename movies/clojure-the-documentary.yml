@@ -1,5 +1,6 @@
 name: "Clojure: The Documentary"
-link: https://www.youtube.com/watch?v=Y24vK_QDLFg
+links:
+  youtube: https://www.youtube.com/watch?v=Y24vK_QDLFg
 tags:
   - Programming Languages
   - Functional Programming

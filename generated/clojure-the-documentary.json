@@ -1,8 +1,9 @@
 {
  "name": "Clojure: The Documentary",
  "slug": "clojure-the-documentary",
- "link": "https://www.youtube.com/watch?v=Y24vK_QDLFg",
- "platform": "youtube",
+ "links": {
+  "youtube": "https://www.youtube.com/watch?v=Y24vK_QDLFg"
+ },
  "language": [
   "en"
  ],

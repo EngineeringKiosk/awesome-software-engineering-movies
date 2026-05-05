@@ -40,12 +40,17 @@ Out of scope for now:
 
    ```yaml
    name: "Inside Envoy: The Proxy for the Future"
-   link: https://www.youtube.com/watch?v=uaksVVHDhYU
+   links:
+     youtube: https://www.youtube.com/watch?v=uaksVVHDhYU
    tags:
      - Networking
      - Service Mesh
      - Open Source
    ```
+
+   `links` is a map keyed by platform slug — list every platform
+   the entry is available on (`youtube`, `netflix`, `amazon_prime_video`,
+   `bpb`).
 
    `language` is optional — see the field reference below.
 
@@ -67,39 +72,41 @@ non-commercial dataset.
 | Field      | Type           | Required | Source of truth | Notes |
 |------------|----------------|----------|-----------------|-------|
 | `name`     | string         | yes      | YAML            | Drives the slug, filename and README anchor. Keep it close to the YouTube title but cleaned up if needed. |
-| `link`     | string (URL)   | yes      | YAML            | YouTube URL — `youtube.com/watch?v=…`, `youtu.be/…`, `/embed/…`, `/shorts/…` are all accepted. |
+| `links`    | map[slug → URL] | yes     | YAML            | Map of every platform the entry is available on, keyed by platform slug (`youtube`, `netflix`, `amazon_prime_video`, `bpb`). At least one entry required. The tooling validates known-slug URLs against the slug they claim to be and warns on mismatch. Unknown slugs are accepted (a maintainer may pre-declare a platform before its detector lands). |
 | `language`    | list[string]   | no       | YAML > API      | ISO 639-1 codes (`en`, `de`, `fr`, …). If omitted, the tooling falls back to the YouTube `defaultAudioLanguage` and stores it as a single-element list. Set it manually when the API returns nothing or when the video has multiple audio languages. |
 | `description` | string         | no       | YAML > API      | Free text. If omitted, the tooling uses the video's YouTube description. Set it manually when the YouTube description is empty, full of unrelated boilerplate, or otherwise unhelpful for skim-reading the README. |
 | `tags`        | list[string]   | yes      | YAML            | Subject-matter tags. Be coarse — better to have 3–5 broad tags than 15 narrow ones. |
 | `imdbID`      | string         | no       | YAML            | IMDb tconst (e.g. `tt3268458`). Set this only when the entry is also catalogued on IMDb so the tooling can pull the IMDb rating from the public dataset. Most YouTube documentaries are not on IMDb — leave this unset for those. |
-| `platform`    | string         | no       | YAML > tooling  | Slug of the source the link lives on (`youtube`, `netflix`, `amazon_prime_video`, `bpb`). Auto-detected from `link` when omitted; set explicitly only if you need to override the detector or your link is from a source the tooling does not yet recognise. The tooling logs a warning when an explicit platform disagrees with what the link looks like. |
-| `localized`   | map[code → object] | no   | YAML            | Per-language alternate-version overrides. Keys are ISO 639-1 codes (`de`, `es`, …). Each value supports optional `title`, `link`, and `description` — provide whichever differs from the English top-level. A per-localized `platform` is autodetected from the localized `link` (same precedence rules as the top-level `platform`), so a German Amazon Prime link on a YouTube top-level entry is recorded correctly. Alternate links are not enriched (no extra YouTube/IMDb API calls); they round-trip from YAML to JSON unchanged. |
-| `youtubeTrailerForThumbnail` | string (YouTube URL) | no | YAML | Fallback YouTube URL the tooling uses for the poster image when the primary `link` is not a YouTube video, or when the primary YouTube thumbnail download fails. Set this for Netflix / Amazon Prime / bpb entries that have a YouTube trailer so the README still gets a poster. If neither the primary link nor this trailer yields an image, the tooling falls back to a bundled placeholder. |
+| `localized`   | map[code → object] | no   | YAML            | Per-language alternate-version overrides. Keys are ISO 639-1 codes (`de`, `es`, …). Each value supports optional `title`, `description`, and `links` (same shape as the top-level `links` map) — provide whichever differs from the English top-level. The `links` override is per-key: only the platform slugs you list override their top-level counterparts; every other top-level platform is inherited unchanged. Alternate links are not enriched (no extra YouTube/IMDb API calls); they round-trip from YAML to JSON unchanged. |
+| `youtubeTrailerForThumbnail` | string (YouTube URL) | no | YAML | Fallback YouTube URL the tooling uses for the poster image when the entry's `links` map has no `youtube` key (or the primary YouTube thumbnail download fails). Set this for Netflix / Amazon Prime / bpb entries that have a YouTube trailer so the README still gets a poster. If neither the primary YouTube link nor this trailer yields an image, the tooling falls back to a bundled placeholder. |
 | `title`       | string         | no       | YAML > API      | Optional override of the entry's title. If omitted, the tooling uses the YouTube API's `snippet.title`. Set explicitly for non-YouTube entries (Netflix, bpb, …) where there is no API title, or to override an unhelpful upload title. Note that the README's heading is driven by `name`; `title` is for the JSON and downstream consumers. |
 | `duration`    | string (ISO-8601) | no    | YAML > API      | Optional override of the entry's runtime, format `PT[xH][yM][zS]` (e.g. `PT1H54M`). API-supplied for YouTube entries; set manually for non-YouTube entries so the README can render `Duration: ca. X min.` |
 | `publishedAt` | string (RFC3339)  | no    | YAML > API      | Optional override of the entry's release / upload date (e.g. `2019-07-24T00:00:00Z`). API-supplied for YouTube entries; set manually for non-YouTube entries to record the release date. |
 
 The remaining JSON fields (`channel`, `ratings`, `views`, `image`,
-`slug`, `platform` when not set in YAML) are produced by the
-tooling.
+`slug`) are produced by the tooling.
 
 If your entry has an alternate-language version, add a `localized`
 block — for example:
 
 ```yaml
 name: "Lo and Behold: Reveries of the Connected World"
-link: https://www.youtube.com/watch?v=q3g3hqNJqpQ
+links:
+  youtube: https://www.youtube.com/watch?v=q3g3hqNJqpQ
 tags: [Internet, History, Society]
 localized:
   de:
     title: Wovon träumt das Internet?
-    link: https://www.amazon.de/gp/video/detail/B0FVCKCM81/
     description: Die Dokumentation beleuchtet die Evolution des Internets ...
+    links:
+      amazon_prime_video: https://www.amazon.de/gp/video/detail/B0FVCKCM81/
 ```
 
-Note that the German version above lives on a different platform
-(`amazon_prime_video`) than the English top-level (`youtube`) — the
-tooling autodetects each.
+The German version above adds a different platform
+(`amazon_prime_video`) without touching the English top-level
+`youtube` link — that's the per-key merge: the German viewer sees
+both the English YouTube upload and the German Amazon Prime
+upload.
 
 **Do not edit `README.md` directly** —
 it is overwritten on every CI run. To change rendering, update

@@ -1,8 +1,9 @@
 {
  "name": "Terms and Conditions May Apply",
  "slug": "terms-and-conditions-may-apply",
- "link": "https://www.youtube.com/watch?v=hRJEYmodC08",
- "platform": "youtube",
+ "links": {
+  "youtube": "https://www.youtube.com/watch?v=hRJEYmodC08"
+ },
  "language": [
   "en"
  ],

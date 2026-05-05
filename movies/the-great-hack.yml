@@ -1,5 +1,6 @@
 name: The Great Hack
-link: https://www.netflix.com/title/80117542
+links:
+  netflix: https://www.netflix.com/title/80117542
 imdbID: tt4736550
 youtubeTrailerForThumbnail: https://www.youtube.com/watch?v=iX8GxLP1FHo
 language:

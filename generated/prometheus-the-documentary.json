@@ -1,8 +1,9 @@
 {
  "name": "Prometheus: The Documentary",
  "slug": "prometheus-the-documentary",
- "link": "https://www.youtube.com/watch?v=rT4fJNbfe14",
- "platform": "youtube",
+ "links": {
+  "youtube": "https://www.youtube.com/watch?v=rT4fJNbfe14"
+ },
  "language": [
   "en"
  ],

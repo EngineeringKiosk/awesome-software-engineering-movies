@@ -1,5 +1,6 @@
 name: "Elixir: The Documentary"
-link: https://www.youtube.com/watch?v=lxYFOM3UJzo
+links:
+  youtube: https://www.youtube.com/watch?v=lxYFOM3UJzo
 tags:
   - Programming Languages
   - Functional Programming

@@ -1,5 +1,6 @@
 name: Revolution OS
-link: https://www.youtube.com/watch?v=k0RYQVkQmWU
+links:
+  youtube: https://www.youtube.com/watch?v=k0RYQVkQmWU
 imdbID: tt0308808
 tags:
   - GNU/Linux

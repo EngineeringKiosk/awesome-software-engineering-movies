@@ -44,6 +44,22 @@ func TestDetect(t *testing.T) {
 	}
 }
 
+func TestIsKnown(t *testing.T) {
+	cases := map[string]bool{
+		YouTube:          true,
+		Netflix:          true,
+		AmazonPrimeVideo: true,
+		BPB:              true,
+		"vimeo":          false,
+		"":               false,
+	}
+	for slug, want := range cases {
+		if got := IsKnown(slug); got != want {
+			t.Errorf("IsKnown(%q) = %v; want %v", slug, got, want)
+		}
+	}
+}
+
 func TestDisplay(t *testing.T) {
 	cases := map[string]string{
 		YouTube:          "YouTube",

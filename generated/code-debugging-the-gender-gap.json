@@ -1,8 +1,9 @@
 {
  "name": "CODE: Debugging the Gender Gap",
  "slug": "code-debugging-the-gender-gap",
- "link": "https://www.youtube.com/watch?v=rQKRw6tWsb8",
- "platform": "youtube",
+ "links": {
+  "youtube": "https://www.youtube.com/watch?v=rQKRw6tWsb8"
+ },
  "language": [
   "en"
  ],

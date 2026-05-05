@@ -1,8 +1,9 @@
 {
  "name": "Internet Relay Chat (IRC)",
  "slug": "internet-relay-chat-irc",
- "link": "https://www.youtube.com/watch?v=6UbKenFipjo",
- "platform": "youtube",
+ "links": {
+  "youtube": "https://www.youtube.com/watch?v=6UbKenFipjo"
+ },
  "language": [
   "en"
  ],
