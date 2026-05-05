@@ -7,14 +7,17 @@ import (
 	"testing"
 )
 
-// mergeMovieInformation has three override-only fields (Language,
-// Subtitles, Description) whose YAML > API precedence is easy to
-// break by accident on schema changes. These tests pin the contract.
+// stubLinks is a reusable test fixture so each precedence test does
+// not have to re-spell the map literal — and so swapping the link
+// schema again later is a single-line change here.
+func stubLinks() map[string]string {
+	return map[string]string{"youtube": "https://www.youtube.com/watch?v=abc123"}
+}
 
 func TestMergeMovieInformation_DescriptionPrecedence(t *testing.T) {
 	t.Run("YAML description overrides target", func(t *testing.T) {
-		yaml := &MovieInformation{Name: "n", Link: "l", Description: "from-yaml"}
-		json := &MovieInformation{Name: "stale", Link: "stale", Description: "from-api"}
+		yaml := &MovieInformation{Name: "n", Links: stubLinks(), Description: "from-yaml"}
+		json := &MovieInformation{Name: "stale", Links: stubLinks(), Description: "from-api"}
 
 		got := mergeMovieInformation(yaml, json)
 		if got.Description != "from-yaml" {
@@ -23,8 +26,8 @@ func TestMergeMovieInformation_DescriptionPrecedence(t *testing.T) {
 	})
 
 	t.Run("empty YAML description preserves target", func(t *testing.T) {
-		yaml := &MovieInformation{Name: "n", Link: "l"} // Description empty
-		json := &MovieInformation{Name: "stale", Link: "stale", Description: "from-api"}
+		yaml := &MovieInformation{Name: "n", Links: stubLinks()} // Description empty
+		json := &MovieInformation{Name: "stale", Links: stubLinks(), Description: "from-api"}
 
 		got := mergeMovieInformation(yaml, json)
 		if got.Description != "from-api" {
@@ -35,8 +38,8 @@ func TestMergeMovieInformation_DescriptionPrecedence(t *testing.T) {
 
 func TestMergeMovieInformation_TitlePrecedence(t *testing.T) {
 	t.Run("YAML title overrides target", func(t *testing.T) {
-		yaml := &MovieInformation{Name: "n", Link: "l", Title: "from-yaml"}
-		json := &MovieInformation{Name: "stale", Link: "stale", Title: "from-api"}
+		yaml := &MovieInformation{Name: "n", Links: stubLinks(), Title: "from-yaml"}
+		json := &MovieInformation{Name: "stale", Links: stubLinks(), Title: "from-api"}
 
 		got := mergeMovieInformation(yaml, json)
 		if got.Title != "from-yaml" {
@@ -45,8 +48,8 @@ func TestMergeMovieInformation_TitlePrecedence(t *testing.T) {
 	})
 
 	t.Run("empty YAML title preserves target", func(t *testing.T) {
-		yaml := &MovieInformation{Name: "n", Link: "l"}
-		json := &MovieInformation{Name: "stale", Link: "stale", Title: "from-api"}
+		yaml := &MovieInformation{Name: "n", Links: stubLinks()}
+		json := &MovieInformation{Name: "stale", Links: stubLinks(), Title: "from-api"}
 
 		got := mergeMovieInformation(yaml, json)
 		if got.Title != "from-api" {
@@ -57,8 +60,8 @@ func TestMergeMovieInformation_TitlePrecedence(t *testing.T) {
 
 func TestMergeMovieInformation_DurationPrecedence(t *testing.T) {
 	t.Run("YAML duration overrides target", func(t *testing.T) {
-		yaml := &MovieInformation{Name: "n", Link: "l", Duration: "PT1H54M"}
-		json := &MovieInformation{Name: "stale", Link: "stale", Duration: "PT2H"}
+		yaml := &MovieInformation{Name: "n", Links: stubLinks(), Duration: "PT1H54M"}
+		json := &MovieInformation{Name: "stale", Links: stubLinks(), Duration: "PT2H"}
 
 		got := mergeMovieInformation(yaml, json)
 		if got.Duration != "PT1H54M" {
@@ -67,8 +70,8 @@ func TestMergeMovieInformation_DurationPrecedence(t *testing.T) {
 	})
 
 	t.Run("empty YAML duration preserves target", func(t *testing.T) {
-		yaml := &MovieInformation{Name: "n", Link: "l"}
-		json := &MovieInformation{Name: "stale", Link: "stale", Duration: "PT2H"}
+		yaml := &MovieInformation{Name: "n", Links: stubLinks()}
+		json := &MovieInformation{Name: "stale", Links: stubLinks(), Duration: "PT2H"}
 
 		got := mergeMovieInformation(yaml, json)
 		if got.Duration != "PT2H" {
@@ -79,8 +82,8 @@ func TestMergeMovieInformation_DurationPrecedence(t *testing.T) {
 
 func TestMergeMovieInformation_PublishedAtPrecedence(t *testing.T) {
 	t.Run("YAML publishedAt overrides target", func(t *testing.T) {
-		yaml := &MovieInformation{Name: "n", Link: "l", PublishedAt: "2019-07-24T00:00:00Z"}
-		json := &MovieInformation{Name: "stale", Link: "stale", PublishedAt: "2019-01-01T00:00:00Z"}
+		yaml := &MovieInformation{Name: "n", Links: stubLinks(), PublishedAt: "2019-07-24T00:00:00Z"}
+		json := &MovieInformation{Name: "stale", Links: stubLinks(), PublishedAt: "2019-01-01T00:00:00Z"}
 
 		got := mergeMovieInformation(yaml, json)
 		if got.PublishedAt != "2019-07-24T00:00:00Z" {
@@ -89,8 +92,8 @@ func TestMergeMovieInformation_PublishedAtPrecedence(t *testing.T) {
 	})
 
 	t.Run("empty YAML publishedAt preserves target", func(t *testing.T) {
-		yaml := &MovieInformation{Name: "n", Link: "l"}
-		json := &MovieInformation{Name: "stale", Link: "stale", PublishedAt: "2019-01-01T00:00:00Z"}
+		yaml := &MovieInformation{Name: "n", Links: stubLinks()}
+		json := &MovieInformation{Name: "stale", Links: stubLinks(), PublishedAt: "2019-01-01T00:00:00Z"}
 
 		got := mergeMovieInformation(yaml, json)
 		if got.PublishedAt != "2019-01-01T00:00:00Z" {
@@ -101,8 +104,8 @@ func TestMergeMovieInformation_PublishedAtPrecedence(t *testing.T) {
 
 func TestMergeMovieInformation_LanguagePrecedence(t *testing.T) {
 	t.Run("YAML language overrides target", func(t *testing.T) {
-		yaml := &MovieInformation{Name: "n", Link: "l", Language: []string{"de"}}
-		json := &MovieInformation{Name: "stale", Link: "stale", Language: []string{"en"}}
+		yaml := &MovieInformation{Name: "n", Links: stubLinks(), Language: []string{"de"}}
+		json := &MovieInformation{Name: "stale", Links: stubLinks(), Language: []string{"en"}}
 
 		got := mergeMovieInformation(yaml, json)
 		if len(got.Language) != 1 || got.Language[0] != "de" {
@@ -111,8 +114,8 @@ func TestMergeMovieInformation_LanguagePrecedence(t *testing.T) {
 	})
 
 	t.Run("empty YAML language preserves target", func(t *testing.T) {
-		yaml := &MovieInformation{Name: "n", Link: "l"} // Language empty
-		json := &MovieInformation{Name: "stale", Link: "stale", Language: []string{"en"}}
+		yaml := &MovieInformation{Name: "n", Links: stubLinks()} // Language empty
+		json := &MovieInformation{Name: "stale", Links: stubLinks(), Language: []string{"en"}}
 
 		got := mergeMovieInformation(yaml, json)
 		if len(got.Language) != 1 || got.Language[0] != "en" {
@@ -123,8 +126,8 @@ func TestMergeMovieInformation_LanguagePrecedence(t *testing.T) {
 
 func TestMergeMovieInformation_SubtitlesPrecedence(t *testing.T) {
 	t.Run("YAML subtitles override target", func(t *testing.T) {
-		yaml := &MovieInformation{Name: "n", Link: "l", Subtitles: []string{"de"}}
-		json := &MovieInformation{Name: "stale", Link: "stale", Subtitles: []string{"en", "fr"}}
+		yaml := &MovieInformation{Name: "n", Links: stubLinks(), Subtitles: []string{"de"}}
+		json := &MovieInformation{Name: "stale", Links: stubLinks(), Subtitles: []string{"en", "fr"}}
 
 		got := mergeMovieInformation(yaml, json)
 		if len(got.Subtitles) != 1 || got.Subtitles[0] != "de" {
@@ -133,8 +136,8 @@ func TestMergeMovieInformation_SubtitlesPrecedence(t *testing.T) {
 	})
 
 	t.Run("empty YAML subtitles preserves target", func(t *testing.T) {
-		yaml := &MovieInformation{Name: "n", Link: "l"} // Subtitles empty
-		json := &MovieInformation{Name: "stale", Link: "stale", Subtitles: []string{"en", "de"}}
+		yaml := &MovieInformation{Name: "n", Links: stubLinks()} // Subtitles empty
+		json := &MovieInformation{Name: "stale", Links: stubLinks(), Subtitles: []string{"en", "de"}}
 
 		got := mergeMovieInformation(yaml, json)
 		if len(got.Subtitles) != 2 || got.Subtitles[0] != "en" || got.Subtitles[1] != "de" {
@@ -143,60 +146,59 @@ func TestMergeMovieInformation_SubtitlesPrecedence(t *testing.T) {
 	})
 }
 
-func TestResolvePlatform(t *testing.T) {
+func TestMergeMovieInformation_LinksReplace(t *testing.T) {
+	t.Run("YAML links replace target wholesale", func(t *testing.T) {
+		yaml := &MovieInformation{Name: "n", Links: map[string]string{"netflix": "yaml-nf"}}
+		json := &MovieInformation{Name: "stale", Links: map[string]string{"youtube": "stale-yt"}}
+
+		got := mergeMovieInformation(yaml, json)
+		if len(got.Links) != 1 || got.Links["netflix"] != "yaml-nf" {
+			t.Fatalf("Links = %v; want exactly the YAML map", got.Links)
+		}
+	})
+}
+
+func TestValidateLinks(t *testing.T) {
 	cases := []struct {
 		name        string
-		yamlValue   string
-		link        string
-		wantValue   string
+		links       map[string]string
 		wantWarnSub string // empty = expect no warning
 	}{
 		{
-			name:      "autodetect from YouTube link when YAML omits platform",
-			link:      "https://www.youtube.com/watch?v=abc123",
-			wantValue: "youtube",
+			name: "matching slug + URL emits no warning",
+			links: map[string]string{
+				"youtube": "https://www.youtube.com/watch?v=abc",
+				"netflix": "https://www.netflix.com/title/12345",
+			},
 		},
 		{
-			name:      "explicit YAML matches detector → no warning",
-			yamlValue: "youtube",
-			link:      "https://youtu.be/abc123",
-			wantValue: "youtube",
+			name:  "empty map emits no warning",
+			links: map[string]string{},
 		},
 		{
-			name:        "YAML disagrees with link → warn, keep YAML",
-			yamlValue:   "netflix",
-			link:        "https://www.youtube.com/watch?v=abc123",
-			wantValue:   "netflix",
-			wantWarnSub: "disagrees with link-detected platform",
+			name:  "unknown slug passes through silently",
+			links: map[string]string{"vimeo": "https://vimeo.com/12345"},
 		},
 		{
-			name:        "YAML set, link unrecognised → warn, keep YAML",
-			yamlValue:   "netflix",
-			link:        "https://example.com/foo",
-			wantValue:   "netflix",
-			wantWarnSub: "matches no known platform; keeping YAML value",
+			name:        "known slug with mismatched URL warns",
+			links:       map[string]string{"netflix": "https://www.youtube.com/watch?v=abc"},
+			wantWarnSub: "looks like \"youtube\", not \"netflix\"",
 		},
 		{
-			name:        "neither YAML nor detector → warn, leave empty",
-			link:        "https://example.com/foo",
-			wantValue:   "",
-			wantWarnSub: "leaving empty",
+			name:        "known slug with unrecognised URL warns",
+			links:       map[string]string{"netflix": "https://example.com/foo"},
+			wantWarnSub: "matches no known platform",
 		},
 	}
 	for _, tc := range cases {
 		t.Run(tc.name, func(t *testing.T) {
-			info := &MovieInformation{Link: tc.link, Platform: tc.yamlValue}
-
 			var buf bytes.Buffer
 			prev := log.Writer()
 			log.SetOutput(&buf)
 			defer log.SetOutput(prev)
 
-			resolvePlatform(info, "test.yml")
+			validateLinks(tc.links, "test.yml")
 
-			if info.Platform != tc.wantValue {
-				t.Errorf("Platform = %q; want %q", info.Platform, tc.wantValue)
-			}
 			out := buf.String()
 			switch {
 			case tc.wantWarnSub == "" && strings.Contains(out, "WARNING"):
@@ -211,15 +213,15 @@ func TestResolvePlatform(t *testing.T) {
 func TestMergeMovieInformation_LocalizedPrecedence(t *testing.T) {
 	t.Run("YAML localized map overrides target", func(t *testing.T) {
 		yaml := &MovieInformation{
-			Name: "n", Link: "l",
+			Name: "n", Links: stubLinks(),
 			Localized: map[string]LocalizedVersion{
-				"de": {Title: "from-yaml", Link: "yaml-link"},
+				"de": {Title: "from-yaml", Links: map[string]string{"amazon_prime_video": "yaml-link"}},
 			},
 		}
 		json := &MovieInformation{
-			Name: "stale", Link: "stale",
+			Name: "stale", Links: stubLinks(),
 			Localized: map[string]LocalizedVersion{
-				"de": {Title: "stale-title", Link: "stale-link"},
+				"de": {Title: "stale-title", Links: map[string]string{"amazon_prime_video": "stale-link"}},
 				"es": {Title: "should-be-dropped"},
 			},
 		}
@@ -228,8 +230,8 @@ func TestMergeMovieInformation_LocalizedPrecedence(t *testing.T) {
 		if len(got.Localized) != 1 {
 			t.Fatalf("Localized = %v; want exactly the YAML map", got.Localized)
 		}
-		if got.Localized["de"].Title != "from-yaml" || got.Localized["de"].Link != "yaml-link" {
-			t.Fatalf("Localized[de] = %+v; want from-yaml/yaml-link", got.Localized["de"])
+		if got.Localized["de"].Title != "from-yaml" || got.Localized["de"].Links["amazon_prime_video"] != "yaml-link" {
+			t.Fatalf("Localized[de] = %+v; want from-yaml + yaml-link", got.Localized["de"])
 		}
 		if _, ok := got.Localized["es"]; ok {
 			t.Errorf("YAML omitting 'es' must drop it; map currently has it")
@@ -237,9 +239,9 @@ func TestMergeMovieInformation_LocalizedPrecedence(t *testing.T) {
 	})
 
 	t.Run("empty YAML localized preserves target", func(t *testing.T) {
-		yaml := &MovieInformation{Name: "n", Link: "l"} // Localized empty
+		yaml := &MovieInformation{Name: "n", Links: stubLinks()} // Localized empty
 		json := &MovieInformation{
-			Name: "stale", Link: "stale",
+			Name: "stale", Links: stubLinks(),
 			Localized: map[string]LocalizedVersion{
 				"de": {Title: "from-target"},
 			},
@@ -261,9 +263,9 @@ func TestValidateLocalized(t *testing.T) {
 		{
 			name: "well-formed entries do not warn",
 			localized: map[string]LocalizedVersion{
-				"de": {Title: "Pythons Geschichte", Link: "https://example.com/de"},
+				"de": {Title: "Pythons Geschichte", Links: map[string]string{"netflix": "https://www.netflix.com/title/12"}},
 				"es": {Title: "La historia de Python"},
-				"fr": {Link: "https://example.com/fr"},
+				"fr": {Links: map[string]string{"youtube": "https://www.youtube.com/watch?v=fr"}},
 				"it": {Description: "Una descrizione localizzata"},
 			},
 		},
@@ -308,82 +310,4 @@ func TestValidateLocalized(t *testing.T) {
 			}
 		})
 	}
-}
-
-func TestResolveLocalizedPlatforms(t *testing.T) {
-	t.Run("autodetects from localized link", func(t *testing.T) {
-		info := &MovieInformation{
-			Localized: map[string]LocalizedVersion{
-				"de": {Link: "https://www.amazon.de/gp/video/detail/B0FVCKCM81/"},
-			},
-		}
-		var buf bytes.Buffer
-		prev := log.Writer()
-		log.SetOutput(&buf)
-		defer log.SetOutput(prev)
-
-		resolveLocalizedPlatforms(info, "test.yml")
-
-		if got := info.Localized["de"].Platform; got != "amazon_prime_video" {
-			t.Fatalf("Localized[de].Platform = %q; want amazon_prime_video", got)
-		}
-		if strings.Contains(buf.String(), "WARNING") {
-			t.Errorf("expected no warning, got: %s", buf.String())
-		}
-	})
-
-	t.Run("description-only entry is left alone", func(t *testing.T) {
-		info := &MovieInformation{
-			Localized: map[string]LocalizedVersion{
-				"de": {Description: "Eine deutsche Beschreibung"},
-			},
-		}
-		resolveLocalizedPlatforms(info, "test.yml")
-		if got := info.Localized["de"].Platform; got != "" {
-			t.Errorf("Localized[de].Platform = %q; want empty (no link to detect from)", got)
-		}
-	})
-
-	t.Run("YAML override on localized link survives", func(t *testing.T) {
-		info := &MovieInformation{
-			Localized: map[string]LocalizedVersion{
-				"de": {Link: "https://www.amazon.de/gp/video/detail/B0/", Platform: "netflix"},
-			},
-		}
-		var buf bytes.Buffer
-		prev := log.Writer()
-		log.SetOutput(&buf)
-		defer log.SetOutput(prev)
-
-		resolveLocalizedPlatforms(info, "test.yml")
-
-		if got := info.Localized["de"].Platform; got != "netflix" {
-			t.Errorf("Localized[de].Platform = %q; want %q (YAML wins)", got, "netflix")
-		}
-		if !strings.Contains(buf.String(), "disagrees") {
-			t.Errorf("expected disagreement warning, got: %s", buf.String())
-		}
-	})
-}
-
-func TestMergeMovieInformation_PlatformPrecedence(t *testing.T) {
-	t.Run("YAML platform overrides target", func(t *testing.T) {
-		yaml := &MovieInformation{Name: "n", Link: "l", Platform: "netflix"}
-		json := &MovieInformation{Name: "stale", Link: "stale", Platform: "youtube"}
-
-		got := mergeMovieInformation(yaml, json)
-		if got.Platform != "netflix" {
-			t.Fatalf("Platform = %q; want %q", got.Platform, "netflix")
-		}
-	})
-
-	t.Run("empty YAML platform preserves target", func(t *testing.T) {
-		yaml := &MovieInformation{Name: "n", Link: "l"}
-		json := &MovieInformation{Name: "stale", Link: "stale", Platform: "youtube"}
-
-		got := mergeMovieInformation(yaml, json)
-		if got.Platform != "youtube" {
-			t.Fatalf("Platform = %q; want %q (target preserved)", got.Platform, "youtube")
-		}
-	})
 }

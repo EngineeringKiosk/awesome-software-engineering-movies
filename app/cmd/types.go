@@ -2,6 +2,7 @@ package cmd
 
 import (
 	"fmt"
+	"sort"
 	"strconv"
 	"strings"
 	"time"
@@ -20,19 +21,18 @@ type MovieInformation struct {
 	// filenames, README anchors and image paths.
 	Slug string `yaml:"-" json:"slug"`
 
-	Link string `yaml:"link" json:"link"`
+	// Links maps platform slugs to watch URLs (e.g. "youtube" →
+	// "https://www.youtube.com/...", "netflix" → "https://www.netflix.com/...").
+	// At least one entry is required. The keys of this map double as
+	// the entry's platform list; there is no separate Platform field.
+	Links map[string]string `yaml:"links" json:"links"`
 	// VideoID is YouTube-specific and lives only as a runtime field:
 	// not persisted to JSON, not curated in YAML. collectMovieData
-	// derives it from Link on load via youtube.ParseVideoID and uses
-	// it for the videos.list API call, the response→entry join, and
-	// the thumbnail URL. Other platforms leave it empty.
+	// derives it from Links["youtube"] on load via youtube.ParseVideoID
+	// and uses it for the videos.list API call, the response→entry
+	// join, and the thumbnail URL. Empty for entries with no YouTube
+	// link.
 	VideoID string `yaml:"-" json:"-"`
-	// Platform identifies which source the link lives on (e.g.
-	// "youtube"). Optional in YAML — convertYamlToJson auto-fills it
-	// from the link via the platform package when omitted. The YAML
-	// value, when set, always wins; convertYamlToJson logs a warning
-	// when YAML and link disagree.
-	Platform string `yaml:"platform,omitempty" json:"platform"`
 
 	// Language is a list of ISO 639-1 codes (e.g. ["en"], ["en", "de"]).
 	// Curated by hand because the YouTube API does not reliably expose
@@ -44,11 +44,12 @@ type MovieInformation struct {
 	Subtitles []string `yaml:"subtitles" json:"subtitles"`
 	Tags      []string `yaml:"tags"      json:"tags"`
 	// Localized maps ISO 639-1 codes (e.g. "de", "es") to per-language
-	// overrides. The top-level Name and Link are always the English
+	// overrides. The top-level Name and Links are always the English
 	// version; entries here describe alternate-language versions of
-	// the same content (a different upload, a translated title, or
-	// both). Optional in YAML; absent for entries that only exist in
-	// one language. Map omits itself from JSON when empty.
+	// the same content. Localized.Links is per-key merged onto the
+	// top-level map at consumer time (omitted keys inherit from
+	// top-level). Optional in YAML; absent for entries that only
+	// exist in one language. Map omits itself from JSON when empty.
 	Localized map[string]LocalizedVersion `yaml:"localized,omitempty" json:"localized,omitempty"`
 
 	// API-enriched fields below this line. Some are also YAML-
@@ -103,17 +104,15 @@ type MovieInformation struct {
 // alternate version of an entry. All fields are individually
 // optional: maintainers fill in whichever differs from the top-level
 // English version (a translated title, a translated description, a
-// different upload, or any combination).
+// different upload on a different platform, or any combination).
 type LocalizedVersion struct {
 	Title       string `yaml:"title,omitempty"       json:"title,omitempty"`
-	Link        string `yaml:"link,omitempty"        json:"link,omitempty"`
 	Description string `yaml:"description,omitempty" json:"description,omitempty"`
-	// Platform is autodetected from Link by convertYamlToJson when
-	// empty, with the same precedence rules as MovieInformation.Platform:
-	// YAML wins when set; the resolver warns on disagreement. Stays
-	// empty for description-only or title-only overrides because
-	// there is no link to detect against.
-	Platform string `yaml:"platform,omitempty" json:"platform,omitempty"`
+	// Links is a per-key merge over MovieInformation.Links: only the
+	// platforms listed here override their top-level counterparts;
+	// every other top-level platform is inherited unchanged. Stored
+	// in JSON as written, not pre-merged.
+	Links map[string]string `yaml:"links,omitempty" json:"links,omitempty"`
 }
 
 // YouTubeRating holds rating-like signals YouTube exposes via
@@ -170,11 +169,32 @@ func (m *MovieInformation) SubtitlesAsList() string {
 	return strings.Join(m.Subtitles, ", ")
 }
 
-// PlatformDisplay returns the human-readable platform name for the
-// README, e.g. "YouTube" for the slug "youtube". Empty / unknown
-// slugs degrade gracefully via platform.Display.
-func (m *MovieInformation) PlatformDisplay() string {
-	return platform.Display(m.Platform)
+// HasLinks reports whether the entry has at least one watch URL.
+// Used by the README template to gate the "Watch on" line.
+func (m *MovieInformation) HasLinks() bool {
+	return len(m.Links) > 0
+}
+
+// LinksFormatted renders the entry's watch URLs as a single inline
+// list for the README, e.g. "[YouTube](url) | [Netflix](url)".
+// Sorted alphabetically by display name so order is deterministic
+// and stable across runs.
+func (m *MovieInformation) LinksFormatted() string {
+	if len(m.Links) == 0 {
+		return ""
+	}
+	slugs := make([]string, 0, len(m.Links))
+	for slug := range m.Links {
+		slugs = append(slugs, slug)
+	}
+	sort.Slice(slugs, func(i, j int) bool {
+		return platform.Display(slugs[i]) < platform.Display(slugs[j])
+	})
+	parts := make([]string, len(slugs))
+	for i, slug := range slugs {
+		parts[i] = fmt.Sprintf("[%s](%s)", platform.Display(slug), m.Links[slug])
+	}
+	return strings.Join(parts, " | ")
 }
 
 // HasYouTubeLikes reports whether the YouTube rating block is

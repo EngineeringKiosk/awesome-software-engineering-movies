@@ -42,18 +42,37 @@ func TestDurationHumanReadable(t *testing.T) {
 	}
 }
 
-func TestPlatformDisplay(t *testing.T) {
-	cases := map[string]string{
-		"youtube": "YouTube",
-		"":        "",
-		"unknown": "unknown", // delegated to platform.Display, returned verbatim
-	}
-	for slug, want := range cases {
-		m := &MovieInformation{Platform: slug}
-		if got := m.PlatformDisplay(); got != want {
-			t.Errorf("PlatformDisplay(%q) = %q; want %q", slug, got, want)
+func TestLinksFormatted(t *testing.T) {
+	t.Run("empty links yields empty string", func(t *testing.T) {
+		m := &MovieInformation{}
+		if got := m.LinksFormatted(); got != "" {
+			t.Errorf("LinksFormatted on empty = %q; want empty", got)
 		}
-	}
+		if m.HasLinks() {
+			t.Error("HasLinks on empty should be false")
+		}
+	})
+
+	t.Run("single platform renders without pipe", func(t *testing.T) {
+		m := &MovieInformation{Links: map[string]string{"youtube": "https://youtu.be/abc"}}
+		want := "[YouTube](https://youtu.be/abc)"
+		if got := m.LinksFormatted(); got != want {
+			t.Errorf("LinksFormatted = %q; want %q", got, want)
+		}
+	})
+
+	t.Run("multiple platforms sort alphabetically by display name", func(t *testing.T) {
+		m := &MovieInformation{Links: map[string]string{
+			"youtube":            "https://youtu.be/abc",
+			"netflix":            "https://www.netflix.com/title/1",
+			"amazon_prime_video": "https://www.amazon.de/gp/video/detail/B0",
+		}}
+		// Display names: "Amazon Prime Video", "Netflix", "YouTube" — already alphabetical.
+		want := "[Amazon Prime Video](https://www.amazon.de/gp/video/detail/B0) | [Netflix](https://www.netflix.com/title/1) | [YouTube](https://youtu.be/abc)"
+		if got := m.LinksFormatted(); got != want {
+			t.Errorf("LinksFormatted = %q; want %q", got, want)
+		}
+	})
 }
 
 func TestTagsAsList(t *testing.T) {

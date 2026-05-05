@@ -113,8 +113,7 @@ func cmdConvertYamlToJson(cmd *cobra.Command, args []string) error {
 
 		// Generated fields
 		movieInfo.Slug = slug.Make(movieInfo.Name)
-		resolvePlatform(movieInfo, absYamlFilePath)
-		resolveLocalizedPlatforms(movieInfo, absYamlFilePath)
+		validateLinks(movieInfo.Links, absYamlFilePath)
 		validateLocalized(movieInfo, absYamlFilePath)
 
 		log.Printf("Write %s to disk ...", absJsonFilePath)
@@ -142,7 +141,7 @@ func cmdConvertYamlToJson(cmd *cobra.Command, args []string) error {
 // in collectMovieData; here we only handle the YAML-vs-cached merge.
 func mergeMovieInformation(source, target *MovieInformation) *MovieInformation {
 	target.Name = source.Name
-	target.Link = source.Link
+	target.Links = source.Links
 	if len(source.Language) > 0 {
 		target.Language = source.Language
 	}
@@ -164,9 +163,6 @@ func mergeMovieInformation(source, target *MovieInformation) *MovieInformation {
 	if len(source.IMDbID) > 0 {
 		target.IMDbID = source.IMDbID
 	}
-	if len(source.Platform) > 0 {
-		target.Platform = source.Platform
-	}
 	if len(source.YouTubeTrailerForThumbnail) > 0 {
 		target.YouTubeTrailerForThumbnail = source.YouTubeTrailerForThumbnail
 	}
@@ -182,7 +178,8 @@ func mergeMovieInformation(source, target *MovieInformation) *MovieInformation {
 // entry with no override fields set at all (in which case the key
 // adds nothing to the file). Each problem is logged as a warning so
 // the maintainer notices, but the conversion proceeds — the data
-// shape is still valid YAML.
+// shape is still valid YAML. Per-localized links are also fed to
+// validateLinks for URL/slug consistency checks.
 //
 // fileLabel is the human-friendly file path for the warning text.
 func validateLocalized(info *MovieInformation, fileLabel string) {
@@ -191,10 +188,11 @@ func validateLocalized(info *MovieInformation, fileLabel string) {
 			log.Printf("WARNING: %s: localized language key %q is not a 2-letter lowercase code; expected ISO 639-1",
 				fileLabel, code)
 		}
-		if v.Title == "" && v.Link == "" && v.Description == "" {
-			log.Printf("WARNING: %s: localized.%s has no overrides set; remove the key or fill in at least one of title/link/description",
+		if v.Title == "" && v.Description == "" && len(v.Links) == 0 {
+			log.Printf("WARNING: %s: localized.%s has no overrides set; remove the key or fill in at least one of title/description/links",
 				fileLabel, code)
 		}
+		validateLinks(v.Links, fmt.Sprintf("%s localized.%s", fileLabel, code))
 	}
 }
 
@@ -208,52 +206,27 @@ func isISO639_1Like(s string) bool {
 	return s[0] >= 'a' && s[0] <= 'z' && s[1] >= 'a' && s[1] <= 'z'
 }
 
-// resolvePlatformValue centralises the four-warning-branch decision
-// so both the top-level entry and per-localized entries reuse it
-// without duplication. Returns the resolved platform value (which
-// may be empty) and emits warnings as a side effect.
+// validateLinks logs a warning for each known-slug entry whose URL
+// does not look like that slug (likely typo). Unknown slugs are
+// passed through silently — a maintainer may pre-declare a platform
+// before its detector lands. The function does not modify links;
+// the YAML value is always kept.
 //
-// The YAML value always wins — when currentPlatform is non-empty it
-// flows through unchanged.
-func resolvePlatformValue(currentPlatform, link, label string) string {
-	detected, detectedOK := platform.Detect(link)
-	switch {
-	case currentPlatform == "" && detectedOK:
-		return detected
-	case currentPlatform == "" && !detectedOK:
-		log.Printf("WARNING: %s has no platform in YAML and link %q matches no known platform; leaving empty",
-			label, link)
-		return ""
-	case currentPlatform != "" && detectedOK && currentPlatform != detected:
-		log.Printf("WARNING: %s YAML platform %q disagrees with link-detected platform %q; keeping YAML value",
-			label, currentPlatform, detected)
-		return currentPlatform
-	case currentPlatform != "" && !detectedOK:
-		log.Printf("WARNING: %s YAML platform %q set but link %q matches no known platform; keeping YAML value",
-			label, currentPlatform, link)
-		return currentPlatform
-	}
-	// YAML value matches the detected value, or both are empty —
-	// nothing to report.
-	return currentPlatform
-}
-
-// resolvePlatform fills in info.Platform from the top-level link
-// when YAML did not set it, surfacing the four warning paths from
-// resolvePlatformValue with a fileLabel-only label.
-func resolvePlatform(info *MovieInformation, fileLabel string) {
-	info.Platform = resolvePlatformValue(info.Platform, info.Link, fileLabel)
-}
-
-// resolveLocalizedPlatforms fills in Platform on each localized
-// entry whose link is set. Description-only or title-only overrides
-// have no link to detect against and are left untouched.
-func resolveLocalizedPlatforms(info *MovieInformation, fileLabel string) {
-	for code, v := range info.Localized {
-		if v.Link == "" {
+// label is the human-friendly file path (plus optional context like
+// "localized.de") used only in the warning text.
+func validateLinks(links map[string]string, label string) {
+	for slug, url := range links {
+		if !platform.IsKnown(slug) {
 			continue
 		}
-		v.Platform = resolvePlatformValue(v.Platform, v.Link, fmt.Sprintf("%s localized.%s", fileLabel, code))
-		info.Localized[code] = v
+		detected, ok := platform.Detect(url)
+		switch {
+		case !ok:
+			log.Printf("WARNING: %s links.%s URL %q matches no known platform; the slug says it should be %q",
+				label, slug, url, slug)
+		case detected != slug:
+			log.Printf("WARNING: %s links.%s URL %q looks like %q, not %q; keeping the slug as written",
+				label, slug, url, detected, slug)
+		}
 	}
 }

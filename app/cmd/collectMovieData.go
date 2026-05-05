@@ -111,21 +111,23 @@ func cmdCollectMovieData(cmd *cobra.Command, args []string) error {
 			return fmt.Errorf("unmarshal %s: %w", absJsonFilePath, err)
 		}
 		entries = append(entries, entry{path: absJsonFilePath, info: info})
-		// YouTube enrichment runs only on YouTube entries. Other
-		// platforms (Netflix, Amazon Prime Video, bpb, …) do not have
-		// a YouTube video ID by construction.
-		if info.Platform != platform.YouTube {
+		// YouTube enrichment runs only on entries that list a youtube
+		// link. Multi-platform entries that include youtube go through
+		// the same path as YouTube-only ones — the other links are
+		// just additional metadata.
+		ytURL := info.Links[platform.YouTube]
+		if ytURL == "" {
 			continue
 		}
-		// VideoID is not persisted in JSON; derive it from Link on
-		// load. The parse-failure warning fires here, where the
-		// failure actually matters (we are about to ask the API for
-		// it).
-		if id, ok := youtube.ParseVideoID(info.Link); ok {
+		// VideoID is not persisted in JSON; derive it from the
+		// YouTube link on load. The parse-failure warning fires here,
+		// where the failure actually matters (we are about to ask the
+		// API for it).
+		if id, ok := youtube.ParseVideoID(ytURL); ok {
 			info.VideoID = id
 			ids = append(ids, id)
 		} else {
-			log.Printf("WARNING: could not parse YouTube video ID from %q in %s", info.Link, absJsonFilePath)
+			log.Printf("WARNING: could not parse YouTube video ID from %q in %s", ytURL, absJsonFilePath)
 		}
 	}
 
@@ -158,10 +160,11 @@ func cmdCollectMovieData(cmd *cobra.Command, args []string) error {
 		info := e.info
 
 		// Mirror the gate from the ID-collection loop above: only
-		// YouTube entries go through the YouTube enrichment branch
-		// at all. Other platforms keep their existing cached values
-		// (which the IMDb pass below may still update independently).
-		if info.Platform != platform.YouTube {
+		// entries with a youtube link go through the YouTube
+		// enrichment branch. Other platforms keep their existing
+		// cached values (which the IMDb pass below may still update
+		// independently).
+		if info.Links[platform.YouTube] == "" {
 			continue
 		}
 
