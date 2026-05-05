@@ -204,7 +204,7 @@ Check out the Half-Life 25th Anniversary Update, restored content, new multiplay
 * Type: Documentary
 * Category: Culture / Society
 * Tags: Game Development, Valve, History
-* YouTube likes: 280,111
+* YouTube likes: 280,113
 * Watch on: [YouTube](https://www.youtube.com/watch?v=TbZ3HzvFEto)
 ----
 
