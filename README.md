@@ -90,7 +90,7 @@ Tech jobs are growing three times faster than our colleges are producing compute
 * Duration: ca. 1 h 19 min.
 * Language: en
 * Tags: Girls, STEM, Women in Tech
-* IMDb rating: 6.2 / 10 (337 votes)
+* IMDb rating: [6.2 / 10 (337 votes)](https://www.imdb.com/title/tt4335520/)
 * YouTube likes: 50
 * Watch on: [YouTube](https://www.youtube.com/watch?v=rQKRw6tWsb8)
 ----
@@ -199,7 +199,7 @@ Check out the Half-Life 25th Anniversary Update, restored content, new multiplay
 Go behind the scenes of the independent video game industry as this documentary follows the journey of passionate developers striving to create their own unique games. Through intimate interviews and gripping storytelling, &#34;Indie Game: The Movie&#34; reveals the struggles, triumphs, and sacrifices these developers make in pursuit of their dreams, offering an inspiring glimpse into the world of indie game development.
 
 * Tags: Game Development, Indie Games, Software Engineering
-* IMDb rating: 7.6 / 10 (21,724 votes)
+* IMDb rating: [7.6 / 10 (21,724 votes)](https://www.imdb.com/title/tt1942884/)
 * Watch on: [Netflix](https://www.netflix.com/title/70229918)
 ----
 
@@ -337,7 +337,7 @@ Directed by Werner Herzog, this documentary explores the history, impact, and po
 * Duration: ca. 1 h 38 min.
 * Language: en
 * Tags: Internet, History, Society
-* IMDb rating: 7.0 / 10 (13,862 votes)
+* IMDb rating: [7.0 / 10 (13,862 votes)](https://www.imdb.com/title/tt5275828/)
 * YouTube likes: 5,701
 * Watch on: [YouTube](https://www.youtube.com/watch?v=q3g3hqNJqpQ)
 ----
@@ -417,7 +417,7 @@ While Microsoft may be the biggest software company in the world, not every comp
 * Duration: ca. 1 h 25 min.
 * Language: en
 * Tags: GNU/Linux, Open Source, History
-* IMDb rating: 7.2 / 10 (2,708 votes)
+* IMDb rating: [7.2 / 10 (2,708 votes)](https://www.imdb.com/title/tt0308808/)
 * YouTube likes: 2,190
 * Watch on: [YouTube](https://www.youtube.com/watch?v=k0RYQVkQmWU)
 ----
@@ -444,7 +444,7 @@ Get the whole spill by the people who had a front-row seat to the creation and d
 &#34;Silicon Cowboys&#34; chronicles the rise and fall of Compaq Computer Corporation, a pioneer in the early days of the personal computer industry. This engaging documentary takes viewers back to the 1980s, when a group of visionary engineers challenged the dominance of IBM and transformed the landscape of technology forever. Witness the birth, triumph, and eventual decline of one of the most influential companies in tech history.
 
 * Tags: Hardware, History, Personal Computing
-* IMDb rating: 6.9 / 10 (2,233 votes)
+* IMDb rating: [6.9 / 10 (2,233 votes)](https://www.imdb.com/title/tt4938484/)
 * Watch on: [Netflix](https://www.netflix.com/title/80104318)
 ----
 
@@ -476,7 +476,7 @@ A documentary that exposes what corporations and governments learn about people 
 * Duration: ca. 1 h 20 min.
 * Language: en
 * Tags: Privacy, Surveillance, Internet
-* IMDb rating: 7.3 / 10 (6,643 votes)
+* IMDb rating: [7.3 / 10 (6,643 votes)](https://www.imdb.com/title/tt2084953/)
 * YouTube likes: 592
 * Watch on: [YouTube](https://www.youtube.com/watch?v=hRJEYmodC08)
 ----
@@ -488,7 +488,7 @@ A documentary that exposes what corporations and governments learn about people 
 This documentary reveals the hidden world of content moderation on social media platforms. It examines the challenges faced by those responsible for keeping the internet free from harmful content and the ethical dilemmas that arise in the process.
 
 * Tags: Content Moderation, Social Media, Ethics, Society
-* IMDb rating: 7.1 / 10 (1,929 votes)
+* IMDb rating: [7.1 / 10 (1,929 votes)](https://www.imdb.com/title/tt7689936/)
 * Watch on: [Bundeszentrale für politische Bildung](https://www.bpb.de/mediathek/video/273199/the-cleaners/)
 ----
 
@@ -500,7 +500,7 @@ Explore how a data company named Cambridge Analytica came to symbolize the dark 
 
 * Language: en, de
 * Tags: Privacy, Social Media, Politics, Data Analytics
-* IMDb rating: 7.0 / 10 (25,799 votes)
+* IMDb rating: [7.0 / 10 (25,799 votes)](https://www.imdb.com/title/tt4736550/)
 * Watch on: [Netflix](https://www.netflix.com/title/80117542)
 ----
 
@@ -516,7 +516,7 @@ This movie is made available under the Creative Commons license: ...
 * Duration: ca. 1 h 45 min.
 * Language: en
 * Tags: Hacktivism, Open Internet, Activism, History
-* IMDb rating: 8.0 / 10 (18,551 votes)
+* IMDb rating: [8.0 / 10 (18,551 votes)](https://www.imdb.com/title/tt3268458/)
 * YouTube likes: 36,689
 * Watch on: [YouTube](https://www.youtube.com/watch?v=9vz06QO3UkQ)
 ----
@@ -589,7 +589,7 @@ This documentary takes a deep dive into the world of Anonymous, a loosely organi
 * Duration: ca. 1 h 37 min.
 * Language: en
 * Tags: Anonymous, Hacktivism, Security, History
-* IMDb rating: 7.2 / 10 (10,528 votes)
+* IMDb rating: [7.2 / 10 (10,528 votes)](https://www.imdb.com/title/tt2177843/)
 * YouTube likes: 1,048
 * Watch on: [YouTube](https://www.youtube.com/watch?v=4D1WJsdu6W8)
 ----
