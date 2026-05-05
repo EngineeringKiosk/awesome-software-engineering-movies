@@ -4,7 +4,8 @@ A curated list of movies, documentaries and other related material to watch rela
 
 ## Table of Contents
 
-* [Movies](#movies) (32 entries)
+* Entries: 32
+* [Documentaries](#documentaries) (32)
   * [Angular: The Documentary](#angular-the-documentary)
   * [Clojure: The Documentary](#clojure-the-documentary)
   * [CODE: Debugging the Gender Gap](#code-debugging-the-gender-gap)
@@ -40,8 +41,8 @@ A curated list of movies, documentaries and other related material to watch rela
 * [How to contribute](#how-to-contribute)
 * [Projects like us](#projects-like-us)
 
-## Movies
 
+## Documentaries
 
 <h3 id="angular-the-documentary">Angular: The Documentary</h3>
 
@@ -61,7 +62,6 @@ From Angular 2 to Ivy, incorporating Signals to converging with Wiz and ...
 * YouTube likes: 3,546
 * Watch on: [YouTube](https://www.youtube.com/watch?v=cRC9DlH45lA)
 ----
-
 <h3 id="clojure-the-documentary">Clojure: The Documentary</h3>
 
 <img align="right" width="320" src="./generated/images/clojure-the-documentary.jpg" alt="Clojure: The Documentary" />
@@ -83,7 +83,6 @@ Railway is the all-in-one intelligent cloud ...
 * YouTube likes: 3,603
 * Watch on: [YouTube](https://www.youtube.com/watch?v=Y24vK_QDLFg)
 ----
-
 <h3 id="code-debugging-the-gender-gap">CODE: Debugging the Gender Gap</h3>
 
 <img align="right" width="320" src="./generated/images/code-debugging-the-gender-gap.jpg" alt="CODE: Debugging the Gender Gap" />
@@ -101,7 +100,6 @@ Tech jobs are growing three times faster than our colleges are producing compute
 * YouTube likes: 50
 * Watch on: [YouTube](https://www.youtube.com/watch?v=rQKRw6tWsb8)
 ----
-
 <h3 id="ebpf-unlocking-the-kernel">eBPF: Unlocking the Kernel</h3>
 
 <img align="right" width="320" src="./generated/images/ebpf-unlocking-the-kernel.jpg" alt="eBPF: Unlocking the Kernel" />
@@ -118,7 +116,6 @@ In 2014, a group of engineers at Plumgrid needed to find an innovative and cost-
 * YouTube likes: 4,777
 * Watch on: [YouTube](https://www.youtube.com/watch?v=Wb_vD3XZYOA)
 ----
-
 <h3 id="elixir-the-documentary">Elixir: The Documentary</h3>
 
 <img align="right" width="320" src="./generated/images/elixir-the-documentary.jpg" alt="Elixir: The Documentary" />
@@ -137,7 +134,6 @@ Check out the ...
 * YouTube likes: 8,058
 * Watch on: [YouTube](https://www.youtube.com/watch?v=lxYFOM3UJzo)
 ----
-
 <h3 id="ember-js-the-documentary">Ember.js: The Documentary</h3>
 
 <img align="right" width="320" src="./generated/images/ember-js-the-documentary.jpg" alt="Ember.js: The Documentary" />
@@ -160,7 +156,6 @@ Facebook: https://www.facebook. ...
 * YouTube likes: 2,453
 * Watch on: [YouTube](https://www.youtube.com/watch?v=Cvz-9ccflKQ)
 ----
-
 <h3 id="graphql-the-documentary">GraphQL: The Documentary</h3>
 
 <img align="right" width="320" src="./generated/images/graphql-the-documentary.jpg" alt="GraphQL: The Documentary" />
@@ -179,7 +174,6 @@ Check out the home for untold developer stories around open source, careers and 
 * YouTube likes: 15,215
 * Watch on: [YouTube](https://www.youtube.com/watch?v=783ccP__No8)
 ----
-
 <h3 id="half-life-25th-anniversary-documentary">Half-Life: 25th Anniversary Documentary</h3>
 
 <img align="right" width="320" src="./generated/images/half-life-25th-anniversary-documentary.jpg" alt="Half-Life: 25th Anniversary Documentary" />
@@ -208,7 +202,6 @@ Check out the Half-Life 25th Anniversary Update, restored content, new multiplay
 * YouTube likes: 280,113
 * Watch on: [YouTube](https://www.youtube.com/watch?v=TbZ3HzvFEto)
 ----
-
 <h3 id="indie-game-the-movie">Indie Game: The Movie</h3>
 
 <img align="right" width="320" src="./generated/images/indie-game-the-movie.jpg" alt="Indie Game: The Movie" />
@@ -221,7 +214,6 @@ Go behind the scenes of the independent video game industry as this documentary 
 * IMDb rating: [7.6 / 10 (21,724 votes)](https://www.imdb.com/title/tt1942884/)
 * Watch on: [Netflix](https://www.netflix.com/title/70229918)
 ----
-
 <h3 id="inside-envoy-the-proxy-for-the-future">Inside Envoy: The Proxy for the Future</h3>
 
 <img align="right" width="320" src="./generated/images/inside-envoy-the-proxy-for-the-future.jpg" alt="Inside Envoy: The Proxy for the Future" />
@@ -240,7 +232,6 @@ Envoy was open sourced in the fall of 2016 and quickly gained adoption. In 2017,
 * YouTube likes: 572
 * Watch on: [YouTube](https://www.youtube.com/watch?v=uaksVVHDhYU)
 ----
-
 <h3 id="intellij-idea-the-documentary">IntelliJ IDEA: The Documentary</h3>
 
 <img align="right" width="320" src="./generated/images/intellij-idea-the-documentary.jpg" alt="IntelliJ IDEA: The Documentary" />
@@ -262,7 +253,6 @@ Director: Jaś ...
 * YouTube likes: 1,514
 * Watch on: [YouTube](https://www.youtube.com/watch?v=Kourq_Lz03U)
 ----
-
 <h3 id="internet-relay-chat-irc">Internet Relay Chat (IRC)</h3>
 
 <img align="right" width="320" src="./generated/images/internet-relay-chat-irc.jpg" alt="Internet Relay Chat (IRC)" />
@@ -296,7 +286,6 @@ References and sources: https://docs.google.com/document/d/e/2PACX-1vQjGmdjmESDJ
 * YouTube likes: 15,203
 * Watch on: [YouTube](https://www.youtube.com/watch?v=6UbKenFipjo)
 ----
-
 <h3 id="kubernetes-the-documentary-part-1">Kubernetes: The Documentary [PART 1]</h3>
 
 <img align="right" width="320" src="./generated/images/kubernetes-the-documentary-part-1.jpg" alt="Kubernetes: The Documentary [PART 1]" />
@@ -317,7 +306,6 @@ Most engineers know about “The Container Orchestrator Wars’’ ...
 * YouTube likes: 12,674
 * Watch on: [YouTube](https://www.youtube.com/watch?v=BE77h7dmoQU)
 ----
-
 <h3 id="kubernetes-the-documentary-part-2">Kubernetes: The Documentary [PART 2]</h3>
 
 <img align="right" width="320" src="./generated/images/kubernetes-the-documentary-part-2.jpg" alt="Kubernetes: The Documentary [PART 2]" />
@@ -338,7 +326,6 @@ Most engineers know about “The Container Orchestrator Wars’’ ...
 * YouTube likes: 5,949
 * Watch on: [YouTube](https://www.youtube.com/watch?v=318elIq37PE)
 ----
-
 <h3 id="laravel-origins-a-php-documentary">Laravel Origins: A PHP Documentary</h3>
 
 <img align="right" width="320" src="./generated/images/laravel-origins-a-php-documentary.jpg" alt="Laravel Origins: A PHP Documentary" />
@@ -358,7 +345,6 @@ Laravel Origins was filmed in late 2021, produced by OfferZen and directed by De
 * YouTube likes: 6,778
 * Watch on: [YouTube](https://www.youtube.com/watch?v=127ng7botO4)
 ----
-
 <h3 id="lo-and-behold-reveries-of-the-connected-world">Lo and Behold: Reveries of the Connected World</h3>
 
 <img align="right" width="320" src="./generated/images/lo-and-behold-reveries-of-the-connected-world.jpg" alt="Lo and Behold: Reveries of the Connected World" />
@@ -374,7 +360,6 @@ Directed by Werner Herzog, this documentary explores the history, impact, and po
 * YouTube likes: 5,701
 * Watch on: [YouTube](https://www.youtube.com/watch?v=q3g3hqNJqpQ)
 ----
-
 <h3 id="node-js-the-documentary">Node.js: The Documentary</h3>
 
 <img align="right" width="320" src="./generated/images/node-js-the-documentary.jpg" alt="Node.js: The Documentary" />
@@ -393,7 +378,6 @@ Join us as we delve into the origins of Node.js, meet some of its earliest contr
 * YouTube likes: 23,868
 * Watch on: [YouTube](https://www.youtube.com/watch?v=LB8KwiiUGy0)
 ----
-
 <h3 id="prometheus-the-documentary">Prometheus: The Documentary</h3>
 
 <img align="right" width="320" src="./generated/images/prometheus-the-documentary.jpg" alt="Prometheus: The Documentary" />
@@ -409,7 +393,6 @@ Join us as we explore the story of Prometheus, from inception to adoption as tol
 * YouTube likes: 3,547
 * Watch on: [YouTube](https://www.youtube.com/watch?v=rT4fJNbfe14)
 ----
-
 <h3 id="python-the-documentary">Python: The Documentary</h3>
 
 <img align="right" width="320" src="./generated/images/python-the-documentary.jpg" alt="Python: The Documentary" />
@@ -428,7 +411,6 @@ Thanks to our sponsors ...
 * YouTube likes: 33,469
 * Watch on: [YouTube](https://www.youtube.com/watch?v=GfH4QL4VqJ0)
 ----
-
 <h3 id="react-js-the-documentary">React.js: The Documentary</h3>
 
 <img align="right" width="320" src="./generated/images/react-js-the-documentary.jpg" alt="React.js: The Documentary" />
@@ -444,7 +426,6 @@ But what if we told you that React’s first brush with the public sphere was an
 * YouTube likes: 40,561
 * Watch on: [YouTube](https://www.youtube.com/watch?v=8pDqJVdNa44)
 ----
-
 <h3 id="revolution-os">Revolution OS</h3>
 
 <img align="right" width="320" src="./generated/images/revolution-os.jpg" alt="Revolution OS" />
@@ -464,7 +445,6 @@ While Microsoft may be the biggest software company in the world, not every comp
 * YouTube likes: 2,190
 * Watch on: [YouTube](https://www.youtube.com/watch?v=k0RYQVkQmWU)
 ----
-
 <h3 id="ruby-on-rails-the-documentary">Ruby on Rails: The Documentary</h3>
 
 <img align="right" width="320" src="./generated/images/ruby-on-rails-the-documentary.jpg" alt="Ruby on Rails: The Documentary" />
@@ -481,7 +461,6 @@ Get the whole spill by the people who had a front-row seat to the creation and d
 * YouTube likes: 9,835
 * Watch on: [YouTube](https://www.youtube.com/watch?v=HDKUEXBF3B4)
 ----
-
 <h3 id="silicon-cowboys">Silicon Cowboys</h3>
 
 <img align="right" width="320" src="./generated/images/silicon-cowboys.jpg" alt="Silicon Cowboys" />
@@ -494,7 +473,6 @@ Get the whole spill by the people who had a front-row seat to the creation and d
 * IMDb rating: [6.9 / 10 (2,233 votes)](https://www.imdb.com/title/tt4938484/)
 * Watch on: [Netflix](https://www.netflix.com/title/80104318)
 ----
-
 <h3 id="svelte-origins-a-javascript-documentary">Svelte Origins: A JavaScript Documentary</h3>
 
 <img align="right" width="320" src="./generated/images/svelte-origins-a-javascript-documentary.jpg" alt="Svelte Origins: A JavaScript Documentary" />
@@ -515,7 +493,6 @@ Svelte Origins ...
 * YouTube likes: 6,992
 * Watch on: [YouTube](https://www.youtube.com/watch?v=kMlkCYL9qo0)
 ----
-
 <h3 id="terms-and-conditions-may-apply">Terms and Conditions May Apply</h3>
 
 <img align="right" width="320" src="./generated/images/terms-and-conditions-may-apply.jpg" alt="Terms and Conditions May Apply" />
@@ -531,7 +508,6 @@ A documentary that exposes what corporations and governments learn about people 
 * YouTube likes: 592
 * Watch on: [YouTube](https://www.youtube.com/watch?v=hRJEYmodC08)
 ----
-
 <h3 id="the-cleaners">The Cleaners</h3>
 
 <img align="right" width="320" src="./generated/images/the-cleaners.jpg" alt="The Cleaners" />
@@ -544,7 +520,6 @@ This documentary reveals the hidden world of content moderation on social media 
 * IMDb rating: [7.1 / 10 (1,929 votes)](https://www.imdb.com/title/tt7689936/)
 * Watch on: [Bundeszentrale für politische Bildung](https://www.bpb.de/mediathek/video/273199/the-cleaners/)
 ----
-
 <h3 id="the-great-hack">The Great Hack</h3>
 
 <img align="right" width="320" src="./generated/images/the-great-hack.jpg" alt="The Great Hack" />
@@ -558,7 +533,6 @@ Explore how a data company named Cambridge Analytica came to symbolize the dark 
 * IMDb rating: [7.0 / 10 (25,799 votes)](https://www.imdb.com/title/tt4736550/)
 * Watch on: [Netflix](https://www.netflix.com/title/80117542)
 ----
-
 <h3 id="the-internets-own-boy-the-story-of-aaron-swartz">The Internet&#39;s Own Boy: The Story of Aaron Swartz</h3>
 
 <img align="right" width="320" src="./generated/images/the-internets-own-boy-the-story-of-aaron-swartz.jpg" alt="The Internet&#39;s Own Boy: The Story of Aaron Swartz" />
@@ -577,7 +551,6 @@ This movie is made available under the Creative Commons license: ...
 * YouTube likes: 36,689
 * Watch on: [YouTube](https://www.youtube.com/watch?v=9vz06QO3UkQ)
 ----
-
 <h3 id="typescript-origins-the-documentary">TypeScript Origins: The Documentary</h3>
 
 <img align="right" width="320" src="./generated/images/typescript-origins-the-documentary.jpg" alt="TypeScript Origins: The Documentary" />
@@ -602,7 +575,6 @@ Sponsored by
 * YouTube likes: 9,557
 * Watch on: [YouTube](https://www.youtube.com/watch?v=U6s2pdxebSo)
 ----
-
 <h3 id="vite-the-documentary">VITE: The Documentary</h3>
 
 <img align="right" width="320" src="./generated/images/vite-the-documentary.jpg" alt="VITE: The Documentary" />
@@ -621,7 +593,6 @@ Featuring many prominent developers in the JavaCript ecosystem, this documentary
 * YouTube likes: 5,906
 * Watch on: [YouTube](https://www.youtube.com/watch?v=bmWQqAKLgT4)
 ----
-
 <h3 id="vue-js-the-documentary">Vue.js: The Documentary</h3>
 
 <img align="right" width="320" src="./generated/images/vue-js-the-documentary.jpg" alt="Vue.js: The Documentary" />
@@ -642,7 +613,6 @@ Honeypot is a developer-focused job platform, on a mission to get every develope
 * YouTube likes: 52,873
 * Watch on: [YouTube](https://www.youtube.com/watch?v=OrxmtDw4pVI)
 ----
-
 <h3 id="we-are-legion-the-story-of-the-hacktivists">We Are Legion: The Story of the Hacktivists</h3>
 
 <img align="right" width="320" src="./generated/images/we-are-legion-the-story-of-the-hacktivists.jpg" alt="We Are Legion: The Story of the Hacktivists" />
@@ -672,3 +642,5 @@ We are not alone — these sibling lists sometimes uncover true gems:
 
 * [k4m4/movies-for-hackers](https://github.com/k4m4/movies-for-hackers) — 🎬 A curated list of movies every hacker & cyberpunk must watch.
 * [greybax/awesome-IT-films](https://github.com/greybax/awesome-IT-films) — 📺 A curated list of awesome films about IT & geek people.
+
+

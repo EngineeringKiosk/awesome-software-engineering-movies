@@ -90,6 +90,8 @@ func cmdConvertJsonToReadme(cmd *cobra.Command, args []string) error {
 		return strings.ToLower(movies[i].Name) < strings.ToLower(movies[j].Name)
 	})
 
+	grouped := groupMoviesByType(movies)
+
 	log.Printf("Read template file %s from disk", readmeTemplate)
 	readmeTemplateContent, err := os.ReadFile(readmeTemplate)
 	if err != nil {
@@ -110,10 +112,39 @@ func cmdConvertJsonToReadme(cmd *cobra.Command, args []string) error {
 		},
 	}
 	t := template.Must(template.New("readme-template").Funcs(funcs).Parse(string(readmeTemplateContent)))
-	if err := t.Execute(readmeTarget, movies); err != nil {
+	if err := t.Execute(readmeTarget, grouped); err != nil {
 		return err
 	}
 	log.Printf("Render template and write it into %s ... successful", readmeOutput)
 
 	return nil
+}
+
+// groupedMovies is the value handed to the README template. Each
+// bucket holds entries whose Type matches the bucket; unknown or
+// empty types fall into Documentaries (the dominant catalogue type),
+// which keeps an under-curated entry visible while
+// validateCategoryAndType warns about it at YAML→JSON time.
+type groupedMovies struct {
+	TVSeries      []*MovieInformation
+	Documentaries []*MovieInformation
+	Movies        []*MovieInformation
+	// Total is convenient for "(N entries)" copy in the intro.
+	Total int
+}
+
+func groupMoviesByType(movies []*MovieInformation) groupedMovies {
+	var g groupedMovies
+	for _, m := range movies {
+		switch m.Type {
+		case "TV Series":
+			g.TVSeries = append(g.TVSeries, m)
+		case "Movie":
+			g.Movies = append(g.Movies, m)
+		default:
+			g.Documentaries = append(g.Documentaries, m)
+		}
+	}
+	g.Total = len(movies)
+	return g
 }
