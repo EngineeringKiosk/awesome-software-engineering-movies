@@ -1,8 +1,9 @@
 {
  "name": "Inside Envoy: The Proxy for the Future",
  "slug": "inside-envoy-the-proxy-for-the-future",
- "link": "https://www.youtube.com/watch?v=uaksVVHDhYU",
- "platform": "youtube",
+ "links": {
+  "youtube": "https://www.youtube.com/watch?v=uaksVVHDhYU"
+ },
  "language": [
   "en"
  ],

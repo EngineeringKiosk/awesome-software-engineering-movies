@@ -1,8 +1,9 @@
 {
  "name": "Ruby on Rails: The Documentary",
  "slug": "ruby-on-rails-the-documentary",
- "link": "https://www.youtube.com/watch?v=HDKUEXBF3B4",
- "platform": "youtube",
+ "links": {
+  "youtube": "https://www.youtube.com/watch?v=HDKUEXBF3B4"
+ },
  "language": [
   "en"
  ],

@@ -1,8 +1,9 @@
 {
  "name": "Python: The Documentary",
  "slug": "python-the-documentary",
- "link": "https://www.youtube.com/watch?v=GfH4QL4VqJ0",
- "platform": "youtube",
+ "links": {
+  "youtube": "https://www.youtube.com/watch?v=GfH4QL4VqJ0"
+ },
  "language": [
   "en"
  ],

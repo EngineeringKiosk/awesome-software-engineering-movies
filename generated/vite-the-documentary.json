@@ -1,8 +1,9 @@
 {
  "name": "VITE: The Documentary",
  "slug": "vite-the-documentary",
- "link": "https://www.youtube.com/watch?v=bmWQqAKLgT4",
- "platform": "youtube",
+ "links": {
+  "youtube": "https://www.youtube.com/watch?v=bmWQqAKLgT4"
+ },
  "language": [
   "en"
  ],

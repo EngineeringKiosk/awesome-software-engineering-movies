@@ -1,8 +1,9 @@
 {
  "name": "Silicon Cowboys",
  "slug": "silicon-cowboys",
- "link": "https://www.netflix.com/title/80104318",
- "platform": "netflix",
+ "links": {
+  "netflix": "https://www.netflix.com/title/80104318"
+ },
  "language": null,
  "subtitles": null,
  "tags": [

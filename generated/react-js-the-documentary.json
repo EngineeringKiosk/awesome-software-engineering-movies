@@ -1,8 +1,9 @@
 {
  "name": "React.js: The Documentary",
  "slug": "react-js-the-documentary",
- "link": "https://www.youtube.com/watch?v=8pDqJVdNa44",
- "platform": "youtube",
+ "links": {
+  "youtube": "https://www.youtube.com/watch?v=8pDqJVdNa44"
+ },
  "language": [
   "en"
  ],

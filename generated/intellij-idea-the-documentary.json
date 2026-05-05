@@ -1,8 +1,9 @@
 {
  "name": "IntelliJ IDEA: The Documentary",
  "slug": "intellij-idea-the-documentary",
- "link": "https://www.youtube.com/watch?v=Kourq_Lz03U",
- "platform": "youtube",
+ "links": {
+  "youtube": "https://www.youtube.com/watch?v=Kourq_Lz03U"
+ },
  "language": [
   "en"
  ],

@@ -1,8 +1,9 @@
 {
  "name": "Kubernetes: The Documentary [PART 2]",
  "slug": "kubernetes-the-documentary-part-2",
- "link": "https://www.youtube.com/watch?v=318elIq37PE",
- "platform": "youtube",
+ "links": {
+  "youtube": "https://www.youtube.com/watch?v=318elIq37PE"
+ },
  "language": [
   "en"
  ],

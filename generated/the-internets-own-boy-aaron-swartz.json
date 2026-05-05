@@ -1,8 +1,9 @@
 {
  "name": "The Internet's Own Boy: The Story of Aaron Swartz",
  "slug": "the-internets-own-boy-the-story-of-aaron-swartz",
- "link": "https://www.youtube.com/watch?v=9vz06QO3UkQ",
- "platform": "youtube",
+ "links": {
+  "youtube": "https://www.youtube.com/watch?v=9vz06QO3UkQ"
+ },
  "language": [
   "en"
  ],

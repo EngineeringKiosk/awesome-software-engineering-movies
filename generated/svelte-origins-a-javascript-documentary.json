@@ -1,8 +1,9 @@
 {
  "name": "Svelte Origins: A JavaScript Documentary",
  "slug": "svelte-origins-a-javascript-documentary",
- "link": "https://www.youtube.com/watch?v=kMlkCYL9qo0",
- "platform": "youtube",
+ "links": {
+  "youtube": "https://www.youtube.com/watch?v=kMlkCYL9qo0"
+ },
  "language": [
   "en"
  ],

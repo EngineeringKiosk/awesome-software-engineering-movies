@@ -1,8 +1,9 @@
 {
  "name": "Indie Game: The Movie",
  "slug": "indie-game-the-movie",
- "link": "https://www.netflix.com/title/70229918",
- "platform": "netflix",
+ "links": {
+  "netflix": "https://www.netflix.com/title/70229918"
+ },
  "language": null,
  "subtitles": null,
  "tags": [

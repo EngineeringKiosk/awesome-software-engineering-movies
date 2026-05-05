@@ -1,8 +1,9 @@
 {
  "name": "The Great Hack",
  "slug": "the-great-hack",
- "link": "https://www.netflix.com/title/80117542",
- "platform": "netflix",
+ "links": {
+  "netflix": "https://www.netflix.com/title/80117542"
+ },
  "language": [
   "en",
   "de"

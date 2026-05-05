@@ -1,8 +1,9 @@
 {
  "name": "Elixir: The Documentary",
  "slug": "elixir-the-documentary",
- "link": "https://www.youtube.com/watch?v=lxYFOM3UJzo",
- "platform": "youtube",
+ "links": {
+  "youtube": "https://www.youtube.com/watch?v=lxYFOM3UJzo"
+ },
  "language": [
   "en"
  ],
