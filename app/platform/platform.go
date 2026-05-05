@@ -88,3 +88,13 @@ func Display(slug string) string {
 	}
 	return slug
 }
+
+// IsKnown reports whether slug is one of the platforms the tooling
+// has a detector and display name for. Unknown slugs are accepted
+// into the schema (callers may want to pre-declare a platform
+// before its detector lands), but URL/slug consistency is only
+// checked for known ones.
+func IsKnown(slug string) bool {
+	_, ok := displayNames[slug]
+	return ok
+}
