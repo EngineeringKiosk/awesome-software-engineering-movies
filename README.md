@@ -80,7 +80,7 @@ Railway is the all-in-one intelligent cloud ...
 * Type: Documentary
 * Category: Programming Languages
 * Tags: Programming Languages, Functional Programming, Open Source, History
-* YouTube likes: 3,603
+* YouTube likes: 3,606
 * Watch on: [YouTube](https://www.youtube.com/watch?v=Y24vK_QDLFg)
 ----
 <h3 id="code-debugging-the-gender-gap">CODE: Debugging the Gender Gap</h3>
@@ -113,7 +113,7 @@ In 2014, a group of engineers at Plumgrid needed to find an innovative and cost-
 * Type: Documentary
 * Category: Applications / Frameworks / Systems
 * Tags: Linux, Kernel, Open Source, Networking
-* YouTube likes: 4,777
+* YouTube likes: 4,778
 * Watch on: [YouTube](https://www.youtube.com/watch?v=Wb_vD3XZYOA)
 ----
 <h3 id="elixir-the-documentary">Elixir: The Documentary</h3>
@@ -199,7 +199,7 @@ Check out the Half-Life 25th Anniversary Update, restored content, new multiplay
 * Type: Documentary
 * Category: Culture / Society
 * Tags: Game Development, Valve, History
-* YouTube likes: 280,113
+* YouTube likes: 280,118
 * Watch on: [YouTube](https://www.youtube.com/watch?v=TbZ3HzvFEto)
 ----
 <h3 id="indie-game-the-movie">Indie Game: The Movie</h3>
@@ -408,7 +408,7 @@ Thanks to our sponsors ...
 * Type: Documentary
 * Category: Programming Languages
 * Tags: Programming Languages, Open Source, History
-* YouTube likes: 33,469
+* YouTube likes: 33,471
 * Watch on: [YouTube](https://www.youtube.com/watch?v=GfH4QL4VqJ0)
 ----
 <h3 id="react-js-the-documentary">React.js: The Documentary</h3>
@@ -458,7 +458,7 @@ Get the whole spill by the people who had a front-row seat to the creation and d
 * Type: Documentary
 * Category: Applications / Frameworks / Systems
 * Tags: Web Frameworks, Ruby, Open Source, History
-* YouTube likes: 9,835
+* YouTube likes: 9,836
 * Watch on: [YouTube](https://www.youtube.com/watch?v=HDKUEXBF3B4)
 ----
 <h3 id="silicon-cowboys">Silicon Cowboys</h3>
@@ -548,7 +548,7 @@ This movie is made available under the Creative Commons license: ...
 * Category: Culture / People
 * Tags: Hacktivism, Open Internet, Activism, History
 * IMDb rating: [8.0 / 10 (18,551 votes)](https://www.imdb.com/title/tt3268458/)
-* YouTube likes: 36,689
+* YouTube likes: 36,690
 * Watch on: [YouTube](https://www.youtube.com/watch?v=9vz06QO3UkQ)
 ----
 <h3 id="typescript-origins-the-documentary">TypeScript Origins: The Documentary</h3>
@@ -590,7 +590,7 @@ Featuring many prominent developers in the JavaCript ecosystem, this documentary
 * Type: Documentary
 * Category: Applications / Frameworks / Systems
 * Tags: Frontend, Build Tools, JavaScript, Open Source
-* YouTube likes: 5,906
+* YouTube likes: 5,907
 * Watch on: [YouTube](https://www.youtube.com/watch?v=bmWQqAKLgT4)
 ----
 <h3 id="vue-js-the-documentary">Vue.js: The Documentary</h3>
