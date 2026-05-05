@@ -15,22 +15,37 @@ An entry is a good fit if it meets **at least one** of the following:
   typical conference session.
 - Educational content broadly relevant to software engineers (e.g.
   the inner workings of the internet, distributed systems, security,
-  hardware).
+  hardware, content moderation, surveillance).
 
 In addition, the entry should be:
 
-- Freely viewable.
-- At least 15 minutes long.
-- Published more than 2 weeks ago (gives the community time to react
-  to clickbait/low-quality posts).
+- **Watchable on a mainstream platform.** Free with optional ads
+  (YouTube), bundled with a common subscription (Netflix, Amazon
+  Prime Video, …), or on a public broadcaster's media library
+  (e.g. bpb). Pay-per-rent on a major store (Apple TV, Prime Video
+  rental) is acceptable; obscure regional rentals or short
+  film-festival exclusives are not. List **every** platform the
+  entry is available on in the `links:` map.
+- **At least 15 minutes long.**
+- **Published more than 2 weeks ago.** Gives the community time to
+  react to clickbait or low-quality posts.
+- **Accessible in English** — either English audio or English
+  subtitles. Other-language uploads of the same entry can be added
+  via the `localized:` block (see below); the top-level entry must
+  still be the English version.
 
 Out of scope for now:
 
 - Short tutorials or "build X in 10 minutes" videos.
 - Conference talks unless they are explicitly long-form / documentary
   in nature.
-- Content not in a language any reasonable engineer can follow
-  (use the `language` field to be explicit).
+- Content with no English audio and no English subtitles.
+- Purely fictional movies / TV series — invented characters and
+  plots, even with a tech setting (e.g. *Mr. Robot*, *Halt and
+  Catch Fire*, cyber-thrillers). Biopics and dramatised true
+  stories about real engineers or real events (e.g. *The Social
+  Network*, *Pirates of Silicon Valley*) ARE in scope; use
+  `type: Movie` for those.
 
 ## How to add an entry
 
