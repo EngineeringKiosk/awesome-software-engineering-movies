@@ -1,5 +1,6 @@
 name: "TypeScript Origins: The Documentary"
-link: https://www.youtube.com/watch?v=U6s2pdxebSo
+links:
+  youtube: https://www.youtube.com/watch?v=U6s2pdxebSo
 tags:
   - Programming Languages
   - JavaScript

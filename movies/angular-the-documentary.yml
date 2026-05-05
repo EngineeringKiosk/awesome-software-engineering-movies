@@ -1,5 +1,6 @@
 name: "Angular: The Documentary"
-link: https://www.youtube.com/watch?v=cRC9DlH45lA
+links:
+  youtube: https://www.youtube.com/watch?v=cRC9DlH45lA
 tags:
   - Frontend
   - JavaScript

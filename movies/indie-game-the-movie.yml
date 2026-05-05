@@ -1,5 +1,6 @@
 name: "Indie Game: The Movie"
-link: https://www.netflix.com/title/70229918
+links:
+  netflix: https://www.netflix.com/title/70229918
 imdbID: tt1942884
 youtubeTrailerForThumbnail: https://www.youtube.com/watch?v=dINgx0y4GqM
 tags:

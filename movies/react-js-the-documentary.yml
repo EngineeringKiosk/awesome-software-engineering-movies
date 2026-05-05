@@ -1,5 +1,6 @@
 name: "React.js: The Documentary"
-link: https://www.youtube.com/watch?v=8pDqJVdNa44
+links:
+  youtube: https://www.youtube.com/watch?v=8pDqJVdNa44
 tags:
   - Frontend
   - JavaScript

@@ -1,5 +1,6 @@
 name: "Kubernetes: The Documentary [PART 1]"
-link: https://www.youtube.com/watch?v=BE77h7dmoQU
+links:
+  youtube: https://www.youtube.com/watch?v=BE77h7dmoQU
 tags:
   - Cloud Native
   - Orchestration

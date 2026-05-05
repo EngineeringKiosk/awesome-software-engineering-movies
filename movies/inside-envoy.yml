@@ -1,5 +1,6 @@
 name: "Inside Envoy: The Proxy for the Future"
-link: https://www.youtube.com/watch?v=uaksVVHDhYU
+links:
+  youtube: https://www.youtube.com/watch?v=uaksVVHDhYU
 tags:
   - Networking
   - Service Mesh
