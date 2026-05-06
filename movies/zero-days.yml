@@ -1,0 +1,20 @@
+name: Zero Days
+type: Documentary
+category: Culture / Society
+links:
+  youtube: https://www.youtube.com/watch?v=F8l_eIGU_H8
+  amazon_prime_video: https://www.amazon.de/gp/video/detail/amzn1.dv.gti.faab71cc-b891-ac52-2485-42fbcf36405f
+  apple_tv: https://tv.apple.com/de/movie/zero-days---world-war-30/umc.cmc.4oquioo4lz0w050igaffx92ri
+imdbID: tt5446858
+language:
+  - en
+  - de
+tags:
+  - Security
+  - Cyberwarfare
+  - Stuxnet
+  - Politics
+description: A documentary focused on Stuxnet, a self-replicating computer virus discovered in 2010 to be undermining Iran's nuclear program, and the men and women who tried to contain its fallout.
+localized:
+  de:
+    title: Zero Days - World War 3.0
