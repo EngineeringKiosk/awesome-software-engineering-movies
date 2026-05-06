@@ -4,14 +4,15 @@ A curated list of movies, documentaries and other related material to watch rela
 
 ## Table of Contents
 
-* Entries: 66
+* Entries: 72
 * [TV Series](#tv-series) (3)
   * [Silicon Valley](#silicon-valley)
   * [The Billion Dollar Code](#the-billion-dollar-code)
   * [The IT Crowd](#the-it-crowd)
-* [Documentaries](#documentaries) (56)
+* [Documentaries](#documentaries) (62)
   * [AlphaGo - The Movie](#alphago-the-movie)
   * [Angular: The Documentary](#angular-the-documentary)
+  * [App: The Human Story](#app-the-human-story)
   * [ATARI: Game Over](#atari-game-over)
   * [Citizenfour](#citizenfour)
   * [Clojure: The Documentary](#clojure-the-documentary)
@@ -24,14 +25,17 @@ A curated list of movies, documentaries and other related material to watch rela
   * [Ember.js: The Documentary](#ember-js-the-documentary)
   * [Free to Play](#free-to-play)
   * [General Magic](#general-magic)
+  * [Google and the World Brain](#google-and-the-world-brain)
   * [GraphQL: The Documentary](#graphql-the-documentary)
   * [Half-Life: 25th Anniversary Documentary](#half-life-25th-anniversary-documentary)
   * [I Am Human: A Documentary About Real-Life Cyborgs](#i-am-human-a-documentary-about-real-life-cyborgs)
   * [Indie Game: The Movie](#indie-game-the-movie)
+  * [Insert Coin](#insert-coin)
   * [Inside Bill&#39;s Brain: Decoding Bill Gates](#inside-bills-brain-decoding-bill-gates)
   * [Inside Envoy: The Proxy for the Future](#inside-envoy-the-proxy-for-the-future)
   * [IntelliJ IDEA: The Documentary](#intellij-idea-the-documentary)
   * [Internet Relay Chat (IRC)](#internet-relay-chat-irc)
+  * [Kill Chain: The Cyber War on America&#39;s Elections](#kill-chain-the-cyber-war-on-americas-elections)
   * [Kubernetes: The Documentary [PART 1]](#kubernetes-the-documentary-part-1)
   * [Kubernetes: The Documentary [PART 2]](#kubernetes-the-documentary-part-2)
   * [Laravel Origins: A PHP Documentary](#laravel-origins-a-php-documentary)
@@ -45,6 +49,7 @@ A curated list of movies, documentaries and other related material to watch rela
   * [Python: The Documentary](#python-the-documentary)
   * [React.js: The Documentary](#react-js-the-documentary)
   * [Revolution OS](#revolution-os)
+  * [Risk](#risk)
   * [Ruby on Rails: The Documentary](#ruby-on-rails-the-documentary)
   * [Silicon Cowboys](#silicon-cowboys)
   * [Steve Jobs: The Man in the Machine](#steve-jobs-the-man-in-the-machine)
@@ -66,6 +71,7 @@ A curated list of movies, documentaries and other related material to watch rela
   * [We Are Legion: The Story of the Hacktivists](#we-are-legion-the-story-of-the-hacktivists)
   * [We Live in Public](#we-live-in-public)
   * [We Steal Secrets: The Story of WikiLeaks](#we-steal-secrets-the-story-of-wikileaks)
+  * [Zero Days](#zero-days)
 * [Movies](#movies) (7)
   * [23](#23)
   * [Hidden Figures](#hidden-figures)
@@ -152,6 +158,18 @@ From Angular 2 to Ivy, incorporating Signals to converging with Wiz and ...
 * Tags: Frontend, JavaScript, Google, Open Source, History
 * YouTube likes: 3,545
 * Watch on: [YouTube](https://www.youtube.com/watch?v=cRC9DlH45lA)
+----
+<h3 id="app-the-human-story">App: The Human Story</h3>
+
+<img align="right" width="320" src="./generated/images/app-the-human-story.jpg" alt="App: The Human Story" />
+
+A revealing look at the forces behind the screen that have made mobile devices into a paradigm-shifting phenomenon - the developers, designers, and dreamers who turned the App Store into a cultural and economic force.
+
+* Type: Documentary
+* Category: Culture / People
+* Tags: Mobile, App Store, Indie, Software Development
+* IMDb rating: [1.2 / 10 (40,450 votes)](https://www.imdb.com/title/tt6038600/)
+* Watch on: [Amazon Prime Video](https://www.primevideo.com/-/de/detail/0JYKQR8R1TDGMZGKZVLH13HP8E)
 ----
 <h3 id="atari-game-over">ATARI: Game Over</h3>
 
@@ -327,7 +345,7 @@ Three professional gamers from different parts of the world fight personal hards
 * Category: Culture / People
 * Tags: Gaming, eSports, Dota 2, Valve
 * IMDb rating: [7.6 / 10 (13,726 votes)](https://www.imdb.com/title/tt3203290/)
-* YouTube likes: 115,116
+* YouTube likes: 115,115
 * Watch on: [Apple TV](https://tv.apple.com/de/movie/free-to-play/umc.cmc.3ti8vrr7ooltzqkij17ovd4xx) | [Netflix](https://www.netflix.com/title/81438157) | [YouTube](https://www.youtube.com/watch?v=UjZYMI1zB9s)
 ----
 <h3 id="general-magic">General Magic</h3>
@@ -344,6 +362,21 @@ The story of the most influential Silicon Valley startup nobody has ever heard o
 * IMDb rating: [7.4 / 10 (1,345 votes)](https://www.imdb.com/title/tt6849786/)
 * YouTube likes: 192
 * Watch on: [YouTube](https://www.youtube.com/watch?v=tuFl4WEXBrk)
+----
+<h3 id="google-and-the-world-brain">Google and the World Brain</h3>
+
+<img align="right" width="320" src="./generated/images/google-and-the-world-brain.jpg" alt="Google and the World Brain" />
+
+The most ambitious project ever conceived on the Internet - Google&#39;s effort to scan every book in the world - sparked an unprecedented backlash from writers, publishers, librarians and policy makers around the globe. The documentary tells the story of the secret pact, the worldwide revolt, and the future of the world&#39;s knowledge.
+
+* Duration: ca. 1 h 29 min.
+* Language: en
+* Type: Documentary
+* Category: Culture / Society
+* Tags: Google, Copyright, Internet, Society
+* IMDb rating: [6.7 / 10 (964 votes)](https://www.imdb.com/title/tt2551516/)
+* YouTube likes: 32
+* Watch on: [YouTube](https://www.youtube.com/watch?v=gIUa4FkGaq4)
 ----
 <h3 id="graphql-the-documentary">GraphQL: The Documentary</h3>
 
@@ -414,6 +447,20 @@ Go behind the scenes of the independent video game industry as this documentary 
 * Tags: Game Development, Indie Games, Software Engineering
 * IMDb rating: [7.6 / 10 (21,724 votes)](https://www.imdb.com/title/tt1942884/)
 * Watch on: [Netflix](https://www.netflix.com/title/70229918)
+----
+<h3 id="insert-coin">Insert Coin</h3>
+
+<img align="right" width="320" src="./generated/images/insert-coin.jpg" alt="Insert Coin" />
+
+Insert Coin is the behind-the-scenes story of one of the greatest video game studios of all time - Midway Games. Led by the &#34;Godfather of Videogames&#34; Eugene Jarvis, the company pioneered the concept of live action gaming, kickstarting a new arcade boom and grossing billions of dollars in the process with massive hits like Mortal Kombat and NBA Jam. Through intimate and often hilarious interviews with the people who were there, we witness how a small, tight-knit group of friends deal with next level success and the roller coaster ride that comes with it.
+
+* Duration: ca. 1 h 42 min.
+* Language: en, de
+* Type: Documentary
+* Category: Culture / People
+* Tags: Gaming, Arcade, History, Midway
+* YouTube likes: 6,246
+* Watch on: [Amazon Prime Video](https://www.primevideo.com/-/de/detail/Insert-Coin/0SP3M4H5YLMETO27UKMKDBP7SY) | [YouTube](https://www.youtube.com/watch?v=7zx5GunyUS4)
 ----
 <h3 id="inside-bills-brain-decoding-bill-gates">Inside Bill&#39;s Brain: Decoding Bill Gates</h3>
 
@@ -498,6 +545,17 @@ References and sources: https://docs.google.com/document/d/e/2PACX-1vQjGmdjmESDJ
 * Tags: Networking, Chat, Open Source, History
 * YouTube likes: 15,207
 * Watch on: [YouTube](https://www.youtube.com/watch?v=6UbKenFipjo)
+----
+<h3 id="kill-chain-the-cyber-war-on-americas-elections">Kill Chain: The Cyber War on America&#39;s Elections</h3>
+
+<img align="right" width="320" src="./generated/images/kill-chain-the-cyber-war-on-americas-elections.jpg" alt="Kill Chain: The Cyber War on America&#39;s Elections" />
+
+Finnish hacker and election expert Harri Hursti investigates election-related hacks, uncovering just how unprotected voting systems really are.
+
+* Type: Documentary
+* Category: Culture / Society
+* Tags: Security, Elections, Hacking, Politics
+* Watch on: [Amazon Prime Video](https://www.primevideo.com/-/de/detail/0HJLOZ49TEBBAPIZEJI2PDWGC1/) | [HBO Max](https://www.hbomax.com/tr/en/movies/kill-chain-the-cyber-war-on-americas-elections/f8e375c7-3758-4570-b8a4-3e938db44898)
 ----
 <h3 id="kubernetes-the-documentary-part-1">Kubernetes: The Documentary [PART 1]</h3>
 
@@ -602,7 +660,7 @@ Join us as we delve into the origins of Node.js, meet some of its earliest contr
 * Type: Documentary
 * Category: Applications / Frameworks / Systems
 * Tags: JavaScript, Backend, Open Source, History
-* YouTube likes: 23,870
+* YouTube likes: 23,871
 * Watch on: [YouTube](https://www.youtube.com/watch?v=LB8KwiiUGy0)
 ----
 <h3 id="particle-fever">Particle Fever</h3>
@@ -708,6 +766,20 @@ While Microsoft may be the biggest software company in the world, not every comp
 * IMDb rating: [7.2 / 10 (2,708 votes)](https://www.imdb.com/title/tt0308808/)
 * YouTube likes: 2,191
 * Watch on: [YouTube](https://www.youtube.com/watch?v=k0RYQVkQmWU)
+----
+<h3 id="risk">Risk</h3>
+
+<img align="right" width="320" src="./generated/images/risk.jpg" alt="Risk" />
+
+What happens when radical transparency collides with state secrets? Risk is a gripping documentary by Laura Poitras that takes you inside the world of WikiLeaks, Julian Assange, and the global fight over information, power, and truth.
+
+* Duration: ca. 1 h 31 min.
+* Language: en
+* Type: Documentary
+* Category: Culture / People
+* Tags: WikiLeaks, Whistleblowing, Privacy, Journalism
+* YouTube likes: 911
+* Watch on: [Netflix](https://www.netflix.com/title/80117236) | [YouTube](https://www.youtube.com/watch?v=mq9q3lOCJQ0)
 ----
 <h3 id="ruby-on-rails-the-documentary">Ruby on Rails: The Documentary</h3>
 
@@ -1031,6 +1103,21 @@ A documentary that details the creation of Julian Assange&#39;s controversial we
 * IMDb rating: [7.8 / 10 (76 votes)](https://www.imdb.com/title/tt2391809/)
 * YouTube likes: 18
 * Watch on: [Amazon Prime Video](https://www.amazon.de/gp/video/detail/amzn1.dv.gti.eca9f6cb-646d-7bdf-fe60-44b2f2f57933) | [YouTube](https://www.youtube.com/watch?v=Qhn_3WNhxEc)
+----
+<h3 id="zero-days">Zero Days</h3>
+
+<img align="right" width="320" src="./generated/images/zero-days.jpg" alt="Zero Days" />
+
+A documentary focused on Stuxnet, a self-replicating computer virus discovered in 2010 to be undermining Iran&#39;s nuclear program, and the men and women who tried to contain its fallout.
+
+* Duration: ca. 1 h 54 min.
+* Language: en, de
+* Type: Documentary
+* Category: Culture / Society
+* Tags: Security, Cyberwarfare, Stuxnet, Politics
+* IMDb rating: [7.7 / 10 (11,014 votes)](https://www.imdb.com/title/tt5446858/)
+* YouTube likes: 46
+* Watch on: [Amazon Prime Video](https://www.amazon.de/gp/video/detail/amzn1.dv.gti.faab71cc-b891-ac52-2485-42fbcf36405f) | [Apple TV](https://tv.apple.com/de/movie/zero-days---world-war-30/umc.cmc.4oquioo4lz0w050igaffx92ri) | [YouTube](https://www.youtube.com/watch?v=F8l_eIGU_H8)
 ----
 
 ## Movies

@@ -1,0 +1,35 @@
+{
+ "name": "App: The Human Story",
+ "slug": "app-the-human-story",
+ "links": {
+  "amazon_prime_video": "https://www.primevideo.com/-/de/detail/0JYKQR8R1TDGMZGKZVLH13HP8E"
+ },
+ "language": null,
+ "subtitles": null,
+ "tags": [
+  "Mobile",
+  "App Store",
+  "Indie",
+  "Software Development"
+ ],
+ "category": "Culture / People",
+ "type": "Documentary",
+ "title": "",
+ "description": "A revealing look at the forces behind the screen that have made mobile devices into a paradigm-shifting phenomenon - the developers, designers, and dreamers who turned the App Store into a cultural and economic force.",
+ "imdbID": "tt6038600",
+ "youtubeTrailerForThumbnail": "https://www.youtube.com/watch?v=bM_-W5Vo48o",
+ "duration": "",
+ "publishedAt": "",
+ "channel": {
+  "id": "",
+  "title": ""
+ },
+ "ratings": {
+  "imdb": {
+   "averageRating": 1.2,
+   "numVotes": 40450,
+   "refreshedAt": "2026-05-06T10:13:20Z"
+  }
+ },
+ "image": "images/app-the-human-story.jpg"
+}

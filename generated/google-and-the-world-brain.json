@@ -1,0 +1,45 @@
+{
+ "name": "Google and the World Brain",
+ "slug": "google-and-the-world-brain",
+ "links": {
+  "youtube": "https://www.youtube.com/watch?v=gIUa4FkGaq4"
+ },
+ "language": [
+  "en"
+ ],
+ "subtitles": [
+  "en"
+ ],
+ "tags": [
+  "Google",
+  "Copyright",
+  "Internet",
+  "Society"
+ ],
+ "category": "Culture / Society",
+ "type": "Documentary",
+ "title": "Google and the World Brain | Full Documentary",
+ "description": "The most ambitious project ever conceived on the Internet - Google's effort to scan every book in the world - sparked an unprecedented backlash from writers, publishers, librarians and policy makers around the globe. The documentary tells the story of the secret pact, the worldwide revolt, and the future of the world's knowledge.",
+ "imdbID": "tt2551516",
+ "duration": "PT1H29M3S",
+ "publishedAt": "2025-10-19T14:01:13Z",
+ "channel": {
+  "id": "UCMMWB1qGzHBo9F6T8EFwj9w",
+  "title": "The Documentary Channel"
+ },
+ "ratings": {
+  "youtube": {
+   "likeCount": 32,
+   "refreshedAt": "2026-05-06T10:13:20Z"
+  },
+  "imdb": {
+   "averageRating": 6.7,
+   "numVotes": 964,
+   "refreshedAt": "2026-05-06T10:13:20Z"
+  }
+ },
+ "views": {
+  "youtube": 1665
+ },
+ "image": "images/google-and-the-world-brain.jpg"
+}

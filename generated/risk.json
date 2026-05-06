@@ -1,0 +1,41 @@
+{
+ "name": "Risk",
+ "slug": "risk",
+ "links": {
+  "netflix": "https://www.netflix.com/title/80117236",
+  "youtube": "https://www.youtube.com/watch?v=mq9q3lOCJQ0"
+ },
+ "language": [
+  "en"
+ ],
+ "subtitles": [
+  "en"
+ ],
+ "tags": [
+  "WikiLeaks",
+  "Whistleblowing",
+  "Privacy",
+  "Journalism"
+ ],
+ "category": "Culture / People",
+ "type": "Documentary",
+ "title": "Risk (WikiLeaks Documentary) | Full Movie",
+ "description": "What happens when radical transparency collides with state secrets? Risk is a gripping documentary by Laura Poitras that takes you inside the world of WikiLeaks, Julian Assange, and the global fight over information, power, and truth.",
+ "imdbID": "tt5566410",
+ "duration": "PT1H31M22S",
+ "publishedAt": "2025-09-06T14:28:58Z",
+ "channel": {
+  "id": "UCzHXTdESUrgGXit_pLVOcrA",
+  "title": "LufSec Cyber Security"
+ },
+ "ratings": {
+  "youtube": {
+   "likeCount": 911,
+   "refreshedAt": "2026-05-06T10:13:20Z"
+  }
+ },
+ "views": {
+  "youtube": 43365
+ },
+ "image": "images/risk.jpg"
+}

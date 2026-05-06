@@ -1,0 +1,51 @@
+{
+ "name": "Zero Days",
+ "slug": "zero-days",
+ "links": {
+  "amazon_prime_video": "https://www.amazon.de/gp/video/detail/amzn1.dv.gti.faab71cc-b891-ac52-2485-42fbcf36405f",
+  "apple_tv": "https://tv.apple.com/de/movie/zero-days---world-war-30/umc.cmc.4oquioo4lz0w050igaffx92ri",
+  "youtube": "https://www.youtube.com/watch?v=F8l_eIGU_H8"
+ },
+ "language": [
+  "en",
+  "de"
+ ],
+ "subtitles": null,
+ "tags": [
+  "Security",
+  "Cyberwarfare",
+  "Stuxnet",
+  "Politics"
+ ],
+ "category": "Culture / Society",
+ "type": "Documentary",
+ "localized": {
+  "de": {
+   "title": "Zero Days - World War 3.0"
+  }
+ },
+ "title": "Zero Days (OmU)",
+ "description": "A documentary focused on Stuxnet, a self-replicating computer virus discovered in 2010 to be undermining Iran's nuclear program, and the men and women who tried to contain its fallout.",
+ "imdbID": "tt5446858",
+ "duration": "PT1H53M51S",
+ "publishedAt": "2016-08-09T21:44:47Z",
+ "channel": {
+  "id": "UCk3-Zix2lVuxvUKYVsE8eDg",
+  "title": "YouTube Movies"
+ },
+ "ratings": {
+  "youtube": {
+   "likeCount": 46,
+   "refreshedAt": "2026-05-06T10:13:20Z"
+  },
+  "imdb": {
+   "averageRating": 7.7,
+   "numVotes": 11014,
+   "refreshedAt": "2026-05-06T10:13:20Z"
+  }
+ },
+ "views": {
+  "youtube": 0
+ },
+ "image": "images/zero-days.jpg"
+}
