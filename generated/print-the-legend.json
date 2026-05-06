@@ -1,0 +1,29 @@
+{
+ "name": "Print the Legend",
+ "slug": "print-the-legend",
+ "links": {
+  "apple_tv": "https://tv.apple.com/de/movie/print-the-legend/umc.cmc.4ca9o2wed84i5ptt1fccfu91o",
+  "netflix": "https://www.netflix.com/title/80005444"
+ },
+ "language": null,
+ "subtitles": null,
+ "tags": [
+  "Hardware",
+  "3D Printing",
+  "Startups",
+  "Maker Culture"
+ ],
+ "category": "Culture / Society",
+ "type": "Documentary",
+ "title": "",
+ "description": "Follows the people racing to bring the hot new 3D printing technology to your home, documenting the \"Macintosh Moment\" of this revolution and exploring what it takes to live the American Dream.",
+ "imdbID": "tt2433174",
+ "youtubeTrailerForThumbnail": "https://www.youtube.com/watch?v=JeqT2NvTFSw",
+ "duration": "",
+ "publishedAt": "",
+ "channel": {
+  "id": "",
+  "title": ""
+ },
+ "image": "images/print-the-legend.jpg"
+}

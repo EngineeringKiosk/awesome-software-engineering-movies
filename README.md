@@ -4,17 +4,27 @@ A curated list of movies, documentaries and other related material to watch rela
 
 ## Table of Contents
 
-* Entries: 32
-* [Documentaries](#documentaries) (32)
+* Entries: 48
+* [TV Series](#tv-series) (1)
+  * [The Billion Dollar Code](#the-billion-dollar-code)
+* [Documentaries](#documentaries) (47)
+  * [AlphaGo - The Movie](#alphago-the-movie)
   * [Angular: The Documentary](#angular-the-documentary)
+  * [ATARI: Game Over](#atari-game-over)
   * [Clojure: The Documentary](#clojure-the-documentary)
   * [CODE: Debugging the Gender Gap](#code-debugging-the-gender-gap)
+  * [Coded Bias](#coded-bias)
+  * [Countdown: Inspiration4 Mission to Space](#countdown-inspiration4-mission-to-space)
+  * [Deep Web](#deep-web)
   * [eBPF: Unlocking the Kernel](#ebpf-unlocking-the-kernel)
   * [Elixir: The Documentary](#elixir-the-documentary)
   * [Ember.js: The Documentary](#ember-js-the-documentary)
+  * [General Magic](#general-magic)
   * [GraphQL: The Documentary](#graphql-the-documentary)
   * [Half-Life: 25th Anniversary Documentary](#half-life-25th-anniversary-documentary)
+  * [I Am Human: A Documentary About Real-Life Cyborgs](#i-am-human-a-documentary-about-real-life-cyborgs)
   * [Indie Game: The Movie](#indie-game-the-movie)
+  * [Inside Bill&#39;s Brain: Decoding Bill Gates](#inside-bills-brain-decoding-bill-gates)
   * [Inside Envoy: The Proxy for the Future](#inside-envoy-the-proxy-for-the-future)
   * [IntelliJ IDEA: The Documentary](#intellij-idea-the-documentary)
   * [Internet Relay Chat (IRC)](#internet-relay-chat-irc)
@@ -23,17 +33,24 @@ A curated list of movies, documentaries and other related material to watch rela
   * [Laravel Origins: A PHP Documentary](#laravel-origins-a-php-documentary)
   * [Lo and Behold: Reveries of the Connected World](#lo-and-behold-reveries-of-the-connected-world)
   * [Node.js: The Documentary](#node-js-the-documentary)
+  * [Picture a Scientist](#picture-a-scientist)
+  * [Print the Legend](#print-the-legend)
   * [Prometheus: The Documentary](#prometheus-the-documentary)
   * [Python: The Documentary](#python-the-documentary)
   * [React.js: The Documentary](#react-js-the-documentary)
   * [Revolution OS](#revolution-os)
   * [Ruby on Rails: The Documentary](#ruby-on-rails-the-documentary)
   * [Silicon Cowboys](#silicon-cowboys)
+  * [Steve Jobs: The Man in the Machine](#steve-jobs-the-man-in-the-machine)
   * [Svelte Origins: A JavaScript Documentary](#svelte-origins-a-javascript-documentary)
   * [Terms and Conditions May Apply](#terms-and-conditions-may-apply)
   * [The Cleaners](#the-cleaners)
   * [The Great Hack](#the-great-hack)
   * [The Internet&#39;s Own Boy: The Story of Aaron Swartz](#the-internets-own-boy-the-story-of-aaron-swartz)
+  * [The Inventor: Out for Blood in Silicon Valley](#the-inventor-out-for-blood-in-silicon-valley)
+  * [The King of Kong: A Fistful of Quarters](#the-king-of-kong-a-fistful-of-quarters)
+  * [The Rise of UK Fintech](#the-rise-of-uk-fintech)
+  * [The Social Dilemma](#the-social-dilemma)
   * [TypeScript Origins: The Documentary](#typescript-origins-the-documentary)
   * [VITE: The Documentary](#vite-the-documentary)
   * [Vue.js: The Documentary](#vue-js-the-documentary)
@@ -41,9 +58,38 @@ A curated list of movies, documentaries and other related material to watch rela
 * [How to contribute](#how-to-contribute)
 * [Projects like us](#projects-like-us)
 
+## TV Series
+
+<h3 id="the-billion-dollar-code">The Billion Dollar Code</h3>
+
+<img align="right" width="320" src="./generated/images/the-billion-dollar-code.jpg" alt="The Billion Dollar Code" />
+
+No one knows this story. In Berlin in the 90s, two friends, Carsten and Juri, create Terra Vision, something that seemed impossible at the time - the precursor to Google Earth. 25 years later, the German computer nerds are facing the global corporation in court. The Billion Dollar Code, based on a true story.
+
+* Language: en, de
+* Type: TV Series
+* Category: Culture / People
+* Tags: Startups, History, Patents, Open Source
+* Watch on: [Netflix](https://www.netflix.com/title/81074012)
+----
 
 ## Documentaries
 
+<h3 id="alphago-the-movie">AlphaGo - The Movie</h3>
+
+<img align="right" width="320" src="./generated/images/alphago-the-movie.jpg" alt="AlphaGo - The Movie" />
+
+With more board configurations than there are atoms in the universe, the ancient Chinese game of Go has long been considered a grand challenge for artificial intelligence. This film follows DeepMind&#39;s AlphaGo as it takes on legendary Go champion Lee Sedol in a five-game match in Seoul.
+
+* Duration: ca. 1 h 30 min.
+* Language: en
+* Type: Documentary
+* Category: Culture / Society
+* Tags: AI, Machine Learning, DeepMind, Games
+* IMDb rating: [7.8 / 10 (7,645 votes)](https://www.imdb.com/title/tt6700846/)
+* YouTube likes: 326,999
+* Watch on: [YouTube](https://www.youtube.com/watch?v=WXuK6gekU1Y)
+----
 <h3 id="angular-the-documentary">Angular: The Documentary</h3>
 
 <img align="right" width="320" src="./generated/images/angular-the-documentary.jpg" alt="Angular: The Documentary" />
@@ -61,6 +107,21 @@ From Angular 2 to Ivy, incorporating Signals to converging with Wiz and ...
 * Tags: Frontend, JavaScript, Google, Open Source, History
 * YouTube likes: 3,545
 * Watch on: [YouTube](https://www.youtube.com/watch?v=cRC9DlH45lA)
+----
+<h3 id="atari-game-over">ATARI: Game Over</h3>
+
+<img align="right" width="320" src="./generated/images/atari-game-over.jpg" alt="ATARI: Game Over" />
+
+A crew search for all of the old Atari 2600 game cartridges of &#34;E.T. the Extra-Terrestrial&#34; that were tossed into a landfill in the 1980s.
+
+* Duration: ca. 1 h 3 min.
+* Language: de
+* Type: Documentary
+* Category: Culture / Society
+* Tags: Gaming, History, Atari, Hardware
+* IMDb rating: [6.7 / 10 (6,242 votes)](https://www.imdb.com/title/tt3715406/)
+* YouTube likes: 25
+* Watch on: [Amazon Prime Video](https://www.amazon.de/gp/video/detail/amzn1.dv.gti.d85059f3-e120-421e-9125-adfd5e48f0a1) | [Apple TV](https://tv.apple.com/de/movie/atari-game-over/umc.cmc.3xa62786lun35w67960lp2a25) | [YouTube](https://www.youtube.com/watch?v=84rx7-jCdAY)
 ----
 <h3 id="clojure-the-documentary">Clojure: The Documentary</h3>
 
@@ -80,7 +141,7 @@ Railway is the all-in-one intelligent cloud ...
 * Type: Documentary
 * Category: Programming Languages
 * Tags: Programming Languages, Functional Programming, Open Source, History
-* YouTube likes: 3,618
+* YouTube likes: 3,628
 * Watch on: [YouTube](https://www.youtube.com/watch?v=Y24vK_QDLFg)
 ----
 <h3 id="code-debugging-the-gender-gap">CODE: Debugging the Gender Gap</h3>
@@ -99,6 +160,46 @@ Tech jobs are growing three times faster than our colleges are producing compute
 * IMDb rating: [6.2 / 10 (337 votes)](https://www.imdb.com/title/tt4335520/)
 * YouTube likes: 50
 * Watch on: [YouTube](https://www.youtube.com/watch?v=rQKRw6tWsb8)
+----
+<h3 id="coded-bias">Coded Bias</h3>
+
+<img align="right" width="320" src="./generated/images/coded-bias.jpg" alt="Coded Bias" />
+
+When MIT Media Lab researcher Joy Buolamwini discovers that facial recognition does not see dark-skinned faces accurately, she embarks on a journey to push for the first-ever U.S. legislation against bias in algorithms that impact us all.
+
+* Language: en, de
+* Type: Documentary
+* Category: Culture / Society
+* Tags: AI, Algorithmic Bias, Privacy, Society
+* IMDb rating: [6.8 / 10 (2,919 votes)](https://www.imdb.com/title/tt11394170/)
+* Watch on: [Amazon Prime Video](https://www.primevideo.com/-/de/detail/0GLUAOADBR7IWUD0NZPU7JFI11) | [Netflix](https://www.netflix.com/title/81328723)
+----
+<h3 id="countdown-inspiration4-mission-to-space">Countdown: Inspiration4 Mission to Space</h3>
+
+<img align="right" width="320" src="./generated/images/countdown-inspiration4-mission-to-space.jpg" alt="Countdown: Inspiration4 Mission to Space" />
+
+A trailblazing mission captured in near-real time as four crew members make history in the first all-civilian mission into orbit.
+
+* Language: en, de
+* Type: Documentary
+* Category: Culture / Society
+* Tags: Space, SpaceX, Engineering, History
+* Watch on: [Netflix](https://www.netflix.com/title/81441273)
+----
+<h3 id="deep-web">Deep Web</h3>
+
+<img align="right" width="320" src="./generated/images/deep-web.jpg" alt="Deep Web" />
+
+A feature documentary that explores the rise of a new Internet; decentralized, encrypted, dangerous and beyond the law; with particular focus on the FBI capture of the Tor hidden service Silk Road, and the judicial aftermath.
+
+* Duration: ca. 1 h 26 min.
+* Language: en, de
+* Type: Documentary
+* Category: Culture / Society
+* Tags: Security, Tor, Cryptocurrency, Society
+* IMDb rating: [6.9 / 10 (9,888 votes)](https://www.imdb.com/title/tt3312868/)
+* YouTube likes: 103
+* Watch on: [Amazon Prime Video](https://www.amazon.de/gp/video/detail/amzn1.dv.gti.08b3c0a6-d2f2-65d1-a49d-4063ffe2d328) | [YouTube](https://www.youtube.com/watch?v=w4P-eW0UdKo)
 ----
 <h3 id="ebpf-unlocking-the-kernel">eBPF: Unlocking the Kernel</h3>
 
@@ -131,7 +232,7 @@ Check out the ...
 * Type: Documentary
 * Category: Programming Languages
 * Tags: Programming Languages, Functional Programming, Open Source, History
-* YouTube likes: 8,058
+* YouTube likes: 8,057
 * Watch on: [YouTube](https://www.youtube.com/watch?v=lxYFOM3UJzo)
 ----
 <h3 id="ember-js-the-documentary">Ember.js: The Documentary</h3>
@@ -156,6 +257,21 @@ Facebook: https://www.facebook. ...
 * YouTube likes: 2,453
 * Watch on: [YouTube](https://www.youtube.com/watch?v=Cvz-9ccflKQ)
 ----
+<h3 id="general-magic">General Magic</h3>
+
+<img align="right" width="320" src="./generated/images/general-magic.jpg" alt="General Magic" />
+
+The story of the most influential Silicon Valley startup nobody has ever heard of. General Magic spun out of Apple in 1990 to create the precursor of the smartphone, but the world wasn&#39;t ready - the fame and fortune went to others years later with similar products.
+
+* Duration: ca. 1 h 33 min.
+* Language: en, de
+* Type: Documentary
+* Category: Culture / People
+* Tags: Apple, Startups, History, Silicon Valley
+* IMDb rating: [7.4 / 10 (1,345 votes)](https://www.imdb.com/title/tt6849786/)
+* YouTube likes: 192
+* Watch on: [YouTube](https://www.youtube.com/watch?v=tuFl4WEXBrk)
+----
 <h3 id="graphql-the-documentary">GraphQL: The Documentary</h3>
 
 <img align="right" width="320" src="./generated/images/graphql-the-documentary.jpg" alt="GraphQL: The Documentary" />
@@ -171,7 +287,7 @@ Check out the home for untold developer stories around open source, careers and 
 * Type: Documentary
 * Category: Applications / Frameworks / Systems
 * Tags: API, Open Source, History
-* YouTube likes: 15,215
+* YouTube likes: 15,214
 * Watch on: [YouTube](https://www.youtube.com/watch?v=783ccP__No8)
 ----
 <h3 id="half-life-25th-anniversary-documentary">Half-Life: 25th Anniversary Documentary</h3>
@@ -199,8 +315,20 @@ Check out the Half-Life 25th Anniversary Update, restored content, new multiplay
 * Type: Documentary
 * Category: Culture / Society
 * Tags: Game Development, Valve, History
-* YouTube likes: 280,129
+* YouTube likes: 280,136
 * Watch on: [YouTube](https://www.youtube.com/watch?v=TbZ3HzvFEto)
+----
+<h3 id="i-am-human-a-documentary-about-real-life-cyborgs">I Am Human: A Documentary About Real-Life Cyborgs</h3>
+
+<img align="right" width="320" src="./generated/images/i-am-human-a-documentary-about-real-life-cyborgs.jpg" alt="I Am Human: A Documentary About Real-Life Cyborgs" />
+
+I Am Human (2019) is a documentary exploring the lives of three individuals - Bill, Anne, and Stephen - who become some of the first &#34;real-life cyborgs&#34; through experimental brain implant technology. Directed by Elena Gaby and Taryn Southern, it examines the personal, ethical, and societal implications of merging human consciousness with machines to treat paralysis, Parkinson&#39;s, and blindness.
+
+* Type: Documentary
+* Category: Culture / Society
+* Tags: Hardware, Brain-Computer Interface, Health Tech, Ethics
+* IMDb rating: [6.6 / 10 (370,359 votes)](https://www.imdb.com/title/tt9114286/)
+* Watch on: [Amazon Prime Video](https://www.primevideo.com/-/es/detail/0MN9YN2HGYGM3QOUBQV2MQNX0F)
 ----
 <h3 id="indie-game-the-movie">Indie Game: The Movie</h3>
 
@@ -213,6 +341,18 @@ Go behind the scenes of the independent video game industry as this documentary 
 * Tags: Game Development, Indie Games, Software Engineering
 * IMDb rating: [7.6 / 10 (21,724 votes)](https://www.imdb.com/title/tt1942884/)
 * Watch on: [Netflix](https://www.netflix.com/title/70229918)
+----
+<h3 id="inside-bills-brain-decoding-bill-gates">Inside Bill&#39;s Brain: Decoding Bill Gates</h3>
+
+<img align="right" width="320" src="./generated/images/inside-bills-brain-decoding-bill-gates.jpg" alt="Inside Bill&#39;s Brain: Decoding Bill Gates" />
+
+A documentary that tells Bill Gates&#39; life story as he pursues solutions to some of the world&#39;s most complex problems.
+
+* Language: en, de
+* Type: Documentary
+* Category: Culture / People
+* Tags: Microsoft, Bill Gates, History, Philanthropy
+* Watch on: [Netflix](https://www.netflix.com/title/80184771)
 ----
 <h3 id="inside-envoy-the-proxy-for-the-future">Inside Envoy: The Proxy for the Future</h3>
 
@@ -283,7 +423,7 @@ References and sources: https://docs.google.com/document/d/e/2PACX-1vQjGmdjmESDJ
 * Type: Documentary
 * Category: Applications / Frameworks / Systems
 * Tags: Networking, Chat, Open Source, History
-* YouTube likes: 15,204
+* YouTube likes: 15,207
 * Watch on: [YouTube](https://www.youtube.com/watch?v=6UbKenFipjo)
 ----
 <h3 id="kubernetes-the-documentary-part-1">Kubernetes: The Documentary [PART 1]</h3>
@@ -303,7 +443,7 @@ Most engineers know about “The Container Orchestrator Wars’’ ...
 * Type: Documentary
 * Category: Applications / Frameworks / Systems
 * Tags: Cloud Native, Orchestration, Open Source, History
-* YouTube likes: 12,674
+* YouTube likes: 12,675
 * Watch on: [YouTube](https://www.youtube.com/watch?v=BE77h7dmoQU)
 ----
 <h3 id="kubernetes-the-documentary-part-2">Kubernetes: The Documentary [PART 2]</h3>
@@ -342,7 +482,7 @@ Laravel Origins was filmed in late 2021, produced by OfferZen and directed by De
 * Type: Documentary
 * Category: Applications / Frameworks / Systems
 * Tags: Web Frameworks, PHP, Open Source, History
-* YouTube likes: 6,778
+* YouTube likes: 6,777
 * Watch on: [YouTube](https://www.youtube.com/watch?v=127ng7botO4)
 ----
 <h3 id="lo-and-behold-reveries-of-the-connected-world">Lo and Behold: Reveries of the Connected World</h3>
@@ -378,6 +518,29 @@ Join us as we delve into the origins of Node.js, meet some of its earliest contr
 * YouTube likes: 23,870
 * Watch on: [YouTube](https://www.youtube.com/watch?v=LB8KwiiUGy0)
 ----
+<h3 id="picture-a-scientist">Picture a Scientist</h3>
+
+<img align="right" width="320" src="./generated/images/picture-a-scientist.jpg" alt="Picture a Scientist" />
+
+Despite the minimal news coverage, sexual harassment and gender inequality against women are no less prevalent in science than they are in pop culture and corporate America.
+
+* Language: en, de
+* Type: Documentary
+* Category: Culture / Society
+* Tags: Science, Diversity, Society, Academia
+* Watch on: [Amazon Prime Video](https://www.primevideo.com/-/de/detail/Picture-a-Scientist/0R4BAWV31M206XNU7LVNH5Y6VS) | [RTL&#43;](https://plus.rtl.de/picture-a-scientist-frauen-der-wissenschaft-p_1014)
+----
+<h3 id="print-the-legend">Print the Legend</h3>
+
+<img align="right" width="320" src="./generated/images/print-the-legend.jpg" alt="Print the Legend" />
+
+Follows the people racing to bring the hot new 3D printing technology to your home, documenting the &#34;Macintosh Moment&#34; of this revolution and exploring what it takes to live the American Dream.
+
+* Type: Documentary
+* Category: Culture / Society
+* Tags: Hardware, 3D Printing, Startups, Maker Culture
+* Watch on: [Apple TV](https://tv.apple.com/de/movie/print-the-legend/umc.cmc.4ca9o2wed84i5ptt1fccfu91o) | [Netflix](https://www.netflix.com/title/80005444)
+----
 <h3 id="prometheus-the-documentary">Prometheus: The Documentary</h3>
 
 <img align="right" width="320" src="./generated/images/prometheus-the-documentary.jpg" alt="Prometheus: The Documentary" />
@@ -408,7 +571,7 @@ Thanks to our sponsors ...
 * Type: Documentary
 * Category: Programming Languages
 * Tags: Programming Languages, Open Source, History
-* YouTube likes: 33,486
+* YouTube likes: 33,495
 * Watch on: [YouTube](https://www.youtube.com/watch?v=GfH4QL4VqJ0)
 ----
 <h3 id="react-js-the-documentary">React.js: The Documentary</h3>
@@ -442,7 +605,7 @@ While Microsoft may be the biggest software company in the world, not every comp
 * Category: Culture / Society
 * Tags: GNU/Linux, Open Source, History
 * IMDb rating: [7.2 / 10 (2,708 votes)](https://www.imdb.com/title/tt0308808/)
-* YouTube likes: 2,190
+* YouTube likes: 2,191
 * Watch on: [YouTube](https://www.youtube.com/watch?v=k0RYQVkQmWU)
 ----
 <h3 id="ruby-on-rails-the-documentary">Ruby on Rails: The Documentary</h3>
@@ -472,6 +635,21 @@ Get the whole spill by the people who had a front-row seat to the creation and d
 * Tags: Hardware, History, Personal Computing
 * IMDb rating: [6.9 / 10 (2,233 votes)](https://www.imdb.com/title/tt4938484/)
 * Watch on: [Netflix](https://www.netflix.com/title/80104318)
+----
+<h3 id="steve-jobs-the-man-in-the-machine">Steve Jobs: The Man in the Machine</h3>
+
+<img align="right" width="320" src="./generated/images/steve-jobs-the-man-in-the-machine.jpg" alt="Steve Jobs: The Man in the Machine" />
+
+A look at the personal and private life of the late Apple CEO, Steve Jobs.
+
+* Duration: ca. 2 h 9 min.
+* Language: en
+* Type: Documentary
+* Category: Culture / People
+* Tags: Apple, Steve Jobs, History, Silicon Valley
+* IMDb rating: [8.0 / 10 (18,552 votes)](https://www.imdb.com/title/tt3268458/)
+* YouTube likes: 22
+* Watch on: [Amazon Prime Video](https://www.amazon.de/gp/video/detail/amzn1.dv.gti.45bf1a90-eeb6-43aa-8ef2-0ecf4214f15d) | [Apple TV](https://tv.apple.com/de/movie/steve-jobs-the-man-in-the-machine/umc.cmc.23g7yoaqagwspdsdk2rnozy5) | [YouTube](https://www.youtube.com/watch?v=S4J9e7W68g4)
 ----
 <h3 id="svelte-origins-a-javascript-documentary">Svelte Origins: A JavaScript Documentary</h3>
 
@@ -551,6 +729,61 @@ This movie is made available under the Creative Commons license: ...
 * YouTube likes: 36,691
 * Watch on: [YouTube](https://www.youtube.com/watch?v=9vz06QO3UkQ)
 ----
+<h3 id="the-inventor-out-for-blood-in-silicon-valley">The Inventor: Out for Blood in Silicon Valley</h3>
+
+<img align="right" width="320" src="./generated/images/the-inventor-out-for-blood-in-silicon-valley.jpg" alt="The Inventor: Out for Blood in Silicon Valley" />
+
+The story of Theranos, a multi-billion dollar tech company, its founder Elizabeth Holmes, the youngest self-made female billionaire, and the massive fraud that collapsed the company.
+
+* Language: en, de
+* Type: Documentary
+* Category: Culture / People
+* Tags: Startups, Fraud, Silicon Valley, Health Tech
+* IMDb rating: [7.2 / 10 (16,392 votes)](https://www.imdb.com/title/tt8488126/)
+* Watch on: [Amazon Prime Video](https://www.amazon.de/gp/video/detail/amzn1.dv.gti.68c2a9a4-b9b2-4b6d-a7cb-8d1f2f6a1b11) | [HBO Max](https://play.hbomax.com/video/watch/60158ef5-c8c8-4d15-8d61-211d6e97e42c)
+----
+<h3 id="the-king-of-kong-a-fistful-of-quarters">The King of Kong: A Fistful of Quarters</h3>
+
+<img align="right" width="320" src="./generated/images/the-king-of-kong-a-fistful-of-quarters.jpg" alt="The King of Kong: A Fistful of Quarters" />
+
+Die-hard gamers compete to break world records on classic arcade games. A dedicated teacher attempts to break the world record for Donkey Kong, challenging the long-standing champion. This documentary explores the intense rivalries, precise strategies, and personal sacrifices involved in professional competitive gaming.
+
+* Duration: ca. 1 h 23 min.
+* Language: en, de
+* Type: Documentary
+* Category: Culture / Society
+* Tags: Gaming, Arcade, History, Competition
+* IMDb rating: [8.0 / 10 (38,575 votes)](https://www.imdb.com/title/tt0923752/)
+* YouTube likes: 4,851
+* Watch on: [YouTube](https://www.youtube.com/watch?v=lXLQqcHcJDQ)
+----
+<h3 id="the-rise-of-uk-fintech">The Rise of UK Fintech</h3>
+
+<img align="right" width="320" src="./generated/images/the-rise-of-uk-fintech.jpg" alt="The Rise of UK Fintech" />
+
+The Rise of UK Fintech is a documentary that explores how the UK created a thriving fintech ecosystem from the ashes of the 2008 financial crisis. Hear from the founders and CEOs of the UK&#39;s biggest fintechs such as Monzo, Starling, Revolut, OakNorth, as well as leaders from the FCA, Bank of England, and more. The 2008 financial crisis brought so many countries in the world to the edge of insolvency, but the UK saw this as a chance for reform, and completely overhauled its banking sector to create one of the most enviable fintech ecosystems in the world.
+
+* Duration: ca. 58 min.
+* Language: en
+* Type: Documentary
+* Category: Culture / Society
+* Tags: Fintech, Startups, Banking, Regulation
+* YouTube likes: 1,366
+* Watch on: [YouTube](https://www.youtube.com/watch?v=59erwsHe5CI)
+----
+<h3 id="the-social-dilemma">The Social Dilemma</h3>
+
+<img align="right" width="320" src="./generated/images/the-social-dilemma.jpg" alt="The Social Dilemma" />
+
+The Social Dilemma is a powerful exploration of the disproportionate impact that a relatively small number of engineers in Silicon Valley have over the way we think, act, and live our lives. The film deftly tackles an underlying cause of viral conspiracy theories, teenage mental health issues, rampant misinformation and political polarization. Through a combination of documentary investigation and narrative drama, the filmmakers expose the hidden machinations behind everyone&#39;s favorite social media and search platforms, featuring interviews with high-profile tech whistleblowers including Tristan ...
+
+* Language: en, de
+* Type: Documentary
+* Category: Culture / Society
+* Tags: Social Media, Privacy, Society, Ethics
+* IMDb rating: [7.6 / 10 (94,327 votes)](https://www.imdb.com/title/tt11464826/)
+* Watch on: [Netflix](https://www.netflix.com/title/81254224)
+----
 <h3 id="typescript-origins-the-documentary">TypeScript Origins: The Documentary</h3>
 
 <img align="right" width="320" src="./generated/images/typescript-origins-the-documentary.jpg" alt="TypeScript Origins: The Documentary" />
@@ -590,7 +823,7 @@ Featuring many prominent developers in the JavaCript ecosystem, this documentary
 * Type: Documentary
 * Category: Applications / Frameworks / Systems
 * Tags: Frontend, Build Tools, JavaScript, Open Source
-* YouTube likes: 5,908
+* YouTube likes: 5,910
 * Watch on: [YouTube](https://www.youtube.com/watch?v=bmWQqAKLgT4)
 ----
 <h3 id="vue-js-the-documentary">Vue.js: The Documentary</h3>

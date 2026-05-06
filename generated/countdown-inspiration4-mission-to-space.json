@@ -1,0 +1,36 @@
+{
+ "name": "Countdown: Inspiration4 Mission to Space",
+ "slug": "countdown-inspiration4-mission-to-space",
+ "links": {
+  "netflix": "https://www.netflix.com/title/81441273"
+ },
+ "language": [
+  "en",
+  "de"
+ ],
+ "subtitles": null,
+ "tags": [
+  "Space",
+  "SpaceX",
+  "Engineering",
+  "History"
+ ],
+ "category": "Culture / Society",
+ "type": "Documentary",
+ "localized": {
+  "de": {
+   "title": "Countdown: Die Weltraummission Inspiration4"
+  }
+ },
+ "title": "",
+ "description": "A trailblazing mission captured in near-real time as four crew members make history in the first all-civilian mission into orbit.",
+ "imdbID": "tt15679706",
+ "youtubeTrailerForThumbnail": "https://www.youtube.com/watch?v=D38W150h9a4",
+ "duration": "",
+ "publishedAt": "",
+ "channel": {
+  "id": "",
+  "title": ""
+ },
+ "image": "images/countdown-inspiration4-mission-to-space.jpg"
+}

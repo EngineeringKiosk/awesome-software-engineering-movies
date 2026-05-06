@@ -1,0 +1,51 @@
+{
+ "name": "The King of Kong: A Fistful of Quarters",
+ "slug": "the-king-of-kong-a-fistful-of-quarters",
+ "links": {
+  "youtube": "https://www.youtube.com/watch?v=lXLQqcHcJDQ"
+ },
+ "language": [
+  "en",
+  "de"
+ ],
+ "subtitles": [
+  "en"
+ ],
+ "tags": [
+  "Gaming",
+  "Arcade",
+  "History",
+  "Competition"
+ ],
+ "category": "Culture / Society",
+ "type": "Documentary",
+ "localized": {
+  "de": {
+   "description": "The King of Kong - A Fistful of Quarters ist ein US-amerikanischer Dokumentarfilm aus dem Jahr 2007. Er handelt von zwei Videospielern, die um den Weltrekord im Spiel Donkey Kong konkurrieren."
+  }
+ },
+ "title": "The King of Kong : Fistful of Quarters (Full Movie)",
+ "description": "Die-hard gamers compete to break world records on classic arcade games. A dedicated teacher attempts to break the world record for Donkey Kong, challenging the long-standing champion. This documentary explores the intense rivalries, precise strategies, and personal sacrifices involved in professional competitive gaming.",
+ "imdbID": "tt0923752",
+ "duration": "PT1H22M38S",
+ "publishedAt": "2020-07-14T15:04:42Z",
+ "channel": {
+  "id": "UCZX99vKqKrygYDhUFVGcRHw",
+  "title": "sfcplanet"
+ },
+ "ratings": {
+  "youtube": {
+   "likeCount": 4851,
+   "refreshedAt": "2026-05-06T08:33:59Z"
+  },
+  "imdb": {
+   "averageRating": 8,
+   "numVotes": 38575,
+   "refreshedAt": "2026-05-06T08:33:59Z"
+  }
+ },
+ "views": {
+  "youtube": 347656
+ },
+ "image": "images/the-king-of-kong-a-fistful-of-quarters.jpg"
+}

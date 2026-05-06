@@ -1,0 +1,45 @@
+{
+ "name": "Steve Jobs: The Man in the Machine",
+ "slug": "steve-jobs-the-man-in-the-machine",
+ "links": {
+  "amazon_prime_video": "https://www.amazon.de/gp/video/detail/amzn1.dv.gti.45bf1a90-eeb6-43aa-8ef2-0ecf4214f15d",
+  "apple_tv": "https://tv.apple.com/de/movie/steve-jobs-the-man-in-the-machine/umc.cmc.23g7yoaqagwspdsdk2rnozy5",
+  "youtube": "https://www.youtube.com/watch?v=S4J9e7W68g4"
+ },
+ "language": [
+  "en"
+ ],
+ "subtitles": null,
+ "tags": [
+  "Apple",
+  "Steve Jobs",
+  "History",
+  "Silicon Valley"
+ ],
+ "category": "Culture / People",
+ "type": "Documentary",
+ "title": "Steve Jobs: The Man In The Machine (OmU)",
+ "description": "A look at the personal and private life of the late Apple CEO, Steve Jobs.",
+ "imdbID": "tt3268458",
+ "duration": "PT2H9M",
+ "publishedAt": "2015-11-06T14:01:38Z",
+ "channel": {
+  "id": "UCVpb25VFnrrI5D8bE7X00jA",
+  "title": "YouTube Movies"
+ },
+ "ratings": {
+  "youtube": {
+   "likeCount": 22,
+   "refreshedAt": "2026-05-06T08:33:59Z"
+  },
+  "imdb": {
+   "averageRating": 8,
+   "numVotes": 18552,
+   "refreshedAt": "2026-05-06T08:33:59Z"
+  }
+ },
+ "views": {
+  "youtube": 0
+ },
+ "image": "images/steve-jobs-the-man-in-the-machine.jpg"
+}

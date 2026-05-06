@@ -1,0 +1,52 @@
+{
+ "name": "Deep Web",
+ "slug": "deep-web",
+ "links": {
+  "amazon_prime_video": "https://www.amazon.de/gp/video/detail/amzn1.dv.gti.08b3c0a6-d2f2-65d1-a49d-4063ffe2d328",
+  "youtube": "https://www.youtube.com/watch?v=w4P-eW0UdKo"
+ },
+ "language": [
+  "en",
+  "de"
+ ],
+ "subtitles": [
+  "de"
+ ],
+ "tags": [
+  "Security",
+  "Tor",
+  "Cryptocurrency",
+  "Society"
+ ],
+ "category": "Culture / Society",
+ "type": "Documentary",
+ "localized": {
+  "de": {
+   "title": "Deep Web - Der Untergang der Silk Road"
+  }
+ },
+ "title": "Deep Web - Der Untergang der Silk Road｜Dark Web Doku Dokumentation Deutsch HD",
+ "description": "A feature documentary that explores the rise of a new Internet; decentralized, encrypted, dangerous and beyond the law; with particular focus on the FBI capture of the Tor hidden service Silk Road, and the judicial aftermath.",
+ "imdbID": "tt3312868",
+ "duration": "PT1H26M23S",
+ "publishedAt": "2023-08-21T16:16:39Z",
+ "channel": {
+  "id": "UC98IjnvFxb5AogIvnxax8Hg",
+  "title": "Anonymous"
+ },
+ "ratings": {
+  "youtube": {
+   "likeCount": 103,
+   "refreshedAt": "2026-05-06T08:33:59Z"
+  },
+  "imdb": {
+   "averageRating": 6.9,
+   "numVotes": 9888,
+   "refreshedAt": "2026-05-06T08:33:59Z"
+  }
+ },
+ "views": {
+  "youtube": 9451
+ },
+ "image": "images/deep-web.jpg"
+}

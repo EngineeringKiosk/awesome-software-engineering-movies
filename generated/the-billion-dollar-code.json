@@ -1,0 +1,31 @@
+{
+ "name": "The Billion Dollar Code",
+ "slug": "the-billion-dollar-code",
+ "links": {
+  "netflix": "https://www.netflix.com/title/81074012"
+ },
+ "language": [
+  "en",
+  "de"
+ ],
+ "subtitles": null,
+ "tags": [
+  "Startups",
+  "History",
+  "Patents",
+  "Open Source"
+ ],
+ "category": "Culture / People",
+ "type": "TV Series",
+ "title": "",
+ "description": "No one knows this story. In Berlin in the 90s, two friends, Carsten and Juri, create Terra Vision, something that seemed impossible at the time - the precursor to Google Earth. 25 years later, the German computer nerds are facing the global corporation in court. The Billion Dollar Code, based on a true story.",
+ "imdbID": "tt15392936",
+ "youtubeTrailerForThumbnail": "https://www.youtube.com/watch?v=iDvPvqImb-4",
+ "duration": "",
+ "publishedAt": "",
+ "channel": {
+  "id": "",
+  "title": ""
+ },
+ "image": "images/the-billion-dollar-code.jpg"
+}

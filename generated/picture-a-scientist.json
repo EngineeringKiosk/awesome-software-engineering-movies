@@ -1,0 +1,40 @@
+{
+ "name": "Picture a Scientist",
+ "slug": "picture-a-scientist",
+ "links": {
+  "amazon_prime_video": "https://www.primevideo.com/-/de/detail/Picture-a-Scientist/0R4BAWV31M206XNU7LVNH5Y6VS",
+  "rtl_plus": "https://plus.rtl.de/picture-a-scientist-frauen-der-wissenschaft-p_1014"
+ },
+ "language": [
+  "en",
+  "de"
+ ],
+ "subtitles": null,
+ "tags": [
+  "Science",
+  "Diversity",
+  "Society",
+  "Academia"
+ ],
+ "category": "Culture / Society",
+ "type": "Documentary",
+ "localized": {
+  "de": {
+   "title": "Picture a Scientist - Frauen der Wissenschaft",
+   "links": {
+    "amazon_prime_video": "https://www.amazon.de/gp/video/detail/amzn1.dv.gti.c440c255-632b-4ff0-84e1-6835b1abaf4b"
+   }
+  }
+ },
+ "title": "",
+ "description": "Despite the minimal news coverage, sexual harassment and gender inequality against women are no less prevalent in science than they are in pop culture and corporate America.",
+ "imdbID": "tt9612572",
+ "youtubeTrailerForThumbnail": "https://www.youtube.com/watch?v=Dg2Lyu_nWnk",
+ "duration": "",
+ "publishedAt": "",
+ "channel": {
+  "id": "",
+  "title": ""
+ },
+ "image": "images/picture-a-scientist.jpg"
+}

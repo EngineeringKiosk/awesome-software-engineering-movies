@@ -1,0 +1,43 @@
+{
+ "name": "The Social Dilemma",
+ "slug": "the-social-dilemma",
+ "links": {
+  "netflix": "https://www.netflix.com/title/81254224"
+ },
+ "language": [
+  "en",
+  "de"
+ ],
+ "subtitles": null,
+ "tags": [
+  "Social Media",
+  "Privacy",
+  "Society",
+  "Ethics"
+ ],
+ "category": "Culture / Society",
+ "type": "Documentary",
+ "localized": {
+  "de": {
+   "title": "Das Dilemma mit den sozialen Medien"
+  }
+ },
+ "title": "",
+ "description": "The Social Dilemma is a powerful exploration of the disproportionate impact that a relatively small number of engineers in Silicon Valley have over the way we think, act, and live our lives. The film deftly tackles an underlying cause of viral conspiracy theories, teenage mental health issues, rampant misinformation and political polarization. Through a combination of documentary investigation and narrative drama, the filmmakers expose the hidden machinations behind everyone's favorite social media and search platforms, featuring interviews with high-profile tech whistleblowers including Tristan Harris, Justin Rosenstein, Tim Kendall, Cathy O'Neil, and Rashida Richardson.",
+ "imdbID": "tt11464826",
+ "youtubeTrailerForThumbnail": "https://www.youtube.com/watch?v=uaaC57tcci0",
+ "duration": "",
+ "publishedAt": "",
+ "channel": {
+  "id": "",
+  "title": ""
+ },
+ "ratings": {
+  "imdb": {
+   "averageRating": 7.6,
+   "numVotes": 94327,
+   "refreshedAt": "2026-05-06T08:33:59Z"
+  }
+ },
+ "image": "images/the-social-dilemma.jpg"
+}

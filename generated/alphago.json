@@ -1,0 +1,46 @@
+{
+ "name": "AlphaGo - The Movie",
+ "slug": "alphago-the-movie",
+ "links": {
+  "youtube": "https://www.youtube.com/watch?v=WXuK6gekU1Y"
+ },
+ "language": [
+  "en"
+ ],
+ "subtitles": [
+  "fr",
+  "en"
+ ],
+ "tags": [
+  "AI",
+  "Machine Learning",
+  "DeepMind",
+  "Games"
+ ],
+ "category": "Culture / Society",
+ "type": "Documentary",
+ "title": "AlphaGo - The Movie | Full award-winning documentary",
+ "description": "With more board configurations than there are atoms in the universe, the ancient Chinese game of Go has long been considered a grand challenge for artificial intelligence. This film follows DeepMind's AlphaGo as it takes on legendary Go champion Lee Sedol in a five-game match in Seoul.",
+ "imdbID": "tt6700846",
+ "duration": "PT1H30M28S",
+ "publishedAt": "2020-03-13T14:04:51Z",
+ "channel": {
+  "id": "UCP7jMXSY2xbc3KCAE0MHQ-A",
+  "title": "Google DeepMind"
+ },
+ "ratings": {
+  "youtube": {
+   "likeCount": 326999,
+   "refreshedAt": "2026-05-06T08:33:59Z"
+  },
+  "imdb": {
+   "averageRating": 7.8,
+   "numVotes": 7645,
+   "refreshedAt": "2026-05-06T08:33:59Z"
+  }
+ },
+ "views": {
+  "youtube": 38009950
+ },
+ "image": "images/alphago-the-movie.jpg"
+}

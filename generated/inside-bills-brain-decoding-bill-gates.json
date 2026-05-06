@@ -1,0 +1,36 @@
+{
+ "name": "Inside Bill's Brain: Decoding Bill Gates",
+ "slug": "inside-bills-brain-decoding-bill-gates",
+ "links": {
+  "netflix": "https://www.netflix.com/title/80184771"
+ },
+ "language": [
+  "en",
+  "de"
+ ],
+ "subtitles": null,
+ "tags": [
+  "Microsoft",
+  "Bill Gates",
+  "History",
+  "Philanthropy"
+ ],
+ "category": "Culture / People",
+ "type": "Documentary",
+ "localized": {
+  "de": {
+   "title": "Der Mensch Bill Gates"
+  }
+ },
+ "title": "",
+ "description": "A documentary that tells Bill Gates' life story as he pursues solutions to some of the world's most complex problems.",
+ "imdbID": "tt10970908",
+ "youtubeTrailerForThumbnail": "https://www.youtube.com/watch?v=aCv29JKmHNY",
+ "duration": "",
+ "publishedAt": "",
+ "channel": {
+  "id": "",
+  "title": ""
+ },
+ "image": "images/inside-bills-brain-decoding-bill-gates.jpg"
+}

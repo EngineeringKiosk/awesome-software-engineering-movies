@@ -1,0 +1,44 @@
+{
+ "name": "Coded Bias",
+ "slug": "coded-bias",
+ "links": {
+  "amazon_prime_video": "https://www.primevideo.com/-/de/detail/0GLUAOADBR7IWUD0NZPU7JFI11",
+  "netflix": "https://www.netflix.com/title/81328723"
+ },
+ "language": [
+  "en",
+  "de"
+ ],
+ "subtitles": null,
+ "tags": [
+  "AI",
+  "Algorithmic Bias",
+  "Privacy",
+  "Society"
+ ],
+ "category": "Culture / Society",
+ "type": "Documentary",
+ "localized": {
+  "de": {
+   "title": "Vorprogrammierte Diskriminierung"
+  }
+ },
+ "title": "",
+ "description": "When MIT Media Lab researcher Joy Buolamwini discovers that facial recognition does not see dark-skinned faces accurately, she embarks on a journey to push for the first-ever U.S. legislation against bias in algorithms that impact us all.",
+ "imdbID": "tt11394170",
+ "youtubeTrailerForThumbnail": "https://www.youtube.com/watch?v=rf68wQDVEho",
+ "duration": "",
+ "publishedAt": "",
+ "channel": {
+  "id": "",
+  "title": ""
+ },
+ "ratings": {
+  "imdb": {
+   "averageRating": 6.8,
+   "numVotes": 2919,
+   "refreshedAt": "2026-05-06T08:33:59Z"
+  }
+ },
+ "image": "images/coded-bias.jpg"
+}
