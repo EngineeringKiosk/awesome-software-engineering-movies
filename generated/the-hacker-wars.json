@@ -1,0 +1,40 @@
+{
+ "name": "The Hacker Wars",
+ "slug": "the-hacker-wars",
+ "links": {
+  "youtube": "https://www.youtube.com/watch?v=VPYci82ZzW0"
+ },
+ "language": [
+  "en"
+ ],
+ "subtitles": [
+  "en"
+ ],
+ "tags": [
+  "Hacktivism",
+  "Security",
+  "Anonymous",
+  "Whistleblowing"
+ ],
+ "category": "Culture / Society",
+ "type": "Documentary",
+ "title": "The Hackers War | Full Documentary (Cybersecurity \u0026 Hacking) | LufSec",
+ "description": "The Hacker Wars is an eye-opening documentary that reveals the high-stakes world of hacking, cyberwarfare, and digital activism. From underground hacker groups to government cyber defense teams, the film uncovers the real battles being fought in cyberspace - the rise of hacktivism and cyber resistance movements, how hackers exploit vulnerabilities to challenge powerful institutions, the blurred line between cybercrime and cyber defense, and why cybersecurity has become a global arms race.",
+ "imdbID": "tt3565606",
+ "duration": "PT1H31M20S",
+ "publishedAt": "2025-08-05T03:46:24Z",
+ "channel": {
+  "id": "UCzHXTdESUrgGXit_pLVOcrA",
+  "title": "LufSec Cyber Security"
+ },
+ "ratings": {
+  "youtube": {
+   "likeCount": 1034,
+   "refreshedAt": "2026-05-06T08:44:42Z"
+  }
+ },
+ "views": {
+  "youtube": 57294
+ },
+ "image": "images/the-hacker-wars.jpg"
+}

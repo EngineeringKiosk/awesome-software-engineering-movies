@@ -1,0 +1,71 @@
+{
+ "name": "Free to Play",
+ "slug": "free-to-play",
+ "links": {
+  "apple_tv": "https://tv.apple.com/de/movie/free-to-play/umc.cmc.3ti8vrr7ooltzqkij17ovd4xx",
+  "netflix": "https://www.netflix.com/title/81438157",
+  "youtube": "https://www.youtube.com/watch?v=UjZYMI1zB9s"
+ },
+ "language": [
+  "en"
+ ],
+ "subtitles": [
+  "uk",
+  "fi",
+  "de",
+  "no",
+  "pl",
+  "th",
+  "es",
+  "zh",
+  "da",
+  "en",
+  "ja",
+  "sv",
+  "cs",
+  "ru",
+  "vi",
+  "el",
+  "ko",
+  "nl",
+  "bg",
+  "pt",
+  "it",
+  "ro",
+  "fr",
+  "hu",
+  "tr"
+ ],
+ "tags": [
+  "Gaming",
+  "eSports",
+  "Dota 2",
+  "Valve"
+ ],
+ "category": "Culture / People",
+ "type": "Documentary",
+ "title": "Free to Play",
+ "description": "Three professional gamers from different parts of the world fight personal hardship to compete in the first Dota 2 International tournament with a million-dollar grand prize. A Valve-produced documentary chronicling the rise of competitive eSports.",
+ "imdbID": "tt3203290",
+ "duration": "PT1H15M44S",
+ "publishedAt": "2014-03-19T14:52:00Z",
+ "channel": {
+  "id": "UCg0FSqPeiGD_lIiPaaAehQg",
+  "title": "Valve"
+ },
+ "ratings": {
+  "youtube": {
+   "likeCount": 115116,
+   "refreshedAt": "2026-05-06T08:44:42Z"
+  },
+  "imdb": {
+   "averageRating": 7.6,
+   "numVotes": 13726,
+   "refreshedAt": "2026-05-06T08:44:42Z"
+  }
+ },
+ "views": {
+  "youtube": 6886581
+ },
+ "image": "images/free-to-play.jpg"
+}

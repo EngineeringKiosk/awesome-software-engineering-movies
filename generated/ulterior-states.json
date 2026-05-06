@@ -1,0 +1,40 @@
+{
+ "name": "Ulterior States",
+ "slug": "ulterior-states",
+ "links": {
+  "youtube": "https://www.youtube.com/watch?v=yQGQXy0RIIo"
+ },
+ "language": [
+  "en"
+ ],
+ "subtitles": [
+  "en",
+  "pt"
+ ],
+ "tags": [
+  "Cryptocurrency",
+  "Open Source",
+  "Decentralization",
+  "Activism"
+ ],
+ "category": "Culture / Society",
+ "type": "Documentary",
+ "title": "Ulterior States [IamSatoshi Documentary]",
+ "description": "Ulterior States (2015) is a self-funded documentary by Free Software developer Dyne.org exploring the decentralized cryptocurrency culture from 2012-2015, highlighting code as activism, digital currency, and future community-governed micro-states. The film collages, rather than dictates, a vision of the emerging crypto landscape.",
+ "duration": "PT52M55S",
+ "publishedAt": "2015-06-27T17:36:28Z",
+ "channel": {
+  "id": "UCSiQUQEfjUu9bniPu6TKylQ",
+  "title": "Satoshi Pollen (IamSatoshi Documentary)"
+ },
+ "ratings": {
+  "youtube": {
+   "likeCount": 1356,
+   "refreshedAt": "2026-05-06T08:44:42Z"
+  }
+ },
+ "views": {
+  "youtube": 96560
+ },
+ "image": "images/ulterior-states.jpg"
+}

@@ -1,0 +1,47 @@
+{
+ "name": "Particle Fever",
+ "slug": "particle-fever",
+ "links": {
+  "amazon_prime_video": "https://www.amazon.de/gp/video/detail/amzn1.dv.gti.d0a9f6bd-4024-e2a9-6abb-567e60e33f6f",
+  "netflix": "https://www.netflix.com/title/70296323",
+  "rtl_plus": "https://plus.rtl.de/particle-fever-die-jagd-nach-dem-higgs-p_899",
+  "youtube": "https://www.youtube.com/watch?v=WWhHlxhNn58"
+ },
+ "language": [
+  "en",
+  "de"
+ ],
+ "subtitles": null,
+ "tags": [
+  "Science",
+  "Physics",
+  "CERN",
+  "Engineering"
+ ],
+ "category": "Culture / Society",
+ "type": "Documentary",
+ "localized": {
+  "de": {
+   "title": "Particle Fever - Die Jagd nach dem Higgs"
+  }
+ },
+ "title": "Particle Fever - Die Jagd nach dem Higgs",
+ "description": "As the Large Hadron Collider is about to be launched for the first time, physicists are on the cusp of the greatest scientific discovery of all time - or perhaps their greatest failure.",
+ "imdbID": "tt2125566",
+ "duration": "PT1H39M17S",
+ "publishedAt": "2015-04-16T10:10:41Z",
+ "channel": {
+  "id": "UCtPmZqrExRFANsPE6GG9c_A",
+  "title": "YouTube Movies"
+ },
+ "ratings": {
+  "youtube": {
+   "likeCount": 27,
+   "refreshedAt": "2026-05-06T08:44:42Z"
+  }
+ },
+ "views": {
+  "youtube": 0
+ },
+ "image": "images/particle-fever.jpg"
+}

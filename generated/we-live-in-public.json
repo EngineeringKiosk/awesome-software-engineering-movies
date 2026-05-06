@@ -1,0 +1,35 @@
+{
+ "name": "We Live in Public",
+ "slug": "we-live-in-public",
+ "links": {
+  "amazon_prime_video": "https://www.primevideo.com/-/de/detail/We-Live-In-Public/0U7M85IDXG9VFNCL3YF9E0N5VP"
+ },
+ "language": null,
+ "subtitles": null,
+ "tags": [
+  "Internet",
+  "Privacy",
+  "Society",
+  "History"
+ ],
+ "category": "Culture / Society",
+ "type": "Documentary",
+ "title": "",
+ "description": "We Live In Public is a 2009 documentary film by Ondi Timoner about Internet pioneer Josh Harris, indirectly highlighting the loss of privacy in the Internet age.",
+ "imdbID": "tt1326201",
+ "youtubeTrailerForThumbnail": "https://www.youtube.com/watch?v=N1cSbsJ5h1I",
+ "duration": "",
+ "publishedAt": "",
+ "channel": {
+  "id": "",
+  "title": ""
+ },
+ "ratings": {
+  "imdb": {
+   "averageRating": 6.3,
+   "numVotes": 243,
+   "refreshedAt": "2026-05-06T08:44:42Z"
+  }
+ },
+ "image": "images/we-live-in-public.jpg"
+}

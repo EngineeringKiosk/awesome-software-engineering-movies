@@ -4,13 +4,14 @@ A curated list of movies, documentaries and other related material to watch rela
 
 ## Table of Contents
 
-* Entries: 48
+* Entries: 57
 * [TV Series](#tv-series) (1)
   * [The Billion Dollar Code](#the-billion-dollar-code)
-* [Documentaries](#documentaries) (47)
+* [Documentaries](#documentaries) (56)
   * [AlphaGo - The Movie](#alphago-the-movie)
   * [Angular: The Documentary](#angular-the-documentary)
   * [ATARI: Game Over](#atari-game-over)
+  * [Citizenfour](#citizenfour)
   * [Clojure: The Documentary](#clojure-the-documentary)
   * [CODE: Debugging the Gender Gap](#code-debugging-the-gender-gap)
   * [Coded Bias](#coded-bias)
@@ -19,6 +20,7 @@ A curated list of movies, documentaries and other related material to watch rela
   * [eBPF: Unlocking the Kernel](#ebpf-unlocking-the-kernel)
   * [Elixir: The Documentary](#elixir-the-documentary)
   * [Ember.js: The Documentary](#ember-js-the-documentary)
+  * [Free to Play](#free-to-play)
   * [General Magic](#general-magic)
   * [GraphQL: The Documentary](#graphql-the-documentary)
   * [Half-Life: 25th Anniversary Documentary](#half-life-25th-anniversary-documentary)
@@ -32,7 +34,9 @@ A curated list of movies, documentaries and other related material to watch rela
   * [Kubernetes: The Documentary [PART 2]](#kubernetes-the-documentary-part-2)
   * [Laravel Origins: A PHP Documentary](#laravel-origins-a-php-documentary)
   * [Lo and Behold: Reveries of the Connected World](#lo-and-behold-reveries-of-the-connected-world)
+  * [Minecraft: The Story of Mojang](#minecraft-the-story-of-mojang)
   * [Node.js: The Documentary](#node-js-the-documentary)
+  * [Particle Fever](#particle-fever)
   * [Picture a Scientist](#picture-a-scientist)
   * [Print the Legend](#print-the-legend)
   * [Prometheus: The Documentary](#prometheus-the-documentary)
@@ -46,15 +50,20 @@ A curated list of movies, documentaries and other related material to watch rela
   * [Terms and Conditions May Apply](#terms-and-conditions-may-apply)
   * [The Cleaners](#the-cleaners)
   * [The Great Hack](#the-great-hack)
+  * [The Hacker Wars](#the-hacker-wars)
   * [The Internet&#39;s Own Boy: The Story of Aaron Swartz](#the-internets-own-boy-the-story-of-aaron-swartz)
   * [The Inventor: Out for Blood in Silicon Valley](#the-inventor-out-for-blood-in-silicon-valley)
   * [The King of Kong: A Fistful of Quarters](#the-king-of-kong-a-fistful-of-quarters)
   * [The Rise of UK Fintech](#the-rise-of-uk-fintech)
   * [The Social Dilemma](#the-social-dilemma)
+  * [TPB AFK: The Pirate Bay Away From Keyboard](#tpb-afk-the-pirate-bay-away-from-keyboard)
   * [TypeScript Origins: The Documentary](#typescript-origins-the-documentary)
+  * [Ulterior States](#ulterior-states)
   * [VITE: The Documentary](#vite-the-documentary)
   * [Vue.js: The Documentary](#vue-js-the-documentary)
   * [We Are Legion: The Story of the Hacktivists](#we-are-legion-the-story-of-the-hacktivists)
+  * [We Live in Public](#we-live-in-public)
+  * [We Steal Secrets: The Story of WikiLeaks](#we-steal-secrets-the-story-of-wikileaks)
 * [How to contribute](#how-to-contribute)
 * [Projects like us](#projects-like-us)
 
@@ -122,6 +131,19 @@ A crew search for all of the old Atari 2600 game cartridges of &#34;E.T. the Ext
 * IMDb rating: [6.7 / 10 (6,242 votes)](https://www.imdb.com/title/tt3715406/)
 * YouTube likes: 25
 * Watch on: [Amazon Prime Video](https://www.amazon.de/gp/video/detail/amzn1.dv.gti.d85059f3-e120-421e-9125-adfd5e48f0a1) | [Apple TV](https://tv.apple.com/de/movie/atari-game-over/umc.cmc.3xa62786lun35w67960lp2a25) | [YouTube](https://www.youtube.com/watch?v=84rx7-jCdAY)
+----
+<h3 id="citizenfour">Citizenfour</h3>
+
+<img align="right" width="320" src="./generated/images/citizenfour.jpg" alt="Citizenfour" />
+
+Citizenfour is a real-time thriller, giving audiences an exclusive front-row seat to the moment Edward Snowden changed history with his revelations of widespread government surveillance around the world. In June 2013, filmmaker Laura Poitras and journalist Glenn Greenwald met with Snowden confidentially in Hong Kong, where he handed over classified documents providing evidence of mass indiscriminate and illegal invasions of privacy by the National Security Agency (NSA).
+
+* Language: en, de
+* Type: Documentary
+* Category: Culture / Society
+* Tags: Privacy, Surveillance, Security, Whistleblowing
+* IMDb rating: [8.0 / 10 (60,031 votes)](https://www.imdb.com/title/tt4044364/)
+* Watch on: [Amazon Prime Video](https://www.amazon.de/gp/video/detail/amzn1.dv.gti.a6a9f6d0-0526-a3e1-5a02-94d192a82cd2) | [RTL&#43;](https://plus.rtl.de/citizenfour-p_252)
 ----
 <h3 id="clojure-the-documentary">Clojure: The Documentary</h3>
 
@@ -256,6 +278,21 @@ Facebook: https://www.facebook. ...
 * Tags: Frontend, JavaScript, Open Source, History
 * YouTube likes: 2,453
 * Watch on: [YouTube](https://www.youtube.com/watch?v=Cvz-9ccflKQ)
+----
+<h3 id="free-to-play">Free to Play</h3>
+
+<img align="right" width="320" src="./generated/images/free-to-play.jpg" alt="Free to Play" />
+
+Three professional gamers from different parts of the world fight personal hardship to compete in the first Dota 2 International tournament with a million-dollar grand prize. A Valve-produced documentary chronicling the rise of competitive eSports.
+
+* Duration: ca. 1 h 16 min.
+* Language: en
+* Type: Documentary
+* Category: Culture / People
+* Tags: Gaming, eSports, Dota 2, Valve
+* IMDb rating: [7.6 / 10 (13,726 votes)](https://www.imdb.com/title/tt3203290/)
+* YouTube likes: 115,116
+* Watch on: [Apple TV](https://tv.apple.com/de/movie/free-to-play/umc.cmc.3ti8vrr7ooltzqkij17ovd4xx) | [Netflix](https://www.netflix.com/title/81438157) | [YouTube](https://www.youtube.com/watch?v=UjZYMI1zB9s)
 ----
 <h3 id="general-magic">General Magic</h3>
 
@@ -500,6 +537,20 @@ Directed by Werner Herzog, this documentary explores the history, impact, and po
 * YouTube likes: 5,702
 * Watch on: [YouTube](https://www.youtube.com/watch?v=q3g3hqNJqpQ)
 ----
+<h3 id="minecraft-the-story-of-mojang">Minecraft: The Story of Mojang</h3>
+
+<img align="right" width="320" src="./generated/images/minecraft-the-story-of-mojang.jpg" alt="Minecraft: The Story of Mojang" />
+
+Since its development in 2009, Minecraft has taken the digital world by storm. It&#39;s now played by millions of people on a global scale. With exclusive interviews from YouTube celebrities and industry experts, this documentary takes an in-depth look at how one game took over the gaming world and follows the story of Mojang, the small Swedish studio behind it.
+
+* Duration: ca. 1 h 44 min.
+* Language: en
+* Type: Documentary
+* Category: Culture / People
+* Tags: Gaming, Minecraft, Indie, History
+* YouTube likes: 1,361
+* Watch on: [YouTube](https://www.youtube.com/watch?v=ggCIGOQloY4)
+----
 <h3 id="node-js-the-documentary">Node.js: The Documentary</h3>
 
 <img align="right" width="320" src="./generated/images/node-js-the-documentary.jpg" alt="Node.js: The Documentary" />
@@ -517,6 +568,20 @@ Join us as we delve into the origins of Node.js, meet some of its earliest contr
 * Tags: JavaScript, Backend, Open Source, History
 * YouTube likes: 23,870
 * Watch on: [YouTube](https://www.youtube.com/watch?v=LB8KwiiUGy0)
+----
+<h3 id="particle-fever">Particle Fever</h3>
+
+<img align="right" width="320" src="./generated/images/particle-fever.jpg" alt="Particle Fever" />
+
+As the Large Hadron Collider is about to be launched for the first time, physicists are on the cusp of the greatest scientific discovery of all time - or perhaps their greatest failure.
+
+* Duration: ca. 1 h 39 min.
+* Language: en, de
+* Type: Documentary
+* Category: Culture / Society
+* Tags: Science, Physics, CERN, Engineering
+* YouTube likes: 27
+* Watch on: [Amazon Prime Video](https://www.amazon.de/gp/video/detail/amzn1.dv.gti.d0a9f6bd-4024-e2a9-6abb-567e60e33f6f) | [Netflix](https://www.netflix.com/title/70296323) | [RTL&#43;](https://plus.rtl.de/particle-fever-die-jagd-nach-dem-higgs-p_899) | [YouTube](https://www.youtube.com/watch?v=WWhHlxhNn58)
 ----
 <h3 id="picture-a-scientist">Picture a Scientist</h3>
 
@@ -571,7 +636,7 @@ Thanks to our sponsors ...
 * Type: Documentary
 * Category: Programming Languages
 * Tags: Programming Languages, Open Source, History
-* YouTube likes: 33,495
+* YouTube likes: 33,496
 * Watch on: [YouTube](https://www.youtube.com/watch?v=GfH4QL4VqJ0)
 ----
 <h3 id="react-js-the-documentary">React.js: The Documentary</h3>
@@ -711,6 +776,20 @@ Explore how a data company named Cambridge Analytica came to symbolize the dark 
 * IMDb rating: [7.0 / 10 (25,799 votes)](https://www.imdb.com/title/tt4736550/)
 * Watch on: [Netflix](https://www.netflix.com/title/80117542)
 ----
+<h3 id="the-hacker-wars">The Hacker Wars</h3>
+
+<img align="right" width="320" src="./generated/images/the-hacker-wars.jpg" alt="The Hacker Wars" />
+
+The Hacker Wars is an eye-opening documentary that reveals the high-stakes world of hacking, cyberwarfare, and digital activism. From underground hacker groups to government cyber defense teams, the film uncovers the real battles being fought in cyberspace - the rise of hacktivism and cyber resistance movements, how hackers exploit vulnerabilities to challenge powerful institutions, the blurred line between cybercrime and cyber defense, and why cybersecurity has become a global arms race.
+
+* Duration: ca. 1 h 31 min.
+* Language: en
+* Type: Documentary
+* Category: Culture / Society
+* Tags: Hacktivism, Security, Anonymous, Whistleblowing
+* YouTube likes: 1,034
+* Watch on: [YouTube](https://www.youtube.com/watch?v=VPYci82ZzW0)
+----
 <h3 id="the-internets-own-boy-the-story-of-aaron-swartz">The Internet&#39;s Own Boy: The Story of Aaron Swartz</h3>
 
 <img align="right" width="320" src="./generated/images/the-internets-own-boy-the-story-of-aaron-swartz.jpg" alt="The Internet&#39;s Own Boy: The Story of Aaron Swartz" />
@@ -726,7 +805,7 @@ This movie is made available under the Creative Commons license: ...
 * Category: Culture / People
 * Tags: Hacktivism, Open Internet, Activism, History
 * IMDb rating: [8.0 / 10 (18,551 votes)](https://www.imdb.com/title/tt3268458/)
-* YouTube likes: 36,691
+* YouTube likes: 36,692
 * Watch on: [YouTube](https://www.youtube.com/watch?v=9vz06QO3UkQ)
 ----
 <h3 id="the-inventor-out-for-blood-in-silicon-valley">The Inventor: Out for Blood in Silicon Valley</h3>
@@ -784,6 +863,21 @@ The Social Dilemma is a powerful exploration of the disproportionate impact that
 * IMDb rating: [7.6 / 10 (94,327 votes)](https://www.imdb.com/title/tt11464826/)
 * Watch on: [Netflix](https://www.netflix.com/title/81254224)
 ----
+<h3 id="tpb-afk-the-pirate-bay-away-from-keyboard">TPB AFK: The Pirate Bay Away From Keyboard</h3>
+
+<img align="right" width="320" src="./generated/images/tpb-afk-the-pirate-bay-away-from-keyboard.jpg" alt="TPB AFK: The Pirate Bay Away From Keyboard" />
+
+The documentary about the founders of The Pirate Bay. An intellectual freedoms documentary based around the interpersonal triumphs and defeats of the three main characters against the largest industry in the known universe - the media industry.
+
+* Duration: ca. 1 h 22 min.
+* Language: en
+* Type: Documentary
+* Category: Culture / People
+* Tags: File Sharing, Open Source, Internet Freedom, History
+* IMDb rating: [7.4 / 10 (14,204 votes)](https://www.imdb.com/title/tt2608732/)
+* YouTube likes: 479
+* Watch on: [YouTube](https://www.youtube.com/watch?v=ui-w6ZUCzj8)
+----
 <h3 id="typescript-origins-the-documentary">TypeScript Origins: The Documentary</h3>
 
 <img align="right" width="320" src="./generated/images/typescript-origins-the-documentary.jpg" alt="TypeScript Origins: The Documentary" />
@@ -807,6 +901,20 @@ Sponsored by
 * Tags: Programming Languages, JavaScript, Microsoft, History
 * YouTube likes: 9,557
 * Watch on: [YouTube](https://www.youtube.com/watch?v=U6s2pdxebSo)
+----
+<h3 id="ulterior-states">Ulterior States</h3>
+
+<img align="right" width="320" src="./generated/images/ulterior-states.jpg" alt="Ulterior States" />
+
+Ulterior States (2015) is a self-funded documentary by Free Software developer Dyne.org exploring the decentralized cryptocurrency culture from 2012-2015, highlighting code as activism, digital currency, and future community-governed micro-states. The film collages, rather than dictates, a vision of the emerging crypto landscape.
+
+* Duration: ca. 53 min.
+* Language: en
+* Type: Documentary
+* Category: Culture / Society
+* Tags: Cryptocurrency, Open Source, Decentralization, Activism
+* YouTube likes: 1,356
+* Watch on: [YouTube](https://www.youtube.com/watch?v=yQGQXy0RIIo)
 ----
 <h3 id="vite-the-documentary">VITE: The Documentary</h3>
 
@@ -860,6 +968,33 @@ This documentary takes a deep dive into the world of Anonymous, a loosely organi
 * IMDb rating: [7.2 / 10 (10,528 votes)](https://www.imdb.com/title/tt2177843/)
 * YouTube likes: 1,048
 * Watch on: [YouTube](https://www.youtube.com/watch?v=4D1WJsdu6W8)
+----
+<h3 id="we-live-in-public">We Live in Public</h3>
+
+<img align="right" width="320" src="./generated/images/we-live-in-public.jpg" alt="We Live in Public" />
+
+We Live In Public is a 2009 documentary film by Ondi Timoner about Internet pioneer Josh Harris, indirectly highlighting the loss of privacy in the Internet age.
+
+* Type: Documentary
+* Category: Culture / Society
+* Tags: Internet, Privacy, Society, History
+* IMDb rating: [6.3 / 10 (243 votes)](https://www.imdb.com/title/tt1326201/)
+* Watch on: [Amazon Prime Video](https://www.primevideo.com/-/de/detail/We-Live-In-Public/0U7M85IDXG9VFNCL3YF9E0N5VP)
+----
+<h3 id="we-steal-secrets-the-story-of-wikileaks">We Steal Secrets: The Story of WikiLeaks</h3>
+
+<img align="right" width="320" src="./generated/images/we-steal-secrets-the-story-of-wikileaks.jpg" alt="We Steal Secrets: The Story of WikiLeaks" />
+
+A documentary that details the creation of Julian Assange&#39;s controversial website, which facilitated the largest security breach in U.S. history.
+
+* Duration: ca. 2 h 10 min.
+* Language: en, de
+* Type: Documentary
+* Category: Culture / Society
+* Tags: WikiLeaks, Whistleblowing, Security, Journalism
+* IMDb rating: [7.8 / 10 (76 votes)](https://www.imdb.com/title/tt2391809/)
+* YouTube likes: 18
+* Watch on: [Amazon Prime Video](https://www.amazon.de/gp/video/detail/amzn1.dv.gti.eca9f6cb-646d-7bdf-fe60-44b2f2f57933) | [YouTube](https://www.youtube.com/watch?v=Qhn_3WNhxEc)
 ----
 
 

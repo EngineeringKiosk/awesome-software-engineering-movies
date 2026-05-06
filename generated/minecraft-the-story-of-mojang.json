@@ -1,0 +1,40 @@
+{
+ "name": "Minecraft: The Story of Mojang",
+ "slug": "minecraft-the-story-of-mojang",
+ "links": {
+  "youtube": "https://www.youtube.com/watch?v=ggCIGOQloY4"
+ },
+ "language": [
+  "en"
+ ],
+ "subtitles": [
+  "en"
+ ],
+ "tags": [
+  "Gaming",
+  "Minecraft",
+  "Indie",
+  "History"
+ ],
+ "category": "Culture / People",
+ "type": "Documentary",
+ "title": "Minecraft: The Story of Mojang (2012)",
+ "description": "Since its development in 2009, Minecraft has taken the digital world by storm. It's now played by millions of people on a global scale. With exclusive interviews from YouTube celebrities and industry experts, this documentary takes an in-depth look at how one game took over the gaming world and follows the story of Mojang, the small Swedish studio behind it.",
+ "imdbID": "tt2299435",
+ "duration": "PT1H44M18S",
+ "publishedAt": "2024-02-07T15:14:08Z",
+ "channel": {
+  "id": "UC7JNM3FIiFvk7XexXPIjZAw",
+  "title": "Reuploads and Mirrors"
+ },
+ "ratings": {
+  "youtube": {
+   "likeCount": 1361,
+   "refreshedAt": "2026-05-06T08:44:42Z"
+  }
+ },
+ "views": {
+  "youtube": 34282
+ },
+ "image": "images/minecraft-the-story-of-mojang.jpg"
+}
