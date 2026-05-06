@@ -1,0 +1,19 @@
+name: General Magic
+type: Documentary
+category: Culture / People
+links:
+  youtube: https://www.youtube.com/watch?v=tuFl4WEXBrk
+imdbID: tt6849786
+youtubeTrailerForThumbnail: https://www.youtube.com/watch?v=uTdyb-RWNKo
+language:
+  - en
+  - de
+tags:
+  - Apple
+  - Startups
+  - History
+  - Silicon Valley
+description: The story of the most influential Silicon Valley startup nobody has ever heard of. General Magic spun out of Apple in 1990 to create the precursor of the smartphone, but the world wasn't ready - the fame and fortune went to others years later with similar products.
+localized:
+  de:
+    description: Diese Dokumentation erzählt die Geschichte von drei Tüftlern, die vor fast 30 Jahren einen Vorreiter des Handys auf den Markt bringen wollten. Die Welt war jedoch offenbar noch nicht bereit für die visionäre Idee - den Ruhm und das große Geld fuhren Jahre später mit einem ähnlichen Produkt andere ein.

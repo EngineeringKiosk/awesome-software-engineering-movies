@@ -1,0 +1,19 @@
+name: "Countdown: Inspiration4 Mission to Space"
+type: Documentary
+category: Culture / Society
+links:
+  netflix: https://www.netflix.com/title/81441273
+imdbID: tt15679706
+youtubeTrailerForThumbnail: https://www.youtube.com/watch?v=D38W150h9a4
+language:
+  - en
+  - de
+tags:
+  - Space
+  - SpaceX
+  - Engineering
+  - History
+description: A trailblazing mission captured in near-real time as four crew members make history in the first all-civilian mission into orbit.
+localized:
+  de:
+    title: "Countdown: Die Weltraummission Inspiration4"

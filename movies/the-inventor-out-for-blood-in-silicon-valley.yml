@@ -1,0 +1,20 @@
+name: "The Inventor: Out for Blood in Silicon Valley"
+type: Documentary
+category: Culture / People
+links:
+  hbo_max: https://play.hbomax.com/video/watch/60158ef5-c8c8-4d15-8d61-211d6e97e42c
+  amazon_prime_video: https://www.amazon.de/gp/video/detail/amzn1.dv.gti.68c2a9a4-b9b2-4b6d-a7cb-8d1f2f6a1b11
+imdbID: tt8488126
+youtubeTrailerForThumbnail: https://www.youtube.com/watch?v=wtDaP18OGfw
+language:
+  - en
+  - de
+tags:
+  - Startups
+  - Fraud
+  - Silicon Valley
+  - Health Tech
+description: The story of Theranos, a multi-billion dollar tech company, its founder Elizabeth Holmes, the youngest self-made female billionaire, and the massive fraud that collapsed the company.
+localized:
+  de:
+    title: Die Erfinderin - Böses Blut im Silicon Valley
