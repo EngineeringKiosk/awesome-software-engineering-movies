@@ -43,3 +43,29 @@ func ParseVideoID(rawURL string) (string, bool) {
 
 	return "", false
 }
+
+// IsNonVideoURL reports whether rawURL is a recognised YouTube URL
+// that intentionally does not point at a single video — currently
+// playlist URLs (/playlist?list=…) and show URLs (/show/…). Callers
+// use this to skip "could not parse video ID" warnings for entries
+// that legitimately reference a series or playlist instead of a
+// single video.
+func IsNonVideoURL(rawURL string) bool {
+	u, err := url.Parse(strings.TrimSpace(rawURL))
+	if err != nil {
+		return false
+	}
+	switch strings.ToLower(u.Host) {
+	case "youtube.com", "www.youtube.com", "m.youtube.com":
+	default:
+		return false
+	}
+	path := strings.Trim(u.Path, "/")
+	if path == "playlist" {
+		return true
+	}
+	if strings.HasPrefix(path, "show/") {
+		return true
+	}
+	return false
+}
