@@ -25,6 +25,18 @@ func TestDetect(t *testing.T) {
 		{"amazon co.uk video", "https://www.amazon.co.uk/gp/video/detail/abc", AmazonPrimeVideo, true},
 		{"amazon product page not detected", "https://www.amazon.de/dp/B08XXX", "", false},
 		{"amazon home not detected", "https://www.amazon.com/", "", false},
+		{"primevideo locale detail", "https://www.primevideo.com/-/de/detail/0GLUAOADBR7IWUD0NZPU7JFI11", AmazonPrimeVideo, true},
+		{"primevideo bare host root not detected", "https://www.primevideo.com/", "", false},
+
+		{"hbomax play title", "https://play.hbomax.com/video/watch/60158ef5", HBOMax, true},
+		{"max.com title", "https://www.max.com/title/abc123", HBOMax, true},
+		{"hbomax bare host root not detected", "https://play.hbomax.com/", "", false},
+
+		{"apple tv movie", "https://tv.apple.com/de/movie/print-the-legend/umc.cmc.4ca9", AppleTV, true},
+		{"apple tv show", "https://tv.apple.com/us/show/foundation/umc.cmc.x", AppleTV, true},
+		{"apple tv root not detected", "https://tv.apple.com/de", "", false},
+
+		{"rtl plus", "https://plus.rtl.de/picture-a-scientist-frauen-der-wissenschaft-p_1014", RTLPlus, true},
 
 		{"bpb mediathek", "https://www.bpb.de/mediathek/video/273199/the-cleaners/", BPB, true},
 		{"bpb bare host", "https://bpb.de/mediathek/video/123/foo/", BPB, true},
@@ -50,6 +62,9 @@ func TestIsKnown(t *testing.T) {
 		Netflix:          true,
 		AmazonPrimeVideo: true,
 		BPB:              true,
+		HBOMax:           true,
+		AppleTV:          true,
+		RTLPlus:          true,
 		"vimeo":          false,
 		"":               false,
 	}
@@ -66,6 +81,9 @@ func TestDisplay(t *testing.T) {
 		Netflix:          "Netflix",
 		AmazonPrimeVideo: "Amazon Prime Video",
 		BPB:              "Bundeszentrale für politische Bildung",
+		HBOMax:           "HBO Max",
+		AppleTV:          "Apple TV",
+		RTLPlus:          "RTL+",
 		"":               "",
 		"vimeo":          "vimeo", // unknown slug → returned verbatim
 	}
