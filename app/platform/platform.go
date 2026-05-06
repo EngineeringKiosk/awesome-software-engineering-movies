@@ -19,6 +19,9 @@ const (
 	Netflix          = "netflix"
 	AmazonPrimeVideo = "amazon_prime_video"
 	BPB              = "bpb"
+	HBOMax           = "hbo_max"
+	AppleTV          = "apple_tv"
+	RTLPlus          = "rtl_plus"
 )
 
 // displayNames maps slugs to the human-readable names rendered into
@@ -30,6 +33,9 @@ var displayNames = map[string]string{
 	Netflix:          "Netflix",
 	AmazonPrimeVideo: "Amazon Prime Video",
 	BPB:              "Bundeszentrale für politische Bildung",
+	HBOMax:           "HBO Max",
+	AppleTV:          "Apple TV",
+	RTLPlus:          "RTL+",
 }
 
 // Detect inspects a link and returns the platform slug it belongs to,
@@ -64,8 +70,12 @@ func Detect(link string) (string, bool) {
 	// Amazon Prime Video: any amazon.<tld> host where the path lives
 	// under /gp/video/ or /video/. The host alone is not enough —
 	// amazon.de also serves books and physical goods.
+	// primevideo.com is the dedicated Prime Video host (any /detail/
+	// page); it is video-only so the host check is sufficient.
 	case strings.HasPrefix(host, "amazon.") &&
 		(strings.HasPrefix(path, "/gp/video/") || strings.HasPrefix(path, "/video/")):
+		return AmazonPrimeVideo, true
+	case host == "primevideo.com" && strings.Contains(path, "/detail/"):
 		return AmazonPrimeVideo, true
 
 	// bpb: Bundeszentrale für politische Bildung media library.
@@ -73,6 +83,24 @@ func Detect(link string) (string, bool) {
 	// (essays, dossiers) we don't want to misclassify.
 	case host == "bpb.de" && strings.HasPrefix(path, "/mediathek/"):
 		return BPB, true
+
+	// HBO Max: WB's streaming service, with both the legacy
+	// play.hbomax.com domain and the newer max.com brand.
+	case (host == "play.hbomax.com" || host == "hbomax.com" || host == "max.com") &&
+		(strings.HasPrefix(path, "/video/") || strings.HasPrefix(path, "/title/") || strings.HasPrefix(path, "/movie/") || strings.HasPrefix(path, "/show/")):
+		return HBOMax, true
+
+	// Apple TV: tv.apple.com hosts both the rental store and the
+	// Apple TV+ subscription catalogue. URLs include a locale segment
+	// (e.g. /de/movie/...), so match on the substring rather than
+	// the path prefix.
+	case host == "tv.apple.com" &&
+		(strings.Contains(path, "/movie/") || strings.Contains(path, "/show/") || strings.Contains(path, "/episode/")):
+		return AppleTV, true
+
+	// RTL+: German free + premium streaming service.
+	case host == "plus.rtl.de":
+		return RTLPlus, true
 	}
 
 	return "", false

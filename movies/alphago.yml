@@ -1,0 +1,12 @@
+name: AlphaGo - The Movie
+type: Documentary
+category: Culture / Society
+links:
+  youtube: https://www.youtube.com/watch?v=WXuK6gekU1Y
+imdbID: tt6700846
+tags:
+  - AI
+  - Machine Learning
+  - DeepMind
+  - Games
+description: With more board configurations than there are atoms in the universe, the ancient Chinese game of Go has long been considered a grand challenge for artificial intelligence. This film follows DeepMind's AlphaGo as it takes on legendary Go champion Lee Sedol in a five-game match in Seoul.

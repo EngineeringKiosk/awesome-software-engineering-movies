@@ -1,0 +1,19 @@
+name: "Inside Bill's Brain: Decoding Bill Gates"
+type: Documentary
+category: Culture / People
+links:
+  netflix: https://www.netflix.com/title/80184771
+imdbID: tt10970908
+youtubeTrailerForThumbnail: https://www.youtube.com/watch?v=aCv29JKmHNY
+language:
+  - en
+  - de
+tags:
+  - Microsoft
+  - Bill Gates
+  - History
+  - Philanthropy
+description: A documentary that tells Bill Gates' life story as he pursues solutions to some of the world's most complex problems.
+localized:
+  de:
+    title: Der Mensch Bill Gates

@@ -1,0 +1,19 @@
+name: Deep Web
+type: Documentary
+category: Culture / Society
+links:
+  youtube: https://www.youtube.com/watch?v=w4P-eW0UdKo
+  amazon_prime_video: https://www.amazon.de/gp/video/detail/amzn1.dv.gti.08b3c0a6-d2f2-65d1-a49d-4063ffe2d328
+imdbID: tt3312868
+language:
+  - en
+  - de
+tags:
+  - Security
+  - Tor
+  - Cryptocurrency
+  - Society
+description: A feature documentary that explores the rise of a new Internet; decentralized, encrypted, dangerous and beyond the law; with particular focus on the FBI capture of the Tor hidden service Silk Road, and the judicial aftermath.
+localized:
+  de:
+    title: Deep Web - Der Untergang der Silk Road

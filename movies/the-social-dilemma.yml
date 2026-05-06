@@ -1,0 +1,30 @@
+name: The Social Dilemma
+type: Documentary
+category: Culture / Society
+links:
+  netflix: https://www.netflix.com/title/81254224
+imdbID: tt11464826
+youtubeTrailerForThumbnail: https://www.youtube.com/watch?v=uaaC57tcci0
+language:
+  - en
+  - de
+tags:
+  - Social Media
+  - Privacy
+  - Society
+  - Ethics
+description: >-
+  The Social Dilemma is a powerful exploration of the disproportionate
+  impact that a relatively small number of engineers in Silicon Valley
+  have over the way we think, act, and live our lives. The film deftly
+  tackles an underlying cause of viral conspiracy theories, teenage
+  mental health issues, rampant misinformation and political
+  polarization. Through a combination of documentary investigation and
+  narrative drama, the filmmakers expose the hidden machinations behind
+  everyone's favorite social media and search platforms, featuring
+  interviews with high-profile tech whistleblowers including Tristan
+  Harris, Justin Rosenstein, Tim Kendall, Cathy O'Neil, and Rashida
+  Richardson.
+localized:
+  de:
+    title: Das Dilemma mit den sozialen Medien
