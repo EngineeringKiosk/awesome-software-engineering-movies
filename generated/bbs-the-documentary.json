@@ -18,12 +18,20 @@
  "type": "Documentary",
  "title": "",
  "description": "Through eight episodes, director Jason Scott covers the 25 year history of the Dial-Up Bulletin Board System, a modem-connected computer system that let others connect to a computer over a phone line and leave messages and trade files. Containing 200 interviews, episodes mostly consist of elaborate montages of dozens of people composing a narrative.",
+ "imdbID": "tt0460402",
  "youtubeTrailerForThumbnail": "https://www.youtube.com/watch?v=nO5vjmDFZaI",
  "duration": "",
  "publishedAt": "",
  "channel": {
   "id": "",
   "title": ""
+ },
+ "ratings": {
+  "imdb": {
+   "averageRating": 8.4,
+   "numVotes": 362,
+   "refreshedAt": "2026-05-06T10:57:37Z"
+  }
  },
  "image": "images/bbs-the-documentary.jpg"
 }

@@ -200,6 +200,7 @@ Through eight episodes, director Jason Scott covers the 25 year history of the D
 * Type: Documentary
 * Category: Culture / Society
 * Tags: Internet History, BBS, Online Communities, Modems
+* IMDb rating: [8.4 / 10 (362 votes)](https://www.imdb.com/title/tt0460402/)
 * Watch on: [YouTube](https://www.youtube.com/playlist?list=PL7nj3G6Jpv2G6Gp6NvN1kUtQuW8QshBWE)
 ----
 <h3 id="citizenfour">Citizenfour</h3>
@@ -463,6 +464,7 @@ Check out the Half-Life 25th Anniversary Update, restored content, new multiplay
 * Type: Documentary
 * Category: Culture / Society
 * Tags: Game Development, Valve, History
+* IMDb rating: [7.5 / 10 (257 votes)](https://www.imdb.com/title/tt30060427/)
 * YouTube likes: 280,139
 * Watch on: [YouTube](https://www.youtube.com/watch?v=TbZ3HzvFEto)
 ----
@@ -772,6 +774,7 @@ Thanks to our sponsors ...
 * Type: Documentary
 * Category: Programming Languages
 * Tags: Programming Languages, Open Source, History
+* IMDb rating: [8.3 / 10 (11 votes)](https://www.imdb.com/title/tt38589263/)
 * YouTube likes: 33,496
 * Watch on: [YouTube](https://www.youtube.com/watch?v=GfH4QL4VqJ0)
 ----
