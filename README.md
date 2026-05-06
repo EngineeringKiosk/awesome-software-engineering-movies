@@ -110,7 +110,7 @@ No one knows this story. In Berlin in the 90s, two friends, Carsten and Juri, cr
 
 * Language: en, de
 * Type: TV Series
-* Category: Culture / People
+* Category: Hollywood style
 * Tags: Startups, History, Patents, Open Source
 * Watch on: [Netflix](https://www.netflix.com/title/81074012)
 ----
@@ -275,7 +275,7 @@ A trailblazing mission captured in near-real time as four crew members make hist
 
 * Language: en, de
 * Type: Documentary
-* Category: Culture / Society
+* Category: Culture / People
 * Tags: Space, SpaceX, Engineering, History
 * Watch on: [Netflix](https://www.netflix.com/title/81441273)
 ----
@@ -462,7 +462,7 @@ Check out the Half-Life 25th Anniversary Update, restored content, new multiplay
 * Duration: ca. 1 h 5 min.
 * Language: en
 * Type: Documentary
-* Category: Culture / Society
+* Category: Culture / People
 * Tags: Game Development, Valve, History
 * IMDb rating: [7.5 / 10 (257 votes)](https://www.imdb.com/title/tt30060427/)
 * YouTube likes: 280,139
@@ -487,7 +487,7 @@ I Am Human (2019) is a documentary exploring the lives of three individuals - Bi
 Go behind the scenes of the independent video game industry as this documentary follows the journey of passionate developers striving to create their own unique games. Through intimate interviews and gripping storytelling, &#34;Indie Game: The Movie&#34; reveals the struggles, triumphs, and sacrifices these developers make in pursuit of their dreams, offering an inspiring glimpse into the world of indie game development.
 
 * Type: Documentary
-* Category: Culture / Society
+* Category: Culture / People
 * Tags: Game Development, Indie Games, Software Engineering
 * IMDb rating: [7.6 / 10 (21,724 votes)](https://www.imdb.com/title/tt1942884/)
 * Watch on: [Netflix](https://www.netflix.com/title/70229918)
@@ -740,7 +740,7 @@ Despite the minimal news coverage, sexual harassment and gender inequality again
 Follows the people racing to bring the hot new 3D printing technology to your home, documenting the &#34;Macintosh Moment&#34; of this revolution and exploring what it takes to live the American Dream.
 
 * Type: Documentary
-* Category: Culture / Society
+* Category: Culture / People
 * Tags: Hardware, 3D Printing, Startups, Maker Culture
 * Watch on: [Apple TV](https://tv.apple.com/de/movie/print-the-legend/umc.cmc.4ca9o2wed84i5ptt1fccfu91o) | [Netflix](https://www.netflix.com/title/80005444)
 ----
@@ -996,7 +996,7 @@ Die-hard gamers compete to break world records on classic arcade games. A dedica
 * Duration: ca. 1 h 23 min.
 * Language: en, de
 * Type: Documentary
-* Category: Culture / Society
+* Category: Culture / People
 * Tags: Gaming, Arcade, History, Competition
 * IMDb rating: [8.0 / 10 (38,575 votes)](https://www.imdb.com/title/tt0923752/)
 * YouTube likes: 4,851
