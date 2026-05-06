@@ -189,6 +189,7 @@ var validCategories = []string{
 	"Culture / Society",
 	"Culture / People",
 	"Applications / Frameworks / Systems",
+	"Hollywood style",
 }
 
 // validTypes enumerates the format classifications a curated entry

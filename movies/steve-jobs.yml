@@ -1,0 +1,38 @@
+name: Steve Jobs
+type: Movie
+category: Hollywood style
+links:
+  amazon_prime_video: https://www.amazon.de/gp/video/detail/amzn1.dv.gti.08a9f70b-7712-cd47-4e13-d0e9613e58dd
+  apple_tv: https://tv.apple.com/de/movie/steve-jobs/umc.cmc.20qugmesej4yg33x3e4uev8xh
+  youtube: https://www.youtube.com/watch?v=wPqfVEOCIqE
+imdbID: tt2080374
+language:
+  - en
+  - de
+tags:
+  - Apple
+  - Biopic
+  - Product Launches
+description: >-
+  "Steve Jobs" is an authentic biopic about the man behind the
+  digital revolution. The film reveals what went on behind the
+  scenes in the days leading up to the Apple CEO's most significant
+  product launches. A compelling portrayal that shows the unique
+  visionary from a side never seen before! Written by Oscar® winner
+  Aaron Sorkin ("The Social Network") and directed by Oscar® winner
+  Danny Boyle ("Slumdog Millionaire"), the drama shines with an
+  impressive star-studded cast, including: Michael Fassbender, Kate
+  Winslet, Seth Rogen, and Jeff Daniels.
+localized:
+  de:
+    description: >-
+      „Steve Jobs" ist ein authentisches Biopic über den Mann hinter
+      der digitalen Revolution. Der Film enthüllt, was sich kurz vor
+      den bedeutendsten Produktpräsentationen des Apple-Chefs hinter
+      den Kulissen abspielte. Eine eindrucksvolle Darstellung, die
+      den einzigartigen Visionär von einer noch nie zuvor gesehenen
+      Seite zeigt! Aus der Feder von Oscar®-Preisträger Aaron Sorkin
+      („The Social Network") und unter der Regie von
+      Oscar®-Preisträger Danny Boyle („Slumdog Millionaire") glänzt
+      das Drama mit beeindruckender Starbesetzung, darunter: Michael
+      Fassbender, Kate Winslet, Seth Rogen und Jeff Daniels.

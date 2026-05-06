@@ -40,12 +40,16 @@ Out of scope for now:
 - Conference talks unless they are explicitly long-form / documentary
   in nature.
 - Content with no English audio and no English subtitles.
-- Purely fictional movies / TV series — invented characters and
-  plots, even with a tech setting (e.g. *Mr. Robot*, *Halt and
-  Catch Fire*, cyber-thrillers). Biopics and dramatised true
-  stories about real engineers or real events (e.g. *The Social
-  Network*, *Pirates of Silicon Valley*) ARE in scope; use
-  `type: Movie` for those.
+- Plot-driven cyber-thrillers without a real-world tech-culture
+  anchor (e.g. *Mr. Robot*, *Halt and Catch Fire*) — the focus is
+  on the thriller plot, not on engineering culture. Biopics and
+  dramatised true stories about real engineers or real events
+  (e.g. *The Social Network*, *Pirates of Silicon Valley*,
+  *The Imitation Game*) and scripted comedies / dramas that are
+  recognisably about software-engineering culture (e.g. HBO's
+  *Silicon Valley*, *The IT Crowd*) ARE in scope; use
+  `type: Movie` or `type: TV Series` and
+  `category: Hollywood style` for those.
 
 ## How to add an entry
 
@@ -93,7 +97,7 @@ non-commercial dataset.
 | `language`    | list[string]   | no       | YAML > API      | ISO 639-1 codes (`en`, `de`, `fr`, …). If omitted, the tooling falls back to the YouTube `defaultAudioLanguage` and stores it as a single-element list. Set it manually when the API returns nothing or when the video has multiple audio languages. |
 | `description` | string         | no       | YAML > API      | Free text. If omitted, the tooling uses the video's YouTube description. Set it manually when the YouTube description is empty, full of unrelated boilerplate, or otherwise unhelpful for skim-reading the README. |
 | `tags`        | list[string]   | yes      | YAML            | Subject-matter tags. Be coarse — better to have 3–5 broad tags than 15 narrow ones. |
-| `category`    | string         | yes      | YAML            | Coarse subject classification. One of: `Programming Languages`, `Culture / Society`, `Culture / People`, `Applications / Frameworks / Systems`. Complementary to `tags` (one classification, several subject tags). The tooling warns on values outside the set but keeps them. |
+| `category`    | string         | yes      | YAML            | Coarse subject classification. One of: `Programming Languages`, `Culture / Society`, `Culture / People`, `Applications / Frameworks / Systems`, `Hollywood style`. Complementary to `tags` (one classification, several subject tags). The tooling warns on values outside the set but keeps them. |
 | `type`        | string         | yes      | YAML            | Format classification. One of: `Documentary`, `Movie`, `TV Series`. Same warn-but-keep semantics as `category`. |
 | `imdbID`      | string         | no       | YAML            | IMDb tconst (e.g. `tt3268458`). Set this only when the entry is also catalogued on IMDb so the tooling can pull the IMDb rating from the public dataset. Most YouTube documentaries are not on IMDb — leave this unset for those. |
 | `localized`   | map[code → object] | no   | YAML            | Per-language alternate-version overrides. Keys are ISO 639-1 codes (`de`, `es`, …). Each value supports optional `title`, `description`, and `links` (same shape as the top-level `links` map) — provide whichever differs from the English top-level. The `links` override is per-key: only the platform slugs you list override their top-level counterparts; every other top-level platform is inherited unchanged. Alternate links are not enriched (no extra YouTube/IMDb API calls); they round-trip from YAML to JSON unchanged. |
