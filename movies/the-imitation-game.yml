@@ -1,0 +1,54 @@
+name: The Imitation Game
+type: Movie
+category: Hollywood style
+links:
+  amazon_prime_video: https://www.amazon.de/gp/video/detail/amzn1.dv.gti.9ea9f6d8-dcfc-e49d-ffea-c3f92245045d
+  apple_tv: https://tv.apple.com/de/movie/the-imitation-game---ein-streng-geheimes-leben/umc.cmc.59i1cp4fboyedvyq6zlx3bymd
+  youtube: https://www.youtube.com/watch?v=Kauqv7p-8b4
+imdbID: tt2084970
+language:
+  - en
+  - de
+tags:
+  - Cryptography
+  - History
+  - WWII
+  - Alan Turing
+description: >-
+  The Enigma is giving researchers a headache: the German coding
+  machine encrypts the radio messages of the Wehrmacht and the Navy.
+  Mathematicians and other researchers at Bletchley Park in Britain
+  are working around the clock to crack the German code. Finally, a
+  young genius, Alan Turing (Benedict Cumberbatch), achieves a
+  breakthrough - from then on, the German radio messages are no
+  longer a secret to the Allies. Now, however, the task is to make
+  this breakthrough the country's best-kept secret. Only in this way
+  can the Germans be prevented from deploying a new encryption
+  system. Turing becomes a celebrated star. But he, too, has a secret
+  that must not fall into the wrong hands: he is gay. An "offense"
+  that, in Britain at that time, is punishable by imprisonment and
+  chemical castration. His superior, MI6/SIS chief Stewart Menzies
+  (Mark Strong), in particular, views his most important keeper of
+  secrets with suspicion and is unwilling to tolerate even the
+  slightest sign of weakness.
+localized:
+  de:
+    title: The Imitation Game - Ein streng geheimes Leben
+    description: >-
+      Die Enigma zerbricht den Forschern den Kopf: Das deutsche
+      Kodiergerät verschlüsselt die Funksprüche der Wehrmacht und
+      Marine. Mit Hochdruck arbeiten Mathematiker und andere Forscher
+      im britischen Bletchley Park daran, den deutschen Code zu
+      knacken. Schließlich gelingt einem jungen Genie, Alan Turing
+      (Benedict Cumberbatch), der Durchbruch - die deutschen
+      Funksprüche sind fortan kein Geheimnis mehr für die Alliierten.
+      Jetzt gilt es jedoch, diesen Fortschritt zum bestgehüteten
+      Geheimnis des Landes zu machen. Nur so kann verhindert werden,
+      dass die Deutschen eine neue Verschlüsselung einsetzen. Turing
+      wird zum gefeierten Star. Doch auch er hat ein Geheimnis, das
+      nicht an falsche Ohren gelangen darf: Er ist homosexuell. Ein
+      "Vergehen", das im Großbritannien dieser Tage mit Haftstrafen
+      und chemischen Kastrationen geahndet wird. Besonders sein
+      Vorgesetzter, der MI6/SIS-Chef Stewart Menzies (Mark Strong),
+      blickt mit Misstrauen auf seinen wichtigsten Geheimnisträger und
+      ist nicht bereit, das leiseste Zeichen von Schwäche zu dulden.

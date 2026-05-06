@@ -1,0 +1,34 @@
+name: "23"
+type: Movie
+category: Hollywood style
+links:
+  amazon_prime_video: https://www.amazon.de/gp/video/detail/amzn1.dv.gti.3e7449a8-4bd6-409b-a1b0-56fc2762b43c
+  apple_tv: https://tv.apple.com/de/movie/23/umc.cmc.1n7aar1t57m6rndfhm9u6vixo
+  youtube: https://www.youtube.com/watch?v=e2DCvHZGGH4
+imdbID: tt0126765
+language:
+  - en
+  - de
+tags:
+  - Hacking
+  - History
+  - Conspiracy
+  - Cold War
+description: >-
+  Nineteen-year-old Karl is fascinated by the fictional character
+  Hagbard Celine and sets out to uncover the inner workings of
+  political mechanisms. He discovers things that lead him to believe
+  in a conspiracy. Karl's talent for hacking into global data
+  networks and his unshakeable belief in justice drive him into the
+  arms of the KGB. He loses control.
+localized:
+  de:
+    title: 23 - Nichts ist so wie es scheint
+    description: >-
+      Der 19-jährige Karl ist fasziniert von der fiktiven Romanfigur
+      Hagbard Celine und macht sich auf die Suche nach den
+      Hintergründen politischer Mechanismen. Er entdeckt Dinge, die
+      ihn an eine Verschwörung glauben lassen. Karls Begabung, sich
+      in globale Datennetze einzuklinken, und sein unerschütterlicher
+      Glaube an die Gerechtigkeit, treiben ihn in die Arme des KGBs.
+      Er verliert die Kontrolle.

@@ -1,0 +1,35 @@
+name: Snowden
+type: Movie
+category: Hollywood style
+links:
+  amazon_prime_video: https://www.amazon.de/gp/video/detail/amzn1.dv.gti.2088b418-e12c-4a0d-b569-8542561d890d
+  apple_tv: https://tv.apple.com/de/movie/snowden/umc.cmc.3j73epo0sky4mob3jog0xxw5r
+  youtube: https://www.youtube.com/watch?v=0l78qbhP3QU
+imdbID: tt3774114
+language:
+  - en
+  - de
+tags:
+  - Surveillance
+  - Privacy
+  - Whistleblowing
+  - NSA
+description: >-
+  Traitor or hero. What would you do if you knew your government was
+  abusing the power entrusted to it? How far would your resistance
+  go? What sacrifices would you be willing to make? Snowden, the
+  international thriller from Oscar® winner Oliver Stone, brings the
+  life of the controversial whistleblower Edward Snowden to the big
+  screen. The story of an ordinary man who could not reconcile his
+  conscience with remaining silent...
+localized:
+  de:
+    description: >-
+      Verräter oder Held. Was würden Sie tun, wenn Sie wüssten, dass
+      Ihre Regierung die ihr verliehene Macht missbraucht? Wie weit
+      würde Ihr Widerstand gehen? Welche Opfer wären Sie bereit zu
+      erbringen? Snowden, der internationale Thriller von
+      Oscar®-Preisträger Oliver Stone, bringt das Leben des
+      kontrovers diskutierten Whistleblowers Edward Snowden auf die
+      Kinoleinwand. Die Geschichte eines normalen Mannes, der es
+      nicht mit seinem Gewissen vereinbaren konnte, zu schweigen...

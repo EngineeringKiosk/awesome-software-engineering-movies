@@ -1,0 +1,33 @@
+name: The IT Crowd
+type: TV Series
+category: Hollywood style
+links:
+  amazon_prime_video: https://www.amazon.de/gp/video/detail/B00IB0EEG2/
+  apple_tv: https://tv.apple.com/de/season/season-1/umc.cmc.6eshvcv6fxiwz658zv0krognk?showId=umc.cmc.14z35ywo1dbp5e81sh0yj6520
+imdbID: tt0487831
+youtubeTrailerForThumbnail: https://www.youtube.com/watch?v=rksCTVFtjM4
+language:
+  - en
+  - de
+tags:
+  - Comedy
+  - Workplace
+  - Sitcom
+  - British
+description: >-
+  Moss and Roy, two computer experts, eke out a miserable existence in
+  the basement of Reynholm Industries. Their colleagues hold them in
+  low regard, so they've grown quite gruff in their dealings with
+  others. It isn't until they get a new boss, Jen, that their daily
+  lives start to pick up again. Is this attractive young woman the key
+  to helping these two nerds escape their obscurity?
+localized:
+  de:
+    description: >-
+      Die beiden Computerfachmänner Moss und Roy fristen ihr trauriges
+      Arbeitsleben im Keller der Firma Reynholm Industries. Sie werden
+      von ihren Kollegen wenig geachtet und haben sich deshalb
+      mittlerweile eine recht ruppige Umgangsform angewöhnt. Erst als
+      sie mit Jen eine neue Vorgesetzte erhalten, kommt wieder Schwung
+      in ihren Alltag. Ist die attraktive junge Frau der Weg aus der
+      Bedeutungslosigkeit für die beiden Nerds?
