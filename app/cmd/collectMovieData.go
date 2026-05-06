@@ -126,7 +126,10 @@ func cmdCollectMovieData(cmd *cobra.Command, args []string) error {
 		if id, ok := youtube.ParseVideoID(ytURL); ok {
 			info.VideoID = id
 			ids = append(ids, id)
-		} else {
+		} else if !youtube.IsNonVideoURL(ytURL) {
+			// Show and playlist URLs are legitimate catalogue entries
+			// that simply do not map to a single video; warning on
+			// them would be noise.
 			log.Printf("WARNING: could not parse YouTube video ID from %q in %s", ytURL, absJsonFilePath)
 		}
 	}
