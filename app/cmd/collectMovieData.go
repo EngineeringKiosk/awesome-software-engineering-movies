@@ -385,9 +385,13 @@ const placeholderImage = "images/placeholder.svg"
 
 // populateThumbnail fills info.Image using a layered fallback:
 //
-//  1. Primary YouTube link (info.VideoID).
-//  2. Curated YouTube trailer URL (info.YouTubeTrailerForThumbnail).
+//  1. Curated YouTube trailer URL (info.YouTubeTrailerForThumbnail).
+//  2. Primary YouTube link (info.VideoID).
 //  3. Bundled placeholder SVG when the entry has no other image.
+//
+// The curated trailer takes precedence so a maintainer can override
+// the auto-derived poster when the primary video's thumbnail is
+// missing or unrepresentative.
 //
 // The cache-keep semantic from the previous implementation is
 // preserved: if every YouTube candidate fails but info.Image is
@@ -395,9 +399,6 @@ const placeholderImage = "images/placeholder.svg"
 // alone. The placeholder is only chosen when there is nothing else.
 func populateThumbnail(info *MovieInformation, imageDir string) {
 	var candidates []string
-	if info.VideoID != "" {
-		candidates = append(candidates, info.VideoID)
-	}
 	if info.YouTubeTrailerForThumbnail != "" {
 		if id, ok := youtube.ParseVideoID(info.YouTubeTrailerForThumbnail); ok {
 			candidates = append(candidates, id)
@@ -405,6 +406,9 @@ func populateThumbnail(info *MovieInformation, imageDir string) {
 			log.Printf("WARNING: %s: youtubeTrailerForThumbnail %q is not a YouTube URL; ignoring",
 				info.Name, info.YouTubeTrailerForThumbnail)
 		}
+	}
+	if info.VideoID != "" {
+		candidates = append(candidates, info.VideoID)
 	}
 
 	for _, id := range candidates {
