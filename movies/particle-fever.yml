@@ -1,0 +1,21 @@
+name: Particle Fever
+type: Documentary
+category: Culture / Society
+links:
+  youtube: https://www.youtube.com/watch?v=WWhHlxhNn58
+  netflix: https://www.netflix.com/title/70296323
+  amazon_prime_video: https://www.amazon.de/gp/video/detail/amzn1.dv.gti.d0a9f6bd-4024-e2a9-6abb-567e60e33f6f
+  rtl_plus: https://plus.rtl.de/particle-fever-die-jagd-nach-dem-higgs-p_899
+imdbID: tt2125566
+language:
+  - en
+  - de
+tags:
+  - Science
+  - Physics
+  - CERN
+  - Engineering
+description: As the Large Hadron Collider is about to be launched for the first time, physicists are on the cusp of the greatest scientific discovery of all time - or perhaps their greatest failure.
+localized:
+  de:
+    title: Particle Fever - Die Jagd nach dem Higgs
