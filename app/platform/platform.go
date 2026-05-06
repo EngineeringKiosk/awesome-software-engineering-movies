@@ -85,9 +85,12 @@ func Detect(link string) (string, bool) {
 		return BPB, true
 
 	// HBO Max: WB's streaming service, with both the legacy
-	// play.hbomax.com domain and the newer max.com brand.
+	// play.hbomax.com domain and the newer max.com brand. Catalogue
+	// URLs include a locale prefix on hbomax.com
+	// (e.g. /tr/en/movies/...), so match on substrings rather than
+	// the path prefix.
 	case (host == "play.hbomax.com" || host == "hbomax.com" || host == "max.com") &&
-		(strings.HasPrefix(path, "/video/") || strings.HasPrefix(path, "/title/") || strings.HasPrefix(path, "/movie/") || strings.HasPrefix(path, "/show/")):
+		(strings.Contains(path, "/video/") || strings.Contains(path, "/title/") || strings.Contains(path, "/movie/") || strings.Contains(path, "/movies/") || strings.Contains(path, "/show/") || strings.Contains(path, "/series/")):
 		return HBOMax, true
 
 	// Apple TV: tv.apple.com hosts both the rental store and the

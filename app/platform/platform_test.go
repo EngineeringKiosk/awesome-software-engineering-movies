@@ -30,6 +30,7 @@ func TestDetect(t *testing.T) {
 
 		{"hbomax play title", "https://play.hbomax.com/video/watch/60158ef5", HBOMax, true},
 		{"max.com title", "https://www.max.com/title/abc123", HBOMax, true},
+		{"hbomax locale movies", "https://www.hbomax.com/tr/en/movies/kill-chain/abc", HBOMax, true},
 		{"hbomax bare host root not detected", "https://play.hbomax.com/", "", false},
 
 		{"apple tv movie", "https://tv.apple.com/de/movie/print-the-legend/umc.cmc.4ca9", AppleTV, true},
