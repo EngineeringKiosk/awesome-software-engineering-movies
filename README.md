@@ -4,9 +4,11 @@ A curated list of movies, documentaries and other related material to watch rela
 
 ## Table of Contents
 
-* Entries: 57
-* [TV Series](#tv-series) (1)
+* Entries: 66
+* [TV Series](#tv-series) (3)
+  * [Silicon Valley](#silicon-valley)
   * [The Billion Dollar Code](#the-billion-dollar-code)
+  * [The IT Crowd](#the-it-crowd)
 * [Documentaries](#documentaries) (56)
   * [AlphaGo - The Movie](#alphago-the-movie)
   * [Angular: The Documentary](#angular-the-documentary)
@@ -64,11 +66,32 @@ A curated list of movies, documentaries and other related material to watch rela
   * [We Are Legion: The Story of the Hacktivists](#we-are-legion-the-story-of-the-hacktivists)
   * [We Live in Public](#we-live-in-public)
   * [We Steal Secrets: The Story of WikiLeaks](#we-steal-secrets-the-story-of-wikileaks)
+* [Movies](#movies) (7)
+  * [23](#23)
+  * [Hidden Figures](#hidden-figures)
+  * [Pirates of Silicon Valley](#pirates-of-silicon-valley)
+  * [Snowden](#snowden)
+  * [Steve Jobs](#steve-jobs)
+  * [The Imitation Game](#the-imitation-game)
+  * [Underground: The Julian Assange Story](#underground-the-julian-assange-story)
 * [How to contribute](#how-to-contribute)
 * [Projects like us](#projects-like-us)
 
 ## TV Series
 
+<h3 id="silicon-valley">Silicon Valley</h3>
+
+<img align="right" width="320" src="./generated/images/silicon-valley.jpg" alt="Silicon Valley" />
+
+Silicon Valley is a critically acclaimed HBO comedy series (2014-2019) created by Mike Judge that parodies the tech boom. It follows Richard Hendricks, an introverted programmer, and his friends as they struggle to launch a startup called Pied Piper while navigating, and often failing at, the ruthless, cutthroat culture of Silicon Valley.
+
+* Language: en, de
+* Type: TV Series
+* Category: Hollywood style
+* Tags: Startups, Comedy, Satire, Tech Industry
+* IMDb rating: [8.5 / 10 (181,840 votes)](https://www.imdb.com/title/tt2575988/)
+* Watch on: [Amazon Prime Video](https://www.amazon.de/gp/video/detail/amzn1.dv.gti.4cd6c5b9-d3e2-4c54-af1b-a73875c38357) | [Apple TV](https://tv.apple.com/de/season/season-1/umc.cmc.2e1pibwq8h4w470jrt2j5aw01?showId=umc.cmc.4v7y09m6sa22lpe3bqomh27a) | [YouTube](https://www.youtube.com/show/SC2L5QE7tgqHgriBrZQBfT4g)
+----
 <h3 id="the-billion-dollar-code">The Billion Dollar Code</h3>
 
 <img align="right" width="320" src="./generated/images/the-billion-dollar-code.jpg" alt="The Billion Dollar Code" />
@@ -80,6 +103,19 @@ No one knows this story. In Berlin in the 90s, two friends, Carsten and Juri, cr
 * Category: Culture / People
 * Tags: Startups, History, Patents, Open Source
 * Watch on: [Netflix](https://www.netflix.com/title/81074012)
+----
+<h3 id="the-it-crowd">The IT Crowd</h3>
+
+<img align="right" width="320" src="./generated/images/the-it-crowd.jpg" alt="The IT Crowd" />
+
+Moss and Roy, two computer experts, eke out a miserable existence in the basement of Reynholm Industries. Their colleagues hold them in low regard, so they&#39;ve grown quite gruff in their dealings with others. It isn&#39;t until they get a new boss, Jen, that their daily lives start to pick up again. Is this attractive young woman the key to helping these two nerds escape their obscurity?
+
+* Language: en, de
+* Type: TV Series
+* Category: Hollywood style
+* Tags: Comedy, Workplace, Sitcom, British
+* IMDb rating: [8.5 / 10 (176,015 votes)](https://www.imdb.com/title/tt0487831/)
+* Watch on: [Amazon Prime Video](https://www.amazon.de/gp/video/detail/B00IB0EEG2/) | [Apple TV](https://tv.apple.com/de/season/season-1/umc.cmc.6eshvcv6fxiwz658zv0krognk?showId=umc.cmc.14z35ywo1dbp5e81sh0yj6520)
 ----
 
 ## Documentaries
@@ -163,7 +199,7 @@ Railway is the all-in-one intelligent cloud ...
 * Type: Documentary
 * Category: Programming Languages
 * Tags: Programming Languages, Functional Programming, Open Source, History
-* YouTube likes: 3,628
+* YouTube likes: 3,629
 * Watch on: [YouTube](https://www.youtube.com/watch?v=Y24vK_QDLFg)
 ----
 <h3 id="code-debugging-the-gender-gap">CODE: Debugging the Gender Gap</h3>
@@ -254,7 +290,7 @@ Check out the ...
 * Type: Documentary
 * Category: Programming Languages
 * Tags: Programming Languages, Functional Programming, Open Source, History
-* YouTube likes: 8,057
+* YouTube likes: 8,058
 * Watch on: [YouTube](https://www.youtube.com/watch?v=lxYFOM3UJzo)
 ----
 <h3 id="ember-js-the-documentary">Ember.js: The Documentary</h3>
@@ -352,7 +388,7 @@ Check out the Half-Life 25th Anniversary Update, restored content, new multiplay
 * Type: Documentary
 * Category: Culture / Society
 * Tags: Game Development, Valve, History
-* YouTube likes: 280,136
+* YouTube likes: 280,139
 * Watch on: [YouTube](https://www.youtube.com/watch?v=TbZ3HzvFEto)
 ----
 <h3 id="i-am-human-a-documentary-about-real-life-cyborgs">I Am Human: A Documentary About Real-Life Cyborgs</h3>
@@ -427,7 +463,7 @@ Director: Jaś ...
 * Type: Documentary
 * Category: Applications / Frameworks / Systems
 * Tags: Developer Tools, IDE, JetBrains, History
-* YouTube likes: 1,516
+* YouTube likes: 1,517
 * Watch on: [YouTube](https://www.youtube.com/watch?v=Kourq_Lz03U)
 ----
 <h3 id="internet-relay-chat-irc">Internet Relay Chat (IRC)</h3>
@@ -805,7 +841,7 @@ This movie is made available under the Creative Commons license: ...
 * Category: Culture / People
 * Tags: Hacktivism, Open Internet, Activism, History
 * IMDb rating: [8.0 / 10 (18,551 votes)](https://www.imdb.com/title/tt3268458/)
-* YouTube likes: 36,692
+* YouTube likes: 36,693
 * Watch on: [YouTube](https://www.youtube.com/watch?v=9vz06QO3UkQ)
 ----
 <h3 id="the-inventor-out-for-blood-in-silicon-valley">The Inventor: Out for Blood in Silicon Valley</h3>
@@ -997,6 +1033,111 @@ A documentary that details the creation of Julian Assange&#39;s controversial we
 * Watch on: [Amazon Prime Video](https://www.amazon.de/gp/video/detail/amzn1.dv.gti.eca9f6cb-646d-7bdf-fe60-44b2f2f57933) | [YouTube](https://www.youtube.com/watch?v=Qhn_3WNhxEc)
 ----
 
+## Movies
+
+<h3 id="23">23</h3>
+
+<img align="right" width="320" src="./generated/images/23.jpg" alt="23" />
+
+Nineteen-year-old Karl is fascinated by the fictional character Hagbard Celine and sets out to uncover the inner workings of political mechanisms. He discovers things that lead him to believe in a conspiracy. Karl&#39;s talent for hacking into global data networks and his unshakeable belief in justice drive him into the arms of the KGB. He loses control.
+
+* Duration: ca. 1 h 39 min.
+* Language: en, de
+* Type: Movie
+* Category: Hollywood style
+* Tags: Hacking, History, Conspiracy, Cold War
+* IMDb rating: [7.1 / 10 (7,833 votes)](https://www.imdb.com/title/tt0126765/)
+* YouTube likes: 68
+* Watch on: [Amazon Prime Video](https://www.amazon.de/gp/video/detail/amzn1.dv.gti.3e7449a8-4bd6-409b-a1b0-56fc2762b43c) | [Apple TV](https://tv.apple.com/de/movie/23/umc.cmc.1n7aar1t57m6rndfhm9u6vixo) | [YouTube](https://www.youtube.com/watch?v=e2DCvHZGGH4)
+----
+<h3 id="hidden-figures">Hidden Figures</h3>
+
+<img align="right" width="320" src="./generated/images/hidden-figures.jpg" alt="Hidden Figures" />
+
+&#34;Hidden Figures&#34; is the incredible, untold story of Katherine Johnson, Dorothy Vaughan, and Mary Jackson. It is a passionate tribute to three extraordinary African American women who worked at NASA in the early 1960s and played a leading role in one of the most significant events in recent history. These brilliant mathematicians are part of the team that enables the first U.S. astronaut, John Glenn, to orbit the Earth. A breathtaking achievement that gives the American nation new self-confidence, redefines the space race, and stirs the world. In doing so, the visionary trio fights to overcome gender ...
+
+* Duration: ca. 2 h 7 min.
+* Language: en, de
+* Type: Movie
+* Category: Hollywood style
+* Tags: NASA, History, Mathematics, Diversity
+* IMDb rating: [7.8 / 10 (288,882 votes)](https://www.imdb.com/title/tt4846340/)
+* YouTube likes: 940
+* Watch on: [Amazon Prime Video](https://www.amazon.de/gp/video/detail/amzn1.dv.gti.8ab8c01b-a530-5865-60bc-eeedf40e97b4) | [Apple TV](https://tv.apple.com/de/movie/hidden-figures---unerkannte-heldinnen/umc.cmc.4io2m0zk1cs9g1olb2hduzu6z) | [YouTube](https://www.youtube.com/watch?v=bvAbdZbHmhY)
+----
+<h3 id="pirates-of-silicon-valley">Pirates of Silicon Valley</h3>
+
+<img align="right" width="320" src="./generated/images/pirates-of-silicon-valley.jpg" alt="Pirates of Silicon Valley" />
+
+On the cusp of the digital age, visionary geniuses Bill Gates and Steve Jobs launch the revolutionary race between rivals Microsoft and Apple Computer. From late-night tinkering sessions in the dorm to days spent strategizing in the boardroom - their fierce and often humorous battle to dominate the fledgling computer industry gives rise to a new technology that literally changes the world. Based on the book *Fire in the Valley* by Paul Freiberger and Michael Swaine.
+
+* Language: en, de
+* Type: Movie
+* Category: Hollywood style
+* Tags: Apple, Microsoft, History, Startups
+* IMDb rating: [7.2 / 10 (26,164 votes)](https://www.imdb.com/title/tt0168122/)
+* Watch on: [Amazon Prime Video](https://www.amazon.de/gp/video/detail/amzn1.dv.gti.a6ad7e6d-dcf5-32fa-e147-1589b9f9ec4a)
+----
+<h3 id="snowden">Snowden</h3>
+
+<img align="right" width="320" src="./generated/images/snowden.jpg" alt="Snowden" />
+
+Traitor or hero. What would you do if you knew your government was abusing the power entrusted to it? How far would your resistance go? What sacrifices would you be willing to make? Snowden, the international thriller from Oscar® winner Oliver Stone, brings the life of the controversial whistleblower Edward Snowden to the big screen. The story of an ordinary man who could not reconcile his conscience with remaining silent...
+
+* Duration: ca. 2 h 15 min.
+* Language: en, de
+* Type: Movie
+* Category: Hollywood style
+* Tags: Surveillance, Privacy, Whistleblowing, NSA
+* IMDb rating: [7.3 / 10 (172,671 votes)](https://www.imdb.com/title/tt3774114/)
+* YouTube likes: 630
+* Watch on: [Amazon Prime Video](https://www.amazon.de/gp/video/detail/amzn1.dv.gti.2088b418-e12c-4a0d-b569-8542561d890d) | [Apple TV](https://tv.apple.com/de/movie/snowden/umc.cmc.3j73epo0sky4mob3jog0xxw5r) | [YouTube](https://www.youtube.com/watch?v=0l78qbhP3QU)
+----
+<h3 id="steve-jobs">Steve Jobs</h3>
+
+<img align="right" width="320" src="./generated/images/steve-jobs.jpg" alt="Steve Jobs" />
+
+&#34;Steve Jobs&#34; is an authentic biopic about the man behind the digital revolution. The film reveals what went on behind the scenes in the days leading up to the Apple CEO&#39;s most significant product launches. A compelling portrayal that shows the unique visionary from a side never seen before! Written by Oscar® winner Aaron Sorkin (&#34;The Social Network&#34;) and directed by Oscar® winner Danny Boyle (&#34;Slumdog Millionaire&#34;), the drama shines with an impressive star-studded cast, including: Michael Fassbender, Kate Winslet, Seth Rogen, and Jeff Daniels.
+
+* Duration: ca. 2 h 3 min.
+* Language: en, de
+* Type: Movie
+* Category: Hollywood style
+* Tags: Apple, Biopic, Product Launches
+* IMDb rating: [7.2 / 10 (187,235 votes)](https://www.imdb.com/title/tt2080374/)
+* YouTube likes: 292
+* Watch on: [Amazon Prime Video](https://www.amazon.de/gp/video/detail/amzn1.dv.gti.08a9f70b-7712-cd47-4e13-d0e9613e58dd) | [Apple TV](https://tv.apple.com/de/movie/steve-jobs/umc.cmc.20qugmesej4yg33x3e4uev8xh) | [YouTube](https://www.youtube.com/watch?v=wPqfVEOCIqE)
+----
+<h3 id="the-imitation-game">The Imitation Game</h3>
+
+<img align="right" width="320" src="./generated/images/the-imitation-game.jpg" alt="The Imitation Game" />
+
+The Enigma is giving researchers a headache: the German coding machine encrypts the radio messages of the Wehrmacht and the Navy. Mathematicians and other researchers at Bletchley Park in Britain are working around the clock to crack the German code. Finally, a young genius, Alan Turing (Benedict Cumberbatch), achieves a breakthrough - from then on, the German radio messages are no longer a secret to the Allies. Now, however, the task is to make this breakthrough the country&#39;s best-kept secret. Only in this way can the Germans be prevented from deploying a new encryption system. Turing becomes ...
+
+* Duration: ca. 1 h 50 min.
+* Language: en, de
+* Type: Movie
+* Category: Hollywood style
+* Tags: Cryptography, History, WWII, Alan Turing
+* IMDb rating: [8.0 / 10 (877,382 votes)](https://www.imdb.com/title/tt2084970/)
+* YouTube likes: 675
+* Watch on: [Amazon Prime Video](https://www.amazon.de/gp/video/detail/amzn1.dv.gti.9ea9f6d8-dcfc-e49d-ffea-c3f92245045d) | [Apple TV](https://tv.apple.com/de/movie/the-imitation-game---ein-streng-geheimes-leben/umc.cmc.59i1cp4fboyedvyq6zlx3bymd) | [YouTube](https://www.youtube.com/watch?v=Kauqv7p-8b4)
+----
+<h3 id="underground-the-julian-assange-story">Underground: The Julian Assange Story</h3>
+
+<img align="right" width="320" src="./generated/images/underground-the-julian-assange-story.jpg" alt="Underground: The Julian Assange Story" />
+
+Julian Assange became a legend in his own lifetime for making highly sensitive classified information available to the entire world. But what does the world really know about him? Underground: The Julian Assange Story traces the early days of the WikiLeaks founder. This fascinating film is based on Suelette Dreyfus&#39;s 1997 book about a community of computer hackers. It sheds light on what kind of person Julian Assange is. It depicts his arrest for hacking into a Canadian telephone company. Particularly striking are his early days as a hacker, breaking into the Pentagon, the U.S. Army, and NASA. ...
+
+* Duration: ca. 1 h 34 min.
+* Language: en, de
+* Type: Movie
+* Category: Hollywood style
+* Tags: Hacking, WikiLeaks, Biopic, History
+* IMDb rating: [6.7 / 10 (2,144 votes)](https://www.imdb.com/title/tt2357453/)
+* YouTube likes: 4
+* Watch on: [Amazon Prime Video](https://www.amazon.de/gp/video/detail/amzn1.dv.gti.62a9f6d2-5a7c-57e0-e99b-dd258248554c) | [YouTube](https://www.youtube.com/watch?v=b5z86SpPHU0)
+----
 
 ## How to contribute
 

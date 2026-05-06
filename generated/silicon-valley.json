@@ -1,0 +1,45 @@
+{
+ "name": "Silicon Valley",
+ "slug": "silicon-valley",
+ "links": {
+  "amazon_prime_video": "https://www.amazon.de/gp/video/detail/amzn1.dv.gti.4cd6c5b9-d3e2-4c54-af1b-a73875c38357",
+  "apple_tv": "https://tv.apple.com/de/season/season-1/umc.cmc.2e1pibwq8h4w470jrt2j5aw01?showId=umc.cmc.4v7y09m6sa22lpe3bqomh27a",
+  "youtube": "https://www.youtube.com/show/SC2L5QE7tgqHgriBrZQBfT4g"
+ },
+ "language": [
+  "en",
+  "de"
+ ],
+ "subtitles": null,
+ "tags": [
+  "Startups",
+  "Comedy",
+  "Satire",
+  "Tech Industry"
+ ],
+ "category": "Hollywood style",
+ "type": "TV Series",
+ "localized": {
+  "de": {
+   "description": "„Silicon Valley\" ist eine von Kritikern hochgelobte HBO-Comedy-Serie (2014-2019) von Mike Judge, die den Tech-Boom parodiert. Die Serie handelt von Richard Hendricks, einem introvertierten Programmierer, und seinen Freunden, die sich abmühen, ein Start-up namens Pied Piper auf die Beine zu stellen, während sie sich in der rücksichtslosen, gnadenlosen Kultur des Silicon Valley zurechtfinden müssen - und dabei oft scheitern."
+  }
+ },
+ "title": "",
+ "description": "Silicon Valley is a critically acclaimed HBO comedy series (2014-2019) created by Mike Judge that parodies the tech boom. It follows Richard Hendricks, an introverted programmer, and his friends as they struggle to launch a startup called Pied Piper while navigating, and often failing at, the ruthless, cutthroat culture of Silicon Valley.",
+ "imdbID": "tt2575988",
+ "youtubeTrailerForThumbnail": "https://www.youtube.com/watch?v=Vm4tx1O9GAc",
+ "duration": "",
+ "publishedAt": "",
+ "channel": {
+  "id": "",
+  "title": ""
+ },
+ "ratings": {
+  "imdb": {
+   "averageRating": 8.5,
+   "numVotes": 181840,
+   "refreshedAt": "2026-05-06T10:09:50Z"
+  }
+ },
+ "image": "images/silicon-valley.jpg"
+}

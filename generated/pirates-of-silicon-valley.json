@@ -1,0 +1,44 @@
+{
+ "name": "Pirates of Silicon Valley",
+ "slug": "pirates-of-silicon-valley",
+ "links": {
+  "amazon_prime_video": "https://www.amazon.de/gp/video/detail/amzn1.dv.gti.a6ad7e6d-dcf5-32fa-e147-1589b9f9ec4a"
+ },
+ "language": [
+  "en",
+  "de"
+ ],
+ "subtitles": null,
+ "tags": [
+  "Apple",
+  "Microsoft",
+  "History",
+  "Startups"
+ ],
+ "category": "Hollywood style",
+ "type": "Movie",
+ "localized": {
+  "de": {
+   "title": "Die Silicon Valley Story",
+   "description": "An der Schwelle des digitalen Zeitalters starten visionäre Genies Bill Gates und Steve Jobs das revolutionäre Rennen zwischen den Rivalen Microsoft und Apple Computer. Von Bastel-Nächten im Studentenwohnheim zu Tagen voller Pläneschmieden im Sitzungssaal - ihr wilder und oft humorvoller Kampf, die junge Computer-Industrie zu regieren, schafft eine neue Technologie, die buchstäblich die Welt verändert. In Anlehnung an das Buch Fire in the Valley von Paul Freiberger und Michael Swaine."
+  }
+ },
+ "title": "",
+ "description": "On the cusp of the digital age, visionary geniuses Bill Gates and Steve Jobs launch the revolutionary race between rivals Microsoft and Apple Computer. From late-night tinkering sessions in the dorm to days spent strategizing in the boardroom - their fierce and often humorous battle to dominate the fledgling computer industry gives rise to a new technology that literally changes the world. Based on the book *Fire in the Valley* by Paul Freiberger and Michael Swaine.",
+ "imdbID": "tt0168122",
+ "youtubeTrailerForThumbnail": "https://www.youtube.com/watch?v=yG4DvM0wxdk",
+ "duration": "",
+ "publishedAt": "",
+ "channel": {
+  "id": "",
+  "title": ""
+ },
+ "ratings": {
+  "imdb": {
+   "averageRating": 7.2,
+   "numVotes": 26164,
+   "refreshedAt": "2026-05-06T10:09:50Z"
+  }
+ },
+ "image": "images/pirates-of-silicon-valley.jpg"
+}
