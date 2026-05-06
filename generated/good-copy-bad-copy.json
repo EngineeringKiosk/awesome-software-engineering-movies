@@ -1,0 +1,36 @@
+{
+ "name": "Good Copy Bad Copy",
+ "slug": "good-copy-bad-copy",
+ "links": {
+  "youtube": "https://www.youtube.com/watch?v=ByY6j0qzOyM"
+ },
+ "language": [
+  "en"
+ ],
+ "subtitles": null,
+ "tags": [
+  "Copyright",
+  "File Sharing",
+  "Internet Culture",
+  "Remix"
+ ],
+ "category": "Culture / Society",
+ "type": "Documentary",
+ "title": "",
+ "description": "A documentary about the current state of copyright and culture, is a documentary about copyright and culture in the context of Internet, peer-to-peer file sharing and other technological advances, directed by Andreas Johnsen, Ralf Christensen, and Henrik Moltke.",
+ "imdbID": "tt1782451",
+ "duration": "",
+ "publishedAt": "",
+ "channel": {
+  "id": "",
+  "title": ""
+ },
+ "ratings": {
+  "imdb": {
+   "averageRating": 7,
+   "numVotes": 205,
+   "refreshedAt": "2026-05-06T10:44:06Z"
+  }
+ },
+ "image": "images/good-copy-bad-copy.jpg"
+}

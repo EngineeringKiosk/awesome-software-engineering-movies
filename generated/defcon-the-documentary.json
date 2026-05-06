@@ -1,0 +1,36 @@
+{
+ "name": "DEFCON: The Documentary",
+ "slug": "defcon-the-documentary",
+ "links": {
+  "youtube": "https://www.youtube.com/watch?v=3ctQOmjQyYg"
+ },
+ "language": [
+  "en"
+ ],
+ "subtitles": null,
+ "tags": [
+  "Hacking",
+  "Security",
+  "Conferences",
+  "Community"
+ ],
+ "category": "Culture / Society",
+ "type": "Documentary",
+ "title": "",
+ "description": "A film about the world's largest hacking convention and its 20th year running. Filmed over the summer of 2012 and containing hundreds of hours of interviews, parties, presentations and spectacle. Over 280 hours of footage was recorded in support of the documentary, and five separate camera crews were in action.",
+ "imdbID": "tt3010462",
+ "duration": "",
+ "publishedAt": "",
+ "channel": {
+  "id": "",
+  "title": ""
+ },
+ "ratings": {
+  "imdb": {
+   "averageRating": 5.8,
+   "numVotes": 518,
+   "refreshedAt": "2026-05-06T10:44:06Z"
+  }
+ },
+ "image": "images/defcon-the-documentary.jpg"
+}

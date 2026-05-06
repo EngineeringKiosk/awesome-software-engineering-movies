@@ -1,0 +1,36 @@
+{
+ "name": "Steal This Film",
+ "slug": "steal-this-film",
+ "links": {
+  "youtube": "https://www.youtube.com/watch?v=YJ2Fh3tAD-I"
+ },
+ "language": [
+  "en"
+ ],
+ "subtitles": null,
+ "tags": [
+  "File Sharing",
+  "Copyright",
+  "BitTorrent",
+  "Internet Culture"
+ ],
+ "category": "Culture / Society",
+ "type": "Documentary",
+ "title": "",
+ "description": "Steal This Film is part one of a series, documenting the movement against intellectual property produced by The League of Noble Peers and released via the BitTorrent peer-to-peer protocol.",
+ "imdbID": "tt1422757",
+ "duration": "",
+ "publishedAt": "",
+ "channel": {
+  "id": "",
+  "title": ""
+ },
+ "ratings": {
+  "imdb": {
+   "averageRating": 6.9,
+   "numVotes": 491,
+   "refreshedAt": "2026-05-06T10:44:06Z"
+  }
+ },
+ "image": "images/steal-this-film.jpg"
+}

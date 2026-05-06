@@ -1,0 +1,29 @@
+{
+ "name": "BBS: The Documentary",
+ "slug": "bbs-the-documentary",
+ "links": {
+  "youtube": "https://www.youtube.com/playlist?list=PL7nj3G6Jpv2G6Gp6NvN1kUtQuW8QshBWE"
+ },
+ "language": [
+  "en"
+ ],
+ "subtitles": null,
+ "tags": [
+  "Internet History",
+  "BBS",
+  "Online Communities",
+  "Modems"
+ ],
+ "category": "Culture / Society",
+ "type": "Documentary",
+ "title": "",
+ "description": "Through eight episodes, director Jason Scott covers the 25 year history of the Dial-Up Bulletin Board System, a modem-connected computer system that let others connect to a computer over a phone line and leave messages and trade files. Containing 200 interviews, episodes mostly consist of elaborate montages of dozens of people composing a narrative.",
+ "youtubeTrailerForThumbnail": "https://www.youtube.com/watch?v=nO5vjmDFZaI",
+ "duration": "",
+ "publishedAt": "",
+ "channel": {
+  "id": "",
+  "title": ""
+ },
+ "image": "images/bbs-the-documentary.jpg"
+}

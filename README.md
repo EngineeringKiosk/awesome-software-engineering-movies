@@ -4,27 +4,30 @@ A curated list of movies, documentaries and other related material to watch rela
 
 ## Table of Contents
 
-* Entries: 72
+* Entries: 76
 * [TV Series](#tv-series) (3)
   * [Silicon Valley](#silicon-valley)
   * [The Billion Dollar Code](#the-billion-dollar-code)
   * [The IT Crowd](#the-it-crowd)
-* [Documentaries](#documentaries) (62)
+* [Documentaries](#documentaries) (66)
   * [AlphaGo - The Movie](#alphago-the-movie)
   * [Angular: The Documentary](#angular-the-documentary)
   * [App: The Human Story](#app-the-human-story)
   * [ATARI: Game Over](#atari-game-over)
+  * [BBS: The Documentary](#bbs-the-documentary)
   * [Citizenfour](#citizenfour)
   * [Clojure: The Documentary](#clojure-the-documentary)
   * [CODE: Debugging the Gender Gap](#code-debugging-the-gender-gap)
   * [Coded Bias](#coded-bias)
   * [Countdown: Inspiration4 Mission to Space](#countdown-inspiration4-mission-to-space)
   * [Deep Web](#deep-web)
+  * [DEFCON: The Documentary](#defcon-the-documentary)
   * [eBPF: Unlocking the Kernel](#ebpf-unlocking-the-kernel)
   * [Elixir: The Documentary](#elixir-the-documentary)
   * [Ember.js: The Documentary](#ember-js-the-documentary)
   * [Free to Play](#free-to-play)
   * [General Magic](#general-magic)
+  * [Good Copy Bad Copy](#good-copy-bad-copy)
   * [Google and the World Brain](#google-and-the-world-brain)
   * [GraphQL: The Documentary](#graphql-the-documentary)
   * [Half-Life: 25th Anniversary Documentary](#half-life-25th-anniversary-documentary)
@@ -52,6 +55,7 @@ A curated list of movies, documentaries and other related material to watch rela
   * [Risk](#risk)
   * [Ruby on Rails: The Documentary](#ruby-on-rails-the-documentary)
   * [Silicon Cowboys](#silicon-cowboys)
+  * [Steal This Film](#steal-this-film)
   * [Steve Jobs: The Man in the Machine](#steve-jobs-the-man-in-the-machine)
   * [Svelte Origins: A JavaScript Documentary](#svelte-origins-a-javascript-documentary)
   * [Terms and Conditions May Apply](#terms-and-conditions-may-apply)
@@ -186,6 +190,18 @@ A crew search for all of the old Atari 2600 game cartridges of &#34;E.T. the Ext
 * YouTube likes: 25
 * Watch on: [Amazon Prime Video](https://www.amazon.de/gp/video/detail/amzn1.dv.gti.d85059f3-e120-421e-9125-adfd5e48f0a1) | [Apple TV](https://tv.apple.com/de/movie/atari-game-over/umc.cmc.3xa62786lun35w67960lp2a25) | [YouTube](https://www.youtube.com/watch?v=84rx7-jCdAY)
 ----
+<h3 id="bbs-the-documentary">BBS: The Documentary</h3>
+
+<img align="right" width="320" src="./generated/images/bbs-the-documentary.jpg" alt="BBS: The Documentary" />
+
+Through eight episodes, director Jason Scott covers the 25 year history of the Dial-Up Bulletin Board System, a modem-connected computer system that let others connect to a computer over a phone line and leave messages and trade files. Containing 200 interviews, episodes mostly consist of elaborate montages of dozens of people composing a narrative.
+
+* Language: en
+* Type: Documentary
+* Category: Culture / Society
+* Tags: Internet History, BBS, Online Communities, Modems
+* Watch on: [YouTube](https://www.youtube.com/playlist?list=PL7nj3G6Jpv2G6Gp6NvN1kUtQuW8QshBWE)
+----
 <h3 id="citizenfour">Citizenfour</h3>
 
 <img align="right" width="320" src="./generated/images/citizenfour.jpg" alt="Citizenfour" />
@@ -277,6 +293,19 @@ A feature documentary that explores the rise of a new Internet; decentralized, e
 * YouTube likes: 103
 * Watch on: [Amazon Prime Video](https://www.amazon.de/gp/video/detail/amzn1.dv.gti.08b3c0a6-d2f2-65d1-a49d-4063ffe2d328) | [YouTube](https://www.youtube.com/watch?v=w4P-eW0UdKo)
 ----
+<h3 id="defcon-the-documentary">DEFCON: The Documentary</h3>
+
+<img align="right" width="320" src="./generated/images/defcon-the-documentary.jpg" alt="DEFCON: The Documentary" />
+
+A film about the world&#39;s largest hacking convention and its 20th year running. Filmed over the summer of 2012 and containing hundreds of hours of interviews, parties, presentations and spectacle. Over 280 hours of footage was recorded in support of the documentary, and five separate camera crews were in action.
+
+* Language: en
+* Type: Documentary
+* Category: Culture / Society
+* Tags: Hacking, Security, Conferences, Community
+* IMDb rating: [5.8 / 10 (518 votes)](https://www.imdb.com/title/tt3010462/)
+* Watch on: [YouTube](https://www.youtube.com/watch?v=3ctQOmjQyYg)
+----
 <h3 id="ebpf-unlocking-the-kernel">eBPF: Unlocking the Kernel</h3>
 
 <img align="right" width="320" src="./generated/images/ebpf-unlocking-the-kernel.jpg" alt="eBPF: Unlocking the Kernel" />
@@ -362,6 +391,19 @@ The story of the most influential Silicon Valley startup nobody has ever heard o
 * IMDb rating: [7.4 / 10 (1,345 votes)](https://www.imdb.com/title/tt6849786/)
 * YouTube likes: 192
 * Watch on: [YouTube](https://www.youtube.com/watch?v=tuFl4WEXBrk)
+----
+<h3 id="good-copy-bad-copy">Good Copy Bad Copy</h3>
+
+<img align="right" width="320" src="./generated/images/good-copy-bad-copy.jpg" alt="Good Copy Bad Copy" />
+
+A documentary about the current state of copyright and culture, is a documentary about copyright and culture in the context of Internet, peer-to-peer file sharing and other technological advances, directed by Andreas Johnsen, Ralf Christensen, and Henrik Moltke.
+
+* Language: en
+* Type: Documentary
+* Category: Culture / Society
+* Tags: Copyright, File Sharing, Internet Culture, Remix
+* IMDb rating: [7.0 / 10 (205 votes)](https://www.imdb.com/title/tt1782451/)
+* Watch on: [YouTube](https://www.youtube.com/watch?v=ByY6j0qzOyM)
 ----
 <h3 id="google-and-the-world-brain">Google and the World Brain</h3>
 
@@ -808,6 +850,19 @@ Get the whole spill by the people who had a front-row seat to the creation and d
 * Tags: Hardware, History, Personal Computing
 * IMDb rating: [6.9 / 10 (2,233 votes)](https://www.imdb.com/title/tt4938484/)
 * Watch on: [Netflix](https://www.netflix.com/title/80104318)
+----
+<h3 id="steal-this-film">Steal This Film</h3>
+
+<img align="right" width="320" src="./generated/images/steal-this-film.jpg" alt="Steal This Film" />
+
+Steal This Film is part one of a series, documenting the movement against intellectual property produced by The League of Noble Peers and released via the BitTorrent peer-to-peer protocol.
+
+* Language: en
+* Type: Documentary
+* Category: Culture / Society
+* Tags: File Sharing, Copyright, BitTorrent, Internet Culture
+* IMDb rating: [6.9 / 10 (491 votes)](https://www.imdb.com/title/tt1422757/)
+* Watch on: [YouTube](https://www.youtube.com/watch?v=YJ2Fh3tAD-I)
 ----
 <h3 id="steve-jobs-the-man-in-the-machine">Steve Jobs: The Man in the Machine</h3>
 
