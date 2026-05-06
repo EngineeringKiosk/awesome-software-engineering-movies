@@ -47,6 +47,13 @@ const videosListMaxIDs = 50
 // IDs that the API does not return (private, deleted, region-blocked)
 // are simply absent from the result — the caller decides how to
 // handle that.
+//
+// If any call hits the daily quotaExceeded error, the function logs
+// the expected quota-reset time once and stops issuing further YouTube
+// API requests for the remainder of this invocation. Whatever video
+// records were already collected are returned with a nil error so
+// downstream passes (thumbnails, IMDb, README) can still run on the
+// partial data.
 func (c *Client) GetVideoDetails(ctx context.Context, ids []string) ([]Video, error) {
 	if len(ids) == 0 {
 		return nil, nil
@@ -55,12 +62,17 @@ func (c *Client) GetVideoDetails(ctx context.Context, ids []string) ([]Video, er
 	var out []Video
 	parts := []string{"snippet", "contentDetails", "statistics"}
 
+batchLoop:
 	for start := 0; start < len(ids); start += videosListMaxIDs {
 		end := min(start+videosListMaxIDs, len(ids))
 
 		call := c.svc.Videos.List(parts).Id(ids[start:end]...).Context(ctx)
 		resp, err := call.Do()
 		if err != nil {
+			if IsQuotaExceeded(err) {
+				logQuotaExceeded("videos.list", err)
+				break batchLoop
+			}
 			return nil, fmt.Errorf("youtube: videos.list: %w", err)
 		}
 
@@ -93,6 +105,11 @@ func (c *Client) GetVideoDetails(ctx context.Context, ids []string) ([]Video, er
 			// the total quota stays well within the daily budget.
 			subs, err := c.GetCaptionLanguages(ctx, v.ID)
 			if err != nil {
+				if IsQuotaExceeded(err) {
+					logQuotaExceeded("captions.list", err)
+					out = append(out, v)
+					break batchLoop
+				}
 				log.Printf("WARNING: youtube: captions.list for %s failed: %v; leaving subtitles empty", v.ID, err)
 			} else {
 				v.Subtitles = subs
