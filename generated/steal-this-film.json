@@ -7,7 +7,9 @@
  "language": [
   "en"
  ],
- "subtitles": null,
+ "subtitles": [
+  "en"
+ ],
  "tags": [
   "File Sharing",
   "Copyright",
@@ -16,21 +18,28 @@
  ],
  "category": "Culture / Society",
  "type": "Documentary",
- "title": "",
+ "title": "Steal This Film 1+2 ENG (2006 \u0026 2007) full movies",
  "description": "Steal This Film is part one of a series, documenting the movement against intellectual property produced by The League of Noble Peers and released via the BitTorrent peer-to-peer protocol.",
  "imdbID": "tt1422757",
- "duration": "",
- "publishedAt": "",
+ "duration": "PT1H17M1S",
+ "publishedAt": "2011-07-28T00:50:38Z",
  "channel": {
-  "id": "",
-  "title": ""
+  "id": "UCKm0gIV7eisHiIJsGTSqZeA",
+  "title": "Steal ThisFilm"
  },
  "ratings": {
+  "youtube": {
+   "likeCount": 381,
+   "refreshedAt": "2026-05-07T07:55:17Z"
+  },
   "imdb": {
    "averageRating": 6.9,
    "numVotes": 491,
    "refreshedAt": "2026-05-06T10:44:06Z"
   }
+ },
+ "views": {
+  "youtube": 35777
  },
  "image": "images/steal-this-film.jpg"
 }

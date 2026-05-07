@@ -7,7 +7,9 @@
  "language": [
   "en"
  ],
- "subtitles": null,
+ "subtitles": [
+  "en"
+ ],
  "tags": [
   "Hacking",
   "Security",
@@ -16,21 +18,28 @@
  ],
  "category": "Culture / Society",
  "type": "Documentary",
- "title": "",
+ "title": "DEFCON - The Full Documentary",
  "description": "A film about the world's largest hacking convention and its 20th year running. Filmed over the summer of 2012 and containing hundreds of hours of interviews, parties, presentations and spectacle. Over 280 hours of footage was recorded in support of the documentary, and five separate camera crews were in action.",
  "imdbID": "tt3010462",
- "duration": "",
- "publishedAt": "",
+ "duration": "PT1H50M57S",
+ "publishedAt": "2013-08-06T17:29:36Z",
  "channel": {
-  "id": "",
-  "title": ""
+  "id": "UC4FrvWBLhbOkpgOHj-jz6Ww",
+  "title": "The Documentary Network"
  },
  "ratings": {
+  "youtube": {
+   "likeCount": 7880,
+   "refreshedAt": "2026-05-07T07:55:17Z"
+  },
   "imdb": {
    "averageRating": 5.8,
    "numVotes": 518,
    "refreshedAt": "2026-05-06T10:44:06Z"
   }
+ },
+ "views": {
+  "youtube": 858891
  },
  "image": "images/defcon-the-documentary.jpg"
 }
