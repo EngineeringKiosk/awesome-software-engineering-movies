@@ -30,8 +30,8 @@
  },
  "ratings": {
   "youtube": {
-   "likeCount": 327049,
-   "refreshedAt": "2026-05-07T07:55:17Z"
+   "likeCount": 327125,
+   "refreshedAt": "2026-05-08T20:46:41Z"
   },
   "imdb": {
    "averageRating": 7.8,
@@ -40,7 +40,7 @@
   }
  },
  "views": {
-  "youtube": 38013271
+  "youtube": 38018359
  },
  "image": "images/alphago-the-movie.jpg"
 }

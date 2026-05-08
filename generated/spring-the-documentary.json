@@ -1,0 +1,39 @@
+{
+ "name": "Spring: The Documentary",
+ "slug": "spring-the-documentary",
+ "links": {
+  "youtube": "https://www.youtube.com/watch?v=0Gb1z-2SjHY"
+ },
+ "language": [
+  "en"
+ ],
+ "subtitles": [
+  "en"
+ ],
+ "tags": [
+  "Web Frameworks",
+  "Java",
+  "Open Source",
+  "History"
+ ],
+ "category": "Applications / Frameworks / Systems",
+ "type": "Documentary",
+ "title": "How a Group of Developers Took Back Control from Enterprise Java | Spring: The Documentary",
+ "description": "In the early 2000s, Java enterprise development had become a bureaucratic nightmare: a proliferation of untestable Java artefacts, heavyweight application servers, and ivory-tower standards disconnected from the realities of building software.\n\nThen Rod Johnson published a book, included some code, and challenged the entire direction of enterprise Java.\nSpring began as a developer-led push to take back control from ivory tower standards and was driven by a belief that building Java applications could be simple, testable, and grounded in real-world needs. Early Spring still used XML, but in a fundamentally different way: less of it, and with simpler, more focused Java. \n\nThe framework created to prove that point brought dependency injection and inversion of control into the mainstream, and went on to become the backbone of enterprise software worldwide.\nToday, Spring powers systems at Netflix, Alibaba, and countless organisations most people never hear about but depend on every day.\nThis is the story of how developers reclaimed control and changed software. \n\n---\n\nProducer: Guillermo López\nProject Manager: Guillermo Cistari\n\nProduced by: Tech Documentaries: (www.techdocumentaries.com)\n\nThanks to our sponsors for making this documentary possible:\nHeroDevs: https://www.herodevs.com (Platinum)\nJet brains: https://www.jetbrains.com — https://www.jetbrains.com/idea (Gold)\nModerne: https://www.moderne.ai/solutions/spring-boot-migration-tool-enterprise-scale-upgrades?utm_source=techdocumentaries\u0026utm_medium=referral\u0026utm_campaign=spring_documentary\u0026utm_content=video (Bronze)\n\nThanks to Railway, our channel sponsor, for supporting all of our films:\nRailway is the all-in-one intelligent cloud provider ➡️ https://railway.com/?referralCode=cultrepo\n\n__\n\nThe Spring Documentary features::\nRod Johnson, Jürgen Höller, Rossen Stoyanchev,  Mark Pollack,  Sébastien Deleuze, Josh Long, Stéphane Nicoll, David Sayer, Scott Frederick, Steve Poole, Marit van Dijk,  Marco Behler and Sergi Almar.\n\nAdditional thanks to:\nSpring I/O: https://2026.springio.net\nDevoxx UK: https://www.devoxx.co.uk\n\n__\n\nFollow us:\nX: x.com/CultRepo\nBluesky: cultrepo.bsky.social\nInstagram: www.instagram.com/cult.repo\nLinkedIn: https://www.linkedin.com/company/cult-repo",
+ "duration": "PT34M39S",
+ "publishedAt": "2026-05-07T19:00:06Z",
+ "channel": {
+  "id": "UCsUalyRg43M8D60mtHe6YcA",
+  "title": "CultRepo "
+ },
+ "ratings": {
+  "youtube": {
+   "likeCount": 819,
+   "refreshedAt": "2026-05-08T20:46:41Z"
+  }
+ },
+ "views": {
+  "youtube": 18494
+ },
+ "image": "images/spring-the-documentary.jpg"
+}
