@@ -1,0 +1,39 @@
+{
+ "name": "Terminal.shop: The Documentary",
+ "slug": "terminal-shop-the-documentary",
+ "links": {
+  "youtube": "https://www.youtube.com/watch?v=3eH-WirT-5s"
+ },
+ "language": [
+  "en"
+ ],
+ "subtitles": [
+  "en"
+ ],
+ "tags": [
+  "CLI",
+  "Terminal",
+  "Startups",
+  "Indie"
+ ],
+ "category": "Applications / Frameworks / Systems",
+ "type": "Documentary",
+ "title": "Terminal.shop - The Documentary",
+ "description": "ssh http://terminal.shop \n\n💻 Videos to watch next:\n▶ Lovable Mini Documentary | Behind The Code - https://youtu.be/1QhcGFA7qsQ\n▶ Bolt.new Mini Documentary | Behind The Code - https://youtu.be/LfAV5fmRybg\n▶ Nuxt.js Mini Documentary | Behind The Code - https://youtu.be/uvG11I-ftfo\n\n👇 Learn more about Supabase 👇\n\n🕸 Website: https://supabase.com/\n🏁 Get started: https://app.supabase.com/\n📄 Docs: https://supabase.com/docs\n\n🔔 Subscribe for more tutorials and feature updates from Supabase: https://www.youtube.com/channel/UCNTVzV1InxHV-YR0fSajqPQ?sub_confirmation=1\n\n📱 Connect with Us:\n🐙 Github: https://www.github.com/supabase \n💬 Discord: https://discord.supabase.com/\n🐦 Twitter: https://www.twitter.com/supabase/\n▶ Instagram (follow for memes): https://www.instagram.com/supabasecom/ \n\n\nABOUT SUPABASE:\nSupabase is the open source Firebase alternative. Supabase provides a full Postgres database for every project with pgvector, backups, realtime, and more. Add and manage email and password, passwordless, OAuth, and mobile logins to your project through a suite of identity providers and APIs.\n\nBuild in a weekend, scale to millions.\n\n#Supabase #AppDevelopment #DeveloperTools",
+ "duration": "PT11M2S",
+ "publishedAt": "2025-06-09T13:00:11Z",
+ "channel": {
+  "id": "UCNTVzV1InxHV-YR0fSajqPQ",
+  "title": "Supabase"
+ },
+ "ratings": {
+  "youtube": {
+   "likeCount": 1026,
+   "refreshedAt": "2026-05-09T11:30:42Z"
+  }
+ },
+ "views": {
+  "youtube": 21586
+ },
+ "image": "images/terminal-shop-the-documentary.jpg"
+}

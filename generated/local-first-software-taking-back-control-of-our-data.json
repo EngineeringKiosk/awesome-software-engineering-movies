@@ -1,0 +1,39 @@
+{
+ "name": "Local-First Software: Taking Back Control of Our Data",
+ "slug": "local-first-software-taking-back-control-of-our-data",
+ "links": {
+  "youtube": "https://www.youtube.com/watch?v=10d8HxS4y_g"
+ },
+ "language": [
+  "en"
+ ],
+ "subtitles": [
+  "en"
+ ],
+ "tags": [
+  "Local-First",
+  "Distributed Systems",
+  "Data",
+  "Open Source"
+ ],
+ "category": "Applications / Frameworks / Systems",
+ "type": "Documentary",
+ "title": "Local-First Software: Taking Back Control of Our Data | a mini-doc",
+ "description": "Most modern software assumes your data lives in the cloud. As long as you’re online, everything works. When you’re not, it often doesn’t.\n\nLocal-First software starts from a different idea - that your data should live on your device: fast, responsive, and available whether you have an internet connection or not.\n\nIn this mini-documentary, we talk to the builders and early-adopters of Local-First software about why it emerged, and what it changes about how applications are built. From synchronisation and conflict-free data types to privacy, encryption, and real-time collaboration, local-first represents both a technical shift and a shift in values.\n\n\nProducer: Emma Tracey\nProject Lead: Guillermo López\n\nEditor: Mauro Franceschetti\nColorist: Valentin Petrillo\n\nThanks to our sponsors for making this possible:\nElectric (https://electric-sql.com)\nPowerSync (https://www.powersync.com)\nCodemyriad (https://codemyriad.io)\n\nAnd to all the amazing people who are featured:\nPeter van Hardenberg: https://x.com/pvh\nMartin Kleppmann: https://bsky.app/profile/martin.kleppmann.com\nAdam Wiggins: https://x.com/_adamwiggins_\nRae McKelvey: https://www.linkedin.com/in/krmckelv\nEileen Wagner: https://bsky.app/profile/bumble.blue\nJames Arthur: https://x.com/thruflo\nThomas Artman: https://x.com/artman\nRasmus Andersson: https://x.com/rsms\nJohannes Schickling: https://x.com/schickling\nAnselm Einckhoff: https://x.com/anselm_io\n\nFollow us:\nX: x.com/CultRepo\nBluesky: cultrepo.bsky.social\nInstagram: www.instagram.com/cult.repo",
+ "duration": "PT10M43S",
+ "publishedAt": "2026-01-30T13:00:03Z",
+ "channel": {
+  "id": "UCsUalyRg43M8D60mtHe6YcA",
+  "title": "CultRepo "
+ },
+ "ratings": {
+  "youtube": {
+   "likeCount": 4594,
+   "refreshedAt": "2026-05-09T11:30:42Z"
+  }
+ },
+ "views": {
+  "youtube": 104502
+ },
+ "image": "images/local-first-software-taking-back-control-of-our-data.jpg"
+}

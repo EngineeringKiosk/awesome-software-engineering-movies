@@ -4,12 +4,12 @@ A curated list of movies, documentaries and other related material to watch rela
 
 ## Table of Contents
 
-* Entries: 77
+* Entries: 81
 * [TV Series](#tv-series) (3)
   * [Silicon Valley](#silicon-valley)
   * [The Billion Dollar Code](#the-billion-dollar-code)
   * [The IT Crowd](#the-it-crowd)
-* [Documentaries](#documentaries) (67)
+* [Documentaries](#documentaries) (71)
   * [AlphaGo - The Movie](#alphago-the-movie)
   * [Angular: The Documentary](#angular-the-documentary)
   * [App: The Human Story](#app-the-human-story)
@@ -38,13 +38,16 @@ A curated list of movies, documentaries and other related material to watch rela
   * [Inside Envoy: The Proxy for the Future](#inside-envoy-the-proxy-for-the-future)
   * [IntelliJ IDEA: The Documentary](#intellij-idea-the-documentary)
   * [Internet Relay Chat (IRC)](#internet-relay-chat-irc)
+  * [INVESTORS: A Master Class](#investors-a-master-class)
   * [Kill Chain: The Cyber War on America&#39;s Elections](#kill-chain-the-cyber-war-on-americas-elections)
   * [Kubernetes: The Documentary [PART 1]](#kubernetes-the-documentary-part-1)
   * [Kubernetes: The Documentary [PART 2]](#kubernetes-the-documentary-part-2)
   * [Laravel Origins: A PHP Documentary](#laravel-origins-a-php-documentary)
   * [Lo and Behold: Reveries of the Connected World](#lo-and-behold-reveries-of-the-connected-world)
+  * [Local-First Software: Taking Back Control of Our Data](#local-first-software-taking-back-control-of-our-data)
   * [Minecraft: The Story of Mojang](#minecraft-the-story-of-mojang)
   * [Node.js: The Documentary](#node-js-the-documentary)
+  * [Nuxt.js: The Mini Documentary](#nuxt-js-the-mini-documentary)
   * [Particle Fever](#particle-fever)
   * [Picture a Scientist](#picture-a-scientist)
   * [Print the Legend](#print-the-legend)
@@ -59,6 +62,7 @@ A curated list of movies, documentaries and other related material to watch rela
   * [Steal This Film](#steal-this-film)
   * [Steve Jobs: The Man in the Machine](#steve-jobs-the-man-in-the-machine)
   * [Svelte Origins: A JavaScript Documentary](#svelte-origins-a-javascript-documentary)
+  * [Terminal.shop: The Documentary](#terminal-shop-the-documentary)
   * [Terms and Conditions May Apply](#terms-and-conditions-may-apply)
   * [The Cleaners](#the-cleaners)
   * [The Great Hack](#the-great-hack)
@@ -143,7 +147,7 @@ With more board configurations than there are atoms in the universe, the ancient
 * Category: Culture / Society
 * Tags: AI, Machine Learning, DeepMind, Games
 * IMDb rating: [7.8 / 10 (7,645 votes)](https://www.imdb.com/title/tt6700846/)
-* YouTube likes: 327,140
+* YouTube likes: 327,141
 * Watch on: [YouTube](https://www.youtube.com/watch?v=WXuK6gekU1Y)
 ----
 <h3 id="angular-the-documentary">Angular: The Documentary</h3>
@@ -235,7 +239,7 @@ Railway is the all-in-one intelligent cloud ...
 * Type: Documentary
 * Category: Programming Languages
 * Tags: Programming Languages, Functional Programming, Open Source, History
-* YouTube likes: 3,725
+* YouTube likes: 3,726
 * Watch on: [YouTube](https://www.youtube.com/watch?v=Y24vK_QDLFg)
 ----
 <h3 id="code-debugging-the-gender-gap">CODE: Debugging the Gender Gap</h3>
@@ -595,6 +599,27 @@ References and sources: https://docs.google.com/document/d/e/2PACX-1vQjGmdjmESDJ
 * YouTube likes: 15,212
 * Watch on: [YouTube](https://www.youtube.com/watch?v=6UbKenFipjo)
 ----
+<h3 id="investors-a-master-class">INVESTORS: A Master Class</h3>
+
+<img align="right" width="320" src="./generated/images/investors-a-master-class.jpg" alt="INVESTORS: A Master Class" />
+
+A unique master class in which we explore the people and money behind some of Europe’s tech unicorns such as Spotify and Zalando. 
+We ask these successful investors and founders questions like: 
+What makes a billion dollar idea? When is the right time to raise Venture Capital? What makes a great founding team? How to talk to a VC? What does a great pitch deck look like? 
+What does the future of the tech industry look like? 
+
+You’ll hear from the following investors and founders:
+Emma Tracey – Co-Founder &amp; Ex CEO of Honeypot and Angel Investor
+Claude Ritter – Co-Founder &amp; Managing Partner of Cavalry ...
+
+* Duration: ca. 30 min.
+* Language: en
+* Type: Documentary
+* Category: Culture / Society
+* Tags: Startups, Fundraising, Venture Capital
+* YouTube likes: 739
+* Watch on: [YouTube](https://www.youtube.com/watch?v=M8pZesH0jsE)
+----
 <h3 id="kill-chain-the-cyber-war-on-americas-elections">Kill Chain: The Cyber War on America&#39;s Elections</h3>
 
 <img align="right" width="320" src="./generated/images/kill-chain-the-cyber-war-on-americas-elections.jpg" alt="Kill Chain: The Cyber War on America&#39;s Elections" />
@@ -677,8 +702,26 @@ Directed by Werner Herzog, this documentary explores the history, impact, and po
 * Category: Culture / Society
 * Tags: Internet, History, Society
 * IMDb rating: [7.0 / 10 (13,862 votes)](https://www.imdb.com/title/tt5275828/)
-* YouTube likes: 5,706
+* YouTube likes: 5,707
 * Watch on: [YouTube](https://www.youtube.com/watch?v=q3g3hqNJqpQ)
+----
+<h3 id="local-first-software-taking-back-control-of-our-data">Local-First Software: Taking Back Control of Our Data</h3>
+
+<img align="right" width="320" src="./generated/images/local-first-software-taking-back-control-of-our-data.jpg" alt="Local-First Software: Taking Back Control of Our Data" />
+
+Most modern software assumes your data lives in the cloud. As long as you’re online, everything works. When you’re not, it often doesn’t.
+
+Local-First software starts from a different idea - that your data should live on your device: fast, responsive, and available whether you have an internet connection or not.
+
+In this mini-documentary, we talk to the builders and early-adopters of Local-First software about why it emerged, and what it changes about how applications are built. From synchronisation and conflict-free data types to privacy, encryption, and real-time collaboration, local-first represents ...
+
+* Duration: ca. 11 min.
+* Language: en
+* Type: Documentary
+* Category: Applications / Frameworks / Systems
+* Tags: Local-First, Distributed Systems, Data, Open Source
+* YouTube likes: 4,594
+* Watch on: [YouTube](https://www.youtube.com/watch?v=10d8HxS4y_g)
 ----
 <h3 id="minecraft-the-story-of-mojang">Minecraft: The Story of Mojang</h3>
 
@@ -711,6 +754,36 @@ Join us as we delve into the origins of Node.js, meet some of its earliest contr
 * Tags: JavaScript, Backend, Open Source, History
 * YouTube likes: 23,882
 * Watch on: [YouTube](https://www.youtube.com/watch?v=LB8KwiiUGy0)
+----
+<h3 id="nuxt-js-the-mini-documentary">Nuxt.js: The Mini Documentary</h3>
+
+<img align="right" width="320" src="./generated/images/nuxt-js-the-mini-documentary.jpg" alt="Nuxt.js: The Mini Documentary" />
+
+Nuxt is an open source framework that makes web development intuitive and powerful. Create performant and production-grade full-stack web apps and websites with confidence. 
+
+https://nuxt.com/
+
+CHAPTERS:
+00:00 Intro 
+00:39 Learning about Vue.js
+01:41 The inspiration for Nuxt 
+02:27 Evan You hears about Nuxt 
+03:05 The Honeypot Vue documentary 
+03:48 Introduction of Vite 
+04:15 The plugin ecosystem around Nuxt 
+04:58 The Supabase Plugin for Nuxt
+05:44 The pushup challenge that lead to the Supabase plugin 
+07:14 Supabase, the ideal backend for Nuxt apps
+09:43 What’s next for Vue and Nuxt 
+10:45 The ...
+
+* Duration: ca. 12 min.
+* Language: en
+* Type: Documentary
+* Category: Applications / Frameworks / Systems
+* Tags: Frontend, JavaScript, Vue.js, Open Source, History
+* YouTube likes: 1,144
+* Watch on: [YouTube](https://www.youtube.com/watch?v=uvG11I-ftfo)
 ----
 <h3 id="particle-fever">Particle Fever</h3>
 
@@ -873,7 +946,7 @@ Spring began as a developer-led push to take back control from ivory tower stand
 * Type: Documentary
 * Category: Applications / Frameworks / Systems
 * Tags: Web Frameworks, Java, Open Source, History
-* YouTube likes: 1,005
+* YouTube likes: 1,007
 * Watch on: [YouTube](https://www.youtube.com/watch?v=0Gb1z-2SjHY)
 ----
 <h3 id="steal-this-film">Steal This Film</h3>
@@ -925,6 +998,36 @@ Svelte Origins ...
 * Tags: Frontend, JavaScript, Open Source, History
 * YouTube likes: 6,993
 * Watch on: [YouTube](https://www.youtube.com/watch?v=kMlkCYL9qo0)
+----
+<h3 id="terminal-shop-the-documentary">Terminal.shop: The Documentary</h3>
+
+<img align="right" width="320" src="./generated/images/terminal-shop-the-documentary.jpg" alt="Terminal.shop: The Documentary" />
+
+ssh http://terminal.shop 
+
+💻 Videos to watch next:
+▶ Lovable Mini Documentary | Behind The Code - https://youtu.be/1QhcGFA7qsQ
+▶ Bolt.new Mini Documentary | Behind The Code - https://youtu.be/LfAV5fmRybg
+▶ Nuxt.js Mini Documentary | Behind The Code - https://youtu.be/uvG11I-ftfo
+
+👇 Learn more about Supabase 👇
+
+🕸 Website: https://supabase.com/
+🏁 Get started: https://app.supabase.com/
+📄 Docs: https://supabase.com/docs
+
+🔔 Subscribe for more tutorials and feature updates from Supabase: https://www.youtube.com/channel/UCNTVzV1InxHV-YR0fSajqPQ?sub_confirmation=1
+
+📱 Connect with Us:
+🐙 Github: https://www. ...
+
+* Duration: ca. 11 min.
+* Language: en
+* Type: Documentary
+* Category: Applications / Frameworks / Systems
+* Tags: CLI, Terminal, Startups, Indie
+* YouTube likes: 1,026
+* Watch on: [YouTube](https://www.youtube.com/watch?v=3eH-WirT-5s)
 ----
 <h3 id="terms-and-conditions-may-apply">Terms and Conditions May Apply</h3>
 
