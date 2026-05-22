@@ -5,7 +5,7 @@ go 1.25.0
 require (
 	github.com/gosimple/slug v1.15.0
 	github.com/spf13/cobra v1.10.2
-	google.golang.org/api v0.278.0
+	google.golang.org/api v0.279.0
 	gopkg.in/yaml.v3 v3.0.1
 )
 
