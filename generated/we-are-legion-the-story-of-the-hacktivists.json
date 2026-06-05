@@ -35,17 +35,17 @@
  },
  "ratings": {
   "youtube": {
-   "likeCount": 1051,
-   "refreshedAt": "2026-06-02T10:07:44Z"
+   "likeCount": 1050,
+   "refreshedAt": "2026-06-05T20:35:02Z"
   },
   "imdb": {
    "averageRating": 7.2,
-   "numVotes": 10528,
-   "refreshedAt": "2026-05-04T19:09:37Z"
+   "numVotes": 10540,
+   "refreshedAt": "2026-06-05T20:35:02Z"
   }
  },
  "views": {
-  "youtube": 65560
+  "youtube": 65601
  },
  "image": "images/we-are-legion-the-story-of-the-hacktivists.jpg"
 }

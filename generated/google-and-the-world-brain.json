@@ -29,17 +29,17 @@
  },
  "ratings": {
   "youtube": {
-   "likeCount": 33,
-   "refreshedAt": "2026-06-02T10:07:44Z"
+   "likeCount": 34,
+   "refreshedAt": "2026-06-05T20:35:02Z"
   },
   "imdb": {
    "averageRating": 6.7,
-   "numVotes": 964,
-   "refreshedAt": "2026-05-06T10:13:20Z"
+   "numVotes": 965,
+   "refreshedAt": "2026-06-05T20:35:02Z"
   }
  },
  "views": {
-  "youtube": 1773
+  "youtube": 1809
  },
  "image": "images/google-and-the-world-brain.jpg"
 }

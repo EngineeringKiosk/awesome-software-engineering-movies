@@ -1,0 +1,38 @@
+{
+ "name": "The Story of C++",
+ "slug": "the-story-of-c",
+ "links": {
+  "youtube": "https://www.youtube.com/watch?v=lI7tMxzSJ7w"
+ },
+ "language": [
+  "en"
+ ],
+ "subtitles": [
+  "en"
+ ],
+ "tags": [
+  "Programming Languages",
+  "C++",
+  "History"
+ ],
+ "category": "Programming Languages",
+ "type": "Documentary",
+ "title": "The Story of C++: The World's Most Consequential Programming Language | The Official Story",
+ "description": "This is the story of C++, one of the world’s most widely-used and consequential programming languages. C++  divides opinion, resists replacement, and has outlasted almost everything built to supersede it. \n\nC++ The Documentary traces the full arc, from its origins in the corridors of Bell Labs to the global community that shapes it today.\n\nFeaturing the people who built it, extended it, argued over it, and refused to let it die.\n\n\nBjarne Stroustrup: Bell Labs, Designer and original implementer of C++ \nAlexander Stepanov: Designer of the Standard Template Library \nAnders Hejlsberg: Creator of C#, TypeScript, and Turbo Pascal \nAndrei Alexandrescu:  Principal Research Scientist, Nvidia \u0026 C++ Author \nAndrew Koenig: Bell Labs, Founding member of the C++ Standards Committee, Researcher, C++ Author \u0026 Educator \nBarbara Moo:  Bell Labs, Manager C++ Development Team \u0026 C++ Author \nBrian Kernighan: Bell Labs, Computer Scientist, Co-author of \"The C Programming Language\"\nChris Lattner: Creator of Mojo, LLVM, Clang \u0026 Swift \nDanilo Piparo: Particle Physicist, CERN, ROOT Framework Project Lead \nEric Lubin: Software Developer - Lead, Hudson River Trading \nGabriel Dos Reis: Software Engineer and Architect, Microsoft; C++ tools builder; Mathematician\nHerb Sutter: Technical Fellow, Citadel Securities; Chair, Standard C++ Foundation; Emeritus Chair, ISO C++ Committee \nJohn Romero: Video Game Developer, Co-Creator of Doom and Quake, Co-Founder id Software \nNina Ranns: Vice-Convener of the ISO C++ Committee\n\n\n-------------------------------------------------------------------------------------------------------------------------\n\nChapters \n00:00 Intro\n01:50 Invention at AT\u0026T Bell Labs\n07:30 C with Classes\n09:37 Early adoption of C with Classes\n10:53 From C with Classes to C++ (and CFront)\n12:32 Why is it called C++?\n13:24 AT\u0026T starts selling software / Another team tries to take over C++\n16:08 Early development of C++ at AT\u0026T Bell Labs\n19:10 “It was a buggy product” / Release 2.0.0\n21:55 C++ spreading beyond AT\u0026T\n24:50 Too many versions of C++\n26:03 Need for standardization\n29:38 The STL by Alexander Stepanov\n37:19 The first standard: C++98\n39:21 C++ at CERN in the 90s\n40:34 C++ spreading to games and trading\n43:00 C++ winter of the early 2000s\n45:34 Programming language wars (C#)\n49:25 There’s a need for an efficient programming language again\n52:29 Modern C++ (C++11)\n56:29 Is the standards committee making C++ too complicated?\n1:00:45 C++ is everwhere\n01:05:00 The future and challenges for C++\n01:08:31 Bjarne’s impact\n\n-------------------------------------------------------------------------------------------------------------------------\n\nThanks to Hudson River Trading for making this documentary possible ➡️➡️ https://hudsonrivertrading.com/cppdoc\n\n-------------------------------------------------------------------------------------------------------------------------\n\nThanks to Railway, our channel sponsor, for supporting our work ➡️ https://railway.com/?referralCode=cultrepo\n\n\n-------------------------------------------------------------------------------------------------------------------------\n\nDirected by: Ida Bechtle \nProduced by: Emma Tracey\n\n\n-------------------------------------------------------------------------------------------------------------------------\n\nFollow us:\nX: https://www.x.com/CultRepo\nBluesky: https://www.cultrepo.bsky.social\nInstagram: https://www.instagram.com/cult.repo\nLinkedIn: https://www.linkedin.com/company/cult-repo",
+ "duration": "PT1H11M34S",
+ "publishedAt": "2026-06-04T19:00:06Z",
+ "channel": {
+  "id": "UCsUalyRg43M8D60mtHe6YcA",
+  "title": "CultRepo "
+ },
+ "ratings": {
+  "youtube": {
+   "likeCount": 3702,
+   "refreshedAt": "2026-06-05T20:35:02Z"
+  }
+ },
+ "views": {
+  "youtube": 57351
+ },
+ "image": "images/the-story-of-c.jpg"
+}
