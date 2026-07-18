@@ -4,12 +4,12 @@ A curated list of movies, documentaries and other related material to watch rela
 
 ## Table of Contents
 
-* Entries: 82
+* Entries: 83
 * [TV Series](#tv-series) (3)
   * [Silicon Valley](#silicon-valley)
   * [The Billion Dollar Code](#the-billion-dollar-code)
   * [The IT Crowd](#the-it-crowd)
-* [Documentaries](#documentaries) (72)
+* [Documentaries](#documentaries) (73)
   * [AlphaGo - The Movie](#alphago-the-movie)
   * [Angular: The Documentary](#angular-the-documentary)
   * [App: The Human Story](#app-the-human-story)
@@ -69,6 +69,7 @@ A curated list of movies, documentaries and other related material to watch rela
   * [The Hacker Wars](#the-hacker-wars)
   * [The Internet&#39;s Own Boy: The Story of Aaron Swartz](#the-internets-own-boy-the-story-of-aaron-swartz)
   * [The Inventor: Out for Blood in Silicon Valley](#the-inventor-out-for-blood-in-silicon-valley)
+  * [The Java Story: The Official Documentary](#the-java-story-the-official-documentary)
   * [The King of Kong: A Fistful of Quarters](#the-king-of-kong-a-fistful-of-quarters)
   * [The Rise of UK Fintech](#the-rise-of-uk-fintech)
   * [The Social Dilemma](#the-social-dilemma)
@@ -1114,6 +1115,17 @@ The story of Theranos, a multi-billion dollar tech company, its founder Elizabet
 * Tags: Startups, Fraud, Silicon Valley, Health Tech
 * IMDb rating: [7.2 / 10 (16,485 votes)](https://www.imdb.com/title/tt8488126/)
 * Watch on: [Amazon Prime Video](https://www.amazon.de/gp/video/detail/amzn1.dv.gti.68c2a9a4-b9b2-4b6d-a7cb-8d1f2f6a1b11) | [HBO Max](https://play.hbomax.com/video/watch/60158ef5-c8c8-4d15-8d61-211d6e97e42c)
+----
+<h3 id="the-java-story-the-official-documentary">The Java Story: The Official Documentary</h3>
+
+<img align="right" width="320" src="./generated/images/the-java-story-the-official-documentary.jpg" alt="The Java Story: The Official Documentary" />
+
+
+
+* Type: Documentary
+* Category: Programming Languages
+* Tags: Programming Languages, Java, Open Source, History
+* Watch on: [YouTube](https://www.youtube.com/watch?v=ZqGSg4b_cZA)
 ----
 <h3 id="the-king-of-kong-a-fistful-of-quarters">The King of Kong: A Fistful of Quarters</h3>
 
