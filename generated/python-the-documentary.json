@@ -29,8 +29,8 @@
  },
  "ratings": {
   "youtube": {
-   "likeCount": 35164,
-   "refreshedAt": "2026-07-18T12:24:23Z"
+   "likeCount": 35208,
+   "refreshedAt": "2026-07-19T08:08:08Z"
   },
   "imdb": {
    "averageRating": 8.3,
@@ -39,7 +39,7 @@
   }
  },
  "views": {
-  "youtube": 1173599
+  "youtube": 1175294
  },
  "image": "images/python-the-documentary.jpg"
 }

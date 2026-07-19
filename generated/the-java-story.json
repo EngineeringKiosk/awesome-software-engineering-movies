@@ -4,8 +4,12 @@
  "links": {
   "youtube": "https://www.youtube.com/watch?v=ZqGSg4b_cZA"
  },
- "language": null,
- "subtitles": null,
+ "language": [
+  "en"
+ ],
+ "subtitles": [
+  "en"
+ ],
  "tags": [
   "Programming Languages",
   "Java",
@@ -14,13 +18,22 @@
  ],
  "category": "Programming Languages",
  "type": "Documentary",
- "title": "",
- "description": "",
- "duration": "",
- "publishedAt": "",
+ "title": "The Java Story  |  The Official Documentary",
+ "description": "From its humble beginnings as a project code-named \"Oak\" at Sun Microsystems to becoming a global standard for enterprise software and billions of devices, Java's journey is one of radical innovation, strategic pivots, and enduring community strength. \n\n\n# Film Patrons\n\nThis film was only possible thanks to the incredible support of our sponsors: Oracle, JetBrains, IBM, and Azul. \n \n• *Oracle* : Oracle is the steward of the Java Platform. Learn more at https://dev.java and https://studio.youtube.com/channel/UCmRtPmgnQ04CMUpSUqPfhxQ\n• *IBM* : Develop modern applications with the open Java ecosystem and IBM Developer. https://developer.ibm.com/languages/java/\n• *JetBrains* : Use IntelliJ IDEA from JetBrains for pro development in Java and Kotlin: https://www.jetbrains.com/idea/\n• *Azul* : Azul is the trusted leader in enterprise Java for today's AI and cloud-first world, powering mission-critical systems for 36% of the Fortune 100: https://www.azul.com/\n• *Railway* : Railway is the all-in-one intelligent cloud provider ➡️ https://railway.com/?referralCode=cultrepo\n\n# What to Expect from the Film \n \n• *The Birth of Oak* : Discover how  a small team of top engineers at Sun Microsystems originally designed Java to solve problems in computing devices outside the traditional industry scope.\n• *Pivoting to the Web* : Learn how the release of the first web browser, Mosaic, inspired the team to rewrite their browser and bring interactivity to the static web using Java.\n• *Write Once, Run Anywhere* : Understand the goal of creating a binary platform that could run on any hardware. Revisit the high-stakes legal battles that threatened the \"write once, run anywhere\" promise.\n• *Community and Open Source* : Witness the transition of Java to an open-source platform through the creation of the Java Community Process (JCP) and the release of OpenJDK.\n• *The Modern Era* : Explore how Oracle's acquisition of Sun Microsystems impacted the language and whats in store for the future of Java.\n\n\n# Timestamps\n\n00:00 - INTRO\n00:15 - TITLE SEQUENCE\n01:33 - PROJECT GREEN AND EARLY YEARS\n04:27 - HOTJAVA BROWSER\n06:34 - NETSCAPE\n08:26 - JAVA WEB PIVOT/WORA\n12:22 - WOLF IN SHEEP'S CLOTHING\n15:31 - JAVA SHIFT TO ENTERPRISE\n18:20 - COMPATABILITY/MICROSOFT WARS\n19:45 - THE SMOKING GUN EMAIL\n21:08 - MICROSOFT THREAT\n22:45 - MICROSOFT LAWSUIT\n24:45 - JCP INCEPTION\n26:36 - OPEN SOURCING\n28:59 - TOMCAT\n31:06 - J2EE\n33:15 - SPRING / HIBERNATE\n34:49 - JAVA OPEN SOURCE ECOSYSTEM GROWTH\n36:07 - JAVA OPEN SOURCING ANNOUNCEMENT\n39:03 - THE DARK AGES\n42:28 - ORACLE ACQUISITION\n44:13 - JAMES GOSLING LEAVES ORACLE\n45:37 - JAVA UNDER ORACLE\n46:52 - IS JAVA DEAD?\n48:07 - JAVA 8 - A NEW ERA\n49:31 - JAVA 8 LAUNCH\n52:23 - JAVA SIX MONTH CADENCE\n54:53 - STEWARDSHIP\n58:32 - ECLIPSE FOUNDATION\n59:52 - JAVA PROJECT LOOM\n01:01:54 - THE JAVA COMMUNITY\n01:03:59 - THE UBIQUITY OF JAVA/JAVA'S LEGACY\n01:06:55 - JAVA DEVELOPMENT IN THE MODERN ERA\n01:11:29 - FINAL WRAP\n01:13:31 - CREDITS\n\n---\n\n# Featuring\n\n*Past \u0026 Present Java Team Members from Sun / Oracle*\n\n- *James Gosling* — Creator of Java\n- *Joshua Bloch* — Creator of the Java Collections Framework, Author of Effective Java\n- *James Duncan Davidson* — Creator of Apache Tomcat\n- *Brian Goetz* — Java Language Architect, Java Platform Group, Oracle\n- *Tim Lindholm* — Co-author, Java Virtual Machine Specification\n- *Kim Polese* — Java's first Product Manager\n- *Mark Reinhold* — Chief Architect, Java Platform Group, Oracle\n- *Georges Saab* — Senior Vice President, Java Platform Group, Oracle and Chair, OpenJDK Governing Board\n- *Paul Sandoz* — Architect, Java Platform Group, Oracle\n- *Carla Schroer* — Director of Java Compatibility, Sun Microsystems\n- *Sharat Chander* — Senior Director, Java Product Management \u0026 Developer Engagement, Oracle\n- *Heather VanCura* — Vice President and Java Community Process Chairperson and Director, Oracle\n\n*Java Community*\n\n- *Paul Bakker* — Staff Software Engineer at Netflix \n- *Lars Bergstrom* — Director of Engineering, Google Android \n- *Andrey Breslav* — Creator of Kotlin \n- *Ivar Grimstad* — Jakarta EE Developer Advocate at Eclipse Foundation \n- *Rod Johnson* — Creator of Spring \n- *Gavin King* — Creator of Hibernate \n- *Mark Little* — Vice President Java Runtimes and Java Integration, IBM \n- *Josh Long* — Spring Developer Advocate \n- *Venkat Subramaniam* — Java Champion, Author \u0026 Educator \n- *Tagir Valeev* — Technical Lead, Java Team, JetBrains \n\n---\n\n# Filmmakers \n\nDirected by: Joey Bania\nProduced by: Emma Tracey\n\n--- \n\n# Follow Us\n\nX: https://www.x.com/CultRepo\nBluesky: https://www.cultrepo.bsky.social\nInstagram: https://www.instagram.com/cult.repo\nLinkedIn: https://www.linkedin.com/company/cult-repo",
+ "duration": "PT1H14M11S",
+ "publishedAt": "2026-07-17T19:00:06Z",
  "channel": {
-  "id": "",
-  "title": ""
+  "id": "UCsUalyRg43M8D60mtHe6YcA",
+  "title": "CultRepo "
+ },
+ "ratings": {
+  "youtube": {
+   "likeCount": 4536,
+   "refreshedAt": "2026-07-19T08:08:08Z"
+  }
+ },
+ "views": {
+  "youtube": 75862
  },
  "image": "images/the-java-story-the-official-documentary.jpg"
 }
