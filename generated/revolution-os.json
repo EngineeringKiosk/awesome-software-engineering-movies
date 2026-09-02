@@ -47,17 +47,17 @@
  },
  "ratings": {
   "youtube": {
-   "likeCount": 2272,
-   "refreshedAt": "2026-08-02T08:07:53Z"
+   "likeCount": 2317,
+   "refreshedAt": "2026-09-02T10:15:30Z"
   },
   "imdb": {
    "averageRating": 7.2,
-   "numVotes": 2709,
-   "refreshedAt": "2026-07-18T12:24:23Z"
+   "numVotes": 2714,
+   "refreshedAt": "2026-09-02T10:15:30Z"
   }
  },
  "views": {
-  "youtube": 90621
+  "youtube": 92504
  },
  "image": "images/revolution-os.jpg"
 }
