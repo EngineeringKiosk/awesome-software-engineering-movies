@@ -855,7 +855,7 @@ Thanks to our sponsors ...
 * Category: Programming Languages
 * Tags: Programming Languages, Open Source, History
 * IMDb rating: [8.4 / 10 (13 votes)](https://www.imdb.com/title/tt38589263/)
-* YouTube likes: 36,670
+* YouTube likes: 36,671
 * Watch on: [YouTube](https://www.youtube.com/watch?v=GfH4QL4VqJ0)
 ----
 <h3 id="react-js-the-documentary">React.js: The Documentary</h3>
