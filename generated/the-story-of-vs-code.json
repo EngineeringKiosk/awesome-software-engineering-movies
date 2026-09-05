@@ -1,0 +1,46 @@
+{
+ "name": "The Story of VS Code",
+ "slug": "the-story-of-vs-code",
+ "links": {
+  "youtube": "https://www.youtube.com/watch?v=kHL3XzjpT5w"
+ },
+ "language": [
+  "en"
+ ],
+ "subtitles": [
+  "ja",
+  "fr",
+  "de",
+  "ko",
+  "pt",
+  "en",
+  "es"
+ ],
+ "tags": [
+  "Developer Tools",
+  "IDE",
+  "Microsoft",
+  "Open Source",
+  "History"
+ ],
+ "category": "Applications / Frameworks / Systems",
+ "type": "Documentary",
+ "title": "The Story of VS Code | Official Documentary",
+ "description": "Erich Gamma once called VS Code an overnight success 10 years in the making. \n\nThose 10 years were pretty eventful. \n\nBefore becoming one of the most widely used developer tools in the world, VS Code started with a small team building online developer tools out of Zurich, called itself Monaco, then Visual Studio Online Monaco, then Ticino (because why not?), became a desktop editor, \nwent open source, became an ecosystem in its own right, went back to the browser, and helped establish a whole bunch of open protocols along the way. \n\nAnd just when it felt like the hard part was done, AI happened. \n\nThis is the story of how VS Code got here, told by the people who built it and the developers who helped shape it. And now, how it’s adapting once again as AI changes what a code editor can be. \n\nThe Story of VS Code was directed \u0026 produced by Stefan Kingham, with the help of a global team of videographers. Filming took place from November 2024 to mid-2026. Stefan would like to thank Microsoft, GitHub, Meta, Red Hat, GitKraken, Ona and AG Grid for helping bring this story to life. \n\nDocumentary cast (in alphabetical order): \n● Luciana Abud: Principal Technical PM Manager at Microsoft \n● Eric Amodio: Creator of GitLens \u0026 CTO at GitKraken \n● Max Rydahl Andersen: Distinguished Engineer at Red Hat \n● SteVen Batten: Principal Engineering Manager at Microsoft \n● Dirk Bäumer: Founding VS Code Engineer at Microsoft \n● Michael Bolin: Former Software Engineer at Facebook \n● Wes Bos: Full-Stack Developer \u0026 Co-Host of the Syntax.fm Podcast \n● Chris Dias: Former Partner Program Manager at Microsoft \n● Alexandru Dima: Founding VS Code Engineer at Microsoft \n● Jaana Dogan: Principal Engineer at Google \n● Sven Efftinge: Co-Founder at Gitpod \n● Görkem Ercan: Former Distinguished Engineer at Red Hat \n● Erich Gamma: Original VS Code Lead at Microsoft \n● Scott Hanselman: VP, Member of Technical Staff at Microsoft \n● Burke Holland: Principal Developer Advocate at Microsoft \n● Stephen Kreyenbuhl: Engineering Manager at Meta \n● Julia Liuson: Former President of Microsoft's Developer Division \n● Steve Lucco: TypeScript Co-Creator at Microsoft \n● Peng Lyu: Former Principal Engineering Manager at Microsoft \n● Kai Maetzel: VS Code Lead at Microsoft \n● Oege de Moor: Founder of GitHub Copilot \n● João Moreno: Founding VS Code Engineer at Microsoft \n● Brigit Murtaugh: Principal Product Manager at Microsoft \n● Elsie Nallipogu: VP Applied Research at Microsoft \n● Shanku Niyogi: Former Visual Studio Director at Microsoft \n● Addy Osmani: Former Director, Cloud AI at Google \n● Benjamin Pasero: Founding VS Code Engineer at Microsoft \n● Johannes Rieken: Founding VS Code Engineer at Microsoft \n● Megan Rogge: Software Engineer at Microsoft \n● Amanda Silver: CVP Product, M365 Core \u0026 Work IQ at Microsoft \n● Bhavya U: Software Engineer at Microsoft \n● Christian Weichel: Co-Founder at Ona \n\nChapters: \n00:00 Meet Developers Where They Are  \n02:11 The Origin Story  \n09:04 Hello Zurich  \n12:42 TypeScript Collaboration  \n17:38 Monaco  \n22:53 The Monaco Workbench \u0026 Visual Studio Online Monaco  \n26:17 Node-Webkit, Electron \u0026 the Desktop  \n30:08 The Release of VS Code  \n34:05 Open Source \u0026 Extensions \n42:23 Community Reception  \n46:33 Any Language: LSP  \n54:33 Hello Redmond  \n59:51 Any Environment: Remote Development  \n1:08:45 Any Developer: Accessibility  \n1:13:48 The AI Shift  \n1:15:07 GitHub Copilot  \n1:18:51 VS Code in the Age of AI  \n1:27:37 The Forks  \n1:33:48 Unless It Ships, It Doesn’t Exist \n\n📲 Follow VS Code:\nX: https://x.com/code\nBluesky: https://bsky.app/profile/vscode.dev\nLinkedIn: https://aka.ms/VSCode/LinkedIn\nGitHub: https://github.com/microsoft/vscode\nInstagram: https://www.instagram.com/vscode.ig/\n\n- Captions translated with GitHub Copilot in VS Code with GPT-5.6 Sol and reviewed and updated by Madoka Chiyoda, Julien Dubois, Bruno Capuano, Harald Kirschner, Justin Yoo, and Cynthia Zanoni.\n\n#vscode #storyofvscode",
+ "duration": "PT1H38M12S",
+ "publishedAt": "2026-09-04T15:00:06Z",
+ "channel": {
+  "id": "UCs5Y5_7XK8HLDX0SLNwkd3w",
+  "title": "Visual Studio Code"
+ },
+ "ratings": {
+  "youtube": {
+   "likeCount": 2326,
+   "refreshedAt": "2026-09-05T12:36:23Z"
+  }
+ },
+ "views": {
+  "youtube": 90982
+ },
+ "image": "images/the-story-of-vs-code.jpg"
+}

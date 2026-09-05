@@ -4,12 +4,12 @@ A curated list of movies, documentaries and other related material to watch rela
 
 ## Table of Contents
 
-* Entries: 83
+* Entries: 84
 * [TV Series](#tv-series) (3)
   * [Silicon Valley](#silicon-valley)
   * [The Billion Dollar Code](#the-billion-dollar-code)
   * [The IT Crowd](#the-it-crowd)
-* [Documentaries](#documentaries) (73)
+* [Documentaries](#documentaries) (74)
   * [AlphaGo - The Movie](#alphago-the-movie)
   * [Angular: The Documentary](#angular-the-documentary)
   * [App: The Human Story](#app-the-human-story)
@@ -74,6 +74,7 @@ A curated list of movies, documentaries and other related material to watch rela
   * [The Rise of UK Fintech](#the-rise-of-uk-fintech)
   * [The Social Dilemma](#the-social-dilemma)
   * [The Story of C&#43;&#43;](#the-story-of-c)
+  * [The Story of VS Code](#the-story-of-vs-code)
   * [TPB AFK: The Pirate Bay Away From Keyboard](#tpb-afk-the-pirate-bay-away-from-keyboard)
   * [TypeScript Origins: The Documentary](#typescript-origins-the-documentary)
   * [Ulterior States](#ulterior-states)
@@ -1202,6 +1203,27 @@ Anders Hejlsberg: Creator of C#, ...
 * Tags: Programming Languages, C&#43;&#43;, History
 * YouTube likes: 13,701
 * Watch on: [YouTube](https://www.youtube.com/watch?v=lI7tMxzSJ7w)
+----
+<h3 id="the-story-of-vs-code">The Story of VS Code</h3>
+
+<img align="right" width="320" src="./generated/images/the-story-of-vs-code.jpg" alt="The Story of VS Code" />
+
+Erich Gamma once called VS Code an overnight success 10 years in the making. 
+
+Those 10 years were pretty eventful. 
+
+Before becoming one of the most widely used developer tools in the world, VS Code started with a small team building online developer tools out of Zurich, called itself Monaco, then Visual Studio Online Monaco, then Ticino (because why not?), became a desktop editor, 
+went open source, became an ecosystem in its own right, went back to the browser, and helped establish a whole bunch of open protocols along the way. 
+
+And just when it felt like the hard part was done, AI happened. ...
+
+* Duration: ca. 1 h 38 min.
+* Language: en
+* Type: Documentary
+* Category: Applications / Frameworks / Systems
+* Tags: Developer Tools, IDE, Microsoft, Open Source, History
+* YouTube likes: 2,326
+* Watch on: [YouTube](https://www.youtube.com/watch?v=kHL3XzjpT5w)
 ----
 <h3 id="tpb-afk-the-pirate-bay-away-from-keyboard">TPB AFK: The Pirate Bay Away From Keyboard</h3>
 
