@@ -1,11 +1,11 @@
 module github.com/EngineeringKiosk/awesome-software-engineering-movies
 
-go 1.25.0
+go 1.26.0
 
 require (
 	github.com/gosimple/slug v1.15.0
 	github.com/spf13/cobra v1.10.2
-	google.golang.org/api v0.295.0
+	google.golang.org/api v0.297.0
 	gopkg.in/yaml.v3 v3.0.1
 )
 
