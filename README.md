@@ -477,7 +477,7 @@ Check out the Half-Life 25th Anniversary Update, restored content, new multiplay
 * Category: Culture / People
 * Tags: Game Development, Valve, History
 * IMDb rating: [7.5 / 10 (261 votes)](https://www.imdb.com/title/tt30060427/)
-* YouTube likes: 282,551
+* YouTube likes: 282,550
 * Watch on: [YouTube](https://www.youtube.com/watch?v=TbZ3HzvFEto)
 ----
 <h3 id="i-am-human-a-documentary-about-real-life-cyborgs">I Am Human: A Documentary About Real-Life Cyborgs</h3>
@@ -1222,7 +1222,7 @@ And just when it felt like the hard part was done, AI happened. ...
 * Type: Documentary
 * Category: Applications / Frameworks / Systems
 * Tags: Developer Tools, IDE, Microsoft, Open Source, History
-* YouTube likes: 3,495
+* YouTube likes: 3,497
 * Watch on: [YouTube](https://www.youtube.com/watch?v=kHL3XzjpT5w)
 ----
 <h3 id="tpb-afk-the-pirate-bay-away-from-keyboard">TPB AFK: The Pirate Bay Away From Keyboard</h3>
