@@ -36,17 +36,17 @@
  },
  "ratings": {
   "youtube": {
-   "likeCount": 114,
-   "refreshedAt": "2026-09-13T14:05:26Z"
+   "likeCount": 116,
+   "refreshedAt": "2026-10-02T11:38:02Z"
   },
   "imdb": {
    "averageRating": 6.9,
-   "numVotes": 9910,
-   "refreshedAt": "2026-09-02T10:15:30Z"
+   "numVotes": 9920,
+   "refreshedAt": "2026-10-02T11:38:02Z"
   }
  },
  "views": {
-  "youtube": 10843
+  "youtube": 11157
  },
  "image": "images/deep-web.jpg"
 }

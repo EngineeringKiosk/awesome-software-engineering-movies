@@ -29,17 +29,17 @@
  },
  "ratings": {
   "youtube": {
-   "likeCount": 7990,
-   "refreshedAt": "2026-09-13T14:05:26Z"
+   "likeCount": 8007,
+   "refreshedAt": "2026-10-02T11:38:02Z"
   },
   "imdb": {
    "averageRating": 5.8,
-   "numVotes": 518,
-   "refreshedAt": "2026-09-02T10:15:30Z"
+   "numVotes": 519,
+   "refreshedAt": "2026-10-02T11:38:02Z"
   }
  },
  "views": {
-  "youtube": 867759
+  "youtube": 870175
  },
  "image": "images/defcon-the-documentary.jpg"
 }

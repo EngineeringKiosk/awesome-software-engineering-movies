@@ -55,17 +55,17 @@
  },
  "ratings": {
   "youtube": {
-   "likeCount": 115393,
-   "refreshedAt": "2026-09-13T14:05:26Z"
+   "likeCount": 115412,
+   "refreshedAt": "2026-10-02T11:38:02Z"
   },
   "imdb": {
    "averageRating": 7.6,
-   "numVotes": 13740,
-   "refreshedAt": "2026-09-02T10:15:30Z"
+   "numVotes": 13750,
+   "refreshedAt": "2026-10-02T11:38:02Z"
   }
  },
  "views": {
-  "youtube": 6924784
+  "youtube": 6929189
  },
  "image": "images/free-to-play.jpg"
 }

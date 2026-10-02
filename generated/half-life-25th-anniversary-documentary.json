@@ -53,17 +53,17 @@
  },
  "ratings": {
   "youtube": {
-   "likeCount": 282785,
-   "refreshedAt": "2026-09-13T14:05:26Z"
+   "likeCount": 283228,
+   "refreshedAt": "2026-10-02T11:38:02Z"
   },
   "imdb": {
    "averageRating": 7.5,
-   "numVotes": 261,
-   "refreshedAt": "2026-09-02T10:15:30Z"
+   "numVotes": 265,
+   "refreshedAt": "2026-10-02T11:38:02Z"
   }
  },
  "views": {
-  "youtube": 8324779
+  "youtube": 8388777
  },
  "image": "images/half-life-25th-anniversary-documentary.jpg"
 }

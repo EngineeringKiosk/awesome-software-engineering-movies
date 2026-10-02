@@ -28,17 +28,17 @@
  },
  "ratings": {
   "youtube": {
-   "likeCount": 60,
-   "refreshedAt": "2026-09-13T14:05:26Z"
+   "likeCount": 62,
+   "refreshedAt": "2026-10-02T11:38:02Z"
   },
   "imdb": {
-   "averageRating": 6.2,
-   "numVotes": 337,
-   "refreshedAt": "2026-09-02T10:15:30Z"
+   "averageRating": 6.1,
+   "numVotes": 336,
+   "refreshedAt": "2026-10-02T11:38:02Z"
   }
  },
  "views": {
-  "youtube": 7782
+  "youtube": 7998
  },
  "image": "images/code-debugging-the-gender-gap.jpg"
 }
