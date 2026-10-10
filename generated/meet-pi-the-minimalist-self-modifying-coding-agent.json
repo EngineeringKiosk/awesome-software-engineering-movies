@@ -1,0 +1,38 @@
+{
+ "name": "Meet Pi: The Minimalist, Self-Modifying Coding Agent",
+ "slug": "meet-pi-the-minimalist-self-modifying-coding-agent",
+ "links": {
+  "youtube": "https://www.youtube.com/watch?v=RKHaecOi0CA"
+ },
+ "language": [
+  "en"
+ ],
+ "subtitles": [
+  "en"
+ ],
+ "tags": [
+  "AI",
+  "Developer Tools",
+  "Open Source"
+ ],
+ "category": "Applications / Frameworks / Systems",
+ "type": "Documentary",
+ "title": "Meet Pi: The Minimalist, Self-Modifying Coding Agent",
+ "description": "Mario, the creator of Pi, shares the story behind his lightweight AI coding agent. Built out of a desire for control, minimalism, and determinism in software development, Pi offers a stark alternative to the complex, \"token-maxing\" tools coming out of Silicon Valley. \n\nAt its core, Pi runs on a simple idea — a nested while-loop that sends a request to an LLM, handles whatever tool calls come back (bash commands, file reads, whatever the task needs), and keeps looping until it has an answer. No bloat, no black box. Built on Node.js/TypeScript across four core packages, it's designed so developers can actually read and understand the code their agent is writing. It even builds and extends itself, creating its own skills and extensions on the fly.\n\nThe film traces Mario's journey, from teaching himself to code on an Amiga 500 and QBasic in rural Austria, through the acquisition rollercoaster of RoboVM, to building Pi's open ecosystem today alongside co-founder Armin Ronacher. It's a story about what happens when you build software for control and clarity instead of chasing the biggest possible footprint, and why, in an industry obsessed with scale, \"small and understandable\" might be the more radical bet.\n\n-----------------------------------------------------------------------------------------------------\n\nThanks Railway, our channel sponsor, for making all of our films possible:\nRailway is the all-in-one intelligent cloud provider ➡️ https://railway.com/?referralCode=cultrepo\n\n\n----------------------------------------------------------------------------------------------------\n\nFollow us:\nX: https://www.x.com/CultRepo\nBluesky: https://www.cultrepo.bsky.social\nInstagram: https://www.instagram.com/cult.repo\nLinkedIn: https://www.linkedin.com/company/cult-repo",
+ "duration": "PT11M23S",
+ "publishedAt": "2026-08-20T10:02:08Z",
+ "channel": {
+  "id": "UCsUalyRg43M8D60mtHe6YcA",
+  "title": "CultRepo "
+ },
+ "ratings": {
+  "youtube": {
+   "likeCount": 1597,
+   "refreshedAt": "2026-10-10T10:08:09Z"
+  }
+ },
+ "views": {
+  "youtube": 72828
+ },
+ "image": "images/meet-pi-the-minimalist-self-modifying-coding-agent.jpg"
+}
