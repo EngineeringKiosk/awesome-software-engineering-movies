@@ -152,7 +152,7 @@ With more board configurations than there are atoms in the universe, the ancient
 * Category: Culture / Society
 * Tags: AI, Machine Learning, DeepMind, Games
 * IMDb rating: [7.8 / 10 (7,775 votes)](https://www.imdb.com/title/tt6700846/)
-* YouTube likes: 332,103
+* YouTube likes: 332,104
 * Watch on: [YouTube](https://www.youtube.com/watch?v=WXuK6gekU1Y)
 ----
 <h3 id="angular-the-documentary">Angular: The Documentary</h3>
@@ -387,7 +387,7 @@ Three professional gamers from different parts of the world fight personal hards
 * Category: Culture / People
 * Tags: Gaming, eSports, Dota 2, Valve
 * IMDb rating: [7.6 / 10 (13,750 votes)](https://www.imdb.com/title/tt3203290/)
-* YouTube likes: 115,414
+* YouTube likes: 115,413
 * Watch on: [Apple TV](https://tv.apple.com/de/movie/free-to-play/umc.cmc.3ti8vrr7ooltzqkij17ovd4xx) | [Netflix](https://www.netflix.com/title/81438157) | [YouTube](https://www.youtube.com/watch?v=UjZYMI1zB9s)
 ----
 <h3 id="general-magic">General Magic</h3>
@@ -479,7 +479,7 @@ Check out the Half-Life 25th Anniversary Update, restored content, new multiplay
 * Category: Culture / People
 * Tags: Game Development, Valve, History
 * IMDb rating: [7.5 / 10 (265 votes)](https://www.imdb.com/title/tt30060427/)
-* YouTube likes: 283,504
+* YouTube likes: 283,503
 * Watch on: [YouTube](https://www.youtube.com/watch?v=TbZ3HzvFEto)
 ----
 <h3 id="i-am-human-a-documentary-about-real-life-cyborgs">I Am Human: A Documentary About Real-Life Cyborgs</h3>
@@ -640,7 +640,7 @@ The film ...
 * Type: Documentary
 * Category: Applications / Frameworks / Systems
 * Tags: Linux, Open Source, History, Desktop
-* YouTube likes: 5,371
+* YouTube likes: 5,413
 * Watch on: [YouTube](https://www.youtube.com/watch?v=1Vyzla9mx4g)
 ----
 <h3 id="kill-chain-the-cyber-war-on-americas-elections">Kill Chain: The Cyber War on America&#39;s Elections</h3>
@@ -773,7 +773,7 @@ Since its development in 2009, Minecraft has taken the digital world by storm. I
 * Type: Documentary
 * Category: Culture / People
 * Tags: Gaming, Minecraft, Indie, History
-* YouTube likes: 1,697
+* YouTube likes: 1,698
 * Watch on: [YouTube](https://www.youtube.com/watch?v=ggCIGOQloY4)
 ----
 <h3 id="node-js-the-documentary">Node.js: The Documentary</h3>
@@ -892,7 +892,7 @@ Thanks to our sponsors ...
 * Category: Programming Languages
 * Tags: Programming Languages, Open Source, History
 * IMDb rating: [8.4 / 10 (13 votes)](https://www.imdb.com/title/tt38589263/)
-* YouTube likes: 37,059
+* YouTube likes: 37,062
 * Watch on: [YouTube](https://www.youtube.com/watch?v=GfH4QL4VqJ0)
 ----
 <h3 id="react-js-the-documentary">React.js: The Documentary</h3>
@@ -1119,7 +1119,7 @@ The Hacker Wars is an eye-opening documentary that reveals the high-stakes world
 * Type: Documentary
 * Category: Culture / Society
 * Tags: Hacktivism, Security, Anonymous, Whistleblowing
-* YouTube likes: 1,110
+* YouTube likes: 1,111
 * Watch on: [YouTube](https://www.youtube.com/watch?v=VPYci82ZzW0)
 ----
 <h3 id="the-internets-own-boy-the-story-of-aaron-swartz">The Internet&#39;s Own Boy: The Story of Aaron Swartz</h3>
@@ -1172,7 +1172,7 @@ This film was only possible thanks to the incredible support of our sponsors: Or
 * Type: Documentary
 * Category: Programming Languages
 * Tags: Programming Languages, Java, Open Source, History
-* YouTube likes: 15,749
+* YouTube likes: 15,752
 * Watch on: [YouTube](https://www.youtube.com/watch?v=ZqGSg4b_cZA)
 ----
 <h3 id="the-king-of-kong-a-fistful-of-quarters">The King of Kong: A Fistful of Quarters</h3>
@@ -1237,7 +1237,7 @@ Anders Hejlsberg: Creator of C#, ...
 * Type: Documentary
 * Category: Programming Languages
 * Tags: Programming Languages, C&#43;&#43;, History
-* YouTube likes: 14,231
+* YouTube likes: 14,232
 * Watch on: [YouTube](https://www.youtube.com/watch?v=lI7tMxzSJ7w)
 ----
 <h3 id="the-story-of-vs-code">The Story of VS Code</h3>
@@ -1258,7 +1258,7 @@ And just when it felt like the hard part was done, AI happened. ...
 * Type: Documentary
 * Category: Applications / Frameworks / Systems
 * Tags: Developer Tools, IDE, Microsoft, Open Source, History
-* YouTube likes: 9,372
+* YouTube likes: 9,374
 * Watch on: [YouTube](https://www.youtube.com/watch?v=kHL3XzjpT5w)
 ----
 <h3 id="tpb-afk-the-pirate-bay-away-from-keyboard">TPB AFK: The Pirate Bay Away From Keyboard</h3>
@@ -1297,7 +1297,7 @@ Sponsored by
 * Type: Documentary
 * Category: Programming Languages
 * Tags: Programming Languages, JavaScript, Microsoft, History
-* YouTube likes: 9,753
+* YouTube likes: 9,754
 * Watch on: [YouTube](https://www.youtube.com/watch?v=U6s2pdxebSo)
 ----
 <h3 id="ulterior-states">Ulterior States</h3>
