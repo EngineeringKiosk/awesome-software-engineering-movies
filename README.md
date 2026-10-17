@@ -479,7 +479,7 @@ Check out the Half-Life 25th Anniversary Update, restored content, new multiplay
 * Category: Culture / People
 * Tags: Game Development, Valve, History
 * IMDb rating: [7.5 / 10 (265 votes)](https://www.imdb.com/title/tt30060427/)
-* YouTube likes: 283,503
+* YouTube likes: 283,502
 * Watch on: [YouTube](https://www.youtube.com/watch?v=TbZ3HzvFEto)
 ----
 <h3 id="i-am-human-a-documentary-about-real-life-cyborgs">I Am Human: A Documentary About Real-Life Cyborgs</h3>
@@ -1119,7 +1119,7 @@ The Hacker Wars is an eye-opening documentary that reveals the high-stakes world
 * Type: Documentary
 * Category: Culture / Society
 * Tags: Hacktivism, Security, Anonymous, Whistleblowing
-* YouTube likes: 1,111
+* YouTube likes: 1,110
 * Watch on: [YouTube](https://www.youtube.com/watch?v=VPYci82ZzW0)
 ----
 <h3 id="the-internets-own-boy-the-story-of-aaron-swartz">The Internet&#39;s Own Boy: The Story of Aaron Swartz</h3>
