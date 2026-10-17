@@ -1,0 +1,39 @@
+{
+ "name": "KDE: The Documentary — The Story of Free Software Underdogs",
+ "slug": "kde-the-documentary-the-story-of-free-software-underdogs",
+ "links": {
+  "youtube": "https://www.youtube.com/watch?v=1Vyzla9mx4g"
+ },
+ "language": [
+  "en"
+ ],
+ "subtitles": [
+  "en"
+ ],
+ "tags": [
+  "Linux",
+  "Open Source",
+  "History",
+  "Desktop"
+ ],
+ "category": "Applications / Frameworks / Systems",
+ "type": "Documentary",
+ "title": "KDE: The Documentary — The Story of Free Software Underdogs",
+ "description": "KDE: The Documentary tells the story of the pioneering open source community that gave computer users a free and open alternative to proprietary desktops like Windows.\n\nThe story starts in 1996, when Matthias Ettrich, a student at the University of Tübingen, posted to a Usenet group asking for programmers to help build a desktop for Linux. What followed became KDE, one of the largest free software communities in the world. KDE made Linux usable as a desktop for people who weren’t system administrators, giving it a complete, consistent graphical environment at a time when there was none.\n\nThe film covers the highs and lows of three decades of KDE: the Qt licensing fight and the rivalry with GNOME; the success of KHTML, the browser engine that became the basis of Apple’s WebKit and Google’s Chrome; and the contentious release of KDE 4 and the rebuild that followed.\n\nAlong the way, KDE invented much of how open source communities organise themselves. KDE e.V., the non-profit association that holds the project’s legal and financial responsibilities while leaving technical decisions to contributors, became a model for many other open source projects.\n\nToday, KDE is the default desktop on major Linux distributions and on the Steam Deck, and the centre of a whole ecosystem of free and open software.\n\nAbove all, the film is about the people who built KDE, the friendships that formed, and why generations of developers have given their free time to it.\n\nFeaturing:\nAaron Seigo\nAlbert Astals Cid\nCornelius Schumacher\nEike Hein\nEirik Chambe-Eng\nEva Brucherseifer\nLars Knoll\nMatthias Ettrich\nMatthias Kalle Dalheimer\nMartin Konold\nMiguel de Icaza\nNathan Graham\nSebastian Kügler\n\nThanks to KDE for their support in making this film. Support their work: https://kde.org/donate/\n\n---------------------------------------------------------------------\n\n\nThanks Railway, our channel sponsor, for making all of our films possible:\nRailway is the all-in-one intelligent cloud provider ➡️ https://railway.com/?referralCode=cultrepo\n\n\nFollow us:\nX: https://www.x.com/CultRepo\nBluesky: https://www.cultrepo.bsky.social\nInstagram: https://www.instagram.com/cult.repo\nLinkedIn: https://www.linkedin.com/company/cult-repo",
+ "duration": "PT1H2M19S",
+ "publishedAt": "2026-10-14T17:30:09Z",
+ "channel": {
+  "id": "UCsUalyRg43M8D60mtHe6YcA",
+  "title": "CultRepo "
+ },
+ "ratings": {
+  "youtube": {
+   "likeCount": 5371,
+   "refreshedAt": "2026-10-17T15:19:09Z"
+  }
+ },
+ "views": {
+  "youtube": 184504
+ },
+ "image": "images/kde-the-documentary-the-story-of-free-software-underdogs.jpg"
+}
