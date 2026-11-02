@@ -30,16 +30,16 @@
  "ratings": {
   "youtube": {
    "likeCount": 384,
-   "refreshedAt": "2026-10-17T16:20:05Z"
+   "refreshedAt": "2026-11-02T14:18:27Z"
   },
   "imdb": {
    "averageRating": 6.9,
-   "numVotes": 494,
-   "refreshedAt": "2026-10-02T11:38:02Z"
+   "numVotes": 493,
+   "refreshedAt": "2026-11-02T14:18:27Z"
   }
  },
  "views": {
-  "youtube": 36158
+  "youtube": 36185
  },
  "image": "images/steal-this-film.jpg"
 }

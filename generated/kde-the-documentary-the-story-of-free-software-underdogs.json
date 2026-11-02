@@ -8,7 +8,13 @@
   "en"
  ],
  "subtitles": [
-  "en"
+  "en",
+  "it",
+  "sl",
+  "ru",
+  "ca",
+  "pt",
+  "sk"
  ],
  "tags": [
   "Linux",
@@ -28,12 +34,12 @@
  },
  "ratings": {
   "youtube": {
-   "likeCount": 5413,
-   "refreshedAt": "2026-10-17T16:08:38Z"
+   "likeCount": 8023,
+   "refreshedAt": "2026-11-02T14:18:27Z"
   }
  },
  "views": {
-  "youtube": 185514
+  "youtube": 285717
  },
  "image": "images/kde-the-documentary-the-story-of-free-software-underdogs.jpg"
 }
