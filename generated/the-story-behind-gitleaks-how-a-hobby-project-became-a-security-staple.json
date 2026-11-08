@@ -1,0 +1,39 @@
+{
+ "name": "The Story Behind Gitleaks: How a Hobby Project Became a Security Staple",
+ "slug": "the-story-behind-gitleaks-how-a-hobby-project-became-a-security-staple",
+ "links": {
+  "youtube": "https://www.youtube.com/watch?v=aQhjhGuleTA"
+ },
+ "language": [
+  "en"
+ ],
+ "subtitles": [
+  "en"
+ ],
+ "tags": [
+  "Security",
+  "Developer Tools",
+  "Open Source",
+  "History"
+ ],
+ "category": "Applications / Frameworks / Systems",
+ "type": "Documentary",
+ "title": "The Story Behind Gitleaks: How a Hobby Project Became a Security Staple",
+ "description": "Zach Rice, the creator of Gitleaks tells the story behind the open-source secret scanner: how it started, how it evolved, how Betterleaks was born, and why secret detection matters for modern software security.\n\nIn this film:\n\n- Early inspiration. How PSP jailbreaking and Kali Linux led to an interest in security tools and system controls.\n\n- The birth of Gitleaks. How a desire for creative control, with TruffleHog as inspiration, led to writing Gitleaks in Go.\n\n- Early adoption. How a viral tweet and community support brought thousands of GitHub stars before version 1.0 shipped.\n\n- Narrowing the scope. Cutting features to focus on one job: finding secrets locally.\n\n- What secret scanning is. How credentials end up in Git commit history, and why catching them early prevents costly breaches.\n\n- The birth of Betterleaks. How Gitleaks led to its successor, Betterleaks.\n\nTo learn more about Betterleaks and Zach, check out: \n\n- Betterleaks GH repo: https://github.com/betterleaks/betterleaks\n- Betterleaks website: https://betterleaks.com/\n- Zach's X: https://x.com/lookatcomputer\n- Zach's Substack: https://lookingatcomputer.substack.com/\n\n\n---------------------------------------------------------------------------------------------------------------------\n\nThis film was made possible by Aikido Security: https://www.aikido.dev/\n\n\nThanks Railway, our channel sponsor, for making all of our films possible:\nRailway is the all-in-one intelligent cloud provider ➡️ https://railway.com/?referralCode=cultrepo\n\n\nFollow us:\nX: https://www.x.com/CultRepo\nBluesky: https://www.cultrepo.bsky.social\nInstagram: https://www.instagram.com/cult.repo\nLinkedIn: https://www.linkedin.com/company/cult-repo",
+ "duration": "PT10M18S",
+ "publishedAt": "2026-10-27T19:00:08Z",
+ "channel": {
+  "id": "UCsUalyRg43M8D60mtHe6YcA",
+  "title": "CultRepo "
+ },
+ "ratings": {
+  "youtube": {
+   "likeCount": 295,
+   "refreshedAt": "2026-11-08T12:52:01Z"
+  }
+ },
+ "views": {
+  "youtube": 18986
+ },
+ "image": "images/the-story-behind-gitleaks-how-a-hobby-project-became-a-security-staple.jpg"
+}

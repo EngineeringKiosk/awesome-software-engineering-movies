@@ -4,12 +4,12 @@ A curated list of movies, documentaries and other related material to watch rela
 
 ## Table of Contents
 
-* Entries: 86
+* Entries: 88
 * [TV Series](#tv-series) (3)
   * [Silicon Valley](#silicon-valley)
   * [The Billion Dollar Code](#the-billion-dollar-code)
   * [The IT Crowd](#the-it-crowd)
-* [Documentaries](#documentaries) (76)
+* [Documentaries](#documentaries) (78)
   * [AlphaGo - The Movie](#alphago-the-movie)
   * [Angular: The Documentary](#angular-the-documentary)
   * [App: The Human Story](#app-the-human-story)
@@ -75,11 +75,13 @@ A curated list of movies, documentaries and other related material to watch rela
   * [The King of Kong: A Fistful of Quarters](#the-king-of-kong-a-fistful-of-quarters)
   * [The Rise of UK Fintech](#the-rise-of-uk-fintech)
   * [The Social Dilemma](#the-social-dilemma)
+  * [The Story Behind Gitleaks: How a Hobby Project Became a Security Staple](#the-story-behind-gitleaks-how-a-hobby-project-became-a-security-staple)
   * [The Story of C&#43;&#43;](#the-story-of-c)
   * [The Story of VS Code](#the-story-of-vs-code)
   * [TPB AFK: The Pirate Bay Away From Keyboard](#tpb-afk-the-pirate-bay-away-from-keyboard)
   * [TypeScript Origins: The Documentary](#typescript-origins-the-documentary)
   * [Ulterior States](#ulterior-states)
+  * [Video.js: The Documentary](#video-js-the-documentary)
   * [VITE: The Documentary](#vite-the-documentary)
   * [Vue.js: The Documentary](#vue-js-the-documentary)
   * [We Are Legion: The Story of the Hacktivists](#we-are-legion-the-story-of-the-hacktivists)
@@ -152,7 +154,7 @@ With more board configurations than there are atoms in the universe, the ancient
 * Category: Culture / Society
 * Tags: AI, Machine Learning, DeepMind, Games
 * IMDb rating: [7.8 / 10 (7,812 votes)](https://www.imdb.com/title/tt6700846/)
-* YouTube likes: 332,666
+* YouTube likes: 332,667
 * Watch on: [YouTube](https://www.youtube.com/watch?v=WXuK6gekU1Y)
 ----
 <h3 id="angular-the-documentary">Angular: The Documentary</h3>
@@ -640,7 +642,7 @@ The film ...
 * Type: Documentary
 * Category: Applications / Frameworks / Systems
 * Tags: Linux, Open Source, History, Desktop
-* YouTube likes: 8,465
+* YouTube likes: 8,472
 * Watch on: [YouTube](https://www.youtube.com/watch?v=1Vyzla9mx4g)
 ----
 <h3 id="kill-chain-the-cyber-war-on-americas-elections">Kill Chain: The Cyber War on America&#39;s Elections</h3>
@@ -743,7 +745,7 @@ In this mini-documentary, we talk to the builders and early-adopters of Local-Fi
 * Type: Documentary
 * Category: Applications / Frameworks / Systems
 * Tags: Local-First, Distributed Systems, Data, Open Source
-* YouTube likes: 4,699
+* YouTube likes: 4,700
 * Watch on: [YouTube](https://www.youtube.com/watch?v=10d8HxS4y_g)
 ----
 <h3 id="meet-pi-the-minimalist-self-modifying-coding-agent">Meet Pi: The Minimalist, Self-Modifying Coding Agent</h3>
@@ -791,7 +793,7 @@ Join us as we delve into the origins of Node.js, meet some of its earliest contr
 * Type: Documentary
 * Category: Applications / Frameworks / Systems
 * Tags: JavaScript, Backend, Open Source, History
-* YouTube likes: 24,318
+* YouTube likes: 24,319
 * Watch on: [YouTube](https://www.youtube.com/watch?v=LB8KwiiUGy0)
 ----
 <h3 id="nuxt-js-the-mini-documentary">Nuxt.js: The Mini Documentary</h3>
@@ -892,7 +894,7 @@ Thanks to our sponsors ...
 * Category: Programming Languages
 * Tags: Programming Languages, Open Source, History
 * IMDb rating: [8.4 / 10 (13 votes)](https://www.imdb.com/title/tt38589263/)
-* YouTube likes: 37,324
+* YouTube likes: 37,326
 * Watch on: [YouTube](https://www.youtube.com/watch?v=GfH4QL4VqJ0)
 ----
 <h3 id="react-js-the-documentary">React.js: The Documentary</h3>
@@ -1217,6 +1219,30 @@ The Social Dilemma is a powerful exploration of the disproportionate impact that
 * IMDb rating: [7.6 / 10 (95,480 votes)](https://www.imdb.com/title/tt11464826/)
 * Watch on: [Netflix](https://www.netflix.com/title/81254224)
 ----
+<h3 id="the-story-behind-gitleaks-how-a-hobby-project-became-a-security-staple">The Story Behind Gitleaks: How a Hobby Project Became a Security Staple</h3>
+
+<img align="right" width="320" src="./generated/images/the-story-behind-gitleaks-how-a-hobby-project-became-a-security-staple.jpg" alt="The Story Behind Gitleaks: How a Hobby Project Became a Security Staple" />
+
+Zach Rice, the creator of Gitleaks tells the story behind the open-source secret scanner: how it started, how it evolved, how Betterleaks was born, and why secret detection matters for modern software security.
+
+In this film:
+
+- Early inspiration. How PSP jailbreaking and Kali Linux led to an interest in security tools and system controls.
+
+- The birth of Gitleaks. How a desire for creative control, with TruffleHog as inspiration, led to writing Gitleaks in Go.
+
+- Early adoption. How a viral tweet and community support brought thousands of GitHub stars before version 1.0 shipped.
+
+- Narrowing the ...
+
+* Duration: ca. 10 min.
+* Language: en
+* Type: Documentary
+* Category: Applications / Frameworks / Systems
+* Tags: Security, Developer Tools, Open Source, History
+* YouTube likes: 295
+* Watch on: [YouTube](https://www.youtube.com/watch?v=aQhjhGuleTA)
+----
 <h3 id="the-story-of-c">The Story of C&#43;&#43;</h3>
 
 <img align="right" width="320" src="./generated/images/the-story-of-c.jpg" alt="The Story of C&#43;&#43;" />
@@ -1237,7 +1263,7 @@ Anders Hejlsberg: Creator of C#, ...
 * Type: Documentary
 * Category: Programming Languages
 * Tags: Programming Languages, C&#43;&#43;, History
-* YouTube likes: 14,502
+* YouTube likes: 14,503
 * Watch on: [YouTube](https://www.youtube.com/watch?v=lI7tMxzSJ7w)
 ----
 <h3 id="the-story-of-vs-code">The Story of VS Code</h3>
@@ -1313,6 +1339,28 @@ Ulterior States (2015) is a self-funded documentary by Free Software developer D
 * Tags: Cryptocurrency, Open Source, Decentralization, Activism
 * YouTube likes: 1,356
 * Watch on: [YouTube](https://www.youtube.com/watch?v=yQGQXy0RIIo)
+----
+<h3 id="video-js-the-documentary">Video.js: The Documentary</h3>
+
+<img align="right" width="320" src="./generated/images/video-js-the-documentary.jpg" alt="Video.js: The Documentary" />
+
+In 2010, video on the web meant Flash. Steve Heffernan, co-founder of the Y Combinator startup Zencoder, spent a weekend testing whether the new HTML5 video element could replace it.
+
+That same spring, Steve Jobs said Apple would not allow Flash on the iPhone and iPad. The web needed another way to play video.
+
+Video.js became the player the web defaulted to. 
+
+Fifteen years later, the project lost most of the maintainers keeping it alive.
+
+In 2025, Heffernan came back. Rather than patch fifteen years of code, he brought together the people behind Plyr, Vidstack, Media Chrome, and Mux Player, and ...
+
+* Duration: ca. 20 min.
+* Language: en
+* Type: Documentary
+* Category: Applications / Frameworks / Systems
+* Tags: Video, Frontend, JavaScript, Open Source, History
+* YouTube likes: 423
+* Watch on: [YouTube](https://www.youtube.com/watch?v=Kpka8SYbosg)
 ----
 <h3 id="vite-the-documentary">VITE: The Documentary</h3>
 

@@ -1,0 +1,40 @@
+{
+ "name": "Video.js: The Documentary",
+ "slug": "video-js-the-documentary",
+ "links": {
+  "youtube": "https://www.youtube.com/watch?v=Kpka8SYbosg"
+ },
+ "language": [
+  "en"
+ ],
+ "subtitles": [
+  "en"
+ ],
+ "tags": [
+  "Video",
+  "Frontend",
+  "JavaScript",
+  "Open Source",
+  "History"
+ ],
+ "category": "Applications / Frameworks / Systems",
+ "type": "Documentary",
+ "title": "Video.js: The Documentary",
+ "description": "In 2010, video on the web meant Flash. Steve Heffernan, co-founder of the Y Combinator startup Zencoder, spent a weekend testing whether the new HTML5 video element could replace it.\n\nThat same spring, Steve Jobs said Apple would not allow Flash on the iPhone and iPad. The web needed another way to play video.\n\nVideo.js became the player the web defaulted to. \n\nFifteen years later, the project lost most of the maintainers keeping it alive.\n\nIn 2025, Heffernan came back. Rather than patch fifteen years of code, he brought together the people behind Plyr, Vidstack, Media Chrome, and Mux Player, and started over.\n\nChapters:\n0:00 Intro\n0:50 Origins at Zencoder \n2:05 The Adobe Flash Player dilemma \n2:47 Steve creates the first prototype \n4:10 The death of Flash\n6:10 The ascendency of Video.js\n7:21 Origin story of Plyr\n8:47 Zencoder acquired by Brightcove\n10:10 Mux founding story\n11:08 Media Chrome\n12:05 Origin story of Vidstack \n16:01 Mux becomes Video.js corporate shepherd \n17:11 Assembling the perfect team\n17:56 Video.js v10\n18:47 Video.js and the future \n\nFeaturing: \nSteve Heffernan. Creator of Video.js in 2010. Co-founder of Zencoder and Mux.\nJon Dahl. Co-founder of Zencoder. Co-founder and CEO of Mux.\nSam Potts. Creator of Plyr. \nRahim Alwer. Creator of Vime and Vidstack.\nWesley Luyten. Lead maintainer of Media Chrome and Mux Player.\nChristian Pillsbury. Maintainer of Media Chrome and Mux Player. Creator of SPF.\n\nWith cameos from: \nCasey Occhialini: Creator/Maintainer, Common Media Library\nRob Walch: Lead Maintainer, HLS.js\n\nThanks to Mux, the corporate shepherd of Video.js, for making this film possible. Mux is video infrastructure for developers. From video streaming to video intelligence and AI-powered context, Mux helps teams do more with video. Stream it, moderate it, search it, analyze it, transform it. https://www.mux.com/\n\nVideo.js: \nhttps://videojs.org \nhttps://github.com/videojs\n\nProduced by CultRepo \nDirector: Josiah McGarvie\nDirector of Photography: Joey Bania\n\n\n__________________________________________________________________________________\n\nThanks Railway, our channel sponsor, for making all of our films possible:\nRailway is the all-in-one intelligent cloud provider ➡️ https://railway.com/?referralCode=cultrepo\n\n\nFollow us:\nX: https://www.x.com/CultRepo\nBluesky: https://www.cultrepo.bsky.social\nInstagram: https://www.instagram.com/cult.repo\nLinkedIn: https://www.linkedin.com/company/cult-repo",
+ "duration": "PT19M43S",
+ "publishedAt": "2026-11-05T18:30:07Z",
+ "channel": {
+  "id": "UCsUalyRg43M8D60mtHe6YcA",
+  "title": "CultRepo "
+ },
+ "ratings": {
+  "youtube": {
+   "likeCount": 423,
+   "refreshedAt": "2026-11-08T12:52:01Z"
+  }
+ },
+ "views": {
+  "youtube": 23343
+ },
+ "image": "images/video-js-the-documentary.jpg"
+}
