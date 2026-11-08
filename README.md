@@ -152,7 +152,7 @@ With more board configurations than there are atoms in the universe, the ancient
 * Category: Culture / Society
 * Tags: AI, Machine Learning, DeepMind, Games
 * IMDb rating: [7.8 / 10 (7,812 votes)](https://www.imdb.com/title/tt6700846/)
-* YouTube likes: 332,517
+* YouTube likes: 332,666
 * Watch on: [YouTube](https://www.youtube.com/watch?v=WXuK6gekU1Y)
 ----
 <h3 id="angular-the-documentary">Angular: The Documentary</h3>
@@ -170,7 +170,7 @@ From Angular 2 to Ivy, incorporating Signals to converging with Wiz and ...
 * Type: Documentary
 * Category: Applications / Frameworks / Systems
 * Tags: Frontend, JavaScript, Google, Open Source, History
-* YouTube likes: 3,666
+* YouTube likes: 3,665
 * Watch on: [YouTube](https://www.youtube.com/watch?v=cRC9DlH45lA)
 ----
 <h3 id="app-the-human-story">App: The Human Story</h3>
@@ -244,7 +244,7 @@ Railway is the all-in-one intelligent cloud ...
 * Type: Documentary
 * Category: Programming Languages
 * Tags: Programming Languages, Functional Programming, Open Source, History
-* YouTube likes: 4,972
+* YouTube likes: 4,983
 * Watch on: [YouTube](https://www.youtube.com/watch?v=Y24vK_QDLFg)
 ----
 <h3 id="code-debugging-the-gender-gap">CODE: Debugging the Gender Gap</h3>
@@ -261,7 +261,7 @@ Tech jobs are growing three times faster than our colleges are producing compute
 * Category: Culture / Society
 * Tags: Girls, STEM, Women in Tech
 * IMDb rating: [6.1 / 10 (337 votes)](https://www.imdb.com/title/tt4335520/)
-* YouTube likes: 62
+* YouTube likes: 64
 * Watch on: [YouTube](https://www.youtube.com/watch?v=rQKRw6tWsb8)
 ----
 <h3 id="coded-bias">Coded Bias</h3>
@@ -301,7 +301,7 @@ A feature documentary that explores the rise of a new Internet; decentralized, e
 * Category: Culture / Society
 * Tags: Security, Tor, Cryptocurrency, Society
 * IMDb rating: [6.9 / 10 (9,931 votes)](https://www.imdb.com/title/tt3312868/)
-* YouTube likes: 121
+* YouTube likes: 122
 * Watch on: [Amazon Prime Video](https://www.amazon.de/gp/video/detail/amzn1.dv.gti.08b3c0a6-d2f2-65d1-a49d-4063ffe2d328) | [YouTube](https://www.youtube.com/watch?v=w4P-eW0UdKo)
 ----
 <h3 id="defcon-the-documentary">DEFCON: The Documentary</h3>
@@ -316,7 +316,7 @@ A film about the world&#39;s largest hacking convention and its 20th year runnin
 * Category: Culture / Society
 * Tags: Hacking, Security, Conferences, Community
 * IMDb rating: [5.8 / 10 (519 votes)](https://www.imdb.com/title/tt3010462/)
-* YouTube likes: 8,024
+* YouTube likes: 8,026
 * Watch on: [YouTube](https://www.youtube.com/watch?v=3ctQOmjQyYg)
 ----
 <h3 id="ebpf-unlocking-the-kernel">eBPF: Unlocking the Kernel</h3>
@@ -332,7 +332,7 @@ In 2014, a group of engineers at Plumgrid needed to find an innovative and cost-
 * Type: Documentary
 * Category: Applications / Frameworks / Systems
 * Tags: Linux, Kernel, Open Source, Networking
-* YouTube likes: 5,066
+* YouTube likes: 5,069
 * Watch on: [YouTube](https://www.youtube.com/watch?v=Wb_vD3XZYOA)
 ----
 <h3 id="elixir-the-documentary">Elixir: The Documentary</h3>
@@ -350,7 +350,7 @@ Check out the ...
 * Type: Documentary
 * Category: Programming Languages
 * Tags: Programming Languages, Functional Programming, Open Source, History
-* YouTube likes: 8,163
+* YouTube likes: 8,161
 * Watch on: [YouTube](https://www.youtube.com/watch?v=lxYFOM3UJzo)
 ----
 <h3 id="ember-js-the-documentary">Ember.js: The Documentary</h3>
@@ -387,7 +387,7 @@ Three professional gamers from different parts of the world fight personal hards
 * Category: Culture / People
 * Tags: Gaming, eSports, Dota 2, Valve
 * IMDb rating: [7.6 / 10 (13,758 votes)](https://www.imdb.com/title/tt3203290/)
-* YouTube likes: 115,408
+* YouTube likes: 115,423
 * Watch on: [Apple TV](https://tv.apple.com/de/movie/free-to-play/umc.cmc.3ti8vrr7ooltzqkij17ovd4xx) | [Netflix](https://www.netflix.com/title/81438157) | [YouTube](https://www.youtube.com/watch?v=UjZYMI1zB9s)
 ----
 <h3 id="general-magic">General Magic</h3>
@@ -417,7 +417,7 @@ A documentary about the current state of copyright and culture, is a documentary
 * Category: Culture / Society
 * Tags: Copyright, File Sharing, Internet Culture, Remix
 * IMDb rating: [7.0 / 10 (206 votes)](https://www.imdb.com/title/tt1782451/)
-* YouTube likes: 458
+* YouTube likes: 459
 * Watch on: [YouTube](https://www.youtube.com/watch?v=ByY6j0qzOyM)
 ----
 <h3 id="google-and-the-world-brain">Google and the World Brain</h3>
@@ -450,7 +450,7 @@ Check out the home for untold developer stories around open source, careers and 
 * Type: Documentary
 * Category: Applications / Frameworks / Systems
 * Tags: API, Open Source, History
-* YouTube likes: 15,232
+* YouTube likes: 15,231
 * Watch on: [YouTube](https://www.youtube.com/watch?v=783ccP__No8)
 ----
 <h3 id="half-life-25th-anniversary-documentary">Half-Life: 25th Anniversary Documentary</h3>
@@ -479,7 +479,7 @@ Check out the Half-Life 25th Anniversary Update, restored content, new multiplay
 * Category: Culture / People
 * Tags: Game Development, Valve, History
 * IMDb rating: [7.6 / 10 (269 votes)](https://www.imdb.com/title/tt30060427/)
-* YouTube likes: 283,881
+* YouTube likes: 284,006
 * Watch on: [YouTube](https://www.youtube.com/watch?v=TbZ3HzvFEto)
 ----
 <h3 id="i-am-human-a-documentary-about-real-life-cyborgs">I Am Human: A Documentary About Real-Life Cyborgs</h3>
@@ -517,7 +517,7 @@ Insert Coin is the behind-the-scenes story of one of the greatest video game stu
 * Type: Documentary
 * Category: Culture / People
 * Tags: Gaming, Arcade, History, Midway
-* YouTube likes: 6,546
+* YouTube likes: 6,547
 * Watch on: [Amazon Prime Video](https://www.primevideo.com/-/de/detail/Insert-Coin/0SP3M4H5YLMETO27UKMKDBP7SY) | [YouTube](https://www.youtube.com/watch?v=7zx5GunyUS4)
 ----
 <h3 id="inside-bills-brain-decoding-bill-gates">Inside Bill&#39;s Brain: Decoding Bill Gates</h3>
@@ -568,7 +568,7 @@ Director: Jaś ...
 * Type: Documentary
 * Category: Applications / Frameworks / Systems
 * Tags: Developer Tools, IDE, JetBrains, History
-* YouTube likes: 1,938
+* YouTube likes: 1,942
 * Watch on: [YouTube](https://www.youtube.com/watch?v=Kourq_Lz03U)
 ----
 <h3 id="internet-relay-chat-irc">Internet Relay Chat (IRC)</h3>
@@ -601,7 +601,7 @@ References and sources: https://docs.google.com/document/d/e/2PACX-1vQjGmdjmESDJ
 * Type: Documentary
 * Category: Applications / Frameworks / Systems
 * Tags: Networking, Chat, Open Source, History
-* YouTube likes: 15,631
+* YouTube likes: 15,638
 * Watch on: [YouTube](https://www.youtube.com/watch?v=6UbKenFipjo)
 ----
 <h3 id="investors-a-master-class">INVESTORS: A Master Class</h3>
@@ -640,7 +640,7 @@ The film ...
 * Type: Documentary
 * Category: Applications / Frameworks / Systems
 * Tags: Linux, Open Source, History, Desktop
-* YouTube likes: 8,023
+* YouTube likes: 8,465
 * Watch on: [YouTube](https://www.youtube.com/watch?v=1Vyzla9mx4g)
 ----
 <h3 id="kill-chain-the-cyber-war-on-americas-elections">Kill Chain: The Cyber War on America&#39;s Elections</h3>
@@ -671,7 +671,7 @@ Most engineers know about “The Container Orchestrator Wars’’ ...
 * Type: Documentary
 * Category: Applications / Frameworks / Systems
 * Tags: Cloud Native, Orchestration, Open Source, History
-* YouTube likes: 12,844
+* YouTube likes: 12,845
 * Watch on: [YouTube](https://www.youtube.com/watch?v=BE77h7dmoQU)
 ----
 <h3 id="kubernetes-the-documentary-part-2">Kubernetes: The Documentary [PART 2]</h3>
@@ -691,7 +691,7 @@ Most engineers know about “The Container Orchestrator Wars’’ ...
 * Type: Documentary
 * Category: Applications / Frameworks / Systems
 * Tags: Cloud Native, Orchestration, Open Source, History
-* YouTube likes: 6,054
+* YouTube likes: 6,056
 * Watch on: [YouTube](https://www.youtube.com/watch?v=318elIq37PE)
 ----
 <h3 id="laravel-origins-a-php-documentary">Laravel Origins: A PHP Documentary</h3>
@@ -710,7 +710,7 @@ Laravel Origins was filmed in late 2021, produced by OfferZen and directed by De
 * Type: Documentary
 * Category: Applications / Frameworks / Systems
 * Tags: Web Frameworks, PHP, Open Source, History
-* YouTube likes: 6,793
+* YouTube likes: 6,792
 * Watch on: [YouTube](https://www.youtube.com/watch?v=127ng7botO4)
 ----
 <h3 id="lo-and-behold-reveries-of-the-connected-world">Lo and Behold: Reveries of the Connected World</h3>
@@ -743,7 +743,7 @@ In this mini-documentary, we talk to the builders and early-adopters of Local-Fi
 * Type: Documentary
 * Category: Applications / Frameworks / Systems
 * Tags: Local-First, Distributed Systems, Data, Open Source
-* YouTube likes: 4,698
+* YouTube likes: 4,699
 * Watch on: [YouTube](https://www.youtube.com/watch?v=10d8HxS4y_g)
 ----
 <h3 id="meet-pi-the-minimalist-self-modifying-coding-agent">Meet Pi: The Minimalist, Self-Modifying Coding Agent</h3>
@@ -759,7 +759,7 @@ At its core, Pi runs on a simple idea — a nested while-loop that sends a reque
 * Type: Documentary
 * Category: Applications / Frameworks / Systems
 * Tags: AI, Developer Tools, Open Source
-* YouTube likes: 1,665
+* YouTube likes: 1,689
 * Watch on: [YouTube](https://www.youtube.com/watch?v=RKHaecOi0CA)
 ----
 <h3 id="minecraft-the-story-of-mojang">Minecraft: The Story of Mojang</h3>
@@ -773,7 +773,7 @@ Since its development in 2009, Minecraft has taken the digital world by storm. I
 * Type: Documentary
 * Category: Culture / People
 * Tags: Gaming, Minecraft, Indie, History
-* YouTube likes: 1,727
+* YouTube likes: 1,742
 * Watch on: [YouTube](https://www.youtube.com/watch?v=ggCIGOQloY4)
 ----
 <h3 id="node-js-the-documentary">Node.js: The Documentary</h3>
@@ -791,7 +791,7 @@ Join us as we delve into the origins of Node.js, meet some of its earliest contr
 * Type: Documentary
 * Category: Applications / Frameworks / Systems
 * Tags: JavaScript, Backend, Open Source, History
-* YouTube likes: 24,309
+* YouTube likes: 24,318
 * Watch on: [YouTube](https://www.youtube.com/watch?v=LB8KwiiUGy0)
 ----
 <h3 id="nuxt-js-the-mini-documentary">Nuxt.js: The Mini Documentary</h3>
@@ -873,7 +873,7 @@ Join us as we explore the story of Prometheus, from inception to adoption as tol
 * Type: Documentary
 * Category: Applications / Frameworks / Systems
 * Tags: Observability, Monitoring, Open Source, Cloud Native, History
-* YouTube likes: 3,618
+* YouTube likes: 3,617
 * Watch on: [YouTube](https://www.youtube.com/watch?v=rT4fJNbfe14)
 ----
 <h3 id="python-the-documentary">Python: The Documentary</h3>
@@ -892,7 +892,7 @@ Thanks to our sponsors ...
 * Category: Programming Languages
 * Tags: Programming Languages, Open Source, History
 * IMDb rating: [8.4 / 10 (13 votes)](https://www.imdb.com/title/tt38589263/)
-* YouTube likes: 37,265
+* YouTube likes: 37,324
 * Watch on: [YouTube](https://www.youtube.com/watch?v=GfH4QL4VqJ0)
 ----
 <h3 id="react-js-the-documentary">React.js: The Documentary</h3>
@@ -907,7 +907,7 @@ But what if we told you that React’s first brush with the public sphere was an
 * Type: Documentary
 * Category: Applications / Frameworks / Systems
 * Tags: Frontend, JavaScript, Meta, Open Source, History
-* YouTube likes: 40,839
+* YouTube likes: 40,837
 * Watch on: [YouTube](https://www.youtube.com/watch?v=8pDqJVdNa44)
 ----
 <h3 id="revolution-os">Revolution OS</h3>
@@ -926,7 +926,7 @@ While Microsoft may be the biggest software company in the world, not every comp
 * Category: Culture / Society
 * Tags: GNU/Linux, Open Source, History
 * IMDb rating: [7.2 / 10 (2,724 votes)](https://www.imdb.com/title/tt0308808/)
-* YouTube likes: 2,375
+* YouTube likes: 2,385
 * Watch on: [YouTube](https://www.youtube.com/watch?v=k0RYQVkQmWU)
 ----
 <h3 id="risk">Risk</h3>
@@ -940,7 +940,7 @@ What happens when radical transparency collides with state secrets? Risk is a gr
 * Type: Documentary
 * Category: Culture / People
 * Tags: WikiLeaks, Whistleblowing, Privacy, Journalism
-* YouTube likes: 1,003
+* YouTube likes: 1,005
 * Watch on: [Netflix](https://www.netflix.com/title/80117236) | [YouTube](https://www.youtube.com/watch?v=mq9q3lOCJQ0)
 ----
 <h3 id="ruby-on-rails-the-documentary">Ruby on Rails: The Documentary</h3>
@@ -956,7 +956,7 @@ Get the whole spill by the people who had a front-row seat to the creation and d
 * Type: Documentary
 * Category: Applications / Frameworks / Systems
 * Tags: Web Frameworks, Ruby, Open Source, History
-* YouTube likes: 10,030
+* YouTube likes: 10,028
 * Watch on: [YouTube](https://www.youtube.com/watch?v=HDKUEXBF3B4)
 ----
 <h3 id="silicon-cowboys">Silicon Cowboys</h3>
@@ -985,7 +985,7 @@ Spring began as a developer-led push to take back control from ivory tower stand
 * Type: Documentary
 * Category: Applications / Frameworks / Systems
 * Tags: Web Frameworks, Java, Open Source, History
-* YouTube likes: 2,578
+* YouTube likes: 2,586
 * Watch on: [YouTube](https://www.youtube.com/watch?v=0Gb1z-2SjHY)
 ----
 <h3 id="steal-this-film">Steal This Film</h3>
@@ -1035,7 +1035,7 @@ Svelte Origins ...
 * Type: Documentary
 * Category: Applications / Frameworks / Systems
 * Tags: Frontend, JavaScript, Open Source, History
-* YouTube likes: 7,019
+* YouTube likes: 7,021
 * Watch on: [YouTube](https://www.youtube.com/watch?v=kMlkCYL9qo0)
 ----
 <h3 id="terminal-shop-the-documentary">Terminal.shop: The Documentary</h3>
@@ -1065,7 +1065,7 @@ ssh http://terminal.shop
 * Type: Documentary
 * Category: Applications / Frameworks / Systems
 * Tags: CLI, Terminal, Startups, Indie
-* YouTube likes: 1,031
+* YouTube likes: 1,030
 * Watch on: [YouTube](https://www.youtube.com/watch?v=3eH-WirT-5s)
 ----
 <h3 id="terms-and-conditions-may-apply">Terms and Conditions May Apply</h3>
@@ -1080,7 +1080,7 @@ A documentary that exposes what corporations and governments learn about people 
 * Category: Culture / Society
 * Tags: Privacy, Surveillance, Internet
 * IMDb rating: [7.3 / 10 (6,658 votes)](https://www.imdb.com/title/tt2084953/)
-* YouTube likes: 670
+* YouTube likes: 672
 * Watch on: [YouTube](https://www.youtube.com/watch?v=hRJEYmodC08)
 ----
 <h3 id="the-cleaners">The Cleaners</h3>
@@ -1119,7 +1119,7 @@ The Hacker Wars is an eye-opening documentary that reveals the high-stakes world
 * Type: Documentary
 * Category: Culture / Society
 * Tags: Hacktivism, Security, Anonymous, Whistleblowing
-* YouTube likes: 1,122
+* YouTube likes: 1,123
 * Watch on: [YouTube](https://www.youtube.com/watch?v=VPYci82ZzW0)
 ----
 <h3 id="the-internets-own-boy-the-story-of-aaron-swartz">The Internet&#39;s Own Boy: The Story of Aaron Swartz</h3>
@@ -1137,7 +1137,7 @@ This movie is made available under the Creative Commons license: ...
 * Category: Culture / People
 * Tags: Hacktivism, Open Internet, Activism, History
 * IMDb rating: [8.0 / 10 (18,672 votes)](https://www.imdb.com/title/tt3268458/)
-* YouTube likes: 37,016
+* YouTube likes: 37,023
 * Watch on: [YouTube](https://www.youtube.com/watch?v=9vz06QO3UkQ)
 ----
 <h3 id="the-inventor-out-for-blood-in-silicon-valley">The Inventor: Out for Blood in Silicon Valley</h3>
@@ -1172,7 +1172,7 @@ This film was only possible thanks to the incredible support of our sponsors: Or
 * Type: Documentary
 * Category: Programming Languages
 * Tags: Programming Languages, Java, Open Source, History
-* YouTube likes: 15,982
+* YouTube likes: 16,025
 * Watch on: [YouTube](https://www.youtube.com/watch?v=ZqGSg4b_cZA)
 ----
 <h3 id="the-king-of-kong-a-fistful-of-quarters">The King of Kong: A Fistful of Quarters</h3>
@@ -1237,7 +1237,7 @@ Anders Hejlsberg: Creator of C#, ...
 * Type: Documentary
 * Category: Programming Languages
 * Tags: Programming Languages, C&#43;&#43;, History
-* YouTube likes: 14,440
+* YouTube likes: 14,502
 * Watch on: [YouTube](https://www.youtube.com/watch?v=lI7tMxzSJ7w)
 ----
 <h3 id="the-story-of-vs-code">The Story of VS Code</h3>
@@ -1258,7 +1258,7 @@ And just when it felt like the hard part was done, AI happened. ...
 * Type: Documentary
 * Category: Applications / Frameworks / Systems
 * Tags: Developer Tools, IDE, Microsoft, Open Source, History
-* YouTube likes: 9,546
+* YouTube likes: 9,575
 * Watch on: [YouTube](https://www.youtube.com/watch?v=kHL3XzjpT5w)
 ----
 <h3 id="tpb-afk-the-pirate-bay-away-from-keyboard">TPB AFK: The Pirate Bay Away From Keyboard</h3>
@@ -1273,7 +1273,7 @@ The documentary about the founders of The Pirate Bay. An intellectual freedoms d
 * Category: Culture / People
 * Tags: File Sharing, Open Source, Internet Freedom, History
 * IMDb rating: [7.4 / 10 (14,240 votes)](https://www.imdb.com/title/tt2608732/)
-* YouTube likes: 577
+* YouTube likes: 578
 * Watch on: [YouTube](https://www.youtube.com/watch?v=ui-w6ZUCzj8)
 ----
 <h3 id="typescript-origins-the-documentary">TypeScript Origins: The Documentary</h3>
@@ -1297,7 +1297,7 @@ Sponsored by
 * Type: Documentary
 * Category: Programming Languages
 * Tags: Programming Languages, JavaScript, Microsoft, History
-* YouTube likes: 9,762
+* YouTube likes: 9,765
 * Watch on: [YouTube](https://www.youtube.com/watch?v=U6s2pdxebSo)
 ----
 <h3 id="ulterior-states">Ulterior States</h3>
@@ -1329,7 +1329,7 @@ Featuring many prominent developers in the JavaCript ecosystem, this documentary
 * Type: Documentary
 * Category: Applications / Frameworks / Systems
 * Tags: Frontend, Build Tools, JavaScript, Open Source
-* YouTube likes: 6,151
+* YouTube likes: 6,154
 * Watch on: [YouTube](https://www.youtube.com/watch?v=bmWQqAKLgT4)
 ----
 <h3 id="vue-js-the-documentary">Vue.js: The Documentary</h3>
@@ -1349,7 +1349,7 @@ Honeypot is a developer-focused job platform, on a mission to get every develope
 * Type: Documentary
 * Category: Applications / Frameworks / Systems
 * Tags: Frontend, JavaScript, Open Source, History
-* YouTube likes: 52,844
+* YouTube likes: 52,837
 * Watch on: [YouTube](https://www.youtube.com/watch?v=OrxmtDw4pVI)
 ----
 <h3 id="we-are-legion-the-story-of-the-hacktivists">We Are Legion: The Story of the Hacktivists</h3>
@@ -1364,7 +1364,7 @@ This documentary takes a deep dive into the world of Anonymous, a loosely organi
 * Category: Culture / Society
 * Tags: Anonymous, Hacktivism, Security, History
 * IMDb rating: [7.2 / 10 (10,564 votes)](https://www.imdb.com/title/tt2177843/)
-* YouTube likes: 1,096
+* YouTube likes: 1,099
 * Watch on: [YouTube](https://www.youtube.com/watch?v=4D1WJsdu6W8)
 ----
 <h3 id="we-live-in-public">We Live in Public</h3>
@@ -1424,7 +1424,7 @@ Nineteen-year-old Karl is fascinated by the fictional character Hagbard Celine a
 * Category: Hollywood style
 * Tags: Hacking, History, Conspiracy, Cold War
 * IMDb rating: [7.1 / 10 (7,905 votes)](https://www.imdb.com/title/tt0126765/)
-* YouTube likes: 71
+* YouTube likes: 72
 * Watch on: [Amazon Prime Video](https://www.amazon.de/gp/video/detail/amzn1.dv.gti.3e7449a8-4bd6-409b-a1b0-56fc2762b43c) | [Apple TV](https://tv.apple.com/de/movie/23/umc.cmc.1n7aar1t57m6rndfhm9u6vixo) | [YouTube](https://www.youtube.com/watch?v=e2DCvHZGGH4)
 ----
 <h3 id="hidden-figures">Hidden Figures</h3>
@@ -1439,7 +1439,7 @@ Nineteen-year-old Karl is fascinated by the fictional character Hagbard Celine a
 * Category: Hollywood style
 * Tags: NASA, History, Mathematics, Diversity
 * IMDb rating: [7.8 / 10 (295,741 votes)](https://www.imdb.com/title/tt4846340/)
-* YouTube likes: 1,029
+* YouTube likes: 1,040
 * Watch on: [Amazon Prime Video](https://www.amazon.de/gp/video/detail/amzn1.dv.gti.8ab8c01b-a530-5865-60bc-eeedf40e97b4) | [Apple TV](https://tv.apple.com/de/movie/hidden-figures---unerkannte-heldinnen/umc.cmc.4io2m0zk1cs9g1olb2hduzu6z) | [YouTube](https://www.youtube.com/watch?v=bvAbdZbHmhY)
 ----
 <h3 id="pirates-of-silicon-valley">Pirates of Silicon Valley</h3>
@@ -1467,7 +1467,7 @@ Traitor or hero. What would you do if you knew your government was abusing the p
 * Category: Hollywood style
 * Tags: Surveillance, Privacy, Whistleblowing, NSA
 * IMDb rating: [7.3 / 10 (175,255 votes)](https://www.imdb.com/title/tt3774114/)
-* YouTube likes: 652
+* YouTube likes: 654
 * Watch on: [Amazon Prime Video](https://www.amazon.de/gp/video/detail/amzn1.dv.gti.2088b418-e12c-4a0d-b569-8542561d890d) | [Apple TV](https://tv.apple.com/de/movie/snowden/umc.cmc.3j73epo0sky4mob3jog0xxw5r) | [YouTube](https://www.youtube.com/watch?v=0l78qbhP3QU)
 ----
 <h3 id="steve-jobs">Steve Jobs</h3>
@@ -1497,7 +1497,7 @@ The Enigma is giving researchers a headache: the German coding machine encrypts 
 * Category: Hollywood style
 * Tags: Cryptography, History, WWII, Alan Turing
 * IMDb rating: [8.0 / 10 (888,221 votes)](https://www.imdb.com/title/tt2084970/)
-* YouTube likes: 692
+* YouTube likes: 691
 * Watch on: [Amazon Prime Video](https://www.amazon.de/gp/video/detail/amzn1.dv.gti.9ea9f6d8-dcfc-e49d-ffea-c3f92245045d) | [Apple TV](https://tv.apple.com/de/movie/the-imitation-game---ein-streng-geheimes-leben/umc.cmc.59i1cp4fboyedvyq6zlx3bymd) | [YouTube](https://www.youtube.com/watch?v=Kauqv7p-8b4)
 ----
 <h3 id="underground-the-julian-assange-story">Underground: The Julian Assange Story</h3>
