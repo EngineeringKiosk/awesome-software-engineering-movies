@@ -1,0 +1,11 @@
+name: "Video.js: The Documentary"
+type: Documentary
+category: Applications / Frameworks / Systems
+links:
+  youtube: https://www.youtube.com/watch?v=Kpka8SYbosg
+tags:
+  - Video
+  - Frontend
+  - JavaScript
+  - Open Source
+  - History
